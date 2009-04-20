@@ -1,0 +1,9 @@
+---
+layout: default
+title: Pat Allan on GitHub
+---
+
+h1. Projects
+
+* "Thinking Sphinx":/ts/en
+* "Riddle":/riddle
