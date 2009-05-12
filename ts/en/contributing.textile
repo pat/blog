@@ -1,0 +1,6 @@
+---
+layout: ts_en
+title: Contributing to Thinking Sphinx
+---
+
+h2. Contributing to Thinking Sphinx

@@ -1,0 +1,4 @@
+---
+layout: ts_en
+title: Installing Sphinx
+---
