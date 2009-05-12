@@ -348,3 +348,9 @@ div#header h1 a:visited:hover {
   font-family: 'Courier New', 'Terminal', monospace;
   color: #100;
 }
+
+div#content div.pad {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top:4px solid #222C38;
+}

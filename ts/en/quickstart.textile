@@ -40,7 +40,7 @@ distributed index 'article' can not be directly indexed; skipping.
 Once that's done, let's fire Sphinx up so we can query against it:
 
 {% highlight sh %}
-thinking_sphinx:start
+rake thinking_sphinx:start
 {% endhighlight %}
 
 And now we can search!
