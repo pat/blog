@@ -347,6 +347,7 @@ div#header h1 a:visited:hover {
   border: 1px solid silver;
   font-family: 'Courier New', 'Terminal', monospace;
   color: #100;
+  margin: 1.5em 0;
 }
 
 div#content div.pad {

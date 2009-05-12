@@ -21,6 +21,6 @@ h3. Who?
 
 "Pat Allan":http://freelancing-gods.com is the developer behind Thinking Sphinx, and the underlying API for Sphinx, "Riddle":http://riddle.freelancing-gods.com.
 
-h3. Most importantly, How?
+h3. Most importantly: How?
 
 Read "the quickstart guide":quickstart.html.
