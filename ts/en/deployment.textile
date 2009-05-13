@@ -1,8 +1,8 @@
 ---
 layout: ts_en
-title: Sphinx Basics
+title: Deployment
 ---
 
-h2. Sphinx Basics
+h2. Deployment
 
 This section hasn't yet been written. If you think you know something that should be on this page, why don't you fork "the documentation source":http://github.com/freelancing-god/freelancing-god.github.com and submit a patch?
