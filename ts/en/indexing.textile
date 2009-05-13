@@ -78,6 +78,12 @@ Once you've got your index set up just how you like it, you can run "the rake ta
 rake thinking_sphinx:index
 {% endhighlight %}
 
+As each model is processed, you will see a message much like the one below. It is just a warning, not an error. Everything will work fine.
+
+{% highlight sh %}
+distributed index 'article' can not be directly indexed; skipping.
+{% endhighlight %}
+
 However, if you have made structural changes to your index (which is anything except adding new data into the database tables), you'll need to stop Sphinx, re-index, and then re-start Sphinx.
 
 {% highlight sh %}
