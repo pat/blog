@@ -44,6 +44,12 @@ table {
 strong {
   font-family: Helvetica, Arial;
   color: #8e7a2b;
+  font-weight: bold;
+}
+
+em {
+  font-weight: bold;
+  font-style: italic;
 }
 
 .wrapper {
@@ -291,10 +297,6 @@ h4 {
 h6 {
   font-size: 0.95em;
   font-weight: normal;
-}
-
-strong {
-  font-weight: bold;
 }
 
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {

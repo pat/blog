@@ -5,19 +5,21 @@ title: Quickstart
 
 h2. A Quick Guide to Getting Setup with Thinking Sphinx
 
-Firstly, you'll need to install both "Sphinx":installing_sphinx.html and "Thinking Sphinx":installing_thinking_sphinx.html.
+Firstly, you'll need to install both "Sphinx":installing_sphinx.html and "Thinking Sphinx":installing_thinking_sphinx.html. While Sphinx is compiling, go read what "the difference is between fields and attributes":sphinx_basics.html for Sphinx is. It's important stuff.
 
-Once that's done, it's time to set up an index on your model. In the example below, we're assuming the model is the Article class.
+Once that's all done, it's time to set up an index on your model. In the example below, we're assuming the model is the Article class.
 
 {% highlight ruby %}
 class Article < ActiveRecord::Base
   # @...@
   
   define_index do
+    # fields
     indexes subject, :sortable => true
     indexes content
     indexes author.name, :as => :author, :sortable => true
     
+    # attributes
     has author_id, created_at, updated_at
   end
   
