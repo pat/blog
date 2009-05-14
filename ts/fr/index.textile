@@ -1,4 +1,26 @@
 ---
 layout: ts_fr
-title: Home
+title: Accueil
 ---
+
+h2. Thinking Sphinx
+
+h3. Quoi?
+
+Une librairie Ruby concise et facile à utiliser qui connecte ActiveRecord au service de recherche "Sphinx":http://sphinxsearch.com, gestion de la recherche et de la recherche.
+
+h3. Pourquoi?
+
+Sphinx est un moteur de recherche très rapide qui indexe les données et nous offre des possibilités de recherche dans celles-ci. Thinking Sphinx nous permet d'interagir nos models dans Sphinx de façon simple et sans difficultés -– car il faut bien l'admettre, rechercher à travers plusieurs champs en utilisant SQL nous donne des sacrés maux de tête.
+
+h3. Où?
+
+Lisez "l 'installation de Sphinx":installing_sphinx.html et puis "celle de Thinking Sphinx":installing_thinking_sphinx.html.
+
+h3. Qui?
+
+"Pat Allan":http://freelancing-gods.com est le développeur principal de Thinking Sphinx, des API Sphinx et de "Riddle":http://riddle.freelancing-gods.com. D'autres développeurs ont également contribués en soumettant des correctifs et des idées.
+
+h3. Le plus important: Comment?
+
+Lisez "le guide de la première utilisation":quickstart.html.
