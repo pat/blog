@@ -7,7 +7,13 @@ h2. Installing Sphinx
 
 h3. MacOS X
 
-Sphinx _is_ available via MacPorts - but this comes with one important caveat: You must have MySQL and/or PostgreSQL installed via MacPorts as well. If you don't, then compiling by source is the best approach. Those instructions are found below in the UNIX section.
+Sphinx _is_ available via MacPorts - but this comes with one important caveat: You must have MySQL and/or PostgreSQL installed via MacPorts as well. If you don't, then compiling by source is the best approach. "Download":http://www.sphinxsearch.com/downloads.html and try the following set of commands. _If you need PostgreSQL_ support though, scroll down and look at the UNIX section.
+
+{% highlight sh %}
+./configure
+make
+sudo make install
+{% endhighlight %}
 
 There are two common issues that people run into. The first is that iconv and/or the expat XML parser may need to be updated. Clinton Nixon has "written some clear instructions":http://www.viget.com/extend/installing-sphinx-on-os-x-leopard on how to handle that.
 
@@ -40,7 +46,13 @@ make
 sudo make install
 {% endhighlight %}
 
-If you need PostgreSQL support, the path to the libraries will need to be explicitly set in configuration.
+If you need PostgreSQL support, you'll need to tell the Sphinx configuration step that. It could be as simple as a flag:
+
+{% highlight sh %}
+./configure @--@with-pgsql
+{% endhighlight %}
+
+But in some cases the path to the libraries will need to be explicitly set:
 
 {% highlight sh %}
 ./configure @--@with-pgsql=/usr/local/include/postgresql

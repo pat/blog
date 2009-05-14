@@ -28,7 +28,6 @@ p, ul, blockquote, pre, td, th, label {
 
 ul, ol {
   margin: 1.4286em 0;
-  list-style-type: none;
   text-align: left;
 }
 
@@ -166,6 +165,20 @@ div#main {
   width: 580px;
   overflow: hidden;
   padding-top: 2em;
+}
+
+#main ul,
+#main ul li {
+  list-style-type: disc;
+}
+
+#main ol,
+#main ol li {
+  list-style-type: decimal;
+}
+
+#main li {
+  margin-left: 1.4286em;
 }
 
 div#sidebar {
