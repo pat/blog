@@ -1,0 +1,93 @@
+---
+layout: ts_en
+title: Indexing
+---
+
+h2. Indexing your Models
+
+Everything to set up the indexes for your models goes in the *define_index* method, within your model.
+
+{% highlight ruby %}
+class Article < ActiveRecord::Base
+  # @...@
+  
+  define_index do
+    indexes subject, :sortable => true
+    indexes content
+    indexes author(:name), :as => :author, :sortable => true
+    
+    has author_id, created_at, updated_at
+  end
+  
+  # @...@
+end
+{% endhighlight %}
+
+h3. Fields
+
+The *indexes* method adds one (or many) fields, by referencing the model's column names.
+
+{% highlight ruby %}
+indexes content
+{% endhighlight %}
+
+Keep in mind that if you're referencing a column that shares its name with a core Ruby method (such as id, name or type), then you'll need to specify it using a symbol.
+
+{% highlight ruby %}
+indexes :name
+{% endhighlight %}
+
+You don't need to keep the same names as the database, though. Use the *:as* option to signify an alias.
+
+{% highlight ruby %}
+indexes content, :as => :post
+{% endhighlight %}
+
+You can also flag fields as being sortable.
+
+{% highlight ruby %}
+indexes subject, :sortable => true
+{% endhighlight %}
+
+If there are associations in your model, you can drill down through them to access other columns. Explicit aliases are _required_ when doing this.
+
+{% highlight ruby %}
+indexes author(:name), :as => :author
+indexes author.location, :as => :author_location
+{% endhighlight %}
+
+h3. Attributes
+
+The *has* method adds one (or many) attributes, and just like the *indexes* method, it requires references to the model's column names.
+
+{% highlight ruby %}
+has author_id
+{% endhighlight %}
+
+The syntax is very similar to setting up fields. You can set aliases, and drill down into associations. You don't ever need to label an attribute as *:sortable* though - in Sphinx, all attributes can be used for sorting.
+
+{% highlight ruby %}
+has tags(:id), :as => :tag_ids
+{% endhighlight %}
+
+h3. Processing your Index
+
+Once you've got your index set up just how you like it, you can run "the rake task":rake_tasks.html to get Sphinx to process the data.
+
+{% highlight sh %}
+rake thinking_sphinx:index
+{% endhighlight %}
+
+As each model is processed, you will see a message much like the one below. It is just a warning, not an error. Everything will work fine.
+
+{% highlight sh %}
+distributed index 'article' can not be directly indexed; skipping.
+{% endhighlight %}
+
+However, if you have made structural changes to your index (which is anything except adding new data into the database tables), you'll need to stop Sphinx, re-index, and then re-start Sphinx.
+
+{% highlight sh %}
+rake thinking_sphinx:stop
+rake thinking_sphinx:index
+rake thinking_sphinx:start
+{% endhighlight %}
