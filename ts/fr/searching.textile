@@ -1,5 +1,5 @@
 ---
-layout: ts_en
+layout: ts_fr
 title: Searching
 ---
 
