@@ -7,7 +7,7 @@ h2. Thinking Sphinx
 
 h3. Quoi?
 
-Une librairie Ruby concise et facile à utiliser qui connecte ActiveRecord au service de recherche "Sphinx":http://sphinxsearch.com, gestion de la recherche et de la recherche.
+Une librairie Ruby concise et facile à utiliser qui connecte ActiveRecord au service de recherche "Sphinx":http://sphinxsearch.com, et qui offre des possibilités de gestion de la recherche.
 
 h3. Pourquoi?
 
