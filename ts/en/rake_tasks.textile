@@ -20,6 +20,34 @@ rake ts:index
 rake ts:in
 {% endhighlight %}
 
+The output of this task will look roughly like this:
+
+{% highlight sh %}
+Generating Configuration to \
+  /path/to/RAILS_ROOT/config/development.sphinx.conf
+indexer @--@config /path/to/RAILS_ROOT/config/development.sphinx.conf \
+  @--@all
+Sphinx 0.9.8-release (r1371)
+Copyright (c) 2001-2008, Andrew Aksyonoff
+
+using config file \
+  '/path/to/RAILS_ROOT/config/development.sphinx.conf'@...@
+indexing index 'article_core'@...@
+collected 10 docs, 0.0 MB
+collected 0 attr values
+sorted 0.0 Mvalues, 100.0% done
+sorted 0.0 Mhits, 100.0% done
+total 10 docs, 142 bytes
+total 0.101 sec, 1407.21 bytes/sec, 99.10 docs/sec
+indexing index 'article_delta'@...@
+collected 0 docs, 0.0 MB
+collected 0 attr values
+sorted 0.0 Mvalues, nan% done
+total 0 docs, 0 bytes
+total 0.010 sec, 0.00 bytes/sec, 0.00 docs/sec
+distributed index 'article' can not be directly indexed; skipping.
+{% endhighlight %}
+
 This task, run normally, will also generate the configuration file for Sphinx. If you decide to make custom changes, then you can disable this generation by setting the environment variable *INDEX_ONLY* to true.
 
 {% highlight sh %}
@@ -36,6 +64,13 @@ rake ts:conf
 rake ts:config
 {% endhighlight %}
 
+Expected output:
+
+{% highlight sh %}
+Generating Configuration to \
+  /path/to/RAILS_ROOT/config/development.sphinx.conf
+{% endhighlight %}
+
 h3. Starting and Stopping Sphinx
 
 If you actually want to search against the indexed data, then you'll need Sphinx's searchd daemon to be running. This can be controlled using the following tasks:
@@ -45,6 +80,29 @@ rake thinking_sphinx:start
 rake ts:start
 rake thinking_sphinx:stop
 rake ts:stop
+{% endhighlight %}
+
+Expected outputs:
+
+{% highlight sh %}
+searchd @--@pidfile @--@config \
+  /path/to/RAILS_ROOT/config/development.sphinx.conf
+Sphinx 0.9.8-release (r1371)
+Copyright (c) 2001-2008, Andrew Aksyonoff
+
+using config file \
+  '/path/to/RAILS_ROOT/config/development.sphinx.conf'@...@
+Started successfully (pid 12928).
+{% endhighlight %}
+
+{% highlight sh %}
+Sphinx 0.9.8-release (r1371)
+Copyright (c) 2001-2008, Andrew Aksyonoff
+
+using config file \
+  '/path/to/RAILS_ROOT/config/development.sphinx.conf'@...@
+stop: succesfully sent SIGTERM to pid 12928
+Stopped search daemon (pid 12928).
 {% endhighlight %}
 
 h3. Handling Delta Indexes
