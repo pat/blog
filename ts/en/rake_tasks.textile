@@ -131,5 +131,5 @@ rake ts:version
 {% endhighlight %}
 
 {% highlight sh %}
-Thinking Sphinx v1.1.10
+Thinking Sphinx v1.1.16
 {% endhighlight %}

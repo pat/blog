@@ -5,6 +5,10 @@ title: External Resources
 
 h2. External Resources
 
+h3. Support and Discussion
+
+* "Thinking Sphinx Google Group":http://groups.google.com/group/thinking-sphinx/
+
 h3. Video
 
 * "Railscast #120":http://railscasts.com/episodes/120-thinking-sphinx
