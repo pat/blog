@@ -120,3 +120,16 @@ For those using Datetime Deltas, you'll need to run the following task at a regu
 rake thinking_sphinx:index:delta
 rake ts:in:delta
 {% endhighlight %}
+
+h3. Checking your version of Thinking Sphinx
+
+There is also a rake task for outputting the version of Thinking Sphinx you're using.
+
+{% highlight sh %}
+rake thinking_sphinx:version
+rake ts:version
+{% endhighlight %}
+
+{% highlight sh %}
+Thinking Sphinx v1.1.10
+{% endhighlight %}
