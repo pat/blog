@@ -73,7 +73,7 @@ There is one caveat with this approach: it uses Sphinx's index merging feature, 
 
 h4. Delayed Deltas
 
-The more reliable option for smarter delta indexing is using the "Delayed Job":http://github.com/tobi/delayed_job plugin, which queues up the index requests in a separate thread (invoked by a constantly running rake task), instead of dealing with them during each web request. To enable this approach, change your define_index block to look more like this:
+The more reliable option for smarter delta indexing is using the "Delayed Job":http://github.com/tobi/delayed_job plugin, which queues up the index requests in a separate process (invoked by a constantly running rake task), instead of dealing with them during each web request. To enable this approach, change your define_index block to look more like this:
 
 {% highlight ruby %}
 define_index do
