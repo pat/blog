@@ -69,7 +69,7 @@ rake ts:in:delta # shortcut
 
 It's actually best to set the threshold a bit higher than the occurance of the rake task (so in this example, maybe the threshold should be 75 minutes), because the indexing will take some time.
 
-There is one caveat with this approach: it uses Sphinx's index merging feature, which some people have found to have issues. I'm not sure whether it is fine on some versions of Sphinx and not others, so confirming everything works nicely may involve some trial and error.
+There is one caveat with this approach: it uses Sphinx's index merging feature, which some people have found to have issues. I'm not sure whether it is fine on some versions of Sphinx and not others, so confirming everything works nicely may involve some trial and error. Apparently the 0.9.8.1 version of Sphinx is more reliable than the initial 0.9.8 release.
 
 h4. Delayed Deltas
 
