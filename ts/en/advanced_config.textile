@@ -1,0 +1,19 @@
+---
+layout: ts_en
+title: Advanced Sphinx Configuration
+---
+
+h2. Advanced Sphinx Configuration
+
+Thinking Sphinx provides a good set of defaults out of the box, and for some people, those options are exactly what they need. Sometimes, though, you may need to customise how Sphinx works - and this can usually be done by adding some settings to a file named *sphinx.yml* in your *config* directory. Much like database.yml, settings are defined for each environment. Here's an example:
+
+{% highlight yaml %}
+development:
+  port: 3312
+test:
+  port: 3313
+production:
+  port: 3312
+{% endhighlight %}
+
+Now, "Sphinx has a _lot_ of different settings":http://www.sphinxsearch.com/docs/manual-0.9.8.html#confgroup-index you can play with, and they're pretty much all supported by Thinking Sphinx as well. Documentation will be added here for them over time, but in a pinch, it should be pretty easy to guess the syntax for the YAML file for each setting.

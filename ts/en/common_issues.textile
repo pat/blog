@@ -1,6 +1,6 @@
 ---
 layout: ts_en
-title: Common Issues
+title: Common Questions and Issues
 ---
 
 h2. Common Questions and Issues
