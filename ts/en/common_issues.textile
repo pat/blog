@@ -1,0 +1,56 @@
+---
+layout: ts_en
+title: Common Issues
+---
+
+h2. Common Questions and Issues
+
+Depending on how you have Sphinx setup, or what database you're using, you might come across little issues and curiosities. Here's a few to be aware of.
+
+h3. MySQL and Large Fields
+
+If you've got a field that is built off multiple values in one column - ie: through a has_many association - then you may hit MySQL's default limit for string concatenation: 1024 characters. You can increase the "group_concat_max_len":http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html#sysvar_group_concat_max_len value by adding the following to your define_index block:
+
+{% highlight rb %}
+define_index do
+  # @...@
+  
+  set_property :group_concat_max_len => 8192
+end
+{% endhighlight %}
+
+If these fields get particularly large though, then there's another setting you may need to set in your MySQL configuration: "max_allowed_packet":http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html#sysvar_max_allowed_packet, which has a default of sixteen megabytes. You can't set this option via Thinking Sphinx though (it's a rare edge case).
+
+h3. PostgreSQL with Manual Fields and Attributes
+
+If you're using fields or attributes defined by strings (raw SQL), then the columns used in them aren't automatically included in the GROUP BY clause of the generated SQL statement. To make sure the query is valid, you will need to explicitly add these columns to the GROUP BY clause.
+
+A common example is if you're converting latitude and longitude columns from degrees to radians via SQL.
+
+{% highlight rb %}
+define_index do
+  # @...@
+  
+  has "RADIANS(latitude)",  :as => :latitude,  :type => :float
+  has "RADIANS(longitude)", :as => :longitude, :type => :float
+  
+  group_by "latitude", "longitude"
+end
+{% endhighlight %}
+
+h3. Running Delta Indexing with Passenger
+
+If you're using Phusion Passenger on your production server, with delta indexing on some models, a common issue people find is that their delta indexes don't get processed. This is because Passenger has it's own PATH set up, and can't execute the Sphinx binaries (indexer and searchd) implicitly.
+
+The way around this is to find out where your binaries are on the server:
+
+{% highlight sh %}
+which searchd
+{% endhighlight %}
+
+And then set the bin_path option in your config/sphinx.yml file for the production environment:
+
+{% highlight yaml %}
+production:
+  bin_path: '/usr/local/bin'
+{% endhighlight %}
