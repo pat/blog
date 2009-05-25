@@ -51,9 +51,9 @@ If you're using fields or attributes defined by strings (raw SQL), then the colu
 
 A common example is if you're converting latitude and longitude columns from degrees to radians via SQL.
 
-{% highlight rb %}
+notextile.. {% highlight rb %}
 define_index do
-  # @...@
+  # ...
   
   has "RADIANS(latitude)",  :as => :latitude,  :type => :float
   has "RADIANS(longitude)", :as => :longitude, :type => :float
