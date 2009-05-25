@@ -34,12 +34,10 @@ define_index do
 end
 {% endhighlight %}
 
-And finally, we need to stop Sphinx before reindexing, as we have changed the structure of our Sphinx index setup.
+And finally, we need to rebuild the Sphinx indexes, as we have changed the structure of our Sphinx index setup.
 
 {% highlight sh %}
-rake thinking_sphinx:stop
-rake thinking_sphinx:index
-rake thinking_sphinx:start
+rake thinking_sphinx:rebuild
 {% endhighlight %}
 
 Turning on delta indexing does not remove the need for regularly running a full re-index, as otherwise the delta index itself will grow to become just as large as the core indexes, and this removes the advantage of keeping it separate. It also slows down your requests to your server that make changes to the model records.

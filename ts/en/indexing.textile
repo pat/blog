@@ -106,10 +106,8 @@ As each model is processed, you will see a message much like the one below. It i
 distributed index 'article' can not be directly indexed; skipping.
 {% endhighlight %}
 
-However, if you have made structural changes to your index (which is anything except adding new data into the database tables), you'll need to stop Sphinx, re-index, and then re-start Sphinx.
+However, if you have made structural changes to your index (which is anything except adding new data into the database tables), you'll need to stop Sphinx, re-index, and then re-start Sphinx - which can be done through a single rake call.
 
 {% highlight sh %}
-rake thinking_sphinx:stop
-rake thinking_sphinx:index
-rake thinking_sphinx:start
+rake thinking_sphinx:rebuild
 {% endhighlight %}

@@ -7,6 +7,30 @@ h2. Common Questions and Issues
 
 Depending on how you have Sphinx setup, or what database you're using, you might come across little issues and curiosities. Here's a few to be aware of.
 
+h3. Wildcard Searching
+
+Sphinx can support wildcard searching (for example: Austr&lowast;), but it is turned off by default. To enable it, you need to add two settings to your config/sphinx.yml file:
+
+{% highlight yaml %}
+development:
+  enable_star: 1
+  min_infix_len: 1
+test:
+  enable_star: 1
+  min_infix_len: 1
+production:
+  enable_star: 1
+  min_infix_len: 1
+{% endhighlight %}
+
+You can set the min_infix_len value to something higher if you don't need single characters with a wildcard being matched. This may be a worthwhile fine-tuning, because the smaller the infixes are, the larger your index files become.
+
+Don't forget to rebuild your Sphinx indexes after making this change.
+
+{% highlight sh %}
+rake thinking_sphinx:rebuild
+{% endhighlight %}
+
 h3. MySQL and Large Fields
 
 If you've got a field that is built off multiple values in one column - ie: through a has_many association - then you may hit MySQL's default limit for string concatenation: 1024 characters. You can increase the "group_concat_max_len":http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html#sysvar_group_concat_max_len value by adding the following to your define_index block:

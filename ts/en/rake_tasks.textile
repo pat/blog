@@ -105,6 +105,15 @@ stop: succesfully sent SIGTERM to pid 12928
 Stopped search daemon (pid 12928).
 {% endhighlight %}
 
+h3. Rebuilding Sphinx Indexes
+
+When you make changes to your Sphinx index structure, you will need to stop and start Sphinx for these changes to take effect, as well as re-index the data. This is all wrapped up into a single task:
+
+{% highlight sh %}
+rake thinking_sphinx:rebuild
+rake ts:rebuild
+{% endhighlight %}
+
 h3. Handling Delta Indexes
 
 If you're using either the Delayed Job or Datetime/Timestamp delta approaches, you'll need to run a task to manage the indexing. For the Delayed Job setup, the rake task runs constantly, processing any delta jobs (as well as any other normal jobs if you're using the delayed_job plugin elsewhere in your application).
