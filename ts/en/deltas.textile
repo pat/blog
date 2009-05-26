@@ -42,6 +42,12 @@ rake thinking_sphinx:rebuild
 
 Turning on delta indexing does not remove the need for regularly running a full re-index, as otherwise the delta index itself will grow to become just as large as the core indexes, and this removes the advantage of keeping it separate. It also slows down your requests to your server that make changes to the model records.
 
+It's also worth noting that when each change happens, and the delta indexing is invoked, you will see the output from Sphinx's indexer tool either in your logs, or into your console. This serves as an indication that everything is working, but should you want to hide it, there's a global setting you can use in your *environment.rb* file:
+
+{% highlight rb %}
+ThinkingSphinx.suppress_delta_output = true
+{% endhighlight %}
+
 h3. Advanced Delta Approaches
 
 One issue with the default delta approach, as outlined above, is that it creates a noticeable speed decrease on busy websites, because the delta indexing is run as part of each request that makes a change to the model records.
