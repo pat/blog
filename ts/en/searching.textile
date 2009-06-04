@@ -83,3 +83,26 @@ By default, this will return your Post objects, but one per category_id. If you 
 {% highlight ruby %}
 Post.search 'syrup', :group_by => 'category_id', :group_function => :attr, :group_clause => "@count desc"
 {% endhighlight %}
+
+You can also group results by date. Given you have a date colum in your index:
+
+{% highlight ruby %}
+class Post < ActiveRecord::Base
+  define_index
+    ...
+    has :created_at
+  end
+end
+{% endhighlight %}
+
+Then you can group search results by that date field:
+
+{% highlight ruby %}
+Post.search 'treacle', :group_by => 'created_at', :group_function => :day
+{% endhighlight %}
+
+You can use the following date types:
+* :day
+* :week
+* :month
+* :year
