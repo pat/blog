@@ -5,7 +5,7 @@ title: Indexing
 
 h2. Indexing your Models
 
-Everything to set up the indexes for your models goes in the *define_index* method, within your model.
+Everything to set up the indexes for your models goes in the *define_index* method, within your model. Don't forget to place this block _below_ your associations, otherwise any references to them for fields and attributes will not work.
 
 {% highlight ruby %}
 class Article < ActiveRecord::Base

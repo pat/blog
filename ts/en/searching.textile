@@ -66,6 +66,22 @@ The output of search results can be used with Will Paginate's view helper as wel
 will_paginate @articles
 {% endhighlight %}
 
+h3. Search Results Information
+
+If you're building your own pagination output, then you can find out the statistics of your search using the following accessors:
+
+notextile.. {% highlight ruby %}
+@articles = Aricle.search 'pancakes'
+# Number of matches in Sphinx
+@articles.total_entries
+# Number of pages available
+@articles.total_pages
+# Current page index
+@articles.current_page
+# Number of results per page
+@articles.per_page
+{% endhighlight %}
+
 h3. Grouping / Clustering
 
 Sphinx allows you group search records that share a common attribute. You can read more about it on the "official Sphinx documentation":http://sphinxsearch.com/docs/current.html#clustering Grouping comes in handy when you want to show aggregated collections. For example, if you have a set of posts and they are all part of a category and have a category_id, you could group your results by category id and show a set of all the categories matched by your search, as well as all the posts.
@@ -75,13 +91,18 @@ For grouping to work, you need to pass in the :group_by parameter and a :group_f
 Searching posts, for example:
 
 {% highlight ruby %}
-Post.search 'syrup', :group_by => 'category_id', :group_function => :attr
+Post.search 'syrup',
+  :group_by       => 'category_id',
+  :group_function => :attr
 {% endhighlight %}
 
 By default, this will return your Post objects, but one per category_id. If you want to sort by how many posts each category contains, you can pass in :group_clause :
 
 {% highlight ruby %}
-Post.search 'syrup', :group_by => 'category_id', :group_function => :attr, :group_clause => "@count desc"
+Post.search 'syrup',
+  :group_by       => 'category_id',
+  :group_function => :attr,
+  :group_clause   => "@count desc"
 {% endhighlight %}
 
 You can also group results by date. Given you have a date colum in your index:
@@ -98,7 +119,9 @@ end
 Then you can group search results by that date field:
 
 {% highlight ruby %}
-Post.search 'treacle', :group_by => 'created_at', :group_function => :day
+Post.search 'treacle',
+  :group_by       => 'created_at',
+  :group_function => :day
 {% endhighlight %}
 
 You can use the following date types:
