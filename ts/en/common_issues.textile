@@ -31,6 +31,17 @@ Don't forget to rebuild your Sphinx indexes after making this change.
 rake thinking_sphinx:rebuild
 {% endhighlight %}
 
+h3. Slow Indexing
+
+If Sphinx is taking a while to process all your records, there are a few common reasons for this happening. Firstly, make sure you have database indexes on any foreign key columns and any columns you filter or sort by.
+
+Secondly - are you using fixtures? Rails' fixtures have randomly generated IDs, which are usually extremely large integers, and Sphinx isn't set up to process disparate IDs efficiently by default. To get around this, you'll need to set *sql_range_step* in your config/sphinx.yml file for the appropriate environments:
+
+{% highlight yaml %}
+development:
+  sql_range_step: 10000000
+{% endhighlight %}
+
 h3. MySQL and Large Fields
 
 If you've got a field that is built off multiple values in one column - ie: through a has_many association - then you may hit MySQL's default limit for string concatenation: 1024 characters. You can increase the "group_concat_max_len":http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html#sysvar_group_concat_max_len value by adding the following to your define_index block:
