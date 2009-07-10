@@ -52,7 +52,7 @@ Il y a plusieurs étapes pour utiliser Thinking en tant que gem. Premièrement, 
 
 {% highlight sh %}
 sudo gem install freelancing-god-thinking-sphinx \
-  @--@source http://gems.github.com
+  --source http://gems.github.com
 {% endhighlight %}
 
 Si vous utilisez Merb, vous avez juste besoin d'inclure la librairie dans votre @init.rb@:

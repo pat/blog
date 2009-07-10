@@ -43,7 +43,7 @@ sudo make install
 Si vous avez besoin du support PostgreSQL, le chemin des librairies devra être explicitement mis lors de la configuration.
 
 {% highlight sh %}
-./configure @--@with-pgsql=/usr/local/include/postgresql
+./configure --with-pgsql=/usr/local/include/postgresql
 {% endhighlight %}
 
 Le chemin des librairies peuvent être déterminés en exécutant la commande suivante 

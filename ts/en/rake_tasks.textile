@@ -25,21 +25,21 @@ The output of this task will look roughly like this:
 {% highlight sh %}
 Generating Configuration to \
   /path/to/RAILS_ROOT/config/development.sphinx.conf
-indexer @--@config /path/to/RAILS_ROOT/config/development.sphinx.conf \
-  @--@all
+indexer --config /path/to/RAILS_ROOT/config/development.sphinx.conf \
+  --all
 Sphinx 0.9.8-release (r1371)
 Copyright (c) 2001-2008, Andrew Aksyonoff
 
 using config file \
-  '/path/to/RAILS_ROOT/config/development.sphinx.conf'@...@
-indexing index 'article_core'@...@
+  '/path/to/RAILS_ROOT/config/development.sphinx.conf'...
+indexing index 'article_core'...
 collected 10 docs, 0.0 MB
 collected 0 attr values
 sorted 0.0 Mvalues, 100.0% done
 sorted 0.0 Mhits, 100.0% done
 total 10 docs, 142 bytes
 total 0.101 sec, 1407.21 bytes/sec, 99.10 docs/sec
-indexing index 'article_delta'@...@
+indexing index 'article_delta'...
 collected 0 docs, 0.0 MB
 collected 0 attr values
 sorted 0.0 Mvalues, nan% done
@@ -85,13 +85,13 @@ rake ts:stop
 Expected outputs:
 
 {% highlight sh %}
-searchd @--@pidfile @--@config \
+searchd --pidfile --config \
   /path/to/RAILS_ROOT/config/development.sphinx.conf
 Sphinx 0.9.8-release (r1371)
 Copyright (c) 2001-2008, Andrew Aksyonoff
 
 using config file \
-  '/path/to/RAILS_ROOT/config/development.sphinx.conf'@...@
+  '/path/to/RAILS_ROOT/config/development.sphinx.conf'...
 Started successfully (pid 12928).
 {% endhighlight %}
 
@@ -100,7 +100,7 @@ Sphinx 0.9.8-release (r1371)
 Copyright (c) 2001-2008, Andrew Aksyonoff
 
 using config file \
-  '/path/to/RAILS_ROOT/config/development.sphinx.conf'@...@
+  '/path/to/RAILS_ROOT/config/development.sphinx.conf'...
 stop: succesfully sent SIGTERM to pid 12928
 Stopped search daemon (pid 12928).
 {% endhighlight %}

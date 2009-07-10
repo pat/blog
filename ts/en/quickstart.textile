@@ -11,7 +11,7 @@ Once that's all done, it's time to set up an index on your model. In the example
 
 {% highlight ruby %}
 class Article < ActiveRecord::Base
-  # @...@
+  # ...
   
   define_index do
     # fields
@@ -23,7 +23,7 @@ class Article < ActiveRecord::Base
     has author_id, created_at, updated_at
   end
   
-  # @...@
+  # ...
 end
 {% endhighlight %}
 

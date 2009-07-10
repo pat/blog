@@ -52,7 +52,7 @@ There's a few steps to using Thinking Sphinx as a gem. Firstly, let's install it
 
 {% highlight sh %}
 sudo gem install freelancing-god-thinking-sphinx \
-  @--@source http://gems.github.com
+  --source http://gems.github.com
 {% endhighlight %}
 
 If you're using Merb, then you just need to require the library within your @init.rb@:

@@ -28,7 +28,7 @@ Turning on delta indexing is done within your model's define_index block:
 
 {% highlight rb %}
 define_index do
-  # @...@
+  # ...
   
   set_property :delta => true
 end
@@ -58,7 +58,7 @@ There are two other delta approaches that Thinking Sphinx supports. The first is
 
 {% highlight ruby %}
 define_index do
-  # @...@
+  # ...
   
   set_property :delta => :datetime, :threshold => 1.hour
 end
@@ -81,7 +81,7 @@ The more reliable option for smarter delta indexing is using the "Delayed Job":h
 
 {% highlight ruby %}
 define_index do
-  # @...@
+  # ...
   
   set_property :delta => :delayed
 end

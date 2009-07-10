@@ -9,7 +9,7 @@ Everything to set up the indexes for your models goes in the *define_index* meth
 
 {% highlight ruby %}
 class Article < ActiveRecord::Base
-  # @...@
+  # ...
   
   define_index do
     indexes subject, :sortable => true
@@ -19,7 +19,7 @@ class Article < ActiveRecord::Base
     has author_id, created_at, updated_at
   end
   
-  # @...@
+  # ...
 end
 {% endhighlight %}
 
@@ -84,7 +84,7 @@ Because the index is translated to SQL, you may want to add some custom conditio
 
 {% highlight ruby %}
 define_index do
-  # @...@
+  # ...
   
   where "status = 'active'"
   

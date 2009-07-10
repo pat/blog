@@ -49,13 +49,13 @@ sudo make install
 If you need PostgreSQL support, you'll need to tell the Sphinx configuration step that. It could be as simple as a flag:
 
 {% highlight sh %}
-./configure @--@with-pgsql
+./configure --with-pgsql
 {% endhighlight %}
 
 But in some cases the path to the libraries will need to be explicitly set:
 
 {% highlight sh %}
-./configure @--@with-pgsql=/usr/local/include/postgresql
+./configure --with-pgsql=/usr/local/include/postgresql
 {% endhighlight %}
 
 The libraries path can be determined by running the following command:
