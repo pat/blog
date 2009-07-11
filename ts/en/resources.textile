@@ -32,3 +32,4 @@ h3. Blog Posts
 * "Integration testing with Cucumber, RSpec and Thinking Sphinx":http://rhnh.net/2008/10/01/integration-testing-with-cucumber-rspec-and-thinking-sphinx
 * "Thinking Sphinx and Unicode":http://yob.id.au/blog/2008/05/08/thinking_sphinx_and_unicode/
 * "Thinking Sphinx Case Folding Configuration":http://darwinweb.net/articles/76-thinking_sphinx_case_folding_configuration
+* "Thinking Sphinx: Searching by Location and Keyword":http://joeyschoblaska.com/blog_posts/220-thinking-sphinx-searching-by-location-and-keyword
