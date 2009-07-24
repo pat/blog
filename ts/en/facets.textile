@@ -5,4 +5,62 @@ title: Facets
 
 h2. Facets
 
-This section hasn't yet been written. If you think you know something that should be on this page, why don't you fork "the documentation source":http://github.com/freelancing-god/freelancing-god.github.com and submit a patch?
+Facets are defined inside the *define_index* method, within your model, just
+like other fields. To specify that a field is a facet, use the *:facet* symbol.
+For more information on indexing, refer to the "indexing":indexing.html page.
+
+{% highlight ruby %}
+define_index do
+  # ...
+  indexes author.name, :as => :author, :facet => true
+end
+{% endhighlight %}
+
+h3. Model.facets
+
+Facets are available through the Model.facets class method. In this case
+we're using the Article model. Facats are returned as a Hash.
+
+{% highlight ruby %}
+Article.facets # => {:author=>{"Pat Allan"=>1, "John Doe"=>10}}
+{% endhighlight %}
+
+Model.facets will accept the same options as the *search* class method.
+
+{% highlight ruby %}
+Article.facets('sphinx') # => {:author=>{"Pat Allan"=>1}
+{% endhighlight %}
+
+{% highlight ruby %}
+Article.facets(:conditions => {:author => "Pat Allan"})
+# => {:author=>{"Pat Allan"=>1}
+{% endhighlight %}
+
+Displaying the facets in a view can be done in a variety of way. The following
+is a basic example.
+
+{% highlight ruby %}
+<% @facets.each do |name, options| %>
+  <% if options.length > 1 %>
+    <h5><%= name %></h5>
+    <ul>
+    <% options.each do |option, count| %>
+      <li><%= link_to option, :overwrite_params => {name => option} %></li>
+    <% end %>
+    </ul>
+  <% end %>
+<% end %>
+{% endhighlight %}
+
+To retrieve results based on a selected facet, you can use the *for* method,
+or pass the value into the *search* method conditions hash.
+
+{% highlight ruby %}
+Article.facets('sphinx').for(:author => "Pat Allan")
+# => [#<Article id: 123, title: Thinking Sphinx>]
+{% endhighlight %}
+
+{% highlight ruby %}
+Article.search(:conditions => {:author => "Pat Allan"})
+# => [#<Article id: 123, title: Thinking Sphinx>]
+{% endhighlight %}

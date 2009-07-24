@@ -49,6 +49,12 @@ You can also flag fields as being sortable.
 indexes subject, :sortable => true
 {% endhighlight %}
 
+Use the *:facet* option to signify a facet.
+
+{% highlight ruby %}
+indexes authors.name, :as => :author, :facet => true
+{% endhighlight %}
+
 If there are associations in your model, you can drill down through them to access other columns. Explicit aliases are _required_ when doing this.
 
 {% highlight ruby %}
