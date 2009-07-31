@@ -73,9 +73,19 @@ define_index do
 end
 {% endhighlight %}
 
+h3. Delta Indexing Not Working
+
+Often people find delta indexing isn't working on their production server. Sometimes, this is because Sphinx is running as one user on the system, and the Rails/Merb application is being served as a different user. Check your production.log file for mentions of permissions issues to confirm this.
+
+Indexing for deltas is invoked by the web user, and so needs to have access to the index files. The simplest way to ensure this is run all Thinking Sphinx rake tasks by that web user.
+
+If you're still having issues, and you're using Passenger, read the next hint.
+
 h3. Running Delta Indexing with Passenger
 
-If you're using Phusion Passenger on your production server, with delta indexing on some models, a common issue people find is that their delta indexes don't get processed. This is because Passenger has it's own PATH set up, and can't execute the Sphinx binaries (indexer and searchd) implicitly.
+If you're using Phusion Passenger on your production server, with delta indexing on some models, a common issue people find is that their delta indexes don't get processed.
+
+If it's not a permissions issue (see the previous hint), another common cause is because Passenger has it's own PATH set up, and can't execute the Sphinx binaries (indexer and searchd) implicitly.
 
 The way around this is to find out where your binaries are on the server:
 
