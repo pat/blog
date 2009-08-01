@@ -3,11 +3,13 @@ layout: ts_en
 title: Facets
 ---
 
-h2. Facets
+h2. Faceted Searching
 
-Facets are defined inside the *define_index* method, within your model, just
-like other fields. To specify that a field is a facet, use the *:facet* symbol.
-For more information on indexing, refer to the "indexing":indexing.html page.
+Facet Searches are search summaries - they provide a breakdown of result counts for each of the defined categories/facets.
+
+h3. Defining Facets
+
+You define facets inside the *define_index* method, within your model. To specify that a field or attribute should be considered as a facet, explicitly label it using the *:facet* symbol.
 
 {% highlight ruby %}
 define_index do
@@ -16,51 +18,43 @@ define_index do
 end
 {% endhighlight %}
 
-h3. Model.facets
+h3. Querying Facets
 
-Facets are available through the Model.facets class method. In this case
-we're using the Article model. Facats are returned as a Hash.
+Facets are available through the facets class method on all ActiveRecord models that have Sphinx indexes, and are returned as a subclass of Hash. In this case
+we're using the Article model:
 
 {% highlight ruby %}
-Article.facets # => {:author=>{"Pat Allan"=>1, "John Doe"=>10}}
+Article.facets # =>
+{
+  :author => {
+    "Sherlock Holmes" => 3,
+    "John Watson" => 10
+  }
+}
 {% endhighlight %}
 
-Model.facets will accept the same options as the *search* class method.
+The facets method accepts the same options as the *search* method.
 
 {% highlight ruby %}
-Article.facets('sphinx') # => {:author=>{"Pat Allan"=>1}
+Article.facets 'pancakes'
+Article.facets :conditions => {:subject => 'pancakes'}
 {% endhighlight %}
 
-{% highlight ruby %}
-Article.facets(:conditions => {:author => "Pat Allan"})
-# => {:author=>{"Pat Allan"=>1}
-{% endhighlight %}
+Below is a basic example of rendering the facet search results in a view:
 
-Displaying the facets in a view can be done in a variety of way. The following
-is a basic example.
-
-{% highlight ruby %}
-<% @facets.each do |name, options| %>
-  <% if options.length > 1 %>
-    <h5><%= name %></h5>
-    <ul>
-    <% options.each do |option, count| %>
-      <li><%= link_to option, :overwrite_params => {name => option} %></li>
-    <% end %>
-    </ul>
+{% highlight erb %}
+<% @facets.each do |facet, values| %>
+  <h5><%= facet %></h5>
+  <ul>
+  <% values.each do |key, count| %>
+    <li><%= link_to key, :overwrite_params => {facet => key} %></li>
   <% end %>
+  </ul>
 <% end %>
 {% endhighlight %}
 
-To retrieve results based on a selected facet, you can use the *for* method,
-or pass the value into the *search* method conditions hash.
+To retrieve the ActiveRecord object results based on a selected facet, you can use the *for* method on a facet search result.
 
 {% highlight ruby %}
-Article.facets('sphinx').for(:author => "Pat Allan")
-# => [#<Article id: 123, title: Thinking Sphinx>]
-{% endhighlight %}
-
-{% highlight ruby %}
-Article.search(:conditions => {:author => "Pat Allan"})
-# => [#<Article id: 123, title: Thinking Sphinx>]
+Article.facets('pancakes').for(:author => "Pat Allan")
 {% endhighlight %}
