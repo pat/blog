@@ -31,7 +31,7 @@ Article.facets # =>
 {
   :author => {
     "Sherlock Holmes" => 3,
-    "John Watson" => 10
+    "John Watson"     => 10
   },
   :category_id => {
     12 => 4,
