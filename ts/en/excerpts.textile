@@ -5,6 +5,8 @@ title: Excerpts
 
 h2. Excerpts / Keyword Highlighting
 
+*Note: This feature is available in version 1.2 or later*
+
 When displaying search results, sometimes you may wish to highlight the query keywords in a record's text. This can be done using Sphinx's excerpts feature.
 
 Thinking Sphinx automatically adds a method called *excerpts* to each search result, which can then query Sphinx for a specific column or method for the object, and return the highlighted version.
