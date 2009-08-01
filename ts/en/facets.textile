@@ -15,6 +15,9 @@ You define facets inside the *define_index* method, within your model. To specif
 define_index do
   # ...
   indexes author.name, :as => :author, :facet => true
+  
+  # ...
+  has category_id, :facet => true
 end
 {% endhighlight %}
 
@@ -29,6 +32,11 @@ Article.facets # =>
   :author => {
     "Sherlock Holmes" => 3,
     "John Watson" => 10
+  },
+  :category_id => {
+    12 => 4,
+    42 => 7,
+    47 => 2
   }
 }
 {% endhighlight %}
@@ -38,6 +46,12 @@ The facets method accepts the same options as the *search* method.
 {% highlight ruby %}
 Article.facets 'pancakes'
 Article.facets :conditions => {:subject => 'pancakes'}
+{% endhighlight %}
+
+You can also explicitly request just certain facets:
+
+{% highlight ruby %}
+Article.facets :facets => [:author]
 {% endhighlight %}
 
 Below is a basic example of rendering the facet search results in a view:
@@ -57,4 +71,37 @@ To retrieve the ActiveRecord object results based on a selected facet, you can u
 
 {% highlight ruby %}
 Article.facets('pancakes').for(:author => "Pat Allan")
+{% endhighlight %}
+
+h3. Global Facets
+
+Faceted searches can be made across all indexed models, using the same arguments.
+
+{% highlight ruby %}
+ThinkingSphinx.facets 'pancakes'
+{% endhighlight %}
+
+By default, Thinking Sphinx does not request _all_ possible facets, only those common to all models. If you don't have any of your own facets, then this will just be the class facet, providing a summary of the matches per model.
+
+{% highlight ruby %}
+ThinkingSphinx.facets 'pancakes' # =>
+{
+  :class => {
+    'Article' => 13,
+    'User'    => 3,
+    'Recipe'  => 23
+  }
+}
+{% endhighlight %}
+
+To disable the class facet, just set :class_facet to false.
+
+{% highlight ruby %}
+ThinkingSphinx.facets 'pancakes', :class_facet => false
+{% endhighlight %}
+
+And if you want absolutely every facet defined to be returned, whether or not they exist in all indexed models, set :all_facets to true.
+
+{% highlight ruby %}
+ThinkingSphinx.facets 'pancakes', :all_facets => true
 {% endhighlight %}
