@@ -48,6 +48,18 @@ Article.search 'pancakes',
   :with       => {:created_at => 1.week.ago..Time.now}
 {% endhighlight %}
 
+h2. Application-Wide Search
+
+You can use all the same syntax to search across all indexed models in your application:
+
+{% highlight ruby %}
+ThinkingSphinx.search 'pancakes'
+{% endhighlight %}
+
+If you're using a version of Thinking Sphinx prior to 1.2, you will need to use a slightly deeper namespaced method: *ThinkingSphinx::Search.search*.
+
+This search will return all objects that match, no matter what model they are from, ordered by relevance (unless you specify a custom order clause, of course). Don't expect references to attributes and fields to work perfectly if they don't exist in all the models.
+
 h3. Pagination
 
 Sphinx paginates search results by default. Indeed, there's no way to turn it off (but you can request really big pages should you wish). The parameters for pagination in Thinking Sphinx are exactly the same as "Will Paginate":http://github.com/mislav/will_paginate/tree/master: *:page* and *:per_page*.
