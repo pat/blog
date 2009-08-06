@@ -111,6 +111,8 @@ rake thinking_sphinx:delayed_delta
 rake ts:dd # shortcut
 {% endhighlight %}
 
-Keep in mind that because the delta indexing requests are queued, they will not be processed immediately - and so your search results will not not be accurate straight after a change. Delayed Job is pretty fast at getting through the queue though, so it shouldn't take too long.
+*WARNING* One very important caveat of the delayed_job method is that it will only work for a single sphinxd instance, which is likely not the case if you have multiple app servers.  Delayed_job is designed to run each job only once, not once per app server.  Therefore when the delayed_job for the delta index runs, it will only run on the app server that actually processes the job.  The effects of this can range from indistinguishable to subtle depending on the particulars of your setup, so it's important to be aware of this up front.
+
+Also, keep in mind that because the delta indexing requests are queued, they will not be processed immediately - and so your search results will not not be accurate straight after a change. Delayed Job is pretty fast at getting through the queue though, so it shouldn't take too long.
 
 Currently, the Delayed Job plugin is included as part of Thinking Sphinx. This is not ideal, and will change - you have been warned. Using the maintained version of Delayed Job will be better, albeit introducing one more step for people to get it working with Thinking Sphinx.
