@@ -87,6 +87,15 @@ define_index do
 end
 {% endhighlight %}
 
+A boolean column called delta needs to be added to the model as well, just the same as a default delta approach.
+
+{% highlight rb %}
+def self.up
+  add_column :articles, :delta, :boolean, :default => true,
+    :null => false
+end
+{% endhighlight %}
+
 You will also need to create the database table for the jobs, as expected by the Delayed Job plugin:
 
 {% highlight ruby %}
