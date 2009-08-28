@@ -7,6 +7,8 @@ h2. Installing Thinking Sphinx
 
 There's a few different ways you can get Thinking Sphinx installed into your web application. If you're using Rails, read through the first few options. If you're using Merb, then the gem is the best way to go - scroll down a bit for those instructions.
 
+*Please note*: If you're using Sphinx 0.9.9 (as opposed to 0.9.8), then you'll want to download the "sphinx-0.9.9 branch":http://github.com/freelancing-god/thinking-sphinx/tree/sphinx-0.9.9 from the GitHub repository.
+
 h3. Rails 2.1 or newer and Git
 
 If you've got @git@ installed, and are using Rails 2.1 or newer, then it's painless to get Thinking Sphinx installed in your Rails application:
