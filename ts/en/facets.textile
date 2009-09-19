@@ -21,6 +21,10 @@ define_index do
 end
 {% endhighlight %}
 
+You _cannot_ use custom SQL statements as string facet sources. Thinking Sphinx is unable to interpret the SQL within the context of the model, and strings can't be stored as strings when they are attributes in Sphinx.
+
+Even if you define your facet as a field, Thinking Sphinx duplicates it into an attribute, because facets are essentially grouped searches, and grouping can only be done with attributes.
+
 h3. Querying Facets
 
 Facets are available through the facets class method on all ActiveRecord models that have Sphinx indexes, and are returned as a subclass of Hash. In this case
