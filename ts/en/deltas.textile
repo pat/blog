@@ -48,6 +48,29 @@ It's also worth noting that when each change happens, and the delta indexing is 
 ThinkingSphinx.suppress_delta_output = true
 {% endhighlight %}
 
+If you are using associations for field or attribute data, delta indexing will not automatically happen when you make changes to those association models. You will need to add a manual delta hook to make it all update accordingly.
+
+So, if we had the following field in an Article model:
+
+{% highlight rb %}
+indexes comments.content, :as => :comments
+{% endhighlight %}
+
+Then, in the Comment model, you'd want to have something like the following:
+
+{% highlight rb %}
+after_save :set_article_delta_flag
+
+# ...
+
+private
+
+def set_article_delta_flag
+  article.delta = true
+  article.save
+end
+{% endhighlight %}
+
 h3. Advanced Delta Approaches
 
 One issue with the default delta approach, as outlined above, is that it creates a noticeable speed decrease on busy websites, because the delta indexing is run as part of each request that makes a change to the model records.
