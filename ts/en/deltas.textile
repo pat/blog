@@ -48,6 +48,8 @@ It's also worth noting that when each change happens, and the delta indexing is 
 ThinkingSphinx.suppress_delta_output = true
 {% endhighlight %}
 
+h3. Deltas and Associations
+
 If you are using associations for field or attribute data, delta indexing will not automatically happen when you make changes to those association models. You will need to add a manual delta hook to make it all update accordingly.
 
 So, if we had the following field in an Article model:
