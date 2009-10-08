@@ -51,6 +51,10 @@ em {
   font-style: italic;
 }
 
+code {
+  font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
+}
+
 .wrapper {
   width: 960px;
   background: #fff;
@@ -349,7 +353,7 @@ div#header h1 a:visited:hover {
 }
 
 .highlight pre {
-  font-family: monospace;
+  font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
   padding: 0 1.5em;
 }
 

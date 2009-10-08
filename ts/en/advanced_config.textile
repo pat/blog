@@ -122,3 +122,35 @@ development:
 U+410..U+42F->U+430..U+44F, U+430..U+44F"
 # ... repeat for other environments
 {% endhighlight %}
+
+h3. Large Result Sets
+
+To keep searching fast, Sphinx has a default limit of 1000 records being available via pagination, even if there are more matches than that. The reasons for this limit are "discussed in the Sphinx documentation":http://www.sphinxsearch.com/docs/current.html#conf-max-matches.
+
+However, you can change this value. Firstly, in your @config/sphinx.yml@ file, you need to set max_matches to your upper limit:
+
+{% highlight yaml %}
+development:
+  max_matches: 10000
+# ... repeat for other environments
+{% endhighlight %}
+
+Don't forget to rebuild your Sphinx indexes so the daemon is aware of the change.
+
+{% highlight sh %}
+rake thinking_sphinx:rebuild
+{% endhighlight %}
+
+And you also need to specify it in your searches (Sphinx doesn't assume you want the higher number by default):
+
+{% highlight ruby %}
+Article.search 'pancakes', :max_matches => 10_000
+{% endhighlight %}
+
+This does not mean you will get 10,000 results returned in one request, but you can paginate up to the ten-thousandth result. If you want them all at once (which will be slow, because you're asking Rails to instantiate 10,000 records), use the @per_page@ option.
+
+{% highlight ruby %}
+Article.search 'pancakes',
+  :max_matches => 10_000,
+  :per_page    => 10_000
+{% endhighlight %}
