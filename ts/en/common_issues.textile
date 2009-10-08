@@ -99,3 +99,7 @@ And then set the bin_path option in your config/sphinx.yml file for the producti
 production:
   bin_path: '/usr/local/bin'
 {% endhighlight %}
+
+h3. Can only access the first thousand search results
+
+This is actually how Sphinx is supposed to behave. Have a read of the "Large Result Sets section of the Advanced Configuration page":advanced_config.html#large-result-sets to see why, and how to work around it if you really need to.

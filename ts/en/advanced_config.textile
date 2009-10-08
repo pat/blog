@@ -123,7 +123,7 @@ U+410..U+42F->U+430..U+44F, U+430..U+44F"
 # ... repeat for other environments
 {% endhighlight %}
 
-h3. Large Result Sets
+<h3 id="large-result-sets">Large Result Sets</h3>
 
 To keep searching fast, Sphinx has a default limit of 1000 records being available via pagination, even if there are more matches than that. The reasons for this limit are "discussed in the Sphinx documentation":http://www.sphinxsearch.com/docs/current.html#conf-max-matches.
 
