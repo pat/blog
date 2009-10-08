@@ -48,6 +48,20 @@ Article.search 'pancakes',
   :with       => {:created_at => 1.week.ago..Time.now}
 {% endhighlight %}
 
+If you wish to exclude specific attribute values, then you can specify them using @:without@:
+
+{% highlight ruby %}
+Article.search 'pancakes',
+  :without => {:user_id => current_user.id}
+{% endhighlight %}
+
+For matching multiple values in a multi-value attribute, @:with@ doesn't quite do what you want. Give @:with_all@ a try instead:
+
+{% highlight ruby %}
+Article.search 'pancakes',
+  :with_all => {:tag_ids => @tags.collect(&:id)}
+{% endhighlight %}
+
 h2. Application-Wide Search
 
 You can use all the same syntax to search across all indexed models in your application:
