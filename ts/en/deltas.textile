@@ -79,7 +79,30 @@ One issue with the default delta approach, as outlined above, is that it creates
 
 h4. Timestamp/Datetime Deltas
 
-There are two other delta approaches that Thinking Sphinx supports. The first is by using a timestamp column to track when changes have happened, and then run a rake task to index just those changes on a regular basis. No delta column is required for this method, and enabling it is done by the following code in the define_index block:
+There are two other delta approaches that Thinking Sphinx supports. The first is by using a timestamp column to track when changes have happened, and then run a rake task to index just those changes on a regular basis.
+
+This functionality is in a separate gem, so you'll need to install it:
+
+{% highlight sh %}
+gem install ts-datetime-delta --source http://gemcutter.org
+{% endhighlight %}
+
+And then add the details to your @environment.rb@ file:
+
+{% highlight ruby %}
+config.gem 'ts-datetime-delta',
+  :lib     => 'thinking_sphinx/deltas/datetime_delta'
+  :version => '>= 1.0.0',
+  :source  => 'http://gemcutter.org'
+{% endhighlight %}
+
+And finally, make sure the rake tasks are available, by adding the following line to the end of your @Rakefile@:
+
+{% highlight ruby %}
+require 'thinking_sphinx/deltas/datetime_delta/tasks'
+{% endhighlight %}
+
+As for your models, no delta column is required for this method, and enabling it is done by the following code in the define_index block:
 
 {% highlight ruby %}
 define_index do
@@ -102,7 +125,36 @@ There is one caveat with this approach: it uses Sphinx's index merging feature, 
 
 h4. Delayed Deltas
 
-The more reliable option for smarter delta indexing is using the "Delayed Job":http://github.com/tobi/delayed_job plugin, which queues up the index requests in a separate process (invoked by a constantly running rake task), instead of dealing with them during each web request. To enable this approach, change your define_index block to look more like this:
+The more reliable option for smarter delta indexing is using the "Delayed Job":http://github.com/tobi/delayed_job plugin, which queues up the index requests in a separate process (invoked by a constantly running rake task), instead of dealing with them during each web request.
+
+To get this set up in your web application, you'll need to install the separate gem. It has Delayed Job as a dependency, so that will be automatically installed as well.
+
+{% highlight sh %}
+gem install ts-delayed-delta --source http://gemcutter.org
+{% endhighlight %}
+
+Don't forget to add the gem's details to your @environment.rb@ file:
+
+{% highlight ruby %}
+config.gem 'ts-delayed-delta',
+  :lib     => 'thinking_sphinx/deltas/delayed_delta'
+  :version => '>= 1.0.0',
+  :source  => 'http://gemcutter.org'
+{% endhighlight %}
+
+And add the following line to the bottom of your @Rakefile@:
+
+{% highlight ruby %}
+require 'thinking_sphinx/deltas/delayed_delta/tasks'
+{% endhighlight %}
+
+If this is your first time running Delayed Job, then you're going to need the jobs table migration as well:
+
+{% highlight sh %}
+script/generate delayed_job
+{% endhighlight %}
+
+To enable this approach in your models, change your define_index block to look more like this:
 
 {% highlight ruby %}
 define_index do
@@ -121,23 +173,6 @@ def self.up
 end
 {% endhighlight %}
 
-You will also need to create the database table for the jobs, as expected by the Delayed Job plugin:
-
-{% highlight ruby %}
-create_table :delayed_jobs do |t|
-  t.integer  :priority, :default => 0
-  t.integer  :attempts, :default => 0
-  t.text     :handler
-  t.string   :last_error
-  t.datetime :run_at
-  t.datetime :locked_at
-  t.datetime :failed_at
-  t.string   :locked_by
-  t.datetime :created_at
-  t.datetime :updated_at
-end
-{% endhighlight %}
-
 Once this is all set up, to process the delta indexing jobs, you'll need to run the following rake task - which deliberately doesn't ever stop (as it regularly tackles all jobs lined up):
 
 {% highlight sh %}
@@ -148,5 +183,3 @@ rake ts:dd # shortcut
 One very important caveat of the delayed_job method is that it will only work for *a single searchd instance*, which may not the case if you have multiple app servers.  Delayed Job is designed to run each job only once, not once per app server.  Therefore when the delayed_job for the delta index runs, it will only run on the app server that actually processes the job.  The effects of this can range from indistinguishable to subtle depending on the particulars of your setup, so it's important to be aware of this up front. The best approach is to have Sphinx, the database and the delayed job processing task all running on one machine.
 
 Also, keep in mind that because the delta indexing requests are queued, they will not be processed immediately - and so your search results will not not be accurate straight after a change. Delayed Job is pretty fast at getting through the queue though, so it shouldn't take too long.
-
-Currently, the Delayed Job plugin is included as part of Thinking Sphinx. This is not ideal, and will change - you have been warned. Using the maintained version of Delayed Job will be better, albeit introducing one more step for people to get it working with Thinking Sphinx.
