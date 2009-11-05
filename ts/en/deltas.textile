@@ -91,7 +91,7 @@ And then add the details to your @environment.rb@ file:
 
 {% highlight ruby %}
 config.gem 'ts-datetime-delta',
-  :lib     => 'thinking_sphinx/deltas/datetime_delta'
+  :lib     => 'thinking_sphinx/deltas/datetime_delta',
   :version => '>= 1.0.0',
   :source  => 'http://gemcutter.org'
 {% endhighlight %}
@@ -137,7 +137,7 @@ Don't forget to add the gem's details to your @environment.rb@ file:
 
 {% highlight ruby %}
 config.gem 'ts-delayed-delta',
-  :lib     => 'thinking_sphinx/deltas/delayed_delta'
+  :lib     => 'thinking_sphinx/deltas/delayed_delta',
   :version => '>= 1.0.0',
   :source  => 'http://gemcutter.org'
 {% endhighlight %}
