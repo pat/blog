@@ -1,0 +1,14 @@
+---
+layout: riddle
+title: Installing Riddle
+---
+
+h2. Installing Riddle
+
+The Riddle gem is hosted on "Gemcutter":http://gemcutter.org, so installation should be a one-step process:
+
+{% highlight sh %}
+gem install riddle --source http://gemcutter.org
+{% endhighlight %}
+
+And that's all there is to it.

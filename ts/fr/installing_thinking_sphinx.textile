@@ -51,7 +51,7 @@ h3. En tant que Gem
 Il y a plusieurs étapes pour utiliser Thinking en tant que gem. Premièrement, l'installation à partir de GemCutter:
 
 {% highlight sh %}
-sudo gem install thinking-sphinx \
+gem install thinking-sphinx \
   --source http://gemcutter.org
 {% endhighlight %}
 

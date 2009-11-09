@@ -14,14 +14,14 @@ h3. As a Gem
 There's a few steps to using Thinking Sphinx as a gem. Firstly, let's install it from "GemCutter":http://gemcutter.org/gems/thinking-sphinx:
 
 {% highlight sh %}
-sudo gem install thinking-sphinx \
+gem install thinking-sphinx \
   --source http://gemcutter.org
 {% endhighlight %}
 
 If you're using Sphinx 0.9.9, then make sure you grab the "099 version":http://gemcutter.org/gems/thinking-sphinx-099 instead:
 
 {% highlight sh %}
-sudo gem install thinking-sphinx-099 \
+gem install thinking-sphinx-099 \
   --source http://gemcutter.org
 {% endhighlight %}
 
