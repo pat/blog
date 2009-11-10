@@ -103,3 +103,9 @@ production:
 h3. Can only access the first thousand search results
 
 This is actually how Sphinx is supposed to behave. Have a read of the "Large Result Sets section of the Advanced Configuration page":advanced_config.html#large-result-sets to see why, and how to work around it if you really need to.
+
+h3. Vendored Delayed Job, AfterCommit and Riddle
+
+If you've still got Delayed Job vendored as part of Thinking Sphinx and would rather use a more up-to-date version of the former, recent releases of Thinking Sphinx do not have it included any longer.
+
+As for AfterCommit and Riddle, while they are still included for plugin installs, they're no longer in the Thinking Sphinx gem (since 1.3.3). Instead, they are considered dependencies, and will be installed as separate gems.
