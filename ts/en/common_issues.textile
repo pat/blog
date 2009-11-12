@@ -109,3 +109,22 @@ h3. Vendored Delayed Job, AfterCommit and Riddle
 If you've still got Delayed Job vendored as part of Thinking Sphinx and would rather use a more up-to-date version of the former, recent releases of Thinking Sphinx do not have it included any longer.
 
 As for AfterCommit and Riddle, while they are still included for plugin installs, they're no longer in the Thinking Sphinx gem (since 1.3.3). Instead, they are considered dependencies, and will be installed as separate gems.
+
+<h3 id="string_filters">Filtering on String Attributes</h3>
+
+While you can have string columns as attributes in Sphinx, they aren't stored as strings. Instead, Sphinx figures out the alphabetical order, and gives each string an integer value to make them useful for sorting. However, this means it's close to impossible to _filter_ on these attributes.
+
+So, to get around this, there's two options: firstly, use integer attributes instead, if you possibly can. This works for small result sets (for example: gender). Otherwise, you might want to consider manually converting the string to a CRC integer value:
+
+{% highlight ruby %}
+has "CRC32(category)", :as => :category, :type => :integer
+{% endhighlight %}
+
+This way, you can filter on it like so:
+
+{% highlight ruby %}
+Article.search 'pancakes', :with => {
+  :category => 'Ruby'.to_crc32
+}
+
+Of course, this isn't amazingly clean, but it will work quite well. You should also take note that CRC32 encoding can have collisions, so it's not the perfect solution.
