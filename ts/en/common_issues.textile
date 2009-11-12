@@ -7,7 +7,17 @@ h2. Common Questions and Issues
 
 Depending on how you have Sphinx setup, or what database you're using, you might come across little issues and curiosities. Here's a few to be aware of.
 
-h3. Wildcard Searching
+* "Wildcard Searching":#wildcards
+* "Slow Indexing":#slow_indexing
+* "MySQL and Large Fields":#mysql_large_fields
+* "PostgreSQL with Manual Fields and Attributes":#postgresql
+* "Delta Indexing Not Working":#deltas
+* "Running Delta Indexing with Passenger":#passenger
+* "Can only access the first thousand search results":#thousand_limit
+* "Vendored Delayed Job, AfterCommit and Riddle":#vendored
+* "Filtering on String Attributes":#string_filters
+
+<h3 id="wildcards">Wildcard Searching</h3>
 
 Sphinx can support wildcard searching (for example: Austr&lowast;), but it is turned off by default. To enable it, you need to add two settings to your config/sphinx.yml file:
 
@@ -31,7 +41,7 @@ Don't forget to rebuild your Sphinx indexes after making this change.
 rake thinking_sphinx:rebuild
 {% endhighlight %}
 
-h3. Slow Indexing
+<h3 id="slow_indexing">Slow Indexing</h3>
 
 If Sphinx is taking a while to process all your records, there are a few common reasons for this happening. Firstly, make sure you have database indexes on any foreign key columns and any columns you filter or sort by.
 
@@ -42,7 +52,7 @@ development:
   sql_range_step: 10000000
 {% endhighlight %}
 
-h3. MySQL and Large Fields
+<h3 id="mysql_large_fields">MySQL and Large Fields</h3>
 
 If you've got a field that is built off multiple values in one column - ie: through a has_many association - then you may hit MySQL's default limit for string concatenation: 1024 characters. You can increase the "group_concat_max_len":http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html#sysvar_group_concat_max_len value by adding the following to your define_index block:
 
@@ -56,7 +66,7 @@ end
 
 If these fields get particularly large though, then there's another setting you may need to set in your MySQL configuration: "max_allowed_packet":http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html#sysvar_max_allowed_packet, which has a default of sixteen megabytes. You can't set this option via Thinking Sphinx though (it's a rare edge case).
 
-h3. PostgreSQL with Manual Fields and Attributes
+<h3 id="postgresql">PostgreSQL with Manual Fields and Attributes</h3>
 
 If you're using fields or attributes defined by strings (raw SQL), then the columns used in them aren't automatically included in the GROUP BY clause of the generated SQL statement. To make sure the query is valid, you will need to explicitly add these columns to the GROUP BY clause.
 
@@ -73,17 +83,17 @@ define_index do
 end
 {% endhighlight %}
 
-h3. Delta Indexing Not Working
+<h3 id="deltas">Delta Indexing Not Working</h3>
 
-Often people find delta indexing isn't working on their production server. Sometimes, this is because Sphinx is running as one user on the system, and the Rails/Merb application is being served as a different user. Check your production.log file for mentions of permissions issues to confirm this.
+p. Often people find delta indexing isn't working on their production server. Sometimes, this is because Sphinx is running as one user on the system, and the Rails/Merb application is being served as a different user. Check your production.log file for mentions of permissions issues to confirm this.
 
 Indexing for deltas is invoked by the web user, and so needs to have access to the index files. The simplest way to ensure this is run all Thinking Sphinx rake tasks by that web user.
 
 If you're still having issues, and you're using Passenger, read the next hint.
 
-h3. Running Delta Indexing with Passenger
+<h3 id="passenger">Running Delta Indexing with Passenger</h3>
 
-If you're using Phusion Passenger on your production server, with delta indexing on some models, a common issue people find is that their delta indexes don't get processed.
+p. If you're using Phusion Passenger on your production server, with delta indexing on some models, a common issue people find is that their delta indexes don't get processed.
 
 If it's not a permissions issue (see the previous hint), another common cause is because Passenger has it's own PATH set up, and can't execute the Sphinx binaries (indexer and searchd) implicitly.
 
@@ -100,19 +110,19 @@ production:
   bin_path: '/usr/local/bin'
 {% endhighlight %}
 
-h3. Can only access the first thousand search results
+<h3 id="thousand_limit">Can only access the first thousand search results</h3>
 
-This is actually how Sphinx is supposed to behave. Have a read of the "Large Result Sets section of the Advanced Configuration page":advanced_config.html#large-result-sets to see why, and how to work around it if you really need to.
+p. This is actually how Sphinx is supposed to behave. Have a read of the "Large Result Sets section of the Advanced Configuration page":advanced_config.html#large-result-sets to see why, and how to work around it if you really need to.
 
-h3. Vendored Delayed Job, AfterCommit and Riddle
+<h3 id="vendored">Vendored Delayed Job, AfterCommit and Riddle</h3>
 
-If you've still got Delayed Job vendored as part of Thinking Sphinx and would rather use a more up-to-date version of the former, recent releases of Thinking Sphinx do not have it included any longer.
+p. If you've still got Delayed Job vendored as part of Thinking Sphinx and would rather use a more up-to-date version of the former, recent releases of Thinking Sphinx do not have it included any longer.
 
 As for AfterCommit and Riddle, while they are still included for plugin installs, they're no longer in the Thinking Sphinx gem (since 1.3.3). Instead, they are considered dependencies, and will be installed as separate gems.
 
 <h3 id="string_filters">Filtering on String Attributes</h3>
 
-While you can have string columns as attributes in Sphinx, they aren't stored as strings. Instead, Sphinx figures out the alphabetical order, and gives each string an integer value to make them useful for sorting. However, this means it's close to impossible to _filter_ on these attributes.
+p. While you can have string columns as attributes in Sphinx, they aren't stored as strings. Instead, Sphinx figures out the alphabetical order, and gives each string an integer value to make them useful for sorting. However, this means it's close to impossible to _filter_ on these attributes.
 
 So, to get around this, there's two options: firstly, use integer attributes instead, if you possibly can. This works for small result sets (for example: gender). Otherwise, you might want to consider manually converting the string to a CRC integer value:
 
@@ -126,5 +136,6 @@ This way, you can filter on it like so:
 Article.search 'pancakes', :with => {
   :category => 'Ruby'.to_crc32
 }
+{% endhighlight %}
 
 Of course, this isn't amazingly clean, but it will work quite well. You should also take note that CRC32 encoding can have collisions, so it's not the perfect solution.
