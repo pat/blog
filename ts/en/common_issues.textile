@@ -85,7 +85,7 @@ end
 
 <h3 id="deltas">Delta Indexing Not Working</h3>
 
-p. Often people find delta indexing isn't working on their production server. Sometimes, this is because Sphinx is running as one user on the system, and the Rails/Merb application is being served as a different user. Check your production.log file for mentions of permissions issues to confirm this.
+p. Often people find delta indexing isn't working on their production server. Sometimes, this is because Sphinx is running as one user on the system, and the Rails/Merb application is being served as a different user. Check your production.log and Apache/Nginx error log file for mentions of permissions issues to confirm this.
 
 Indexing for deltas is invoked by the web user, and so needs to have access to the index files. The simplest way to ensure this is run all Thinking Sphinx rake tasks by that web user.
 
