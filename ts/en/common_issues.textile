@@ -16,6 +16,7 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Can only access the first thousand search results":#thousand_limit
 * "Vendored Delayed Job, AfterCommit and Riddle":#vendored
 * "Filtering on String Attributes":#string_filters
+* "Models outside of @app/models@":#external_models
 
 <h3 id="wildcards">Wildcard Searching</h3>
 
@@ -139,3 +140,14 @@ Article.search 'pancakes', :with => {
 {% endhighlight %}
 
 Of course, this isn't amazingly clean, but it will work quite well. You should also take note that CRC32 encoding can have collisions, so it's not the perfect solution.
+
+<h3 id="external_models">Models outside of @app/models@</h3>
+
+If you're using plugins or other web frameworks (Radiant, Ramaze, etc) that don't always store their models in @app/models@, you can tell Thinking Sphinx to look in other locations when building the configuration file:
+
+{% highlight ruby %}
+ThinkingSphinx::Configuration.instance.
+  model_directories << "/path/to/models/dir"
+{% endhighlight %}
+
+By default, Thinking Sphinx will load all models in @app/models@ and @vendor/plugins/*/app/models@.
