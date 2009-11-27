@@ -44,12 +44,12 @@ Article.facets # =>
 }
 {% endhighlight %}
 
-The facets method accepts the same options as the *search* method. When you use the *conditions* option, Thinking Sphinx will convert the field value into a CRC, and then use the *[field_name]_facet* attribute for grouping.
+The facets method accepts the same options as the *search* method.
 
 {% highlight ruby %}
 Article.facets 'pancakes'
 Article.facets :conditions => {:author => 'John Watson'}
-Article.facets :with => {:author_facet => 'John Watson'.to_crc32} # same as previous
+Article.facets :with => {:author_facet => 'John Watson'.to_crc32}
 Artcile.facets :with => {:category_id => 12}
 {% endhighlight %}
 
@@ -59,7 +59,7 @@ You can also explicitly request just certain facets:
 Article.facets :facets => [:author]
 {% endhighlight %}
 
-To retrieve the ActiveRecord object results based on a selected facet(s), you can use the *for* method on a facet search result. Note how #for only accepts the actual :field_name => 'value' pair, and not any other options.
+To retrieve the ActiveRecord object results based on a selected facet(s), you can use the *for* method on a facet search result. When using the *for* method, Thinking Sphinx will automatically CRC any string values and use their respective *field_name_facet* attribute.
 
 {% highlight ruby %}
 @facets = Article.facets('pancakes') # all facets with articles matching 'pancakes'
@@ -72,7 +72,7 @@ To retrieve the ActiveRecord object results based on a selected facet(s), you ca
 The alternate way of doing this would be to use both *search* and *facets* class methods.
 
 {% highlight ruby %}
-@articles = Article.search('detection', :with => {:author => 'Sherlock Holmes'}) # all 'detection' articles with author 'Sherlock Holmes'
+@articles = Article.search('detection', :with => {:author_facet => 'Sherlock Holmes'.to_crc32}) # all 'detection' articles with author 'Sherlock Holmes'
 @facets = Article.facets(@articles.options.merge(:facets => [:category_id], :with => {:author => nil}) # category_id facet options
 {% endhighlight %}
 
