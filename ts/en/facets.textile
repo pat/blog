@@ -9,7 +9,7 @@ Facet Searches are search summaries - they provide a breakdown of result counts 
 
 h3. Defining Facets
 
-You define facets inside the *define_index* method, within your model. To specify that a field or attribute should be considered as a facet, explicitly label it using the *:facet* symbol.
+You define facets inside the *define_index* method, within your model. To specify that a field or attribute should be considered a facet, explicitly label it using the *:facet* symbol.
 
 {% highlight ruby %}
 define_index do
@@ -27,8 +27,7 @@ Even if you define your facet as a field, Thinking Sphinx duplicates it into an 
 
 h3. Querying Facets
 
-Facets are available through the facets class method on all ActiveRecord models that have Sphinx indexes, and are returned as a subclass of Hash. In this case
-we're using the Article model:
+Facets are available through the facets class method on all ActiveRecord models that have Sphinx indexes, and are returned as a subclass of Hash.
 
 {% highlight ruby %}
 Article.facets # =>
@@ -45,11 +44,13 @@ Article.facets # =>
 }
 {% endhighlight %}
 
-The facets method accepts the same options as the *search* method.
+The facets method accepts the same options as the *search* method. When you use the *conditions* option, Thinking Sphinx will convert the field value into a CRC, and then use the *[field_name]_facet* attribute for grouping.
 
 {% highlight ruby %}
 Article.facets 'pancakes'
-Article.facets :conditions => {:subject => 'pancakes'}
+Article.facets :conditions => {:author => 'John Watson'}
+Article.facets :with => {:author_facet => 'John Watson'.to_crc32} # same as previous
+Artcile.facets :with => {:category_id => 12}
 {% endhighlight %}
 
 You can also explicitly request just certain facets:
@@ -58,23 +59,21 @@ You can also explicitly request just certain facets:
 Article.facets :facets => [:author]
 {% endhighlight %}
 
-Below is a basic example of rendering the facet search results in a view:
-
-{% highlight erb %}
-<% @facets.each do |facet, values| %>
-  <h5><%= facet %></h5>
-  <ul>
-  <% values.each do |key, count| %>
-    <li><%= link_to key, :overwrite_params => {facet => key} %></li>
-  <% end %>
-  </ul>
-<% end %>
-{% endhighlight %}
-
-To retrieve the ActiveRecord object results based on a selected facet, you can use the *for* method on a facet search result.
+To retrieve the ActiveRecord object results based on a selected facet(s), you can use the *for* method on a facet search result. Note how #for only accepts the actual :field_name => 'value' pair, and not any other options.
 
 {% highlight ruby %}
-Article.facets('pancakes').for(:author => "Pat Allan")
+@facets = Article.facets('pancakes') # all facets with articles matching 'pancakes'
+@articles = @facets.for # all articles matching 'pancakes'
+
+@facets = Article.facets('detection', :facets => [:category_id]) # category_id facet options
+@articles = @facets.for(:author => 'Sherlock Holmes') # all 'detection' articles with author 'Sherlock Holmes'
+{% endhighlight %}
+
+The alternate way of doing this would be to use both *search* and *facets* class methods.
+
+{% highlight ruby %}
+@articles = Article.search('detection', :with => {:author => 'Sherlock Holmes'}) # all 'detection' articles with author 'Sherlock Holmes'
+@facets = Article.facets(@articles.options.merge(:facets => [:category_id], :with => {:author => nil}) # category_id facet options
 {% endhighlight %}
 
 h3. Global Facets
@@ -109,3 +108,27 @@ And if you want absolutely every facet defined to be returned, whether or not th
 {% highlight ruby %}
 ThinkingSphinx.facets 'pancakes', :all_facets => true
 {% endhighlight %}
+
+h3. Displaying Facets
+
+To get you started, here is a basic example displaying the facet options in a view:
+
+{% highlight erb %}
+<% @facets.each do |facet, facet_options| %>
+  <h5><%= facet %></h5>
+  <ul>
+  <% facet_options.each do |option, count| %>
+    <li><%= link_to "#{option} (#{count})", :overwrite_params => {facet => option, :page => 1} %></li>
+  <% end %>
+  </ul>
+<% end %>
+{% endhighlight %}
+
+Thinking Sphinx does not sort facet results. One way to overcome this is to use Ruby's *sort*, or *sort_by* methods.
+
+{% highlight ruby %}
+@facets[:author].sort
+@facets[:author].sort_by { |a| a[0] || '' } # catch options that are nil
+@facets[:author].sort {|a,b| a[0].nil? ? -1 : b[0].nil? ? 1 : a[0] <=> b[0] } # same as above, using sort
+{% endhighlight %}
+
