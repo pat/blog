@@ -124,7 +124,7 @@ To get you started, here is a basic example displaying the facet options in a vi
 <% end %>
 {% endhighlight %}
 
-Thinking Sphinx does not sort facet results. One way to overcome this is to use Ruby's *sort*, or *sort_by* methods.
+Thinking Sphinx does not sort facet results. One option is to use Ruby's *sort*, or *sort_by* methods.
 
 {% highlight ruby %}
 @facets[:author].sort
