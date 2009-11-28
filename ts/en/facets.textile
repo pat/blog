@@ -49,7 +49,6 @@ The facets method accepts the same options as the *search* method.
 {% highlight ruby %}
 Article.facets 'pancakes'
 Article.facets :conditions => {:author => 'John Watson'}
-Article.facets :with => {:author_facet => 'John Watson'.to_crc32}
 Artcile.facets :with => {:category_id => 12}
 {% endhighlight %}
 
@@ -59,21 +58,20 @@ You can also explicitly request just certain facets:
 Article.facets :facets => [:author]
 {% endhighlight %}
 
-To retrieve the ActiveRecord object results based on a selected facet(s), you can use the *for* method on a facet search result. When using the *for* method, Thinking Sphinx will automatically CRC any string values and use their respective *field_name_facet* attribute.
+To retrieve the ActiveRecord object results based on a selected facet(s), you can use the @for@ method on a facet search result. When using the *for* method, Thinking Sphinx will automatically CRC any string values and use their respective @field_name_facet@ attribute.
 
 {% highlight ruby %}
-@facets = Article.facets('pancakes') # all facets with articles matching 'pancakes'
-@articles = @facets.for # all articles matching 'pancakes'
-
-@facets = Article.facets('detection', :facets => [:category_id]) # category_id facet options
-@articles = @facets.for(:author => 'Sherlock Holmes') # all 'detection' articles with author 'Sherlock Holmes'
+# Facets for all articles matching 'detection'
+@facets   = Article.facets('detection')
+# All 'detection' articles with author 'Sherlock Holmes'
+@articles = @facets.for(:author => 'Sherlock Holmes')
 {% endhighlight %}
 
-The alternate way of doing this would be to use both *search* and *facets* class methods.
+If you call @for@ without any arguments, then all the matching search results for the initial facet query are returned.
 
 {% highlight ruby %}
-@articles = Article.search('detection', :with => {:author_facet => 'Sherlock Holmes'.to_crc32}) # all 'detection' articles with author 'Sherlock Holmes'
-@facets = Article.facets(@articles.options.merge(:facets => [:category_id], :with => {:author => nil}) # category_id facet options
+@facets   = Article.facets('pancakes')
+@articles = @facets.for
 {% endhighlight %}
 
 h3. Global Facets
@@ -118,17 +116,37 @@ To get you started, here is a basic example displaying the facet options in a vi
   <h5><%= facet %></h5>
   <ul>
   <% facet_options.each do |option, count| %>
-    <li><%= link_to "#{option} (#{count})", :overwrite_params => {facet => option, :page => 1} %></li>
+    <li><%= link_to "#{option} (#{count})",
+      :params => {facet => option, :page => 1} %></li>
   <% end %>
   </ul>
 <% end %>
 {% endhighlight %}
 
-Thinking Sphinx does not sort facet results. One option is to use Ruby's *sort*, or *sort_by* methods.
+Thinking Sphinx does not sort facet results. If this is what you'd prefer, then one option is to use Ruby's *sort* or *sort_by* methods. Keep in mind you will then get arrays of two values (the facet value, and the facet count), instead of a hash key/value pair.
 
 {% highlight ruby %}
 @facets[:author].sort
-@facets[:author].sort_by { |a| a[0] || '' } # catch options that are nil
-@facets[:author].sort {|a,b| a[0].nil? ? -1 : b[0].nil? ? 1 : a[0] <=> b[0] } # same as above, using sort
+# Catch options that are nil
+@facets[:author].sort_by { |a| a[0] || '' }
 {% endhighlight %}
 
+h3. Facets Internals
+
+When you define fields as facets, then an attribute with the same columns is created with the suffix @_facet@. If the field is a string (which is the case in most situations), then the value is converted to a CRC32 integer.
+
+This CRC32 value is necessary as Sphinx currently doesn't support true string attributes, and thus we need a value to filter and group by when determining the facet results.
+
+In the above examples, we have the author's name as a facet. This means there's an author_facet attribute, which you could filter on with the following query:
+
+{% highlight ruby %}
+Article.search :with => {:author_facet => 'John Watson'.to_crc32}
+{% endhighlight %}
+
+This means you can step around the @facets@ and @for@ calls to get results for specific facet arguments using @search@ (again, using earlier examples):
+
+{% highlight ruby %}
+# all 'detection' articles with author 'Sherlock Holmes'
+Article.search 'detection',
+  :with => {:author_facet => 'Sherlock Holmes'.to_crc32}
+{% endhighlight %}
