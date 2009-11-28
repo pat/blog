@@ -127,8 +127,8 @@ Thinking Sphinx does not sort facet results. If this is what you'd prefer, then 
 
 {% highlight ruby %}
 @facets[:author].sort
-# Catch options that are nil
-@facets[:author].sort_by { |a| a[0] || '' }
+# Sort by strings to avoid exceptions
+@facets[:author].sort_by { |a| a[0].to_s }
 {% endhighlight %}
 
 h3. Facets Internals
