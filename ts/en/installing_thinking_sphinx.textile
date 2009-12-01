@@ -19,7 +19,7 @@ gem install thinking-sphinx \
 If you're using Merb, then you just need to require the library within your @init.rb@:
 
 {% highlight ruby %}
-require 'thinking_sphinx/0.9.8'
+require 'thinking_sphinx'
 {% endhighlight %}
 
 For Rails users, you'll need to add the gem to your configuration setup in @environment.rb@:
@@ -27,25 +27,14 @@ For Rails users, you'll need to add the gem to your configuration setup in @envi
 {% highlight ruby %}
 config.gem(
   'thinking-sphinx',
-  :lib     => 'thinking_sphinx/0.9.8',
+  :lib     => 'thinking_sphinx',
   :version => '1.3.3'
 )
 {% endhighlight %}
 
-If you're using Sphinx 0.9.9, set the @lib@ value appropriately (or change the require statement if you're using Merb).
+And one last thing: ensure the rake tasks are available by adding the following lines to your @Rakefile@:
 
 {% highlight ruby %}
-config.gem(
-  'thinking-sphinx',
-  :lib     => 'thinking_sphinx/0.9.9',
-  :version => '1.3.3'
-)
-{% endhighlight %}
-
-And one last thing: ensure the rake tasks are available by adding the following lines to your @Rakefile@ (change the Sphinx version if necessary):
-
-{% highlight ruby %}
-require 'thinking_sphinx/0.9.8'
 require 'thinking_sphinx/tasks'
 {% endhighlight %}
 
@@ -56,12 +45,6 @@ If you've got @git@ installed, and are using Rails 2.1 or newer, then it's painl
 {% highlight sh %}
 script/plugin install \
   git://github.com/freelancing-god/thinking-sphinx.git
-{% endhighlight %}
-
-If you're using Sphinx 0.9.9, then you'll need to manually add a require statement to the end of your @environment.rb@:
-
-{% highlight ruby %}
-require 'thinking_sphinx/0.9.9'
 {% endhighlight %}
 
 h3. As a Plugin with Rails 2.0 or older and Git
@@ -80,12 +63,6 @@ And if you want to make sure it all gets committed to git as part of your main r
 rm -r vendor/plugins/thinking_sphinx/.git
 {% endhighlight %}
 
-Again, if you're using Sphinx 0.9.9, then you'll need to manually add a require statement to the end of your @environment.rb@:
-
-{% highlight ruby %}
-require 'thinking_sphinx/0.9.9'
-{% endhighlight %}
-
 h3. As a Plugin without Git
 
 If you don't have @git@ installed, all is not lost. You can either manually download the tarball from GitHub, and then extract it into your @vendor/plugins@ directory, or you can run the following shell commands from the root of your Rails application, which do exactly the same thing.
@@ -98,10 +75,4 @@ tar -xvf thinking-sphinx.tar.gz -C vendor/plugins
 mv vendor/plugins/freelancing-god-thinking-sphinx* \
   vendor/plugins/thinking-sphinx
 rm thinking-sphinx.tar.gz
-{% endhighlight %}
-
-And just like in the other ways of installing Thinking Sphinx as a plugin, if you're using Sphinx 0.9.9, make sure you add a require statement to the end of your @environment.rb@:
-
-{% highlight ruby %}
-require 'thinking_sphinx/0.9.9'
 {% endhighlight %}
