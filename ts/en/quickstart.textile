@@ -27,6 +27,8 @@ class Article < ActiveRecord::Base
 end
 {% endhighlight %}
 
+Please don't forget that fields and attributes must reference columns from your model database tables, *not* methods. Sphinx talks directly to your database when indexing, and so the logic in your models doesn't have any impact.
+
 The next step is to index your data:
 
 {% highlight sh %}

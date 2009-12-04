@@ -25,7 +25,7 @@ end
 
 h3. Fields
 
-The *indexes* method adds one (or many) fields, by referencing the model's column names.
+The @indexes@ method adds one (or many) fields, by referencing the model's column names. *You cannot reference model methods* - Sphinx talks directly to your database, and Ruby doesn't get loaded at this point.
 
 {% highlight ruby %}
 indexes content
@@ -37,7 +37,7 @@ Keep in mind that if you're referencing a column that shares its name with a cor
 indexes :name
 {% endhighlight %}
 
-You don't need to keep the same names as the database, though. Use the *:as* option to signify an alias.
+You don't need to keep the same names as the database, though. Use the @:as@ option to signify an alias.
 
 {% highlight ruby %}
 indexes content, :as => :post
