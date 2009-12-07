@@ -22,7 +22,7 @@ Configuring Sphinx for our production environment includes setting where the PID
 {%highlight yaml%}
 production:
   pid_file: /path/to/app/shared/tmp/searchd.pid
-  searchd_files: /path/to/app/shared/db/sphinx
+  searchd_file_path: /path/to/app/shared/db/sphinx
 {%endhighlight%}
 
 You'll want to make sure that the application shared folder has @db@ and @tmp@ subdirectories. You'll also want to double check the permissions of these folders so that the user the application and searchd both runs as can write to both folders.
