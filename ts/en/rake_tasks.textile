@@ -48,10 +48,10 @@ total 0.010 sec, 0.00 bytes/sec, 0.00 docs/sec
 distributed index 'article' can not be directly indexed; skipping.
 {% endhighlight %}
 
-This task, run normally, will also generate the configuration file for Sphinx. If you decide to make custom changes, then you can disable this generation by setting the environment variable *INDEX_ONLY* to true.
+This task, run normally, will also generate the configuration file for Sphinx. If you decide to make custom changes, then you can disable this generation running @reindex@ instead.
 
 {% highlight sh %}
-rake thinking_sphinx:index INDEX_ONLY=true
+rake thinking_sphinx:reindex
 {% endhighlight %}
 
 h3. Generating the Configuration File
