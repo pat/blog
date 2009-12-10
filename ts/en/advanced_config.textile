@@ -9,11 +9,11 @@ Thinking Sphinx provides a good set of defaults out of the box, and for some peo
 
 {% highlight yaml %}
 development:
-  port: 3312
+  port: 9312
 test:
-  port: 3313
+  port: 9313
 production:
-  port: 3312
+  port: 9312
 {% endhighlight %}
 
 Now, "Sphinx has a _lot_ of different settings":http://www.sphinxsearch.com/docs/manual-0.9.8.html#confgroup-index you can play with, and they're pretty much all supported by Thinking Sphinx as well. Documentation will be added here for them over time, but in a pinch, it should be pretty easy to guess the syntax for the YAML file for each setting.

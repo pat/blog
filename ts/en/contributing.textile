@@ -45,7 +45,7 @@ rake spec VERSION=0.9.9
 
 <h3 id="cucumber">Running Cucumber Features</h3>
 
-Thinking Sphinx's Cucumber features require both a database, and port 3312 to run Sphinx on. The latter should take care of itself provided you're not using that port already. The former is managed by @features/support/database.yml@ (with an example file at @features/support/database.example.yml@).
+Thinking Sphinx's Cucumber features require both a database, and port 9312 to run Sphinx on. The latter should take care of itself provided you're not using that port already. The former is managed by @features/support/database.yml@ (with an example file at @features/support/database.example.yml@).
 
 And again, just like with the specs, you'll need to run the features with a given version specified:
 

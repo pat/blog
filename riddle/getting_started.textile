@@ -28,7 +28,7 @@ h3. Searching
 You'll need an active Client instance:
 
 {% highlight ruby %}
-client = Riddle::Client.new 'localhost', 3312
+client = Riddle::Client.new 'localhost', 9312
 {% endhighlight %}
 
 Obviously, change the address and port to suit, if necessary.
