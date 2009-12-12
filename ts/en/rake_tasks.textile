@@ -54,6 +54,12 @@ This task, run normally, will also generate the configuration file for Sphinx. I
 rake thinking_sphinx:reindex
 {% endhighlight %}
 
+If you're using a version of Thinking Sphinx older than 1.3.10, then @reindex@ doesn't exist, but you can do the same thing by setting the INDEX_ONLY environment variable to true:
+
+{% highlight sh %}
+rake thinking_sphinx:index INDEX_ONLY=true
+{% endhighlight %}
+
 h3. Generating the Configuration File
 
 If you need to just generate the configuration file, without indexing (something that can be useful when deploying), here's the task (and shortcuts) to do it:
