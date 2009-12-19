@@ -7,6 +7,7 @@ h2. Common Questions and Issues
 
 Depending on how you have Sphinx setup, or what database you're using, you might come across little issues and curiosities. Here's a few to be aware of.
 
+* "Viewing Result Weights":#weights
 * "Wildcard Searching":#wildcards
 * "Slow Indexing":#slow_indexing
 * "MySQL and Large Fields":#mysql_large_fields
@@ -17,6 +18,18 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Vendored Delayed Job, AfterCommit and Riddle":#vendored
 * "Filtering on String Attributes":#string_filters
 * "Models outside of @app/models@":#external_models
+
+<h3 id="weights">Viewing Result Weights</h3>
+
+To retrieve the weights/rankings of each search result, you can enumerate through your matches using @each_with_weighting@:
+
+{% highlight ruby %}
+results.each_with_weighting do |result, weight|
+  # ...
+end
+{% endhighlight %}
+
+However, there is currently no clean way to get the weight of a specific result without looping though the dataset.
 
 <h3 id="wildcards">Wildcard Searching</h3>
 
