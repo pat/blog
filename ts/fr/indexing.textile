@@ -9,7 +9,7 @@ Tout ce qui concerne les indexes pour vos models va dans la méthode *define_ind
 
 {% highlight ruby %}
 class Article < ActiveRecord::Base
-  # @...@
+  # ...
   
   define_index do
     indexes subject, :sortable => true
@@ -19,7 +19,7 @@ class Article < ActiveRecord::Base
     has author_id, created_at, updated_at
   end
   
-  # @...@
+  # ...
 end
 {% endhighlight %}
 

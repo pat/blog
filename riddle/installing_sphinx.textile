@@ -1,5 +1,5 @@
 ---
-layout: ts_en
+layout: riddle
 title: Installing Sphinx
 ---
 

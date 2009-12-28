@@ -48,11 +48,11 @@ rm thinking-sphinx.tar.gz
 
 h3. En tant que Gem
 
-Il y a plusieurs étapes pour utiliser Thinking en tant que gem. Premièrement, l'installation à partir de GitHub:
+Il y a plusieurs étapes pour utiliser Thinking en tant que gem. Premièrement, l'installation à partir de GemCutter:
 
 {% highlight sh %}
-sudo gem install freelancing-god-thinking-sphinx \
-  @--@source http://gems.github.com
+gem install thinking-sphinx \
+  --source http://gemcutter.org
 {% endhighlight %}
 
 Si vous utilisez Merb, vous avez juste besoin d'inclure la librairie dans votre @init.rb@:
@@ -65,9 +65,9 @@ Pour les utilisateurs de Rails, vous aurez besoin d'ajouter la gem à votre conf
 
 {% highlight ruby %}
 config.gem(
-  'freelancing-god-thinking-sphinx',
-  :lib         => 'thinking_sphinx',
-  :version     => '1.1.12'
+  'thinking-sphinx',
+  :lib     => 'thinking_sphinx',
+  :version => '1.1.12'
 )
 {% endhighlight %}
 

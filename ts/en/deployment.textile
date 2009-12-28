@@ -5,4 +5,68 @@ title: Deployment
 
 h2. Deployment
 
-This section hasn't yet been written. If you think you know something that should be on this page, why don't you fork "the documentation source":http://github.com/freelancing-god/freelancing-god.github.com and submit a patch?
+Once we've "installed Sphinx":installing_sphinx.html and "installed ThinkingSphinx":installing_thinking_sphinx.html on your production server, as well as setting up all of our indexes, we can deploy it to our production servers.
+
+
+h3. Basics
+
+Essentially, the following steps need to be performed for a deployment:
+
+* stop Sphinx @searchd@ (ensure it's running)
+* generate Sphinx configuration
+* start Sphinx @searchd@
+* ensure index is regularly rebuilt
+
+Configuring Sphinx for our production environment includes setting where the PID file and the index files are stored. In your @config/sphinx.yml@ file, set up the following additional parameters:
+
+{%highlight yaml%}
+production:
+  pid_file: /path/to/app/shared/tmp/searchd.pid
+  searchd_file_path: /path/to/app/shared/db/sphinx
+{%endhighlight%}
+
+You'll want to make sure that the application shared folder has @db@ and @tmp@ subdirectories. You'll also want to double check the permissions of these folders so that the user the application and searchd both runs as can write to both folders.
+
+Before deploying, we generally assume that the Sphinx @searchd@ search daemon is running. You may need to manually configure and run the daemon the first deployment with ThinkingSphinx support added.
+
+
+h3. Deploying With Capistrano
+
+Deploying via Capistrano is simplified by the included recipe file that comes with the ThinkingSphinx plugin.
+
+The first step is to include the recipe in order to define the necessary tasks for us:
+
+{%highlight ruby%}
+require 'vendor/plugins/thinking-sphinx/recipes/thinking_sphinx'
+{%endhighlight%}
+
+Now we can define our callbacks in order to make sure that Sphinx is properly configured, indexed, and started on each deploy:
+
+{%highlight ruby%}
+task :before_update_code, :roles => [:app] do
+  thinking_sphinx.stop
+end
+
+task :after_update_code, :roles => [:app] do
+  symlink_sphinx_indexes
+  thinking_sphinx.configure
+  thinking_sphinx.start
+end
+
+task :symlink_sphinx_indexes, :roles => [:app] do
+  run "ln -nfs #{shared_path}/db/sphinx #{current_path}/db/sphinx"
+end
+{%endhighlight%}
+
+The above makes sure we stop the Sphinx @searchd@ search daemon before we update the code. After the code is updated, we reconfigure Sphinx and then restart. We'll setup a @cron@ job next to keep the indexes up-to-date.
+
+
+h3. Regularly Rebuilding the Index
+
+One of the side effects of the Sphinx indexing methodology is that it is necessary to constantly rebuild the index in order to be able to search with recent changes. In order to do this, we set up a @cron@ job to run the appropriate command.
+
+In your @/etc/crontab@ file, add the following line to the bottom:
+
+{%highlight bash%}
+0 * * * * deploy  cd /path/to/app/current && /usr/local/bin/rake thinking_sphinx:rebuild RAILS_ENV=production
+{%endhighlight%}
