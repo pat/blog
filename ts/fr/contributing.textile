@@ -97,6 +97,6 @@ La configuration de la base de données par defaut est:
 * Database: @thinking_sphinx@
 * Username: @thinking_sphinx@
 
-Vous pouvez cutomiser tout la configuration via des accesseurs sur l'instance d'InternalWorld dans le fichier @env.rb@.
+Vous pouvez customiser toute la configuration via des accesseurs sur l'instance d'InternalWorld dans le fichier @env.rb@.
 
 Je vous recommande de jeter un coup d'oeil sur "la librairie Delta Asynchrone":http://github.com/freelancing-god/ts-delayed-delta/ pour vous inspirer.
