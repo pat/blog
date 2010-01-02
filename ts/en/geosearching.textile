@@ -51,13 +51,15 @@ For the first, you can provide an array of two arguments (latitude and longitude
 {% highlight ruby %}
 # Searching for places within 10km
 Place.search "pancakes", :geo => [@lat, @lng],
-  :with => {"@geodist" => 0..10_000}
+  :with => {"@geodist" => 0.0..10_000.0}
 # Searching for places sorted by closest first
 Place.search "pancakes", :geo => [@lat, @lng],
   :order => "@geodist ASC, @relevance DESC"
 {% endhighlight %}
 
 If you do not provide any reference to @@geodist@, then the lat/lng values will be ignored by Sphinx.
+
+*Don't forget:* Sphinx expects the latitude and longitude values to be in radians - so you will probably need to convert the values when searching.
 
 h3. Displaying Results
 
