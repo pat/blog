@@ -68,5 +68,5 @@ One of the side effects of the Sphinx indexing methodology is that it is necessa
 In your @/etc/crontab@ file, add the following line to the bottom:
 
 {%highlight bash%}
-0 * * * * deploy  cd /path/to/app/current && /usr/local/bin/rake thinking_sphinx:rebuild RAILS_ENV=production
+0 * * * * deploy  cd /path/to/app/current && /usr/local/bin/rake thinking_sphinx:index RAILS_ENV=production
 {%endhighlight%}
