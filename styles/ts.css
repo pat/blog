@@ -2,22 +2,25 @@ body {
   margin: 0 0 1em 0;
   font-size: 14px;
   line-height: 1.4286;
-  color: #363642;
-  background: #222C38;
+  color: #555;
+  background: #fff;
   font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
 }
 
 a {
-  color: #195190;
+  color: #3366cc;
   outline: none;
+  text-decoration: underline;
 }
 
 a:visited {
-  color: #195190;
+  color: #666;
+  
 }
 
 a:hover {
-  color: #999;
+  color: #66cc33;
+  text-decoration: none;
 }
 
 p, ul, blockquote, pre, td, th, label {
@@ -57,11 +60,20 @@ code {
 
 .wrapper {
   width: 960px;
-  background: #fff;
   margin: 0 auto;
   text-align: left;
   overflow: hidden;
   position: relative;
+}
+
+div#navigation {
+  clear: both;
+  margin: 0 0 0 0;
+  padding: .8em 0 .6em 0;
+  overflow: hidden;
+  background: #efefef;
+  color: #888;
+  border-bottom: 1px solid #ccc;
 }
 
 div#header {
@@ -70,7 +82,6 @@ div#header {
   padding-top: 10px;
   text-align: center;
   overflow: hidden;
-  background: url('../images/bg-panel-top.gif') no-repeat center top;
 }
 
 div#language {
@@ -101,21 +112,28 @@ div#language ul li.selected a:visited {
   font-weight: bold;
 }
 
-div#navigation {
-  clear: both;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  overflow: hidden;
-  background: url('../images/bg-panel-content.gif') repeat-y center top;
-}
 
 div#navigation .wrapper {
   width: 940px;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  padding: 0.75em 0 0.5em 0;
 }
+
+div#navigation .wrapper a#logo {  
+  color: #828282;
+  display:block;
+  float: left;
+  font-weight: bold;
+  font-size: 1.1em;
+  line-height: 1.2em;
+  margin: 0.15em 1em 0 0;
+  padding: 0 1em 0 0;
+  text-decoration: none;
+}
+
+div#navigation .wrapper a#logo span {
+  color: #bbbaba;
+  font-size: .85em;
+}
+
 
 div#navigation ul {
   margin:0;
@@ -123,18 +141,23 @@ div#navigation ul {
 }
 
 div#navigation ul li {
+  margin: 0;
+  padding: 0;
   float: left;
-  border-left: 1px solid #777;
+  border-left: 1px solid #ccc;
 }
 
-div#navigation ul li.first {
-  border-left: 0;
+div#navigation ul li.lang {
+  float: right;
+  border-left: none;
+  font-size: .83em;
 }
 
 div#navigation ul li a,
 div#navigation ul li a:visited {
+  color: #999;
   display:block;
-   padding: 0em 1em 0.25em 1em ;
+  padding: 0em 1em 0 1em ;
   text-decoration:none;
 }
 
@@ -145,18 +168,23 @@ div#navigation ul li a:visited {
 
 div#navigation ul li.selected a,
 div#navigation ul li.selected a:visited {
-  text-decoration: none;
-  font-weight: bold;
-  color: #111;
+  text-decoration: none;  
+  color: #6c3;
+}
+
+div#navigation ul li.active a,
+div#navigation ul li.selected a:visited {
+  text-decoration: none;  
+  color: #444;
 }
 
 div#content {
   clear: both;
-  margin: 0 auto;
-  padding: 0 0 0 0;
+  margin: 0 auto 3em auto;
+  padding: 0 0 0;
   text-align:center;
   overflow: hidden;
-  background: url('../images/bg-panel-content.gif') repeat-y center top;
+  background: url(/images/bg-content.gif) repeat-y center top;
 }
 
 div#content div.pad {
@@ -187,53 +215,54 @@ div#main {
 
 div#sidebar {
   float:right;
-  width: 300px;
+  width: 325px;
   overflow: hidden;
-  padding-top: 2em;
+  padding-top: 0;
 }
 
-#sidebar ul.subnav {
+#sidebar ul {
   margin:0 0 1.5em 0;
   padding:0;
-  border-bottom: 1px solid #ccc;
 }
 
 
-#sidebar ul.subnav li a,
-#sidebar ul.subnav li a:visited {
+#sidebar ul li a,
+#sidebar ul li a:visited {
   display:block;
   text-decoration:none;
-  padding:4px 0 3px 5px;
-  border-top: 1px solid #ccc;
+  padding:4px 0 3px 20px;
+  border-top: 1px solid #efefef;
 }
 
-#sidebar ul.subnav li a:hover,
-#sidebar ul.subnav li a:visited:hover {
+#sidebar ul li a:hover,
+#sidebar ul li a:visited:hover {
   text-decoration:underline;
 }
 
-#sidebar ul.subnav li.selected a,
-#sidebar ul.subnav li.selected a:visited {
-  color: #111;
-  font-weight: bold;
+#sidebar ul li.selected a,
+#sidebar ul li.selected a:visited {
+  color: #6c3;
+  background: #efefef;
+  margin-left: 0;
+  padding-left: 20px;
 }
 
-#sidebar ul.subnav li ul {
+#sidebar ul li ul {
   border-bottom: 0;
   list-style-type: disc;
   margin-bottom: 0.5em;
 }
 
-#sidebar ul.subnav li ul li {
+#sidebar ul li ul li {
   border-bottom: 0;
   list-style-type: disc;
   margin-left: 1.5em;
 }
 
-#sidebar ul.subnav li ul li a,
-#sidebar ul.subnav li ul li a:visited,
-#sidebar ul.subnav li.selected ul li a,
-#sidebar ul.subnav li.selected ul li a:visited {
+#sidebar ul li ul li a,
+#sidebar ul li ul li a:visited,
+#sidebar ul li.selected ul li a,
+#sidebar ul li.selected ul li a:visited {
   display:block;
   text-decoration:none;
   padding:0;
@@ -242,8 +271,8 @@ div#sidebar {
   color: #195190;
 }
 
-#sidebar ul.subnav li ul li.selected a,
-#sidebar ul.subnav li ul li.selected a:visited {
+#sidebar ul li ul li.selected a,
+#sidebar ul li ul li.selected a:visited {
   color: #444;
   font-weight: normal;
 }
@@ -254,7 +283,9 @@ div#footer {
   padding-top: 10px;
   text-align: center;
   overflow: hidden;
-  background: url('../images/bg-panel-footer.gif') no-repeat center top;
+  background: #efefef;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd
 }  
 
 div#footer .wrapper {
@@ -266,11 +297,12 @@ div#footer div.box {
   float: left;
   width: 280px;
   margin-right: 30px;
-  color: #a7b3c2;
+  color: #888;
 }
 
 div#footer div.last {
   margin-right: 0;
+  margin-left: 15px;
 }
 
 div#footer div.box ul li a,
@@ -352,6 +384,46 @@ div#header h1 a:visited:hover {
   background: url('../images/logo.gif') no-repeat top left;
 }
 
+div#header h1.riddle {
+  float: none;
+  width: 100%;
+  text-indent: 0;
+  background: #fff;
+  color: #000;
+  font-size:4em;
+  margin: 20px 0 0 0;
+  padding:0;
+}
+
+div#header h1.riddle a,
+div#header h1.riddle a:visited,
+div#header h1.riddle a:hover,
+div#header h1.riddle a:visited:hover {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: #000;
+  text-decoration: none;
+  background: #fff url(/images/ts.gif) no-repeat right center;
+}
+
+div#header p {
+  color: #777;
+  display: block;
+  font: italic 1.25em Georgia, Times, Serif;
+  line-height: 1.67em;
+  margin: 0.935em 0 1.87em 0;
+  padding: 0 0 1.25em 0;
+  border-bottom: 1px solid #ccc;
+}
+
+div#sidebar h2 {
+  font-size: .9em;
+  letter-spacing: .5px;
+  text-transform:uppercase;
+  margin: 40px 20px 5px 20px;
+}
+
 .highlight pre {
   font-family: 'Bitstream Vera Sans Mono', 'Courier', monospace;
   padding: 0 1.5em;
@@ -370,7 +442,6 @@ div#header h1 a:visited:hover {
 }
 
 div#content div.pad {
-  margin-left: 20px;
-  margin-right: 20px;
-  border-top:4px solid #222C38;
+  margin-left: 0;
+  margin-right: 0;
 }
