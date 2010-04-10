@@ -19,6 +19,7 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Filtering on String Attributes":#string_filters
 * "Models outside of @app/models@":#external_models
 * "Using Thinking Sphinx with Bundler":#bundler
+* "Mixing Ranged Filters and OR Logic":#range_or
 
 <h3 id="weights">Viewing Result Weights</h3>
 
@@ -177,3 +178,11 @@ gem 'thinking-sphinx',
 {% endhighlight %}
 
 If this isn't done, it can introduce issues with gem loading order and script/console.
+
+<h3 id="range_or">Mixing Ranged Filters and OR Logic</h3>
+
+While Sphinx allows for querying with ranged filters on attributes, you can't have multiple filters joined by OR logic - all must match.
+
+As a way around this, you might want to construct a SQL snippet which returns specific values for each range interval, and then filter by an array of values for the intervals you want. Check out "Tiago's solution on the Google Group":http://groups.google.com/group/thinking-sphinx/msg/f022421e87a732bf.
+
+This won't suit all situations, of course - if you don't have specific range intervals, then you're going to have to try something else.
