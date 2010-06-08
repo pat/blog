@@ -7,6 +7,8 @@ h2. Common Questions and Issues
 
 Depending on how you have Sphinx setup, or what database you're using, you might come across little issues and curiosities. Here's a few to be aware of.
 
+* "Editing the generated Sphinx configuration file":#editconf
+* "Running multiple instances of Sphinx on one machine":#multiple
 * "Viewing Result Weights":#weights
 * "Wildcard Searching":#wildcards
 * "Slow Indexing":#slow_indexing
@@ -20,6 +22,25 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Models outside of @app/models@":#external_models
 * "Using Thinking Sphinx with Bundler":#bundler
 * "Mixing Ranged Filters and OR Logic":#range_or
+
+<h3 id="editconf">Editing the generated Sphinx configuration file</h3>
+
+In most situations, you won't need to edit this file yourself, and can rely on Thinking Sphinx to generate it reliably.
+
+If you do want to customise the settings, you'll find most options are available to set via @config/sphinx.yml@ - many are mentioned on the "Advanced Sphinx Configuration page":advanced_config.html. For those that aren't mentioned on that page, you could still try setting it, and there's a fair chance it will work.
+
+On the off chance that you actually do need to edit the file, make sure you're running the @thinking_sphinx:reindex@ task instead of the normal @thinking_sphinx:index@ task - as the latter will always regenerate the configuration file, overwriting your customisations.
+
+<h3 id="multiple">Running multiple instances of Sphinx on one machine</h3>
+
+You can run as many Sphinx instances as you wish on one machine - but each must be bound to a different port. You can do this via the @config/sphinx.yml@ file - just add a setting for the port for the specific environment:
+
+{% highlight yaml %}
+staging:
+  port: 9313
+{% endhighlight %}
+
+Other options are documented on the "Advanced Sphinx Configuration page":advanced_config.html.
 
 <h3 id="weights">Viewing Result Weights</h3>
 
