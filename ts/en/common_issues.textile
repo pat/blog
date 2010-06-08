@@ -22,6 +22,7 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Models outside of @app/models@":#external_models
 * "Using Thinking Sphinx with Bundler":#bundler
 * "Mixing Ranged Filters and OR Logic":#range_or
+* "Removing HTML from Excerpts":#escape_html
 
 <h3 id="editconf">Editing the generated Sphinx configuration file</h3>
 
@@ -207,3 +208,11 @@ While Sphinx allows for querying with ranged filters on attributes, you can't ha
 As a way around this, you might want to construct a SQL snippet which returns specific values for each range interval, and then filter by an array of values for the intervals you want. Check out "Tiago's solution on the Google Group":http://groups.google.com/group/thinking-sphinx/msg/f022421e87a732bf.
 
 This won't suit all situations, of course - if you don't have specific range intervals, then you're going to have to try something else.
+
+<h3 id="escape_html">Removing HTML from Excerpts</h3>
+
+For a while, Thinking Sphinx auto-escaped excerpts. However, Sphinx itself can remove HTML entities for indexing and excerpts, which is a better way to approach this. So, you'll want to add the following setting to your @sphinx.yml@ file:
+
+{% highlight yaml %}
+html_strip: true
+{% endhighlight %}
