@@ -191,15 +191,19 @@ By default, Thinking Sphinx will load all models in @app/models@ and @vendor/plu
 
 <h3 id="bundler">Using Thinking Sphinx with Bundler</h3>
 
-If you're using Thinking Sphinx with the gem manager Bundler, you will need to set the @:require_as@ option to thinking_sphinx.
+If you're using Thinking Sphinx with the gem manager Bundler, you will need to set the @:require@ option to thinking_sphinx.
 
 {% highlight ruby %}
 gem 'thinking-sphinx',
-  :version    => '1.3.14',
-  :require_as => 'thinking_sphinx'
+  :version => '1.3.17',
+  :require => 'thinking_sphinx'
 {% endhighlight %}
 
-If this isn't done, it can introduce issues with gem loading order and script/console.
+If this isn't done, it can introduce issues with gem loading order and script/console. And don't forget that you will still need to explicitly request the Thinking Sphinx tasks in your @Rakefile@:
+
+{% highlight ruby %}
+require 'thinking_sphinx/tasks'
+{% endhighlight %}
 
 <h3 id="range_or">Mixing Ranged Filters and OR Logic</h3>
 
