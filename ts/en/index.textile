@@ -5,6 +5,8 @@ title: Home
 
 h2. Thinking Sphinx
 
+*Using Rails 3?* Thinking Sphinx 2 (currently a prerelease) supports Rails 3 only - "here's the lowdown on how to get it set up":rails3.html.
+
 h3. What?
 
 A concise and easy-to-use Ruby library that connects ActiveRecord to the "Sphinx":http://sphinxsearch.com search daemon, managing configuration and searching.

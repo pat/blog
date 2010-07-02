@@ -5,6 +5,8 @@ title: Installing Thinking Sphinx
 
 h2. Installing Thinking Sphinx
 
+*Please note:* Using Rails 3? You'll want to read "the new instructions for that":rails3.html.
+
 There's a few different ways you can get Thinking Sphinx installed into your web application. I *highly recommend* installing as a gem (and indeed, if you're using Merb, then you'll have to use the gem). If you're using Rails and prefer a plugin, read through the options further down the page.
 
 h3. As a Gem
