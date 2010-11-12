@@ -23,6 +23,7 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Using Thinking Sphinx with Bundler":#bundler
 * "Mixing Ranged Filters and OR Logic":#range_or
 * "Removing HTML from Excerpts":#escape_html
+* "Using other Database Adapters":#other_adapters
 
 <h3 id="editconf">Editing the generated Sphinx configuration file</h3>
 
@@ -220,3 +221,28 @@ For a while, Thinking Sphinx auto-escaped excerpts. However, Sphinx itself can r
 {% highlight yaml %}
 html_strip: true
 {% endhighlight %}
+
+<h3 id="other_adapters">Using other Database Adapters</h3>
+
+If you're using Thinking Sphinx in combination with a database adapter that isn't quite run-of-the-mill, you may need to add a snippet of code to a Rails initialiser (or equivalent). Here's an example that covers things for Octopus:
+
+{% highlight ruby %}
+ThinkingSphinx.database_adapter = lambda do |model|
+  case model.connection.config[:adapter]
+  when 'mysql', 'mysql2'
+    :mysql
+  when 'postgresql'
+    :postgresql
+  else
+    raise "You can only use Thinking Sphinx with MySQL or PostgreSQL"
+  end
+end
+{% endhighlight %}
+
+Of course, @ThinkingSphinx.database_adapter@ accepts a symbol as well, if you just want to presume that you'll always be using either MySQL or PostgreSQL:
+
+{% highlight ruby %}
+ThinkingSphinx.database_adapter = :postgresql
+{% endhighlight %}
+
+In most situations, though, you shouldn't need to do this. Thinking Sphinx understands the standard MySQL, PostgreSQL, MySQL2, MySQL Plus and NullDB (as MySQL) adapters.
