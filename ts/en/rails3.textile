@@ -9,18 +9,12 @@ Not much has changed - it's really just installation that is a little different.
 
 h3. Installing via Bundler (as a Gem)
 
-Firstly: the latest gem is a prerelease, so you'll need to install it using the @--pre@ flag:
-
-{% highlight sh %}
-gem install thinking-sphinx --pre
-{% endhighlight %}
-
 The 2.x releases of Thinking Sphinx will only support Rails 3 - not Rails 2 or earlier. So be careful with managing gem dependencies across multiple Rails versions. It may be worth looking at "RVM":http://rvm.beginrescueend.com/.
 
 In your Gemfile, you'll need to add the following:
 
 {% highlight ruby %}
-gem 'thinking-sphinx', '2.0.0.rc1', :require => 'thinking_sphinx'
+gem 'thinking-sphinx', '2.0.0', :require => 'thinking_sphinx'
 {% endhighlight %}
 
 Of course, you can point directly to the Git repository if you so desire - just make sure you're referencing the rails3 branch:
@@ -42,3 +36,5 @@ Things are even simpler if you want Thinking Sphinx installed as a plugin, inste
 script/rails plugin install \
   git://github.com/freelancing-god/thinking-sphinx.git
 {% endhighlight %}
+
+I don't recommend this option though - I think it's best to keep all dependencies in one place, and with Rails 3, the @Gemfile@ is that one place.
