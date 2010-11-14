@@ -224,7 +224,9 @@ html_strip: true
 
 <h3 id="other_adapters">Using other Database Adapters</h3>
 
-If you're using Thinking Sphinx in combination with a database adapter that isn't quite run-of-the-mill, you may need to add a snippet of code to a Rails initialiser (or equivalent). Here's an example that covers things for Octopus:
+If you're using Thinking Sphinx in combination with a database adapter that isn't quite run-of-the-mill, you may need to add a snippet of code to a Rails initialiser or equivalent (This is only available in versions 1.4.0 and 2.0.0 onwards, though).
+
+Here's an example that covers things for Octopus:
 
 {% highlight ruby %}
 ThinkingSphinx.database_adapter = lambda do |model|
