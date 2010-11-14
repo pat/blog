@@ -17,6 +17,12 @@ rake thinking_sphinx:version
 
 If you're using an older version of Thinking Sphinx as a gem, then just look at the gem version number. If you've got it installed as a plugin, though, then you're going to have to have a look at @vendor/plugins/thinking_sphinx/lib/thinking_sphinx.rb@, as that's where the version number was stored.
 
+h3. Upgrading from 2.0.0.rc2 to 2.0.0 or 1.3.20 to 1.4.0
+
+In previous versions of Thinking Sphinx, it was valid to put attribute filters in either @:with@ or @:conditions@. For a long while, filters in @:conditions@ has been clearly flagged as deprecated, and since 1.4.0 and 2.0.0 it is now removed.
+
+You can still use @:with@ for attribute filters and @:conditions@ for field-focused queries.
+
 h3. Upgrading from between 1.3.6 and 1.3.17
 
 If you're using excerpts, for this set of versions they were automatically HTML-escaped. This is now no longer the case, as Sphinx can take care of this automatically for both indexing and excerpts. Just turn on the @html_strip@ value in your @sphinx.yml@ file:
