@@ -5,7 +5,7 @@ title: Rails 3
 
 h2. Using Thinking Sphinx with Rails 3
 
-Not much has changed - it's really just installation that is a little different. Also: polymorphic associations can't currently be used in field or attribute definitions. This will be fixed at some point.
+Not much has changed - it's really just installation that is a little different.
 
 h3. Installing via Bundler (as a Gem)
 
