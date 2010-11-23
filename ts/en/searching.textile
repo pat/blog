@@ -20,6 +20,7 @@ h2. Searching
 * "Search Counts":#counts
 * "Avoiding Nil Results":#nils
 * "Automatic Wildcards":#star
+* "Errors":#errors
 * "Advanced Options":#advanced
 
 <h3 id="basic">Basic Searching</h3>
@@ -403,6 +404,24 @@ If you'd like your search keywords to be wildcards for every search, you can use
 Article.search 'pancakes waffles', :star => true
 # => becomes '*pancakes* *waffles*'
 {% endhighlight %}
+
+<h3 id="errors">Errors</h3>
+
+At times, Sphinx will return no results, but sometimes that's because there was a problem with the actual query provided. When this happens, Sphinx includes the error message in the results.
+
+You can access errors with @error@ and test for errors with @error?@.
+
+If an error is encountered, ThinkingSphinx will log it and then raise a @ThinkingSphinx::SphinxError@ exception. You can tell ThinkingSphinx to ignore errors (though it will still log them) by passing in @:ignore_errors => true@ or setting the property in your index with @set_property :ignore_errors => true@.
+
+For example:
+
+{% highlight ruby %}
+r = Article.search '@doesntexist foo', :match_mode => :extended,
+                                       :ignore_errors => true
+r.error? # => true
+{% endhighlight %}
+
+Sphinx also issues warnings that you can test for with @warning?@ and inspect with @warning@. No exception is raised on warnings.
 
 <h3 id="advanced">Advanced Options</h3>
 
