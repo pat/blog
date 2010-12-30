@@ -24,6 +24,7 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Mixing Ranged Filters and OR Logic":#range_or
 * "Removing HTML from Excerpts":#escape_html
 * "Using other Database Adapters":#other_adapters
+* "Using OR Logic with Attribute Filters":#or_attributes
 
 <h3 id="editconf">Editing the generated Sphinx configuration file</h3>
 
@@ -248,3 +249,20 @@ ThinkingSphinx.database_adapter = :postgresql
 {% endhighlight %}
 
 In most situations, though, you shouldn't need to do this. Thinking Sphinx understands the standard MySQL, PostgreSQL, MySQL2, MySQL Plus and NullDB (as MySQL) adapters.
+
+<h3 id="or_attributes">Using OR Logic with Attribute Filters</h3>
+
+It is possible to filter on attributes using OR logic - although you need to be using Sphinx 0.9.9 or newer.
+
+There's two steps to it... firstly, you need to create a computed attribute while searching, using Sphinx's select option, and then filter by that computed value. Here's an example where we want to return all publicly visible articles, as well as articles belonging to the user with an ID of 5.
+
+{% highlight ruby %}
+select = "*, IF(visible = 1 OR user_id = 5, 1, 0) AS display"
+Article.search 'pancakes',
+  :sphinx_select => select,
+  :with          => {'display' => 1}
+{% endhighlight %}
+
+It's important to note that you'll want to include all existing attribute values by default (that's the @*@ at the start of the select). It's quite similar to standard SQL syntax.
+
+For further reading, I recommend Sphinx's documentation on both "the select option":http://sphinxsearch.com/docs/manual-0.9.9.html#api-func-setselect and "expression syntax":http://sphinxsearch.com/docs/manual-0.9.9.html#sort-expr.
