@@ -257,9 +257,9 @@ It is possible to filter on attributes using OR logic - although you need to be 
 There's two steps to it... firstly, you need to create a computed attribute while searching, using Sphinx's select option, and then filter by that computed value. Here's an example where we want to return all publicly visible articles, as well as articles belonging to the user with an ID of 5.
 
 {% highlight ruby %}
-select = "*, IF(visible = 1 OR user_id = 5, 1, 0) AS display"
+with_display = "*, IF(visible = 1 OR user_id = 5, 1, 0) AS display"
 Article.search 'pancakes',
-  :sphinx_select => select,
+  :sphinx_select => with_display,
   :with          => {'display' => 1}
 {% endhighlight %}
 
