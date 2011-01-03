@@ -433,3 +433,11 @@ Thinking Sphinx also accepts the following advanced Sphinx arguments:
 * "@:max_query_time@":http://www.sphinxsearch.com/docs/current.html#api-func-setmaxquerytime
 
 Additionally, Thinking Sphinx accepts @:comment@, as the search's comment (which is printed in the query log), and @:sql_order@, which is passed through to the SQL query to instantiate the ActiveRecord objects. The latter might be useful if Sphinx's data isn't quite accurate for sorting (as can be the case with ordinal attributes).
+
+One other option - to avoid lazily loading search results and make sure Thinking Sphinx processes the search query immediately, is the @:populate@ option:
+
+{% highlight ruby %}
+Article.search 'pancakes', :populate => true
+{% endhighlight %}
+
+This is particularly useful to ensure exceptions are raised where you expect them to.
