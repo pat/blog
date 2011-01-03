@@ -25,6 +25,7 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Removing HTML from Excerpts":#escape_html
 * "Using other Database Adapters":#other_adapters
 * "Using OR Logic with Attribute Filters":#or_attributes
+* "Catching Exceptions when Searching":#exceptions
 
 <h3 id="editconf">Editing the generated Sphinx configuration file</h3>
 
@@ -266,3 +267,19 @@ Article.search 'pancakes',
 It's important to note that you'll want to include all existing attribute values by default (that's the @*@ at the start of the select). It's quite similar to standard SQL syntax.
 
 For further reading, I recommend Sphinx's documentation on both "the select option":http://sphinxsearch.com/docs/manual-0.9.9.html#api-func-setselect and "expression syntax":http://sphinxsearch.com/docs/manual-0.9.9.html#sort-expr.
+
+<h3 id="exceptions">Catching Exceptions when Searching</h3>
+
+By default, Thinking Sphinx does not execute the search query until you examine your search results - which is usually in the view. This is so you can chain sphinx scopes without sending multiple (unnecessary) queries to Sphinx.
+
+However, this means that exceptions will be fired from within the view - and most people put their exception handling in the controller. To force exceptions to fire when you actually define the search, all you need to do is to inform Thinking Sphinx that it should populate the results immediately:
+
+{% highlight ruby %}
+Article.search 'pancakes', :populate => true
+{% endhighlight %}
+
+Obviously, if you're chaining scopes together, make sure you add this at the end with a final search call:
+
+{% highlight ruby %}
+Article.published.search :populate => true
+{% endhighlight %}
