@@ -80,7 +80,10 @@ has author_id
 
 The syntax is very similar to setting up fields. You can set aliases, and drill down into associations. You don't ever need to label an attribute as *:sortable* though - in Sphinx, all attributes can be used for sorting.
 
+Also, just like fields, if you're referring to a reserved method of Ruby (such as id, name or type), you need to use a symbol (which, when dealing with associations, is within a method call).
+
 {% highlight ruby %}
+has :id, :as => :article_id
 has tags(:id), :as => :tag_ids
 {% endhighlight %}
 
