@@ -63,7 +63,7 @@ Feel free to add to the chain at any point - Thinking Sphinx won't populate the 
 
 h3. Default Scopes
 
-The default_scope method allows a sphinx scope to always be used when searching a model. This can be useful if all searches on a model require the scope is used.
+The @default_sphinx_scope@ method allows a sphinx scope to always be used when searching a model. This can be useful if all searches on a model require the scope is used.
 
 {% highlight ruby %}
 class Article < ActiveRecord::Base
@@ -77,7 +77,7 @@ class Article < ActiveRecord::Base
     {:order => 'created_at DESC, @relevance DESC'}
   }
 
-  default_scope :latest_first
+  default_sphinx_scope :latest_first
 
 end
 {% endhighlight %}
