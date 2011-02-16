@@ -86,7 +86,7 @@ rake thinking_sphinx:rebuild
 
 If Sphinx is taking a while to process all your records, there are a few common reasons for this happening. Firstly, make sure you have database indexes on any foreign key columns and any columns you filter or sort by.
 
-Secondly - are you using fixtures? Rails' fixtures have randomly generated IDs, which are usually extremely large integers, and Sphinx isn't set up to process disparate IDs efficiently by default. To get around this, you'll need to set *sql_range_step* in your config/sphinx.yml file for the appropriate environments:
+Secondly - are you using fixtures, or are there large gaps between primary key values for your models? Sphinx isn't set up to process disparate IDs efficiently by default - and Rails' fixtures have randomly generated IDs, which are usually extremely large integers. To get around this, you'll need to set *sql_range_step* in your config/sphinx.yml file for the appropriate environments:
 
 {% highlight yaml %}
 development:
