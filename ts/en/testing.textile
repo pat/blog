@@ -5,6 +5,8 @@ title: Testing
 
 h2. Testing with Thinking Sphinx
 
+Before you get caught up in the specifics of testing Thinking Sphinx using certain tools, it's worth noting that no matter what the approach, you'll need to turn off transactional fixtures and index your data after creating the appropriate records - otherwise you won't get any search results.
+
 <ul>
   <li><a href="#unit_tests">Unit Tests and Specs</a></li>
   <li><a href="#cucumber">Cucumber</a></li>
@@ -24,10 +26,17 @@ require 'cucumber/thinking_sphinx/external_world'
 Cucumber::ThinkingSphinx::ExternalWorld.new
 {% endhighlight %}
 
-And you also _need_ to turn transactional fixtures off:
+Don't forget, you also _need_ to turn transactional fixtures off. This can be done on a global level in your @features/support/env.rb@ file:
 
 {% highlight ruby %}
 Cucumber::Rails::World.use_transactional_fixtures = false
+{% endhighlight %}
+
+Or, you can tag either an entire feature or single scenarios with the @@no-txn@ tag:
+
+{% highlight gherkin %}
+@no-txn
+Feature: Searching for articles
 {% endhighlight %}
 
 The reason for this is that while ActiveRecord can run all its operations within a single transaction, Sphinx doesn't have access to that, and so indexing will not include your transaction's changes.
@@ -72,6 +81,16 @@ In much the same way, Thinking Sphinx can be used in traditional functional and 
 {% highlight ruby %}
 require 'thinking_sphinx/test'
 ThinkingSphinx::Test.init
+{% endhighlight %}
+
+You can turn off transactional features on a per-test basis within the test class definition:
+
+{% highlight ruby %}
+class SearchControllerTest
+  self.use_transactional_fixtures = false
+  
+  # ...
+end
 {% endhighlight %}
 
 To actually have Sphinx running, you have a few options...
