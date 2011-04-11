@@ -29,9 +29,10 @@ class Article < ActiveRecord::Base
   sphinx_scope(:by_name) { |name|
     {:conditions => {:name => name}}
   }
-  sphinx_scope(:by_point) { |lat, lng|
+  # Here's an example using do/end instead of {} blocks.
+  sphinx_scope(:by_point) do |lat, lng|
     {:geo => [lat, lng]}
-  }
+  end
   
   # ...
 end
