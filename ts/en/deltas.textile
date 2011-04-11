@@ -84,7 +84,7 @@ There are two other delta approaches that Thinking Sphinx supports. The first is
 This functionality is in a separate gem, so you'll need to install it:
 
 {% highlight sh %}
-gem install ts-datetime-delta --source http://gemcutter.org
+gem install ts-datetime-delta
 {% endhighlight %}
 
 And then add the details to your @environment.rb@ file:
@@ -92,8 +92,14 @@ And then add the details to your @environment.rb@ file:
 {% highlight ruby %}
 config.gem 'ts-datetime-delta',
   :lib     => 'thinking_sphinx/deltas/datetime_delta',
-  :version => '>= 1.0.0',
-  :source  => 'http://gemcutter.org'
+  :version => '1.0.2'
+{% endhighlight %}
+
+For those of you using Rails 3, then your Gemfile is the place for this information:
+
+{% highlight ruby %}
+gem 'ts-datetime-delta', '1.0.2'
+  :require => 'thinking_sphinx/deltas/datetime_delta'
 {% endhighlight %}
 
 And finally, make sure the rake tasks are available, by adding the following line to the end of your @Rakefile@:
@@ -130,7 +136,7 @@ The more reliable option for smarter delta indexing is using the "Delayed Job":h
 To get this set up in your web application, you'll need to install the separate gem. It has Delayed Job as a dependency, so that will be automatically installed as well.
 
 {% highlight sh %}
-gem install ts-delayed-delta --source http://gemcutter.org
+gem install ts-delayed-delta
 {% endhighlight %}
 
 Don't forget to add the gem's details to your @environment.rb@ file:
@@ -138,8 +144,14 @@ Don't forget to add the gem's details to your @environment.rb@ file:
 {% highlight ruby %}
 config.gem 'ts-delayed-delta',
   :lib     => 'thinking_sphinx/deltas/delayed_delta',
-  :version => '>= 1.0.0',
-  :source  => 'http://gemcutter.org'
+  :version => '1.1.2'
+{% endhighlight %}
+
+Or, for Rails 3 - put the following in your Gemfile:
+
+{% highlight ruby %}
+gem 'ts-delayed-delta', '1.1.2',
+  :require => 'thinking_sphinx/deltas/delayed_delta'
 {% endhighlight %}
 
 And add the following line to the bottom of your @Rakefile@:
