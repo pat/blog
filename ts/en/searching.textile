@@ -296,7 +296,7 @@ set_property :field_weights => {
 If you're building your own pagination output, then you can find out the statistics of your search using the following accessors:
 
 notextile.. {% highlight ruby %}
-@articles = Aricle.search 'pancakes'
+@articles = Article.search 'pancakes'
 # Number of matches in Sphinx
 @articles.total_entries
 # Number of pages available
