@@ -14,7 +14,7 @@ The 2.x releases of Thinking Sphinx will only support Rails 3 - not Rails 2 or e
 In your Gemfile, you'll need to add the following:
 
 {% highlight ruby %}
-gem 'thinking-sphinx', '2.0.0', :require => 'thinking_sphinx'
+gem 'thinking-sphinx', '2.0.3'
 {% endhighlight %}
 
 Of course, you can point directly to the Git repository if you so desire - just make sure you're referencing the rails3 branch:
@@ -22,8 +22,7 @@ Of course, you can point directly to the Git repository if you so desire - just 
 {% highlight ruby %}
 gem 'thinking-sphinx',
   :git     => 'git://github.com/freelancing-god/thinking-sphinx.git',
-  :branch  => 'rails3',
-  :require => 'thinking_sphinx'
+  :branch  => 'rails3'
 {% endhighlight %}
 
 You do _not_ need to put the extra @require@ statement in your Rakefile - Rails 3 can determine this automatically (well, when Thinking Sphinx tells it to).
