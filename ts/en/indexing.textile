@@ -101,6 +101,22 @@ define_index do
 end
 {% endhighlight %}
 
+h3. SQL
+
+As previously mentioned, your index definition results in SQL from the indexes, the attributes, conditions and groupings, etc. With this in mind, it may be useful to simplify your index.
+
+One way would be to use something like @ActiveRecord::Base.sanitize_sql@ to generate the required SQL for you. For example:
+
+{% highlight ruby %}
+define_index do
+  # ...
+  
+  where sanitize_sql(["published", true])
+end
+{% endhighlight %}
+
+This will produce the expected @WHERE published = 1@ for MySQL.
+
 h3. Processing your Index
 
 Once you've got your index set up just how you like it, you can run "the rake task":rake_tasks.html to get Sphinx to process the data.
