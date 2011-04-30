@@ -5,6 +5,14 @@ title: Indexing
 
 h2. Indexing your Models
 
+* "Basic Indexing":#basic
+* "Fields":#fields
+* "Attributes":#attributes
+* "Conditions and Groupings":#conditions
+* "Processing your Index":#processing
+
+<h3 id="basic">Basic Indexing</h3>
+
 Everything to set up the indexes for your models goes in the *define_index* method, within your model. Don't forget to place this block _below_ your associations, otherwise any references to them for fields and attributes will not work.
 
 {% highlight ruby %}
@@ -23,7 +31,7 @@ class Article < ActiveRecord::Base
 end
 {% endhighlight %}
 
-h3. Fields
+<h3 id="fields">Fields</h3>
 
 The @indexes@ method adds one (or many) fields, by referencing the model's column names. *You cannot reference model methods* - Sphinx talks directly to your database, and Ruby doesn't get loaded at this point.
 
@@ -70,7 +78,7 @@ indexes "LOWER(first_name)", :as => :first_name, :sortable => true
 
 p. Again, in this situation, an explicit alias is required.
 
-h3. Attributes
+<h3 id="attributes">Attributes</h3>
 
 The *has* method adds one (or many) attributes, and just like the *indexes* method, it requires references to the model's column names.
 
@@ -87,7 +95,7 @@ has :id, :as => :article_id
 has tags(:id), :as => :tag_ids
 {% endhighlight %}
 
-h3. Conditions and Groupings
+<h3 id="conditions">Conditions and Groupings</h3>
 
 Because the index is translated to SQL, you may want to add some custom conditions or groupings manually - and for that, you'll want the @where@ and @group_by@ methods:
 
@@ -101,7 +109,7 @@ define_index do
 end
 {% endhighlight %}
 
-h3. Processing your Index
+<h3 id="processing">Processing your Index</h3>
 
 Once you've got your index set up just how you like it, you can run "the rake task":rake_tasks.html to get Sphinx to process the data.
 
