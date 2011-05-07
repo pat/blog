@@ -37,6 +37,9 @@ Deploying via Capistrano is simplified by the included recipe file that comes wi
 The first step is to include the recipe in order to define the necessary tasks for us:
 
 {%highlight ruby%}
+# If you're using Thinking Sphinx as a gem:
+require 'thinking_sphinx/deploy/capistrano'
+# If you're using Thinking Sphinx as a plugin:
 require 'vendor/plugins/thinking-sphinx/recipes/thinking_sphinx'
 {%endhighlight%}
 
@@ -51,10 +54,6 @@ task :after_update_code, :roles => [:app] do
   symlink_sphinx_indexes
   thinking_sphinx.configure
   thinking_sphinx.start
-end
-
-task :symlink_sphinx_indexes, :roles => [:app] do
-  run "ln -nfs #{shared_path}/db/sphinx #{release_path}/db/sphinx"
 end
 {%endhighlight%}
 

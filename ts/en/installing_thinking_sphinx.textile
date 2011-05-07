@@ -34,7 +34,11 @@ config.gem(
 And one last thing: ensure the rake tasks are available by adding the following lines to your @Rakefile@:
 
 {% highlight ruby %}
-require 'thinking_sphinx/tasks'
+begin
+  require 'thinking_sphinx/tasks'
+rescue LoadError
+  puts "You can't load Thinking Sphinx tasks unless the thinking-sphinx gem is installed."
+end
 {% endhighlight %}
 
 Please note that if you've got Rails vendored, then this may not work so neatly. Thinking Sphinx's rake tasks load ActiveRecord, but it doesn't pick up on the vendored version - so you will "still need Rails gems installed normally":http://elliot-nelson.net/2010/02/thinking-sphinx-and-frozen-rails/ as well.
