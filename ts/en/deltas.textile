@@ -98,7 +98,7 @@ config.gem 'ts-datetime-delta',
 For those of you using Rails 3, then your Gemfile is the place for this information:
 
 {% highlight ruby %}
-gem 'ts-datetime-delta', '1.0.2'
+gem 'ts-datetime-delta', '1.0.2',
   :require => 'thinking_sphinx/deltas/datetime_delta'
 {% endhighlight %}
 
