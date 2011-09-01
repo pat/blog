@@ -26,6 +26,7 @@ Depending on how you have Sphinx setup, or what database you're using, you might
 * "Using other Database Adapters":#other_adapters
 * "Using OR Logic with Attribute Filters":#or_attributes
 * "Catching Exceptions when Searching":#exceptions
+* "Slow Requests (Especially in Development)":#slow-page-requests
 
 <h3 id="editconf">Editing the generated Sphinx configuration file</h3>
 
@@ -100,7 +101,7 @@ If you've got a field that is built off multiple values in one column - ie: thro
 {% highlight rb %}
 define_index do
   # ...
-  
+
   set_property :group_concat_max_len => 8192
 end
 {% endhighlight %}
@@ -116,10 +117,10 @@ A common example is if you're converting latitude and longitude columns from deg
 {% highlight ruby %}
 define_index do
   # ...
-  
+
   has "RADIANS(latitude)",  :as => :latitude,  :type => :float
   has "RADIANS(longitude)", :as => :longitude, :type => :float
-  
+
   group_by "latitude", "longitude"
 end
 {% endhighlight %}
@@ -283,3 +284,7 @@ Obviously, if you're chaining scopes together, make sure you add this at the end
 {% highlight ruby %}
 Article.published.search :populate => true
 {% endhighlight %}
+
+<h3 id="slow-page-requests">Slow Requests (Especially in Development)</h3>
+
+If you're finding a lot of requests are quite slow (particularly in your local development environment), this could be because you have a lot of models. Thinking Sphinx loads all models to determine which ones are indexed by Sphinx (this is necessary to load search results), but you can make things much faster by setting out "a list of indexed models":/en/ts/advanced_config.html#indexed-models in your @config/sphinx.yml@ file.

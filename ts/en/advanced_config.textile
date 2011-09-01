@@ -154,3 +154,17 @@ Article.search 'pancakes',
   :max_matches => 10_000,
   :per_page    => 10_000
 {% endhighlight %}
+
+<h3 id="indexed-models">Indexed Models</h3>
+
+While not related to Sphinx, this setting is to provide faster loading of the indexed models by Thinking Sphinx. Normally, Thinking Sphinx has to load _all_ models to determine which ones are indexed. This is not ideal, so if you like, you can explicitly list the relevant models in your @config/sphinx.yml@ file:
+
+{% highlight yaml %}
+development:
+  indexed_models:
+    - Article
+    - Company
+    - User
+{% endhighlight %}
+
+Given a standard production environment does not re-initialize the app on every request, this is only useful in development. And make sure you remember to update it if you add index definitions to models!
