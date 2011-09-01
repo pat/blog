@@ -287,4 +287,4 @@ Article.published.search :populate => true
 
 <h3 id="slow-page-requests">Slow Requests (Especially in Development)</h3>
 
-If you're finding a lot of requests are quite slow (particularly in your local development environment), this could be because you have a lot of models. Thinking Sphinx loads all models to determine which ones are indexed by Sphinx (this is necessary to load search results), but you can make things much faster by setting out "a list of indexed models":/en/ts/advanced_config.html#indexed-models in your @config/sphinx.yml@ file.
+If you're finding a lot of requests are quite slow (particularly in your local development environment), this could be because you have a lot of models. Thinking Sphinx loads all models to determine which ones are indexed by Sphinx (this is necessary to load search results), but you can make things much faster by setting out "a list of indexed models":/ts/en/advanced_config.html#indexed-models in your @config/sphinx.yml@ file.
