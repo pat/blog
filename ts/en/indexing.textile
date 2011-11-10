@@ -10,6 +10,7 @@ h2. Indexing your Models
 * "Attributes":#attributes
 * "Conditions and Groupings":#conditions
 * "Sanitizing SQL":#sql
+* "Multiple Indices":#multiple
 * "Processing your Index":#processing
 
 <h3 id="basic">Basic Indexing</h3>
@@ -19,15 +20,15 @@ Everything to set up the indexes for your models goes in the *define_index* meth
 {% highlight ruby %}
 class Article < ActiveRecord::Base
   # ...
-  
+
   define_index do
     indexes subject, :sortable => true
     indexes content
     indexes author(:name), :as => :author, :sortable => true
-    
+
     has author_id, created_at, updated_at
   end
-  
+
   # ...
 end
 {% endhighlight %}
@@ -103,9 +104,9 @@ Because the index is translated to SQL, you may want to add some custom conditio
 {% highlight ruby %}
 define_index do
   # ...
-  
+
   where "status = 'active'"
-  
+
   group_by "user_id"
 end
 {% endhighlight %}
@@ -119,12 +120,26 @@ One way would be to use something like @ActiveRecord::Base.sanitize_sql@ to gene
 {% highlight ruby %}
 define_index do
   # ...
-  
+
   where sanitize_sql(["published", true])
 end
 {% endhighlight %}
 
 This will produce the expected @WHERE published = 1@ for MySQL.
+
+<h3 id="multiple">Multiple Indices</h3>
+
+If you want more than one index defined for a given model, just insert more @define_index@ calls - but make sure you give every index a name, and have the same attributes defined in all indices.
+
+{% highlight ruby %}
+define_index 'article_foo' do
+  # index definition
+end
+
+define_index 'article_bar' do
+  # index definition
+end
+{% endhighlight %}
 
 <h3 id="processing">Processing your Index</h3>
 
