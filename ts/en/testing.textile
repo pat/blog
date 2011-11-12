@@ -7,6 +7,13 @@ h2. Testing with Thinking Sphinx
 
 Before you get caught up in the specifics of testing Thinking Sphinx using certain tools, it's worth noting that no matter what the approach, you'll need to turn off transactional fixtures and index your data after creating the appropriate records - otherwise you won't get any search results.
 
+Also: make sure you have your test environment using a different port number in @config/sphinx.yml@ - otherwise you won't be able to run Sphinx in your development environment _and_ your tests at the same time.
+
+{% highlight yaml %}
+test:
+  port: 9313
+{% endhighlight %}
+
 <ul>
   <li><a href="#unit_tests">Unit Tests and Specs</a></li>
   <li><a href="#cucumber">Cucumber</a></li>
@@ -88,7 +95,7 @@ You can turn off transactional features on a per-test basis within the test clas
 {% highlight ruby %}
 class SearchControllerTest
   self.use_transactional_fixtures = false
-  
+
   # ...
 end
 {% endhighlight %}
@@ -106,10 +113,10 @@ However, you probably don't want Sphinx running for your unit tests, and so it's
 {% highlight ruby %}
 test "Searching for Articles" do
   ThinkingSphinx::Test.start
-  
+
   get :index
   assert [@article], assigns[:articles]
-  
+
   ThinkingSphinx::Test.stop
 end
 {% endhighlight %}
