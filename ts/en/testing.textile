@@ -7,7 +7,7 @@ h2. Testing with Thinking Sphinx
 
 Before you get caught up in the specifics of testing Thinking Sphinx using certain tools, it's worth noting that no matter what the approach, you'll need to turn off transactional fixtures and index your data after creating the appropriate records - otherwise you won't get any search results.
 
-Also: make sure you have your test environment using a different port number in @config/sphinx.yml@ - otherwise you won't be able to run Sphinx in your development environment _and_ your tests at the same time.
+Also: make sure you have your test environment using a different port number in @config/sphinx.yml@ (which you may need to create if you haven't already). If this isn't done, then you won't be able to run Sphinx in your development environment _and_ your tests at the same time (as they'll both want to use the same port for Sphinx).
 
 {% highlight yaml %}
 test:
