@@ -33,7 +33,7 @@ You can name your attributes to be whatever you like - Thinking Sphinx will auto
 {% highlight ruby %}
 define_index do
   # ...
-  
+
   set_property :latitude_attr => :updown,
     :longitude_attr => :leftright
 end
@@ -82,4 +82,4 @@ Or, you can access the distance as part of the @sphinx_attributes@ collection:
 <% end %>
 {% endhighlight %}
 
-It's worth noting that the distance is in metres - so those stuck on the Imperial system (Americans, that's you), you might want to convert to more archaic measurements.
+It's worth noting that the distance is in metres - so those stuck on the Imperial system (Americans, that's you), you might want to convert to less archaic measurements.
