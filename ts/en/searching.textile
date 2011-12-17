@@ -31,6 +31,8 @@ Once you've "got an index set up":indexing.html on your model, and have "the Sph
 Article.search 'pancakes'
 {% endhighlight %}
 
+Please note that Sphinx paginates search results, and the default page size is 20. You can find more information further down in the "pagination":#pagination section.
+
 <h3 id="conditions">Field Conditions</h3>
 
 To focus a query on a specific field, you can use the @:conditions@ option - much like in ActiveRecord:
