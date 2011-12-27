@@ -27,7 +27,7 @@ For Rails users, you'll need to add the gem to your configuration setup in @envi
 
 {% highlight ruby %}
 config.gem(
-  'thinking-sphinx', :version => '1.4.4'
+  'thinking-sphinx', :version => '1.4.10'
 )
 {% endhighlight %}
 
@@ -60,6 +60,8 @@ If you've got @git@, but using one of the older versions of Rails, then things a
 git clone \
   git://github.com/freelancing-god/thinking-sphinx.git \
   vendor/plugins/thinking_sphinx
+cd vendor/plugins/thinking_sphinx
+git checkout v1
 {% endhighlight %}
 
 And if you want to make sure it all gets committed to git as part of your main repository, don't forget to remove the plugin's .git directory.
@@ -74,7 +76,7 @@ If you don't have @git@ installed, all is not lost. You can either manually down
 
 {% highlight sh %}
 curl -L \
-  http://github.com/freelancing-god/thinking-sphinx/tarball/master \
+  http://github.com/freelancing-god/thinking-sphinx/tarball/v1 \
   -o thinking-sphinx.tar.gz
 tar -xvf thinking-sphinx.tar.gz -C vendor/plugins
 mv vendor/plugins/freelancing-god-thinking-sphinx* \
