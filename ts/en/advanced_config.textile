@@ -168,3 +168,17 @@ development:
 {% endhighlight %}
 
 Given a standard production environment does not re-initialize the app on every request, this is only useful in development. And make sure you remember to update it if you add index definitions to models!
+
+h3. Word Forms, Exceptions, and Stop Words
+
+To configure Thinking Sphinx for any of these features, simply specify the path to the appropriate file in your @config/sphinx.yml@ file:
+
+{% highlight yaml %}
+development:
+  wordforms: "/full/path/to/wordforms.txt"
+  exceptions: "/full/path/to/exceptions.txt"
+  stopwords: "/full/path/to/stopwords.txt"
+# ... repeat for other environments
+{% endhighlight %}
+
+For full details on what these features actually do, please refer to the Sphinx documentation.
