@@ -48,7 +48,7 @@ Feature: Searching for articles
 
 The reason for this is that while ActiveRecord can run all its operations within a single transaction, Sphinx doesn't have access to that, and so indexing will not include your transaction's changes.
 
-The added complication to this is that you'll probably want to clear all the data from your database between scenarios. This can be done within the @Before@ block, in one of your steps files (see below). Another option is Ben Mabey's "Database Cleaner":http://github.com/bmabey/database_cleaner library.
+The added complication to this is that you'll probably want to clear all the data from your database between scenarios. This can be done within the @Before@ block, in one of your steps files (see below). Another option is Ben Mabey's "Database Cleaner":http://github.com/bmabey/database_cleaner library - and make sure you use the truncation strategy.
 
 {% highlight ruby %}
 Before do
