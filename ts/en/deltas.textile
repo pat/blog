@@ -62,6 +62,7 @@ Then, in the Comment model, you'd want to have something like the following:
 
 {% highlight rb %}
 after_save :set_article_delta_flag
+after_destroy :set_article_delta_flag
 
 # ...
 
