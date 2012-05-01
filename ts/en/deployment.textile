@@ -37,28 +37,26 @@ Deploying via Capistrano is simplified by the included recipe file that comes wi
 The first step is to include the recipe in order to define the necessary tasks for us:
 
 {%highlight ruby%}
-# If you're using Thinking Sphinx as a gem:
+# If you're using Thinking Sphinx as a gem (Rails 3 way):
 require 'thinking_sphinx/deploy/capistrano'
 # If you're using Thinking Sphinx as a plugin:
 require 'vendor/plugins/thinking-sphinx/recipes/thinking_sphinx'
 {%endhighlight%}
 
-Now we can define our callbacks in order to make sure that Sphinx is properly configured, indexed, and started on each deploy:
+Now we can define our callbacks at the and of @deploy.rb@ in order to make sure that Sphinx is properly configured, indexed, and started on each deploy:
 
 {%highlight ruby%}
-task :before_update_code, :roles => [:app] do
-  thinking_sphinx.stop
+before 'deploy:update_code', 'thinking_sphinx:stop'
+after 'deploy:update_code', 'thinking_sphinx:start'
+
+namespace :sphinx do
+  desc "Symlink Sphinx indexes"
+  task :symlink_indexes, :roles => [:app] do
+    run "ln -nfs #{shared_path}/db/sphinx #{release_path}/db/sphinx"
+  end
 end
 
-task :symlink_sphinx_indexes, :roles => [:app] do
-  run "ln -nfs #{shared_path}/db/sphinx #{release_path}/db/sphinx"
-end
-
-task :after_update_code, :roles => [:app] do
-  symlink_sphinx_indexes
-  thinking_sphinx.configure
-  thinking_sphinx.start
-end
+after 'deploy:finalize_update', 'sphinx:symlink_indexes'
 {%endhighlight%}
 
 The above makes sure we stop the Sphinx @searchd@ search daemon before we update the code. After the code is updated, we reconfigure Sphinx and then restart. We'll setup a @cron@ job next to keep the indexes up-to-date.
@@ -72,4 +70,12 @@ In your @/etc/crontab@ file, add the following line to the bottom:
 
 {%highlight bash%}
 0 * * * * deploy  cd /path/to/app/current && /usr/local/bin/rake thinking_sphinx:index RAILS_ENV=production
+{%endhighlight%}
+
+Also, you can use the "whenever":https://github.com/javan/whenever gem to control your Cron tasks from the Rails app. The same job for @whenever@ in @config/schedule.rb@ looks like this:
+
+{%highlight ruby%}
+every 2.minutes do
+  rake "thinking_sphinx:index"
+end
 {%endhighlight%}
