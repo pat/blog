@@ -29,7 +29,7 @@ Turning on delta indexing is done within your model's define_index block:
 {% highlight rb %}
 define_index do
   # ...
-  
+
   set_property :delta => true
 end
 {% endhighlight %}
@@ -47,6 +47,8 @@ It's also worth noting that when each change happens, and the delta indexing is 
 {% highlight rb %}
 ThinkingSphinx.suppress_delta_output = true
 {% endhighlight %}
+
+*Please note*: Sphinx requires local disk access to your index files to manage delta indices. This means that if you do shift delta processing to some sort of queue (such as Delayed Job, discussed below, or Resque), the queue workers will need to run on the same machine as Sphinx.
 
 h3. Deltas and Associations
 
@@ -114,7 +116,7 @@ As for your models, no delta column is required for this method, and enabling it
 {% highlight ruby %}
 define_index do
   # ...
-  
+
   set_property :delta => :datetime, :threshold => 1.hour
 end
 {% endhighlight %}
@@ -132,7 +134,7 @@ There is one caveat with this approach: it uses Sphinx's index merging feature, 
 
 h4. Delayed Deltas
 
-The more reliable option for smarter delta indexing is using the "Delayed Job":http://github.com/tobi/delayed_job plugin, which queues up the index requests in a separate process (invoked by a constantly running rake task), instead of dealing with them during each web request.
+The more reliable option for smarter delta indexing is using the "Delayed Job":http://github.com/tobi/delayed_job plugin, which queues up the index requests in a separate process (invoked by a constantly running rake task), instead of dealing with them during each web request. As mentioned earlier on this page, the process will need local disk access to the Sphinx indices (essentially, your DJ workers need to be run on the same machine as Sphinx).
 
 To get this set up in your web application, you'll need to install the separate gem. It has Delayed Job as a dependency, so that will be automatically installed as well.
 
@@ -172,7 +174,7 @@ To enable this approach in your models, change your define_index block to look m
 {% highlight ruby %}
 define_index do
   # ...
-  
+
   set_property :delta => :delayed
 end
 {% endhighlight %}
