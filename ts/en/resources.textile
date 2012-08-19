@@ -27,7 +27,6 @@ h3. Blog Posts
 * "Thinking Sphinx in Arabic/Unicode":http://www.expressionlab.com/2008/11/19/thinking-sphinx-in-arabic-unicode
 * "Thinking Sphinx on Windows":http://www.espace.com.eg/blog/2009/03/23/thinking-sphinx-on-windows/
 * "named_scope and Thinking Sphinx gotcha":http://davidwparker.com/2008/11/13/named_scope-and-thinking-sphinx-gotcha/
-* "Install Sphinx & Thinking Sphinx in Debian":http://www.urbanpuddle.com/articles/2008/06/29/install-sphinx-thinking-sphinx-in-debian
 * "Delta indexing with delayed_job":http://opensoul.org/2009/4/30/keepin-sphinx-indexes-fresh-2
 * "Location-based Search":http://opensoul.org/2009/4/15/location-based-search-with-sphinx-and-acts_as_geocodable
 * "Cucumber scenarios that depend on Sphinx":http://opensoul.org/2009/6/1/cucumber-scenarios-that-depend-on-sphinx
