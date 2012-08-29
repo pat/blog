@@ -9,7 +9,7 @@ I am happy to provide support via email and "the google group":http://groups.goo
 
 h3. Further Documentation, Support and Discussion
 
-* "RDocs for the official repository":http://rdoc.info/projects/freelancing-god/thinking-sphinx
+* "RDocs for the official repository":http://rdoc.info/projects/pat/thinking-sphinx
 * "Thinking Sphinx Google Group":http://groups.google.com/group/thinking-sphinx/
 
 h3. Video

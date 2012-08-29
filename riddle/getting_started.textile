@@ -62,8 +62,8 @@ Documentation lacking (although this feature is only for Sphinx 0.9.9, so maybe 
 
 h3. Configuration
 
-Documentation lacking, but Riddle's configuration objects mirror Sphinx's, so it should be pretty easy to figure out.  Some of its usage can also be inferred by studying the Configuration model in "ThinkingSphinx":https://github.com/freelancing-god/thinking-sphinx/ .
+Documentation lacking, but Riddle's configuration objects mirror Sphinx's, so it should be pretty easy to figure out.  Some of its usage can also be inferred by studying the Configuration model in "ThinkingSphinx":https://github.com/pat/thinking-sphinx/ .
 
 h3. Controller
 
-Riddle's controller object allows you to control the operation of sphinx (starting, stopping, indexing...) in ruby.  Documentation is lacking, but some of its usage can be inferred by studying the Test and Configutation models in "ThinkingSphinx":https://github.com/freelancing-god/thinking-sphinx/ .
+Riddle's controller object allows you to control the operation of sphinx (starting, stopping, indexing...) in ruby.  Documentation is lacking, but some of its usage can be inferred by studying the Test and Configutation models in "ThinkingSphinx":https://github.com/pat/thinking-sphinx/ .

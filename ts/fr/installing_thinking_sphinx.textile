@@ -13,7 +13,7 @@ Si vous avez @git@ d'installé, et que vous utilisez Rails 2.1 ou supérieur, il
 
 {% highlight sh %}
 script/plugin install \
-  git://github.com/freelancing-god/thinking-sphinx.git
+  git://github.com/pat/thinking-sphinx.git
 {% endhighlight %}
 
 h3. Rails 2.0 ou plus ancien et Git
@@ -22,7 +22,7 @@ Si vous avez @git@, mais que vous utilisez une version plus ancienne de Rails, �
 
 {% highlight sh %}
 git clone \
-  git://github.com/freelancing-god/thinking-sphinx.git \
+  git://github.com/pat/thinking-sphinx.git \
   vendor/plugins/thinking_sphinx
 {% endhighlight %}
 
@@ -38,7 +38,7 @@ Si vous n'avez pas @git@ d'installé, tout n'est pas perdu. Vous pouvez soit té
 
 {% highlight sh %}
 curl -L \
-  http://github.com/freelancing-god/thinking-sphinx/tarball/master \
+  http://github.com/pat/thinking-sphinx/tarball/master \
   -o thinking-sphinx.tar.gz
 tar -xvf thinking-sphinx.tar.gz -C vendor/plugins
 mv vendor/plugins/freelancing-god-thinking-sphinx* \

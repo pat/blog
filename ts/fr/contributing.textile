@@ -13,7 +13,7 @@ h2. Contribuer à Thinking Sphinx
 
 <h3 id="forking">Forking and Patching</h3>
 
-Si vous voulez envoyer un patch à Thinking Sphinx, le meilleur moyen pour le faire est de forker "Le projet GitHub":http://github.com/freelancing-god/thinking-sphinx, de le patcher, et de m'envoyer une demande de Pull. La dernière étape est importante - même si je suis peut être votre fork sur GitHub, la demande m'enverra un mail dans ma boite, et donc, je n'oublierai pas vos modifications.
+Si vous voulez envoyer un patch à Thinking Sphinx, le meilleur moyen pour le faire est de forker "Le projet GitHub":http://github.com/pat/thinking-sphinx, de le patcher, et de m'envoyer une demande de Pull. La dernière étape est importante - même si je suis peut être votre fork sur GitHub, la demande m'enverra un mail dans ma boite, et donc, je n'oublierai pas vos modifications.
 
 N'oubliez pas d'ajouter les specifications - et fonctionnalités. Si il y a une fonctionnalité qui change. Cela permet de garder Thinking Sphinx aussi stable que possible, et me permet d'y intégrer plus facile vos modifications.
 
@@ -99,4 +99,4 @@ La configuration de la base de données par defaut est:
 
 Vous pouvez customiser toute la configuration via des accesseurs sur l'instance d'InternalWorld dans le fichier @env.rb@.
 
-Je vous recommande de jeter un coup d'oeil sur "la librairie Delta Asynchrone":http://github.com/freelancing-god/ts-delayed-delta/ pour vous inspirer.
+Je vous recommande de jeter un coup d'oeil sur "la librairie Delta Asynchrone":http://github.com/pat/ts-delayed-delta/ pour vous inspirer.

@@ -21,7 +21,7 @@ Of course, you can point directly to the Git repository if you so desire - just 
 
 {% highlight ruby %}
 gem 'thinking-sphinx',
-  :git => 'git://github.com/freelancing-god/thinking-sphinx.git',
+  :git => 'git://github.com/pat/thinking-sphinx.git',
   :ref => '8f0e34b4a68494738d8dd5a1cb6bcf379adbf640'
 {% endhighlight %}
 
@@ -33,7 +33,7 @@ Things are even simpler if you want Thinking Sphinx installed as a plugin, inste
 
 {% highlight sh %}
 script/rails plugin install \
-  git://github.com/freelancing-god/thinking-sphinx.git
+  git://github.com/pat/thinking-sphinx.git
 {% endhighlight %}
 
 I don't recommend this option though - I think it's best to keep all dependencies in one place, and with Rails 3, the @Gemfile@ is that one place.

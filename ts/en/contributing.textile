@@ -13,7 +13,7 @@ h2. Contributing to Thinking Sphinx
 
 <h3 id="forking">Forking and Patching</h3>
 
-If you're offering a patch to Thinking Sphinx, the best way to do this is to fork "the GitHub project":http://github.com/freelancing-god/thinking-sphinx, patch it, and then send me a Pull Request. This last step is important - while I may be following your fork on GitHub, the request means an email ends up in my inbox, so I won't forget about your changes.
+If you're offering a patch to Thinking Sphinx, the best way to do this is to fork "the GitHub project":http://github.com/pat/thinking-sphinx, patch it, and then send me a Pull Request. This last step is important - while I may be following your fork on GitHub, the request means an email ends up in my inbox, so I won't forget about your changes.
 
 Do not forget to add specs - and features, if there's any functionality changes. This keeps Thinking Sphinx as stable as possible, and makes it far easier for me to merge your changes in.
 
@@ -99,4 +99,4 @@ The default database settings are:
 
 You can customise all of these settings via accessor methods on the instance of the InternalWorld in your @env.rb@ file.
 
-I recommend looking at the "Delayed Delta":http://github.com/freelancing-god/ts-delayed-delta/ library for inspiration.
+I recommend looking at the "Delayed Delta":http://github.com/pat/ts-delayed-delta/ library for inspiration.
