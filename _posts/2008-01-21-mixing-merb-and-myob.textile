@@ -1,0 +1,35 @@
+---
+title: "Mixing Merb and MYOB"
+redirect_from: "/posts/mixing_merb_and_myob"
+categories:
+  -
+    merb
+    myob
+    odbc
+    ruby
+    rails
+---
+For one of the contracts I'm working on at the moment, I've been using "Merb":http://merbivore.com/ to construct a web service that interacts with MYOB, and can be consumed with ActiveResource.
+
+The connection to MYOB is ugly, using "Christian Werner's ODBC Bindings":http://ch-werner.de/rubyodbc/ and the "Rails/ActiveRecord ODBC Adapter":http://odbc-rails.rubyforge.org/, the latter of which had to be hacked slightly. However, the Merb side of things was quite clean. I'm really looking forward to seeing how Merb progresses, especially with their plans for "merb_core and merb_more":http://yehudakatz.com/2008/01/14/merbnext/.
+
+One of the rare snippets of code from the Merb app that I think is more verbose than the Rails equivalent is how to go about obtaining the query parameters (as opposed to routing parameters) of a request.
+
+The Rails way:
+
+<pre><code>request.query_parameters</code></pre>
+
+The Merb way:
+
+<pre><code>params.except *request.route_params.keys.collect { |key| key.to_s }</code></pre>
+
+Also, in case you're as stupid as I am and want to generate Merb controllers on the fly, you can't use Class.new. The only way is by building the class in a string and eval'ing it:
+
+<pre><code>Object.send(:eval, <<-CODE
+class ::Object::#{controller_name} < Application
+  # actions and such go here
+end
+CODE
+)</code></pre>
+
+It's not particularly elegant, but at least it works.

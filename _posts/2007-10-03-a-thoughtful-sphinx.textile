@@ -1,0 +1,49 @@
+---
+title: "A Thoughtful Sphinx"
+redirect_from: "/posts/a_thoughtful_sphinx"
+categories:
+  -
+    plugins
+    search
+    sphinx
+    ruby
+    rails
+---
+In one of the projects I've been working on lately, I've needed to implement a decent search - and so I looked at both "Ferret":http://ferret.davebalmain.com and "Sphinx":http://www.sphinxsearch.com. I ended up choosing the latter, although I'm not sure why - perhaps just to be different (most people I spoke to are using ferret), or perhaps because the setup seemed easier.
+
+The next step was to pick a Sphinx plugin to work with. "Ultrasphinx":http://blog.evanweaver.com/articles/2007/07/09/ultrasphinx-searching-the-world-in-231-seconds/ seemed to have a good set of features (particularly pagination), and supported fields from associations within indexes - something critical for what we were doing.
+
+Unfortunately, grabbing fields from associations wasn't that easy - and the SQL generated for the Sphinx configuration file was overly complex. I could (and did) change the config file manually, but that makes half the usefulness of the plugin worthless.
+
+So, since I had some spare time, I wrote my own plugin. Much like Rails, it favours convention over configuration - perhaps a little too much so at this point, but I do plan to make it more flexible at some point. Installation is the same as any other plugin:
+
+<pre><code>script/plugin install
+  http://rails-oceania.googlecode.com/svn/patallan/thinking_sphinx</code></pre>
+
+An example of defining indexes (within a model class):
+
+<pre><code>define_index do |index|
+  index.includes.email
+  index.includes(:first_name, :last_name).as.name
+  index.includes.tags.key.as.tags
+  index.includes.articles.content.as.article_content
+end</code></pre>
+
+To index the data, just use the @thinkingsphinx:index@ rake task (aliased to @ts:in@) - which will also generate the configuration file on the fly. My goal is to make changing the configuration file manually unnecessary - making the index task build the configuration file helps enforce this.
+
+And to search:
+
+<pre><code># Searching particular fields
+User.search(:conditions => {:name => "Pat"})
+# Or searching all fields
+User.search("Pat")
+# Pagination is built in
+User.search("Pat", :page => (params[:page] || 1))</code></pre>
+
+Paginated results can also be used by the will_paginate helper from "the plugin of the same name":http://errtheblog.com/post/4791. Current documentation can be found "on this site":http://ts.freelancing-gods.com.
+
+I managed to use ActiveRecord's join and associations code, which kept my plugin reasonably lean. For interactions with Sphinx's searchd daemon, I did look at Dmytro Shteflyuk's Ruby Sphinx Client API, but the non-ruby-like syntax irritated me, so again, I coded my own - heavily influenced by the original though (ie: he did all the hard work, not me).
+
+There's no support for some way to update the index pseudo-incrementally (something that is a limitation of Sphinx). If I don't feel like the incremental updating works well enough, then I may switch to Ferret - which might lead to a Thinking Ferret plugin, perhaps. We'll just have to wait and see.
+
+*Nov 14th 2007 - Update*: I've just released the internal Sphinx client as its own library - "Riddle":http://riddle.freelancing-gods.com.

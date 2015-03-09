@@ -1,0 +1,19 @@
+---
+title: "RailsCamp Wrap-up"
+redirect_from: "/posts/rails_camp_wrap_up"
+categories:
+  -
+    barcamp
+    railscamp
+    ruby
+    australia
+    rails
+    melbourne
+---
+"RailsCamp 2.0":http://railscamp07.org finished earlier today - and I think it's safe to declare it a fantastic success (even given my bias).
+
+Massive thanks to Ben and Karen for their hard work getting everyone fed and co-ordinating people in the kitchen (and the RailsCamp bus from Melbourne to Sunnystones). Thanks too to everyone who helped at various points - both in the organising and over the weekend.
+
+Finally, thank you to everyone who came along - these camps are so much fun because of the calibre of people who attend, and their willingness to share ideas, code and laughs.
+
+Will be posting a version of my talk at some point soon... once I've recovered from the weekend.

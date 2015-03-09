@@ -1,0 +1,58 @@
+---
+title: "Thinking Sphinx Delta Changes"
+redirect_from: "/posts/thinking_sphinx_delta_changes"
+categories:
+  -
+    plugins
+    search
+    sphinx
+    ruby
+    rails
+---
+There's been a bit of changes under the hood with Thinking Sphinx lately, and some of the more recent commits are pretty useful.
+
+h3. Small Stuff
+
+First off, something neat but minor - you can now use @decimal@, @date@ and @timestamp@ columns as attributes - the plugin automatically maps those to @float@ and @datetime@ types as needed.
+
+There's also now a cucumber-driven set of feature tests, which can run on MySQL and PostgreSQL. While that's not important to most users, it makes it much less likely that I'll break things. It's also useful for the numerous contributors - just over 50 people as of this week! You all rock!
+
+h3. New Delta Possibilities
+
+The major changes are around delta indexing, though. As well as the default delta column approach, there's now two other methods of getting your changes into Sphinx. The first, requested by some Ultrasphinx users, and heavily influenced by "a fork by Ed Hickey":http://blog.edhickey.com/2008/09/15/thinkingsphinx-rails-plugin-fork/, is datetime-driven deltas. You can use a @datetime@ column (the default is @updated_at@), and then run the @thinking_sphinx:index:delta@ rake task on a regular basis to load recent changes into Sphinx.
+
+Your @define_index@ block would look something like the following:
+
+<pre><code>define_index do
+  # ... field and attribute definitions
+  
+  set_property :delta => :datetime, :threshold => 1.day
+end</code></pre>
+
+If you want to use a column other than @updated_at@, set it with the @:delta_column@ option.
+
+The above situation is if you're running the rake task once a day. The more often you run it, the lower you can set your threshold. This is a bit different to the normal delta approach, as changes will _not_ appear in search results straight away - only whenever the rake task is run.
+
+h3. Delayed Reaction
+
+One of the biggest complaints with the default delta structure is that it didn't scale. Your delta index got larger and larger every time records were updated, and that meant each change got slower and slower, because the indexing time increased. When running multiple servers, you could get a few @indexer@ processes running at once. That ain't good.
+
+So now, we have delayed deltas, using the "delayed_job":http://github.com/tobi/delayed_job plugin. You'll need to have the job queue being processed (via the @thinking_sphinx:delayed_delta@ rake task), but everything is pushed off into that, instead of overloading your web server. It means the changes take slightly longer to get into Sphinx, but that's almost certainly not going to be a problem.
+
+Firstly, you'll need to create the @delayed_jobs@ table (see the delayed_job readme for example code), and then change your define_index block so it looks something like this:
+
+<pre><code>define_index do
+  # ... field and attribute definitions
+  
+  set_property :delta => :delayed
+end</code></pre>
+
+h3. Riddle Update
+
+As part of the restructuring over the last couple of months, I've also added some additional code to Riddle, my Ruby API for Sphinx. It now has objects to represent all of the configuration elements of Sphinx (ie: settings for sources, indexes, indexer and searchd), and can generate the configuration file for you. This means you don't need to worry about doing text manipulation, just do everything in neat, clean Ruby.
+
+Documentation on this is non-existent, mind you, but the source shouldn't be too hard to grok. I also need to update Thinking Sphinx's documentation to cover the delta changes - for now, this blog post will have to do. If you get stuck, check out the "Google Group":http://groups.google.com/group/thinking-sphinx.
+
+h3. Sphinx 0.9.9
+
+One more thing: "Thinking Sphinx":http://github.com/freelancing-god/thinking-sphinx/tree/sphinx-0.9.9 and "Riddle":http://github.com/freelancing-god/riddle/tree/0.9.9 now both have Sphinx 0.9.9 branches - not merged into master, as most people are still using Sphinx 0.9.8, but you can find both code sets on GitHub.

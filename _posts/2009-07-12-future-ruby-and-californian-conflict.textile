@@ -1,0 +1,34 @@
+---
+title: "FutureRuby and Californian Conflict"
+redirect_from: "/posts/future_ruby_and_californian_conflict"
+categories:
+  -
+    philosophy
+    politics
+    toronto
+    futureruby
+    california
+    san francisco
+    jesse hirsh
+    chris anderson
+    revolution
+    evolution
+    ruby
+---
+*Update: Jesse's talk is "now online":http://www.infoq.com/presentations/hirsh-california-ideology should you want to watch it.*
+
+Before this all fades from my brain in the post-conference haze, I just wanted to post a few thoughts on the final session of the amazing "FutureRuby":http://futureruby.com/ conference in Toronto. "Jesse Hirsh":http://jessehirsh.com/ delivered an impassioned argument against what he labels the Imperial Californian Idealogy.
+
+As someone who is most definitely left-of-centre, the bulk of this talk appealed to me. A call to action, highlights of the flaws of the capitalism, railing against the environmental destruction caused by the pursuit of wealth - it ticked the boxes.
+
+There were a lot of references to the prominent place in history that San Francisco holds when it comes to mining, wars and weaponry, corporations and politics. I won't go into those, because I'll probably get it wrong. I have no bones to pick with that part of the talk, though.
+
+It wasn't immediately clear to me that he was attacking (some of) the ideals put forward by "Stewart Brand":http://en.wikipedia.org/wiki/Stewart_Brand, "Kevin Kelly":http://www.kk.org/ and "Chris Anderson":http://en.wikipedia.org/wiki/Chris_Anderson_(writer) - at first, I thought they were the alternative movement to the old San Francisco elite that was initially described. All three names hold some credibility for me, so that was an interesting twist.
+
+That said - and if we take the points on Anderson's _Free_ as accurate - then I'm happy to buy into at least some of the criticism, particularly around the push for acceptance of waste. I agree completely that the wasteful nature of people has got us into the current ecological mess. It promotes a very narrow, selfish view, instead of a more holistic approach. Indeed, holistic solutions was the end point Hirsh was driving at.
+
+My main issue? The revolutionary, us-vs-them vibe. It felt implied that we are the elite, the creators, the visionaries. The ones who know best, the ideal internet citizens. There's enough division in the world as it is. Not that I think Jesse is advocating such an approach, but that's how the message came across to me. Granted, the _Snowcrash_ references were lost on me, so that didn't help.
+
+Besides, revolutions are (more often than not) ineffective routes to change. Evolution is the road I much prefer to walk down.
+
+Anyway, I'm off to the afterparty to discuss all this further with other attendees. If you weren't there, then this probably doesn't make much sense to you - "watch the video":http://www.infoq.com/presentations/hirsh-california-ideology, see if that helps.

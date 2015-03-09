@@ -1,0 +1,60 @@
+---
+title: "Thinking Sphinx Reborn"
+redirect_from: "/posts/thinking_sphinx_reborn"
+categories:
+  -
+    plugins
+    search
+    sphinx
+    ruby
+    rails
+---
+So, over the last month or so I've been working hard on rewriting "Thinking Sphinx":http://ts.freelancing-gods.com - and it's now time to release those changes publicly. The site's now got a brief "quickstart page":http://ts.freelancing-gods.com/quickstart.html and a detailed "usage page":http://ts.freelancing-gods.com/usage.html beyond the rdoc files, and there will be more added over the coming weeks.
+
+A quick overview of what's shiny and new:
+
+h3. Better index definition syntax
+
+This part reworked many times, finally to something I'm pretty happy with:
+
+<pre><code>define_index do
+  indexes [first_name, last_name], :as => :name, :sortable => true
+  indexes email, location
+  indexes [posts.content, posts.subject], :as => :posts
+end</code></pre>
+
+h3. Polymorphic association support in indexes
+
+When you're drilling down into your associations for relevant field data, it's now safe to use polymorphic associations - Thinking Sphinx is pretty smart about figuring what models to look at. Make sure you put table indexes on your @_type@ columns though.
+
+h3. MVA Support
+
+Multi-Value Attributes now work nice and cleanly - so you can tie an array of integers to any record.
+
+h3. Multi-Model Searching
+
+Just like before, you can search for records of a specific model. This time around though, you can also search across _all_ your models - and the results still use will_paginate if it's installed.
+
+<pre><code>ThinkingSphinx::Search.search "help"</code></pre>
+
+h3. Better Filter Support
+
+It was kinda in there to start with, but now it's much smarter - and it all goes into the conditions hash, just like a @find@ call:
+
+<pre><code>User.search :conditions => {:role_id => 5}
+Article.search :conditions => {:author_ids => [12, 24, 48]}</code></pre>
+
+h3. Sorting by Fields
+
+As you may have noticed in the first code block of this post, you can mark fields as @:sortable@ - what this does is it uses Sphinx's string attributes, and creates a matching attribute that acts as a sort-index to the field. When specifying the search options though, you can just use the field's name - Thinking Sphinx knows what you're talking about.
+
+<pre><code>User.search "John", :order => :name
+User.search "Smith", :order => "name DESC"</code></pre>
+
+h3. Even More
+
+I'm so eager to share this new release that there's probably a few things that need a bit more documentation - that will appear both on the "Thinking Sphinx site":http://ts.freelancing-gods.com and here on the blog. I'm planning on writing some articles that provide a solid overview to Sphinx in general - which will hopefully be some help no matter what plugin you use - and then dive into some regular 'recipes' of Thinking Sphinx usage, and some detailed posts of the cool new features as well.
+
+_Also_ in the pipeline is Merb support - just for ActiveRecord initially, but I'd love to get it talking to DataMapper as well.
+
+*Update*: Jonathan Conway's got "a branch working":http://www.jaikoo.com/2008/4/9/thinking-sphinx-for-merb-and-rails in Merb _and_ Rails - needless to say, I'll be updating trunk with his patch as soon as possible.

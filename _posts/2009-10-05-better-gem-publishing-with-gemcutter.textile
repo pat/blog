@@ -1,0 +1,69 @@
+---
+title: "Better Gem Publishing with Gemcutter"
+redirect_from: "/posts/better_gem_publishing_with_gemcutter"
+categories:
+  -
+    gemcutter
+    gems
+    ruby
+---
+If you're working with Ruby and have been paying attention to Twitter or RSS feeds, then you've probably heard of "Gemcutter":http://gemcutter.org. If not, it's the latest flavour for publishing gems, and I'm finding the simplicity of it a delight.
+
+Its appearance is doubly useful, as since "GitHub":http://github.com has moved to Rackspace, automated gem building from projects has "been disabled":http://github.com/blog/506-state-of-the-hub-rackspace-day-2, perhaps never to return.
+
+h3. Getting Started
+
+If you've not clicked the link to Gemcutter yet, let's run down how easy it is to get it set up on your machine.
+
+<pre><code>sudo gem install gemcutter
+gem tumble</code></pre>
+
+That's it. Any future gem installs will look at Gemcutter's growing library.
+
+This doesn't replace "RubyForge":http://rubyforge.org/ or "GitHub":http://gems.github.com/ in your sources list, but it does set Gemcutter as the top priority - which is fine, as it has almost all of RubyForge's gems ready for you anyway.
+
+h3. Publishing
+
+Firstly, "get yourself an account":http://gemcutter.org/sign_up, click that confirmation email link, then hunt down a gem you want to publish, and run the following command:
+
+<pre><code>gem push my-awesome-gem-0.0.1.gem</code></pre>
+
+If it's your first time, you'll be asked for your login details, and then the gem is online and ready for anyone to download it. No waiting, no forms, no pain.
+
+When you've got a new version, just run that same command again, pointing to the new gem file:
+
+<pre><code>gem push my-awesome-gem-0.1.0.gem</code></pre>
+
+One command. No authentication prompts. Available for everyone straight away. Awesome.
+
+h3. Migrating
+
+If you've already got gems on RubyForge that you'd like to take ownership of on Gemcutter, it's another one-step process:
+
+<pre><code>gem migrate my-legacy-gem</code></pre>
+
+You'll be prompted for your RubyForge account name and password, and then Gemcutter does the rest.
+
+Pretty easy, hey?
+
+h3. My Gems
+
+Over this past weekend, I made Gemcutter the definitive source for all of my gems:
+
+* "Thinking Sphinx":http://gemcutter.org/gems/thinking-sphinx
+* "Thinking Sphinx for Sphinx 0.9.9":http://gemcutter.org/gems/thinking-sphinx-099
+* "Thinking Sphinx/Raspell plugin":http://gemcutter.org/gems/thinking-sphinx-raspell
+* "Riddle":http://gemcutter.org/gems/riddle
+* "Ginger":http://gemcutter.org/gems/ginger
+* "Fakeweb Matcher":http://gemcutter.org/gems/fakeweb-matcher
+* "Postie":http://gemcutter.org/gems/postie
+
+h3. Incoming Confusion
+
+There's been some discussion about whether Gemcutter should replace the gem hosting facilities provided by Rubyforge. This may or may not happen, but it is confirmed that Gemcutter will be moving to "rubygems.org":http://rubygems.org soon.
+
+Everything will still work fine via the "gemcutter.org":http://gemcutter.org address, though, so don't let that hold you back from diving in head first.
+
+h3. Hat-tip
+
+The talented "Nick Quaranto":http://litanyagainstfear.com/ has been working hard on this for a while, and it's great to see the Ruby community embrace Gemcutter so quickly. Here's hoping it becomes the defacto gem source for all Ruby projects.

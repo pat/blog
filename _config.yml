@@ -1,2 +1,13 @@
-pygments: true
-auto: true
+highligher: pygments
+permalink: "/:year/:month/:day/:title.html"
+paginate: 20
+paginate_path: "/posts/:num/"
+gems:
+  - jekyll-redirect-from
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "posts"

@@ -1,0 +1,21 @@
+---
+title: "Sphinx's Riddle"
+redirect_from: "/posts/sphinx's_riddle"
+categories:
+  -
+    plugins
+    search
+    sphinx
+    ruby
+    rails
+---
+*Edit*: I've changed the Subversion reference to Github, and it's worth noting that Riddle works with Sphinx 0.9.8, 0.9.9 and 1.10-beta at the time of writing (January 2011). Original post continues below:
+
+Built out of the work I've done for "Thinking Sphinx":http://ts.freelancing-gods.com (which has just got basic support for delta indexes, attributes and sorting - although the documentation doesn't reflect that), I've extracted a new Ruby client that communicates with Sphinx, which I've named "Riddle":http://riddle.freelancing-gods.com.
+
+I'm not going to delve into the code here - because I'm not expecting it to be _that_ useful to many people (and I just wrote examples in the documentation - go read that instead!) - but I'm very happy with how it's ended up, and it's got some level of specs to give it a thorough test. It's also compatible with the most recent release of Sphinx (0.9.8 r871). Should you wish to poke around with it, just clone it from Github:
+
+<pre><code>git clone \
+  git://github.com/freelancing-god/riddle.git</code></pre>
+
+It's also being used in Evan Weaver's "UltraSphinx":http://blog.evanweaver.com/files/doc/fauna/ultrasphinx/files/README.html plugin, which I'm pretty pleased about.

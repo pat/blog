@@ -1,0 +1,34 @@
+---
+title: "Postie - The Gem"
+redirect_from: "/posts/postie_the_gem"
+categories:
+  -
+    australia
+    postcodes
+    api
+    gems
+    ruby
+---
+An addition to "auspostie.com":http://auspostie.com, prompted by "Dr Nic's":http://drnicwilliams.com/ suggestion in the comments of the earlier blog post - the "postie gem":http://postie.rubyforge.org. It allows easy parsing of Postie search results, and also provides a command-line tool for searching.
+
+By suburb:
+
+<pre><code>postie Brunswick</code></pre>
+
+By postcode:
+
+<pre><code>postie 3070</code></pre>
+
+To install:
+
+<pre><code>sudo gem install postie</code></pre>
+
+To use within your own ruby code:
+
+<pre><code>require 'postie'
+
+Postie::Locality.find("Melbourne")</code></pre>
+
+Again, extremely simple, but just makes access to the data that little bit easier.
+
+Now, what would be really cool is a Quicksilver plugin that queries the API. Any volunteers to code that up?

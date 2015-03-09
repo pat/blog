@@ -1,0 +1,20 @@
+---
+title: "Technical Creativity and Australian Mobile Data Plans"
+redirect_from: "/posts/technical_creativity_and_australian_mobile_data_plans"
+categories:
+  -
+    culture
+    iphone
+    creativity
+    creative class
+    greed
+    stupidity
+    australia
+---
+I'm slowly making my way through Richard Florida's "_The Rise of the Creative Class_":http://creativeclass.com/ (yes, I should have read it a couple of years ago, I know), and came across a nice quote - paraphrasing the thoughts of "Joel Mokyr":http://en.wikipedia.org/wiki/Joel_Mokyr, that I thought was rather apt when considering the stupidity and greed of the mobile phone carriers in Australia (in general, and in regard to Apple's iPhone):
+
+<blockquote>"Technical creativity has tended to rise and then fade dramatically at various times in various cultures, when social and economic institutions turn rigid and act against it."</blockquote>
+
+You could argue Telstra, Optus and Vodafone aren't doing anything _against_ technical creativity, sure - but they're certainly not doing anything "_for_ it either":http://www.smh.com.au/news/iphone-insider/iphone-charges-watchdog-investigates/2008/07/21/1216492331116.html?page=fullpage.
+
+If you want a much better, more detailed write-up, go read "what John Allsop":http://www.webdirections.org/blog/iphone-in-australia-now-for-the-bad-news/ "has to say":http://www.webdirections.org/blog/australian-consumer-watchdog-and-data-pricing-plans/.

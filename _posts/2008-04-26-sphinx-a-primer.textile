@@ -1,0 +1,53 @@
+---
+title: "Sphinx: A Primer"
+redirect_from: "/posts/sphinx_a_primer"
+categories:
+  -
+    search
+    sphinx
+    ruby
+    rails
+---
+On Thursday night I presented to the "Melbourne Ruby Group":http://rubyonrails.com.au/melbourne-meetups about "Sphinx":http://sphinxsearch.com/ - first with a non-Ruby perspective, and then using Ruby, and more specifically Rails. I'll be presenting again at the Sydney group in a couple of weeks, but I am also adapting the talk to a few blog posts - to allow a bit more detail in a few doses.
+
+First up: Sphinx itself. Why should you read this? Because understanding Sphinx will help you use whichever library (Ruby or otherwise) smarter. It might also teach you some things you had no idea about (ie: this is the article I should have read when I started using Sphinx).
+
+h3. What is Sphinx?
+
+Sphinx is a search engine. You feed it documents, each with a unique identifier and a bunch of text, and then you can send it search terms, and it will tell you the most relevant documents that match them. If you're familiar with Lucene, Ferret or Solr, it's pretty similar to those systems. You get the daemon running, your data indexed, and then using a client of some sort, start searching.
+
+When indexing your data, Sphinx talks directly to your data source itself - which must be one of MySQL, PostgreSQL, or XML files - which means it can be very fast to index (if your SQL statements aren't too complex, anyway).
+
+h3. Sphinx Structure
+
+A Sphinx daemon (the process known as *searchd*) can talk to a collection of *indexes*, and each index can have a collection of *sources*. Sphinx can be directed to search a specific index, or all of them, but you can't limit the search to a specific source explicitly.
+
+Each source tracks a set of documents, and each document is made up of *fields* and *attributes*. While in other areas of software you could use those two terms interchangeably, they have distinct meanings in Sphinx (and thus require their own sections in this post).
+
+h3. Fields
+
+Fields are the content for your search queries - so if you want words tied to a specific document, you better make sure they're in a field in your source. They are only string data - you could have numbers and dates and such in your fields, but Sphinx will only treat them as strings, nothing else.
+
+h3. Attributes
+
+Attributes are used for *sorting*, *filtering* and *grouping* your search results. Their values do not get paid any attention by Sphinx for search terms, though, and they're limited to the following data types: integers, floats, datetimes (as Unix timestamps - and thus integers anyway), booleans, and strings. Take note that string attributes are converted to *ordinal* integers, which is especially useful for sorting, but not much else.
+
+h3. Multi-Value Attributes
+
+There is also support in Sphinx to handle arrays of attributes for a single document - which go by the name of *multi-value attributes*. Currently (Sphinx version 0.9.8rc2) only integers are supported, so this isn't quite as flexible as normal attributes, but it's worth keeping in mind.
+
+h3. Filters
+
+Filters are useful with attributes to limit your searches to certain sets of results - for example, limiting a forum post search to entries by a specific user id. Sphinx's filters accept arrays or ranges - so if filtering by a single value, just put that in an array. The range filters are particularly useful for getting results from a certain time span.
+
+h3. Relevance
+
+Relevancy is the default sorting order for Sphinx. I've no idea exactly how it is calculated, but there are a couple of things you can do easily enough in your queries to influence it. The first is *index-level weighting*, where you give specific indexes higher rankings than others. The other, similar in nature, but at a lower level, is *field weightings*. Generally these are set before each query, but it will depend on the library you use.
+
+h3. Keeping Your Indexes Updated
+
+One thing that sets Sphinx apart from Ferret and other search engines is that there is no way to update fields for a specific document in your indexes. The main approach around this is having *delta indexes* - a small index with all the recent changes (which will be super-fast to index), so Sphinx will include that and the main index for its searches. Of the Rails plugins, both "Thinking Sphinx":http://ts.freelancing-gods.com and "Ultrasphinx":http://blog.evanweaver.com/files/doc/fauna/ultrasphinx/ have support for this - I've no idea for other languages, mind you.
+
+h3. What's next?
+
+Next is when we'll dive into some actual code - we'll go through some of the common tasks for setting up Sphinx with Rails using Thinking Sphinx.

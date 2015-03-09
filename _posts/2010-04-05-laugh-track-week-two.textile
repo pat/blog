@@ -1,0 +1,99 @@
+---
+title: "LaughTrack: Week Two"
+redirect_from: "/posts/laugh_track_week_two"
+categories:
+  -
+    statistics
+    twitter
+    laughtrack
+    comedy
+    micf
+    australia
+    melbourne
+---
+Another week has passed, so time for some more "LaughTrack":http://laughtrack.com.au statistics.
+
+First up, acts with the best ratings improvements since the start of the Festival:
+
+|_. Show |_. Initial Rating |_. Current Rating |_. Difference |
+| "Good Evening: Shaun Micallef & Stephen Curry":http://laughtrack.com.au/shows/141 |   0 |  88 |  88 |
+| "Ursula Martinez: My Stories Your Emails":http://laughtrack.com.au/shows/366 |   0 |  84 |  84 |
+| "Celia Pacquola: Flying Solos":http://laughtrack.com.au/shows/57 |   0 |  84 |  84 |
+| "Adrian Calear: Code Grey":http://laughtrack.com.au/shows/5 |   0 |  79 |  79 |
+| "Asher Treleaven: Secret Door":http://laughtrack.com.au/shows/27 |   0 |  79 |  79 |
+| "Daniel Burt: Yes Man Syndrome":http://laughtrack.com.au/shows/85 |   0 |  77 |  77 |
+| "The Festival Club":http://laughtrack.com.au/shows/126 |   0 |  75 |  75 |
+| "Catherine Deveny: Gold is Bullshit":http://laughtrack.com.au/shows/55 |   0 |  72 |  72 |
+| "Peter Helliar: Dreamboat Tour":http://laughtrack.com.au/shows/272 |   0 |  72 |  72 |
+| "Nelly Thomas: I Coulda Been A Sailor":http://laughtrack.com.au/shows/249 |   0 |  72 |  72 |
+
+That list is almost identical (ignoring the order) to last week... essentially: those who did well to start with, have solidified their position.
+
+So let's look at the differences just in the last week instead.
+
+|_. Show |_. Initial Rating |_. Current Rating |_. Difference |
+| "List Operators For Kids: More Fun Than a Wii":http://laughtrack.com.au/shows/215 |   0 |  60 |  60 |
+| "Puppy Fight Social Club":http://laughtrack.com.au/shows/287 |   0 |  53 |  53 |
+| "And The Little One Said...":http://laughtrack.com.au/shows/14 |   0  |  53 |  53 |
+| "Jack Druce: Wild Druce Chase":http://laughtrack.com.au/shows/162 |   0 |  53 |  53 |
+| "Peter Helliar: Dreamboat Tour":http://laughtrack.com.au/shows/272 |  27 |  72 |  45 |
+| "Simon Keck: Dead Under Fluorescent Lights":http://laughtrack.com.au/shows/317 |   0 |  43 |  43 |
+| "Sadie Hasler: Her Lady Bones":http://laughtrack.com.au/shows/303 |   0 |  43 |  43 |
+| "I Heart Frankston: The Musical":http://laughtrack.com.au/shows/157 |   0 |  43 |  43 |
+| "Matthew Kenneally Flips the Bird at the Finger Pointers":http://laughtrack.com.au/shows/229 |   0 |  43 |  43 |
+| "Bart Freebairn: A Breathtakingly Magical Journey into the Ordinary":http://laughtrack.com.au/shows/31 |    0 |  43 |  43 |
+| "Greg Fleet: Big Love":http://laughtrack.com.au/shows/148 |   0 |  43 |  43 |
+| "Supermanchild":http://laughtrack.com.au/shows/330 |   0 |  43 |  43 |
+| "Metrosketchuals":http://laughtrack.com.au/shows/235 |   0 |  43 |  43 |
+| "Nick Cody: Lust Actually":http://laughtrack.com.au/shows/251 |   0 |  43 |  43 |
+
+This list could be considered shows with potential: towards the end, it only took two positive tweets to get them onto the list.
+
+So, let's now look at who has garnered the most positive tweets. Again, since the start of the festival:
+
+|_. Show |_. Initial Count |_. Current Count |_. Difference |
+| "Wil Anderson: Wilful Misconduct":http://laughtrack.com.au/shows/371 | 11 | 42 | 31 |
+| "Arj Barker: Let Me Do The Talking":http://laughtrack.com.au/shows/24 | 23 | 43 | 20 |
+| "Good Evening: Shaun Micallef & Stephen Curry":http://laughtrack.com.au/shows/141 |  0 | 19 | 19 |
+| "The Pajama Men: The Last Stand to Reason":http://laughtrack.com.au/shows/265 |  7 | 26 | 19 |
+| "Rich Fulcher: Eleanor the Tour Whore":http://laughtrack.com.au/shows/292 |  5 | 23 | 18 |
+| "Nina Conti: Talk to the Hand":http://laughtrack.com.au/shows/255 | 13 | 30 | 17 |
+| "Celia Pacquola: Flying Solos":http://laughtrack.com.au/shows/57 |  0 | 14 | 14 |
+| "Ursula Martinez: My Stories Your Emails":http://laughtrack.com.au/shows/366 |  0 | 14 | 14 |
+| "Tom Green: World Standup Comedy Tour":http://laughtrack.com.au/shows/349 |  8 | 22 | 14 |
+| "Tim Key: The Slutcracker":http://laughtrack.com.au/shows/340 | 19 | 32 | 13 |
+| "Melinda Buttle: Sista Got Flow":http://laughtrack.com.au/shows/234 |  4 | 17 | 13 |
+
+Some big names there, though good to see some relative newcomers appearing too (Ursula Martinez, Melinda Buttle and Celia Pacquola).
+
+As for the increases over just the last week:
+
+|_. Show |_. Initial Count |_. Current Count |_. Difference |
+| "Wil Anderson: Wilful Misconduct":http://laughtrack.com.au/shows/371 | 17 | 42 | 25 |
+| "Arj Barker: Let Me Do The Talking":http://laughtrack.com.au/shows/24 | 25 | 43 | 18 |
+| "Tom Green: World Standup Comedy Tour":http://laughtrack.com.au/shows/349 | 8 | 22 | 14 |
+| "Good Evening: Shaun Micallef & Stephen Curry":http://laughtrack.com.au/shows/141 | 9 | 19 | 10 |
+| "Ursula Martinez: My Stories Your Emails":http://laughtrack.com.au/shows/366 | 5 | 14 |  9 |
+| "The Pajama Men: The Last Stand to Reason":http://laughtrack.com.au/shows/265 | 17 | 26 |  9 |
+| "Nina Conti: Talk to the Hand":http://laughtrack.com.au/shows/255 | 21 | 30 |  9 |
+| "Frank Woodley: Bewilderbeest":http://laughtrack.com.au/shows/133 | 19 | 27 |  8 |
+| "Sammy J and Randy: Ricketts Lane":http://laughtrack.com.au/shows/307 | 6 | 14 |  8 |
+| "Melinda Buttle: Sista Got Flow":http://laughtrack.com.au/shows/234 | 9 | 17 |  8 |
+
+Not much difference in the names this time around...
+
+But what can you take away from this?
+
+* "Ursula Martinez":http://laughtrack.com.au/shows/366 was an unknown before this festival. She's just added three extra shows, which matches the buzz she's received.
+* "Melinda Buttle":http://laughtrack.com.au/shows/234 is another festival newcomer who has been getting a lot of buzz.
+* The big names draw the tweets - but "Wil Anderson":http://laughtrack.com.au/shows/371 and "Tom Green":http://laughtrack.com.au/shows/349 have both finished their festival runs.
+* "The Pajama Men":http://laughtrack.com.au/shows/265 won the Barry Award for the best show last year in their first festival, and they've followed it up with another fine offering, going by numbers (and reviews).
+
+I've also started tracking which performances are sold out - but there's no point offering stats on that, because my data is far from complete. However, some of the smaller names regularly selling out:
+
+* "Celia Pacquola":http://laughtrack.com.au/shows/57
+* "Hannah Gadsby":http://laughtrack.com.au/shows/151
+* "Anne Edmonds":http://laughtrack.com.au/shows/20
+* "The Bedroom Philosopher":http://laughtrack.com.au/shows/34
+
+Nick Cody, Daniel Burt, Vigilantelope and Clodhopper: Miami all sold quite well too - but they've finished their runs.

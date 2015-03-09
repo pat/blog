@@ -1,0 +1,121 @@
+---
+title: "Versioning your APIs"
+redirect_from: "/posts/versioning_your_ap_is"
+categories:
+  -
+    ruby
+    rails
+    api
+    flying sphinx
+---
+As I developed "Flying Sphinx":http://flying-sphinx.com, I found myself both writing and consuming several APIs: from Heroku to Flying Sphinx, Flying Sphinx to Heroku, the @flying-sphinx@ gem in apps to Flying Sphinx, Flying Sphinx to Sphinx servers, and Sphinx servers to Flying Sphinx.
+
+None of that was particularly painful - but when "Josh Kalderimis":http://blog.cookiestack.com/ was improving the @flying-sphinx@ gem, he noted that the API it interacts with wasn't that great. Namely, it was inconsistent with what it returned (sometimes text status messages, sometimes JSON), it was sending authentication credentials as GET/POST parameters instead of in a header, and it wasn't versioned.
+
+I was thinking that given I control pretty much every aspect of the service, it didn't matter if the APIs had versions or not. However, as Josh and I worked through improvements, it became clear that the apps using older versions of the @flying-sphinx@ gem were going to have one expectation, and newer versions another. Versioning suddenly became a much more attractive idea.
+
+The next point of discussion was how clients should specify which version they are after. Most APIs put this in the path - here's Twitter's as an example, specifying version 1:
+
+<pre><code>https://api.twitter.com/1/statuses/user_timeline.json</code></pre>
+
+However, I'd recently been working with Scalarium's API, and theirs put the version information in a header (again, version 1):
+
+<pre><code>Accept: application/vnd.scalarium-v1+json</code></pre>
+
+Some research turned up "a discussion on Hacker News":http://news.ycombinator.org/item?id=1523664 about best practices for APIs - and it's argued there that using headers keeps the paths focused on just the resource, which is a more RESTful approach. It also makes for cleaner URLs, which I like as well.
+
+How to implement this in a Rails application though? My routing ended up looking something like this:
+
+<pre><code>namespace :api do
+  constrants ApiVersion.new(1) do
+    scope :module => :v1 do
+      resource :app do
+        resources :indices
+      end
+    end
+  end
+
+  constraints ApiVersion.new(2) do
+    scope :module => :v2
+      resource :app do
+        resources :indices
+      end
+    end
+  end
+end</code></pre>
+
+The ApiVersion class (which I have saved to @app/lib/api_version.rb@) is where we check the version header and route accordingly:
+
+<pre><code>class ApiVersion
+  def initialize(version)
+    @version = version
+  end
+
+  def matches?(request)
+    versioned_accept_header?(request) || version_one?(request)
+  end
+
+  private
+
+  def versioned_accept_header?(request)
+    accept = request.headers['Accept']
+    accept && accept[/application\/vnd\.flying-sphinx-v#{@version}\+json/]
+  end
+
+  def unversioned_accept_header?(request)
+    accept = request.headers['Accept']
+    accept.blank? || accept[/application\/vnd\.flying-sphinx/].nil?
+  end
+
+  def version_one?(request)
+    @version == 1 && unversioned_accept_header?(request)
+  end
+end</code></pre>
+
+You'll see that I default to version 1 if no header is supplied. This is for the older versions of the flying-sphinx gem - but if I was starting afresh, I may default to the latest version instead.
+
+All of this gives us URLs that look like something like this:
+
+<pre><code>http://flying-sphinx.com/api/app
+http://flying-sphinx.com/api/app/indices</code></pre>
+
+My SSL certificate is locked to flying-sphinx.com - if it was wildcarded, then I'd be using a subdomain 'api' instead, and clean those URLs up even further.
+
+The controllers are namespaced according to both the path and the version - so we end up with names like @Api::V2::AppsController@. It does mean you get a new set of controllers for each version, but I'm okay with that (though would welcome suggestions for other approaches).
+
+Authentication is managed by namespaced application controllers - here's an example for version 2, where I'm using headers:
+
+<pre><code>class Api::V2::ApplicationController < ApplicationController
+  skip_before_filter :verify_authenticity_token
+  before_filter :check_api_params
+
+  expose(:app) { App.find_by_identifier identifier }
+
+  private
+
+  def check_api_params
+    # ensure the response returns with the same header value
+    headers['X-Flying-Sphinx-Token'] = request.headers['X-Flying-Sphinx-Token']
+    render_json_with_code 403 unless app && app.api_key == api_key
+  end
+
+  def api_token
+    request.headers['X-Flying-Sphinx-Token']
+  end
+
+  def identifier
+    api_token && api_token.split(':').first
+  end
+
+  def api_key
+    api_token && api_token.split(':').last
+  end
+end</code></pre>
+
+Authentication, in case it's not clear, is done by a header named X-Flying-Sphinx-Token with a value of the account's identifier and api_key concatenated together, separated by a colon.
+
+(If you're not familiar with the @expose@ method, that's from the excellent @decent_exposure@ gem.)
+
+So where does that leave us? Well, we have an elegantly namespaced API, and both versions and authentication is managed in headers instead of paths and parameters. I also made sure version 2 responses all return JSON. Josh is happy and all versions of the @flying-sphinx@ gem are happy.
+
+The one caveat with all of this? While it works for me, and it suits Flying Sphinx, it's not the One True Way for API development. We had a great discussion at the most recent "Rails Camp":http://railscamps.com up at Lake Ainsworth about different approaches - at the end of the day, it really comes down to the complexity of your API and who it will be used by.

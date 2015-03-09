@@ -1,0 +1,79 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica";
+  line-height: 1.5;
+  font-size: 120%;
+  margin: 0 auto;
+  width: 40em;
+}
+
+p {
+  margin: 1.5em 0;
+}
+
+h1 {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+h2 a, h2 a:visited {
+  color: #000;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 1.5em 0 1em 0;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 1.2em 0;
+}
+
+header, nav {
+  text-align: center;
+}
+
+nav ul, .tags ul {
+  margin: 0;
+  padding: 0 0.2em;
+}
+
+nav li, .tags li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0.2em;
+}
+
+.tags ul {
+  display: inline;
+}
+
+img {
+  max-width: 100%;
+}
+
+article img.max-width {
+  max-width: 100%;
+}
+
+article .content ul {
+  list-style-type: disc;
+}
+
+article .content li {
+  margin-left: 1.5em;
+}
+
+code,
+pre code {
+  font-family: "Monaco", "Courier", monospace;
+  font-size: 0.7857em;
+  line-height: 1.6363em;
+}
+
+pre {
+  margin: 0 1.5em;
+}

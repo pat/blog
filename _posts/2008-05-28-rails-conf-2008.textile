@@ -1,0 +1,14 @@
+---
+title: "RailsConf 2008"
+redirect_from: "/posts/rails_conf_2008"
+categories:
+  -
+    twitter
+    railsconf
+    portland
+    ruby
+    rails
+---
+I've just started my round-the-world conferences-and-holiday adventure, and the first stop is RailsConf in Portland - so if you're in town and see me wandering around looking rather cluelessly, please say hi.
+
+Also, in case you're on the Twitter bandwagon, you'll find me with the creative nickname of "pat":http://twitter.com/pat.

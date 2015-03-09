@@ -1,0 +1,58 @@
+---
+title: "LaughTrack: Week One"
+redirect_from: "/posts/laugh_track_week_one"
+categories:
+  -
+    statistics
+    twitter
+    laughtrack
+    comedy
+    micf
+    australia
+    melbourne
+---
+Last week, I launched a website I've been working on in my own time: "LaughTrack":http://laughtrack.com.au. It follows what people are saying on Twitter about the "Melbourne International Comedy Festival":http://www.comedyfestival.com.au, and provides ratings on whether the crowd thinks a show is good or not.
+
+I'm not going to get too caught up in the site itself right now - that deserves a separate blog post, and I've not found time for that.
+
+However, I just wanted to report on the acts that have had the most buzz over the course of the opening week:
+
+|_. Show |_. Initial Rating |_. Current Rating |_. Difference |
+| "Celia Pacquola: Flying Solos":http://laughtrack.com.au/shows/57 | 0 | 74 | 74 |
+| "Ursula Martinez: My Stories Your Emails":http://laughtrack.com.au/shows/366 | 0 | 65 | 65 |
+| "Catherine Deveny: Gold is Bullshit":http://laughtrack.com.au/shows/55 | 0 | 65 | 65 |
+| "Geraldine Quinn: Shut Up and Sing":http://laughtrack.com.au/shows/139 | 0 | 65 | 65 |
+| "Good Evening: Shaun Micallef & Stephen Curry":http://laughtrack.com.au/shows/141 | 0 | 65 | 65 |
+| "Asher Treleaven: Secret Door":http://laughtrack.com.au/shows/27 | 0 | 65 | 65 |
+| "The Festival Club":http://laughtrack.com.au/shows/126 | 0 | 65 | 65 |
+| "Daniel Burt: Yes Man Syndrome":http://laughtrack.com.au/shows/85 | 0 | 60 | 60 |
+| "Adrian Calear: Code Grey":http://laughtrack.com.au/shows/5 | 0 |  53 |  53 |
+| "Dave Jory: Men Are From Mars":http://laughtrack.com.au/shows/89 | 0 |  53 |  53 |
+| "Donna & Damo: An Asexual Love Story":http://laughtrack.com.au/shows/107 | 0 |  53 |  53 |
+| "Fear of a Brown Planet Returns":http://laughtrack.com.au/shows/124 | 0 |  53 |  53 |
+| "Nelly Thomas: I Coulda Been a Sailor":http://laughtrack.com.au/shows/249 | 0 |  53 |  53 |
+
+I chose the top ten, but there's quite a few that jumped up to 53, so you get a few extra.
+
+It's worth noting that those last five gained just three positive tweets. So, at this point it doesn't take too many tweets to get someone jumping up the board. However, the higher the rating is, though, the slower the rating increases, so let's look at who got the most positive tweets as a comparison:
+
+|_. Show |_. Initial Count |_. Current Count |_. Difference |
+| "Rich Fulcher: Eleanor the Tour Whore":http://laughtrack.com.au/shows/292 | 5 | 16 | 11 |
+| "The Pajama Men: The Last Stand to Reason":http://laughtrack.com.au/shows/265 | 7 | 17 | 10 |
+| "Celia Pacquola: Flying Solos":http://laughtrack.com.au/shows/57 | 0 | 8 | 8 |
+| "Tim Key: The Slutcracker":http://laughtrack.com.au/shows/340 | 19 | 27 | 8 |
+| "Nina Conti: Talk to the Hand":http://laughtrack.com.au/shows/255 | 13 | 21 | 8 |
+| "David O'Doherty: David O'Doh-party":http://laughtrack.com.au/shows/93 | 7 | 14 | 7 |
+| "Russell Kane: Human Dressage":http://laughtrack.com.au/shows/301 | 7 | 13 | 6 |
+| "Tokyo Shock Boys":http://laughtrack.com.au/shows/345 | 6 | 12 | 6 |
+| "Ali McGregor's Late-Nite Variety-Nite Night":http://laughtrack.com.au/shows/10 | 1 | 7 | 6 |
+| "Wil Anderson: Wilful Misconduct":http://laughtrack.com.au/shows/371 | 11 | 17 | 6 |
+| "Fiona O'Loughlin: On a Wing and a Prayer":http://laughtrack.com.au/shows/129 | 6 | 12 | 6 |
+
+Again, a top ten, with one extra because of the same increase.
+
+It's interesting that almost all on the first list are comedians still making their stamp on the comedy scene. The second list has several more established acts. Only Celia Pacquola made it into both.
+
+Of course, the older tweets were from other festivals - in particular, the Adelaide Fringe and the Brisbane Comedy Festival, which both happened in the lead-up to Melbourne's Comedy Festival. So these numbers are far from perfect (but then, divining quality from Twitter isn't a science anyway).
+
+Hopefully you've found this somewhat interesting (well, if you're a comedy buff) - expect more reports as the festival progresses. If you're in Melbourne, I hope you're making the most of this fabulous time of year!

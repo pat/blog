@@ -1,0 +1,20 @@
+---
+title: "A Quick Focus on Javascript"
+redirect_from: "/posts/a_quick_focus_on_javascript"
+categories:
+  -
+    javascript
+    html
+---
+Neat little refactoring trick for the day (as I've just recounted to the <a href="irc://irc.freenode.net/roro">roro crew</a>)...
+
+I found myself writing several @window.onload@ event listeners in javascript to set focus to the default text inputs on various pages. It's annoying, and doesn't feel at all elegant, so to make it a little cleaner, I wrote a single onload listener, which grabbed the last item with the class 'autofocus', and set focus to that. So now all I need to do for future pages is give the text input a class of 'autofocus'.
+
+Javascript code, with prototype:
+
+<pre><code>Event.observe(window, "load", function() {
+  var last = $$(".autofocus").last();
+  if (last) last.focus();
+});</code></pre>
+
+Not so useful if you rarely have default text fields, but for the app I'm working on, there's a lot of different pages, hence why I'm quite happy with the above solution.

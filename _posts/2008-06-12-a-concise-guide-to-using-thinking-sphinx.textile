@@ -1,0 +1,172 @@
+---
+title: "A Concise Guide to Using Thinking Sphinx"
+redirect_from: "/posts/a_concise_guide_to_using_thinking_sphinx"
+categories:
+  -
+    plugins
+    search
+    sphinx
+    ruby
+    rails
+---
+Okay, it's well past time for the companion piece to "my Sphinx Primer":http://freelancing-gods.com/posts/sphinx_a_primer - let's go through the basic process of using Thinking Sphinx with Rails.
+
+Just to recap: "Sphinx":http://sphinxsearch.com/ is a search engine that indexes data, and then you can query it with search terms to find out which documents are relevant. Why do you want to use it with Rails? Because it saves having to write messy SQL, and it's so damn fast.
+
+(If you're getting a feeling of deja-vu, then it's probably because you've read an "old post on this blog":http://freelancing-gods.com/posts/a_thoughtful_sphinx that dealt with an old version of Thinking Sphinx. I've had a few requests for an updated article, so this is it.)
+
+h3. Installation
+
+So: first step is to install Sphinx. This may be tricky on some systems - but I've never had a problem with it with Mac OS X or Ubuntu. My process is thus:
+
+<pre><code>curl -O http://sphinxsearch.com/downloads/sphinx-0.9.8-rc2.tar.gz
+tar zxvf sphinx-0.9.8-rc2.tar.gz
+cd sphinx-0.9.8-rc2
+./configure
+make
+sudo make install</code></pre>
+
+If you're using Windows, you can just "grab the binaries":http://sphinxsearch.com/downloads.html.
+
+Once that's taken care of, you then want to take your Rails app, and install the plugin. If you're running edge or 2.1, this is a piece of cake:
+
+<pre><code>script/plugin install git://github.com/freelancing-god/thinking-sphinx.git</code></pre>
+
+Otherwise, you've got a couple of options. The first is, if you have git installed, just clone to your vendor/plugins directory:
+
+<pre><code>git clone git://github.com/freelancing-god/thinking-sphinx.git
+  vendor/plugins/thinking-sphinx</code></pre>
+
+If you're not yet using git, then the easiest way is to download the tar file of the code. Try the following:
+
+<pre><code>curl -L http://github.com/freelancing-god/thinking-sphinx/tarball/master
+  -o thinking-sphinx.tar.gz
+tar -xvf thinking-sphinx.tar.gz -C vendor/plugins
+mv vendor/plugins/freelancing-god-thinking-sphinx* vendor/plugins/thinking-sphinx</code></pre>
+
+Oh, and it's worth noting: if you're not using MySQL or PostgreSQL, then you're out of luck - Sphinx doesn't talk to any other relational databases.
+
+h3. Configuration
+
+Next step: let's get a model or two indexed. It might be worth refreshing your memory on what fields and attributes are for - can I recommend "my Sphinx article":http://freelancing-gods.com/posts/sphinx_a_primer (because I'm not at all biased)?
+
+Ok, now let's work with a simple Person model, and add a few fields:
+
+<pre><code>class Person < ActiveRecord::Base
+  define_index do
+    indexes [first_name, last_name], :as => :name
+    indexes location
+  end
+end</code></pre>
+
+Nothing too scary - we've added two fields. The first is the first and last names of a person combined to one field with the alias 'name'. The second is simply location.
+
+Adding attributes is just as easy:
+
+<pre><code>define_index do
+  # ...
+  
+  has birthday
+end</code></pre>
+
+This attribute is the datetime value birthday (so you can now sort and filter your results by birthdays).
+
+h3. Managing Sphinx
+
+We've set up a basic index - now what? We tell Sphinx to index the data, and then we can start searching. Rake is our friend for this:
+
+<pre><code>rake thinking_sphinx:index
+rake thinking_sphinx:start</code></pre>
+
+h3. Searching
+
+Now for the fun stuff:
+
+<pre><code>Person.search "Melbourne"</code></pre>
+
+Or with some sorting:
+
+<pre><code>Person.search "Melbourne", :order => :birthday</code></pre>
+
+Or just people born within a 10 year window:
+
+<pre><code>Person.search "Melbourne", :with => {:birthday => 25.years.ago..15.years.ago}</code></pre>
+
+If you want to keep certain search terms to specific fields, use @:conditions@:
+
+<pre><code>Person.search :conditions => {:location => "Melbourne"}</code></pre>
+
+Just remember: @:conditions@ is for fields, @:with@ is for attributes (and @:without@ for exclusive attribute filters).
+
+h3. Change
+
+Your data changes - but unfortunately, Sphinx doesn't update your indexes to match automatically. So there's two things you need to do. Firstly, run @rake thinking_sphinx:index@ regularly (using cron or something similar). 'Regularly' can mean whatever time frame you want - weekly, daily, hourly.
+
+The second step is optional, but it's needed to have your indexes always up to date. First, add a boolean column to your model, named 'delta', and have it default to true. Then, tell your index to use that delta field to keep track of changes:
+
+<pre><code>define_index do
+  # ...
+  
+  set_property :delta => true
+end</code></pre>
+
+Then you need to tell Sphinx about the updates:
+
+<pre><code>rake thinking_sphinx:stop
+rake thinking_sphinx:index
+rake thinking_sphinx:start</code></pre>
+
+Once that's done, a delta index will be created - which holds any recent changes (since the last proper indexing), and gets re-indexed whenever a model is edited or created. This doesn't mean you can stop the regular indexing, as that's needed to keep delta indexes as small (and fast) as possible.
+
+h3. String Sorting
+
+If you remember the details about fields and attributes, you'll know that you can't sort by fields. Which is a pain, but there's ways around this - and it's kept pretty damn easy in Thinking Sphinx. Let's say we wanted to make our @name@ field sortable:
+
+<pre><code>define_index do
+  indexes [first_name, last_name], :as => :name, :sortable => true
+  
+  # ...
+end</code></pre>
+
+Re-index and restart Sphinx, and sorting by name will work.
+
+How is this done? Thinking Sphinx creates an attribute under the hood, called name_sort, and uses that, as Sphinx is quite fine with sorting by strings if they're converted to ordinal values (which happens automatically when they're attributes).
+
+h3. Pagination
+
+Sphinx paginates automatically - in fact, there's no way of turning that off. But that's okay... as long as you can use your will_paginate helper, right? Never fear, Thinking Sphinx plays nicely with will_paginate, so your views don't need to change at all:
+
+<pre><code><%= will_paginate @search_results %></code></pre>
+
+h3. Associations
+
+Sometimes you'll want data in your fields (or attributes) from associations. This is a piece of cake:
+
+<pre><code>define_index do
+  indexes photos.caption, :as => :captions
+  indexes friends.photos.caption, :as => :friends_photos
+  
+  # ...
+end</code></pre>
+
+Polymorphic associations are fine as well - but keep in mind, the more complex your index fields and attributes, the slower it will be for Sphinx to index (and you'll definitely need some database indexes on foreign key columns to help it stay as speedy as possible).
+
+h3. Gotchas
+
+In case things aren't working, here's some things to keep in mind:
+
+* Added an attribute, but can't sort or filter by it? Have you reindexed and restarted Sphinx? It doesn't automatically pick up these changes.
+* Sorting not working? If you're specifying the attribute to sort by as a string, you'll need to include the direction to sort by, just like with SQL: "birthday ASC".
+* Using @name@ or @id@ columns in your fields or attributes? Make sure you specify them using symbols, as they're core class methods in Ruby.
+
+<pre><code>define_index do
+  indexes :name
+  
+  # ...
+  
+  has photos(:id), :as => :photo_ids
+end</code></pre>
+
+h3. And Next?
+
+I realise this article is pretty light on details - but if you want more information, the first stop should be the "extended usage page":http://ts.freelancing-gods.com/usage.html on the Thinking Sphinx site, quickly followed by "the documentation":http://ts.freelancing-gods.com/rdoc/. There's also "an email list":http://groups.google.com/group/thinking-sphinx/ to ask questions on.

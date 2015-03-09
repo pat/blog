@@ -1,0 +1,23 @@
+---
+title: "Updates for Thinking Sphinx"
+redirect_from: "/posts/updates_for_thinking_sphinx"
+categories:
+  -
+    plugins
+    search
+    utf-8
+    sydney
+    capistrano
+    sphinx
+    ruby
+    rails
+---
+I've been working away on Thinking Sphinx when I've had the time - and we're nearing what I feel is a solid 1.0 release. I say _we_, because I've had some very generous people supply patches over the last few weeks - namely "Arthur Zapparoli":http://www.arthurgeek.net/, "James Healy":http://yob.id.au/, Chris Heald and "Jae-Jun Hwang":http://www.embian.com/. Switching to "git":http://github.com/freelancing-god/thinking-sphinx/tree/master - and GitHub in particular - has made it very easy to accept patches.
+
+Mind you, all of these changes aren't committed just yet - and even when they are, there'll still be a few more things to cross off the list before we hit the big 1.0 milestone, namely PostgreSQL support and solid spec coverage. Slowly edging closer.
+
+In other news - to help share the Thinking Sphinx knowledge (after some prompting by a few users of the plugin), I've created "a Google Group":http://groups.google.com/group/thinking-sphinx for it - so this will be the ideal place to ask questions about how to implement Sphinx into your app, suggest features, or report bugs.
+
+If you've been pondering how to deploy Thinking Sphinx via Capistrano, I recommend you read "a blog post by Wade Winningham":http://www.updrift.com/article/deploying-a-rails-app-with-thinking-sphinx - or if you're interested in better ways of handling UTF-8 characters outside of the 'normal' set (ie: without accents and so forth), make sure you peruse "James Healy's solution":http://yob.id.au/blog/2008/05/08/thinking_sphinx_and_unicode/.
+
+And one last reminder - if you're in Sydney on Wednesday evening and interested in learning a bit more about Sphinx in general and Thinking Sphinx in particular, come along to "the monthly Ruby meet":http://rubyonrails.com.au/2008/4/29/sydney-meetup-may-2008 at the Crown Hotel in Surry Hills, as those are the topics I'll be presenting on.

@@ -1,0 +1,22 @@
+---
+title: "Misdirected Zeal"
+redirect_from: "/posts/misdirected_zeal"
+categories:
+  -
+    religion
+    society
+    change
+    blogactionday
+    poverty
+    faith
+    cambodia
+---
+Okay, time for some more thoughts on poverty. Well, tangentially related to poverty really - it's more focused on how religion can come into play within NGOs.
+
+In case you weren't aware, some of the biggest NGO charities are built upon religious ideals. "World Vision":http://www.wvi.org/ and "The Salvation Army":http://www.salvationarmy.org/ are textbook examples. In Australia at least, other well known groups include "The Brotherhood of St Lawrence":http://www.bsl.org.au/ and "St Vincent de Paul":http://www.vinnies.org.au/. And I don't have a problem with this, by and large. I think most atheists can find common ground with Christians (the faith which all the above organisations represent) and other religious people, and the actions of these groups are generally things I'm happy to support.
+
+What makes me a little angry, however, is when faith gets in the way of helping people - ie. a missionary approach. I know there are NGO organisations here in Cambodia that teach English from the Bible, while others only employ locals if they convert to Christianity. The focus is less about helping others, and more about converting them to your religion.
+
+I've no idea if this problem exists in religious-but-not-Christian NGOs - but I was raised as a Catholic, and have some understanding of the underlying ideals of the religion, and I'm pretty damn certain that these less than savoury practices are not what Jesus would do.
+
+Anyway, that's just an observation (well, more of a rant, really) from my time in Cambodia. And no NGO is perfect, really. I promise future posts will be a bit more constructive though (and hey, there'll be some more code-focused ones too).

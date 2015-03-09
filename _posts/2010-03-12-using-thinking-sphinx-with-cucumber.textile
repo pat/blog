@@ -1,0 +1,80 @@
+---
+title: "Using Thinking Sphinx with Cucumber"
+redirect_from: "/posts/using_thinking_sphinx_with_cucumber"
+categories:
+  -
+    search
+    testing
+    cucumber
+    sphinx
+    thinking sphinx
+    ruby
+    rails
+---
+While I highly recommend you stub out your search requests in controller unit tests/specs, I also recommend you give your full stack a work-out when running search scenarios in Cucumber.
+
+This has gotten a whole lot easier with the @ThinkingSphinx::Test@ class and the integrated Cucumber support, but it's still not perfect, mainly because generally everyone (correctly) keeps their database changes within a transaction. Sphinx talks to your database outside Rails' context, and so can't see anything, unless you turn these transactions off.
+
+It's not hard to turn transactions off in your @features/support/env.rb@ file:
+
+<pre><code>Cucumber::Rails::World.use_transactional_fixtures = false</code></pre>
+
+But this makes Cucumber tests far more fragile, because either each scenario can't conflict with each other, or the database needs to be cleaned before and after each scenario is run.
+
+Pretty soon after I added the inital documentation for this, a few expert Cucumber users pointed out that you can flag certain feature files to be run without transactional fixtures, and the rest use the default:
+
+<pre><code>@no-txn
+Feature: Searching
+  In order to find things as easily as possible
+  As a user
+  I want to search across all data on the site</code></pre>
+
+This is a good step in the right direction, but it's not perfect - you'll still need to clean up the database. Writing steps to do that is easy enough:
+
+<pre><code>Given /^a clean slate$/ do
+  Object.subclasses_of(ActiveRecord::Base).each do |model|
+    next unless model.table_exists?
+    model.connection.execute "TRUNCATE TABLE `#{model.table_name}`"
+  end
+end</code></pre>
+
+(You can also use "Database Cleaner":http://rubygems.org/gems/database_cleaner, as noted by Thilo in the comments).
+
+But adding that to the start and end of every single scenario isn't particularly DRY.
+
+Thankfully, there's @Before@ and @After@ hooks in Cucumber, and they can be limited to scenarios marked with certain tags. Now we're getting somewhere!
+
+<pre><code>Before('@no-txn') do
+  Given 'a clean slate'
+end
+
+After('@no-txn') do
+  Given 'a clean slate'
+end</code></pre>
+
+And here's a bonus step, to make indexing data a little easier:
+
+<pre><code>Given /^the (\w+) indexes are processed$/ do |model|
+  model = model.titleize.gsub(/\s/, '').constantize
+  ThinkingSphinx::Test.index *model.sphinx_index_names
+end</code></pre>
+
+So, how do things look now? Well, you can write your features normally - just flag them with @no-txn@, and your database will be cleaned up both before and after each scenario.
+
+My current preferred approach is adding a file named @features/support/sphinx.rb@, containing this code:
+
+<pre><code>require 'cucumber/thinking_sphinx/external_world'
+
+Cucumber::ThinkingSphinx::ExternalWorld.new
+
+Before('@no-txn') do
+  Given 'a clean slate'
+end
+
+After('@no-txn') do
+  Given 'a clean slate'
+end</code></pre>
+
+And I put the step definitions in either @features/step_definitions/common_steps.rb@ or @features/step_definitions/search_steps.rb@.
+
+So, now you have no excuse to not use Thinking Sphinx with your Cucumber suite. Get testing!

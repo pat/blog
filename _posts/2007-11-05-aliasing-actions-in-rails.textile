@@ -1,0 +1,22 @@
+---
+title: "Aliasing Actions in Rails"
+redirect_from: "/posts/aliasing_actions_in_rails"
+categories:
+  -
+    ruby
+    rails
+---
+Code snippet for application.rb that makes life just a _little_ easier if multiple actions are doing exactly the same thing (both in the controller and the view):
+
+<pre><code>def self.alias_action(existing, aliased)
+  define_method(aliased.to_sym) do
+    send(existing.to_sym)
+    render :action => existing.to_s
+  end
+end</pre></code>
+
+And then in the appropriate controller (where @edit@ is an existing action, and @show@ needs to be exactly the same):
+
+<pre><code>alias_action :edit, :show</pre></code>
+
+I know this is a specialised use - but perhaps someone else out there is doing something similar.

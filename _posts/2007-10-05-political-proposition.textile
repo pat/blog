@@ -1,0 +1,11 @@
+---
+title: "Political Proposition"
+redirect_from: "/posts/political_proposition"
+categories:
+  -
+    politics
+    australia
+---
+Peter Garrett is a shining example of why ethical, idealistic, passionate people should not become politicians.
+
+"Discuss.":http://www.theage.com.au/news/national/garrett-spineless-on-mill/2007/10/05/1191091317875.html?page=fullpage

@@ -1,0 +1,21 @@
+---
+title: "Sphinx Quick Fix"
+redirect_from: "/posts/sphinx_quick_fix"
+categories:
+  -
+    search
+    mac
+    leopard
+    sphinx
+---
+Here's one small filesystem tweak that's been handy as I've been slowly rebuilding my development environment on Leopard over the last couple of days. It's to get "Sphinx":http://www.sphinxsearch.com working - there was no problems with compilation or installation, but when I ran searchd or indexer, it complained about not finding the mysql libraries:
+
+<pre><code>dyld: Library not loaded: /usr/local/mysql/lib/mysql/libmysqlclient.15.dylib
+  Referenced from: /usr/local/bin/indexer
+  Reason: image not found</code></pre>
+
+Now, the expected file path is incorrect - it shouldn't have the second 'mysql'. My attempts to change that with various configuration flags didn't work, so I cheated, and added the folder as a symbolic link:
+
+<pre><code>sudo ln -s /usr/local/mysql/lib /usr/local/mysql/lib/mysql</code></pre>
+
+Suggestions of a cleaner solution always welcome.

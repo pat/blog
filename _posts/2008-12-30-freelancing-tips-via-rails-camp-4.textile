@@ -1,0 +1,118 @@
+---
+title: "Freelancing Tips via Rails Camp 4"
+redirect_from: "/posts/freelancing_tips_via_rails_camp_4"
+categories:
+  -
+    freelancing
+    railscamp
+    twitter
+    work
+    maths
+    ruby
+    australia
+    rails
+---
+h3. Context
+
+The fourth Australian "Rails Camp":http://railscamps.com happened back in the middle of November - and it was unsurprisingly and extremely enjoyably awesome, just like the previous four. *Ryan* and *Anthony* did a sterling job with putting it all together.
+
+I probably talked a bit too much - I certainly felt I had more than my fair share of peoples' focus - and while I rabbited on about Sphinx and "Ginger":http://github.com/freelancing-god/ginger, the topic I really enjoyed ranting about was freelancing, because it became far less about me, and far more about sharing the wealth of everybody's experiences. I provided a few starting points, and then wise "RORO":http://faces.rubyonrails.com.au/ minds added their own thoughts and opinions.
+
+I can't reproduce all that here, though. I wouldn't do it justice. What I can do is go over the same notes I had then, and you can add your 2 cents (or five dollars) in the comments.
+
+h3. Freelancing Maths
+
+One of the first things you need to be aware of, when you start freelancing, is how much to charge. I didn't have a clue, but some more business-minded friends put me on the right track, so I'm sharing their advice here - don't give me any credit for it.
+
+So, let's assume you want to start freelancing, and you have a target of earning $80,000 over the year (yes, some of you may say that's too low, but others will say it's too high - it's just an example, okay?). You can use this as a basis for figuring out an hourly rate. There's *52* weeks in a year, *5* days in a week, and *8* hours in a day...
+
+<pre> 52 weeks
+x 5  days
+x 8 hours
+x ?  rate
+_________
+   80,000</pre>
+
+But wait a second - are you really going to work all of those 52 weeks? I doubt it. You'll need time off for annual leave, sick leave and public holidays - the times when an employer would still pay you when you're not slaving away. Australian annual leave is *four* weeks, sick leave is usually *two*, let's add in another *one* for public holidays, and that brings us down to *45*.
+
+<pre> 45 weeks
+x 5  days
+x 8 hours
+x ?  rate
+_________
+   80,000</pre>
+
+What are the odds you're going to have work all the time though, and are you really going to have *eight* billable hours each day? Unless you're some sort of machine, the answer's no, trust me. So lets drop *eight* down to *six*.
+
+<pre>     45 weeks
+x     5  days
+x     6 hours
+x 59.25  rate
+_____________
+       80,000</pre>
+
+One thing we've missed in our calculations is superannuation. Again, using Australia as the example (because it's all I can reliably comment on), you're supposed to be putting away *9%* of your income into your super account. Let's factor that in:
+
+<pre>     45 weeks
+x     5  days
+x     6 hours
+x 64.59  rate
+_____________
+       87,200</pre>
+
+Okay, so we can get an hourly rate of about *$65* from that maths. And that could be fine... but maybe you've been eyeing off "RailsConf":http://en.oreilly.com/rails2009/ or "RubyConf":http://2008.rubyconf.org/ or other such events. They're not cheap - and hopefully employers would normally fork out the cash to get you there. You're the employer now, so how are you going to afford it? Add an allowance into your calculations.
+
+Again, due to the remoteness of Australia, it's extra expensive to get to any of the major Ruby conferences. If we assume you'll get to two of them (again, could be extravagant for some of you, but this is all hypothetical), then I'm adding a touch over $12,000 - flights, hotels, insurance, the conference tickets - to bring us to a nice round $100,000 target.
+
+Also, I've dropped the number of weeks down another *two* - it's not like you'll be getting anything done for your clients as you jet around.
+
+<pre>     43 weeks
+x     5  days
+x     6 hours
+x 77.52  rate
+_____________
+      100,000</pre>
+
+Okay, our final hourly rate is about *$77.50*.
+
+I know a lot of the more experienced developers are looking at that value and thinking it's pretty low - and going by market rates (for Ruby developers), it's definitely below average. Some say a good ballpark figure for a decent Rails developer is $100/hour - USD or AUD (remember when the two currencies were almost on par?). This doesn't mean you should charge that much (or that little) - but it should factor into your thinking.
+
+All that said, you need to be comfortable with what you're billing your time at, but don't be afraid to charge what you're worth. If the idea of having more cash than you expect scares you, there's plenty of charities who would like to be your friend. Or, you could just work less, and spend the extra time on cool things (and they don't even have to involve code!)
+
+h3. Freelancing Profile
+
+Knowing what to charge is useful, but it's not going to bring in the clients. Being known will help that problem, though - and there's a few things you can do to help that.
+
+h4. Blog
+
+Interpret how you will - a normal blog, twitter, tumblelog, even gists and pasties - sharing your ideas and knowledge is a great way to get your name known to others. It also helps build some human connections, via comments, emails or directed tweets. If it is valuable, they will find you (and if you think they need help, use a site like "RubyFlow":http://rubyflow.com/ or "RubyCorner":http://rubycorner.com/ to bring in some eyeballs).
+
+h4. Talk
+
+If there's a neat bit of code you've found, library you've come across (or written), or knowledge you think is valuable to others, offer to talk about it! It can be at your local Ruby group, or at something like a Rails Camp or BarCamp, or if you're really comfortable up on stage, think about applying for a RailsConf or RubyConf slot.
+
+I'm not a natural public speaker - but my confidence has grown in leaps and bounds from giving talks to fellow developers. Granted, I need to build up a bigger repertoire of topics, but I'm a bit less nervous about standing up and announcing my thoughts and opinions to others. It all started with an email from "Tim Lucas":http://toolmantim.com/ asking what I was going to talk about at the first Rails Camp - and now Rails Camp folks are probably sick of hearing my voice.
+
+They know who I am, though, and they know what code I've written. And that's led to a referral or two for Rails work (usually Sphinx-related).
+
+h4. Socialise
+
+Networking is a dirty word - and I can see how building connections with others for the purpose of connections, instead of meeting cool people, is a bit dirty. The much more fun alternative is to socialise - go out to social events, find those drinks happening in the evenings of conferences, have a conversation with a person you've not met before at your local Ruby meet.
+
+Down the track, you will find these people may throw work your way - or maybe you'll just learn cool new ways to code, or share some of your own knowledge, or make a good friend. All chalked up as wins in my book.
+
+h4. Release Code
+
+Releasing your own code - from snippets to plug ins to full-blown applications - is a great way to show peers that you know what you're talking about. It also shows potential clients that too, and reaffirms that you're worth the rate you're charging, and that you can be creative.
+
+In my own case, I've done the occasional bit of Sphinx consulting due to my work on "Thinking Sphinx":http://ts.freelancing-gods.com.
+
+Coincidentally, doing all these things are rewarding in and of themselves. I don't do them to bring in work, I do them because they're fun and I meet awesome people, which is (I think) the best approach. The opportunities they lead to are just an added bonus.
+
+h3. Your Turn
+
+So, what's your advice to a budding freelancer? Is there anything here that's a bit Ruby or developer-centric? Any more general suggestions to keep in mind?
+
+Also, please keep in mind I'm not an expert. I think the above advice is useful, but it is just advice. There's no hard and fast rules that should be followed.
+
+And the name of this blog has nothing to do with my work lifestyle, but the idea of deities who freelance for each other. Don't take it as an indication of my ego. Honest.

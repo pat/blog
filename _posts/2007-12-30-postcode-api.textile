@@ -1,0 +1,28 @@
+---
+title: "Postcode API"
+redirect_from: "/posts/postcode_api"
+categories:
+  -
+    REST
+    api
+    postcodes
+    merb
+    ruby
+    australia
+---
+A couple of weeks ago I quickly coded a basic webservice - using "Merb":http://merbivore.com - for Australian Postcode data. Just got hosting for it sorted out last night, so now I can blog about it.
+
+h3. "Postie":http://auspostie.com
+
+The emphasis is on simple - you can search by postcode or suburb, and get the data back either as a HTML page, XML, or JSON. That's pretty much it. The request urls aren't complicated, either:
+
+* "auspostie.com/Brunswick":http://auspostie.com/Brunswick
+* "auspostie.com/Brunswick.js":http://auspostie.com/Brunswick.js
+* "auspostie.com/Brunswick.xml":http://auspostie.com/Brunswick.xml
+* "auspostie.com/2782":http://auspostie.com/2782
+* "auspostie.com/2782.js":http://auspostie.com/2782.js
+* "auspostie.com/2782.xml":http://auspostie.com/2782.xml
+
+Suburb requests use partial matching, so you don't need the full suburb name. If you want the JSON returned with the MIME type of @application/json@, use the @.json@ extension.
+
+I've no plans at this point on using this, but perhaps it's useful for someone out there - if so, would love to hear about it.

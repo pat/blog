@@ -1,0 +1,16 @@
+---
+title: "Sphinx 0.9.8-rc1 Updates"
+redirect_from: "/posts/sphinx_098_rc1_updates"
+categories:
+  -
+    plugins
+    search
+    sphinx
+    ruby
+    rails
+---
+Another small sphinx-related post.
+
+In line with the first release candidate release of "Sphinx 0.9.8":http://sphinxsearch.com/ last week, I've updated both my API, "Riddle":http://riddle.freelancing-gods.com, and my plugin, "Thinking Sphinx":http://ts.freelancing-gods.com, to support it. Also, for those inclined, you can now get Riddle as a gem.
+
+I'm slowly making progress on some major changes to Thinking Sphinx, so hopefully I'll have something cool to show people soon. Oh, but some features that aren't reflected in the documentation: most of Sphinx's search options can be passed through when you call Model.search - including @:group_by@, @:group_function@, @:field_weights@, @:sort_mode@, etc. Consider it an exercise for the reader to figure out the details until I get around to improving the docs.

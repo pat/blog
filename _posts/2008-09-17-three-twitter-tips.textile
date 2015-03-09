@@ -1,0 +1,21 @@
+---
+title: "Three Twitter Tips"
+redirect_from: "/posts/three_twitter_tips"
+categories:
+  -
+    social
+    web2.0
+    conversation
+    twitter
+---
+Now, I've been known to rail against people saying "This is the right way to use Twitter" - _but_ there's a couple things that I've started doing over the last few months that I think are worth sharing. I'm sure the expert Twitterers amongst you won't find this new, and it really is only a couple of tips - so please suggest others in the comments - but perhaps some will find it helpful.
+
+So, first up: If you're following a lot of people (say, more than a couple of dozen), I recommend you don't try to read every tweet everyone says. You'll go crazy from the information overload. Don't trawl back through the pages of tweets you missed while sleeping - just live in the moment.
+
+Secondly, keep your eye on the "Replies tab":http://twitter.com/replies. This tracks every tweet addressed to you by others - whether or not they're following you or you're following them. That in itself is useful, but what makes this extra-special is the "RSS feed":http://twitter.com/statuses/replies.atom for that page. This makes it super-easy for keeping track of messages, with one caveat: you need a feed reader that supports authentication (such as "NetNewsWire":http://www.newsgator.com/Individuals/NetNewsWire/Default.aspx).
+
+The last tip I have also ties into RSS - the feeds for results from Twitter's "search":http://search.twitter.com. I use this to track messages about me (so I do get some duplicates with the Replies feed, but I also see all tweets that mention me but aren't addressed to me), as well as a few other keyword searches - in particular, "Rails Camp":http://search.twitter.com/search?q=rails+camp and "Thinking Sphinx":http://search.twitter.com/search?q=Thinking+Sphinx. The latter not only shows me the occasional tweet of people liking my plugin, but also gives me the opportunity to contact those with issues or complaints, see if I can help in some way.
+
+See, told you I didn't have too much to say.
+
+So, how do you use Twitter? And what tips can you share?

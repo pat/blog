@@ -9,8 +9,13 @@
   <body>
     {% include navigation.html %}
     <section>
-      <h2>{{ page.title }}</h2>
-      {{ content }}
+      <article>
+        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+        <p class="date">Posted on {{ page.date | date: "%-d %B, %Y" }}</p>
+        <div class="content">
+          {{ content }}
+        </div>
+      </article>
     </section>
   </body>
 </html>

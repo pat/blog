@@ -1,0 +1,23 @@
+---
+title: "Developer Ethics"
+redirect_from: "/posts/developer_ethics"
+categories:
+  -
+    php
+    ethics
+    programming
+    cambodia
+    ruby
+    rails
+---
+A quick question to fellow coders...
+
+Unsurprisingly, there's a dearth of Ruby developers in Cambodia. I imagine the situation is pretty similar in other developing nations. PHP and Visual Basic seem to be the common languages in the small tech community here.
+
+I'm currently working on building a website for one of the local NGOs here - and of course, Rails is my preferred framework. But looking forward, I don't wish to be providing ongoing support for the site - and the client shares that sentiment. So to make it easier for local developers to take over, should I be considering using PHP for the project instead?
+
+I have offered to help the IT guy at this organisation learn Ruby, but he won't be there forever as well. And they're a small NGO - they don't have the cash to throw around hiring super-skilled developers. The project itself is pro-bono.
+
+So, what would you do, given the circumstances?
+
+(And for the record, it's very likely I'll stick with Ruby - using the Radiant CMS - but I'm interested in others' opinions.)
