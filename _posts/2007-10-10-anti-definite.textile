@@ -32,3 +32,4 @@ Or, via Rails:
 <pre><code>Post.find :all, :order => 'ANTIDEFINITE(subject)'</code></pre>
 
 I'm not sold on the function name, though - it's a bit long, but at least it's clear. If you've got a better suggestion, let me know.
+

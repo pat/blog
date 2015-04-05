@@ -2,13 +2,13 @@
 title: "LaughTrack: Week One"
 redirect_from: "/posts/laugh_track_week_one"
 categories:
-  - comedy
-  - australia
-  - melbourne
-  - laughtrack
-  - micf
   - statistics
   - twitter
+  - laughtrack
+  - comedy
+  - micf
+  - melbourne
+  - australia
 ---
 Last week, I launched a website I've been working on in my own time: "LaughTrack":http://laughtrack.com.au. It follows what people are saying on Twitter about the "Melbourne International Comedy Festival":http://www.comedyfestival.com.au, and provides ratings on whether the crowd thinks a show is good or not.
 
@@ -55,3 +55,4 @@ It's interesting that almost all on the first list are comedians still making th
 Of course, the older tweets were from other festivals - in particular, the Adelaide Fringe and the Brisbane Comedy Festival, which both happened in the lead-up to Melbourne's Comedy Festival. So these numbers are far from perfect (but then, divining quality from Twitter isn't a science anyway).
 
 Hopefully you've found this somewhat interesting (well, if you're a comedy buff) - expect more reports as the festival progresses. If you're in Melbourne, I hope you're making the most of this fabulous time of year!
+

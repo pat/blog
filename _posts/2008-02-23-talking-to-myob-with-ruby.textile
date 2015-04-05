@@ -2,11 +2,11 @@
 title: "Talking to MYOB with Ruby"
 redirect_from: "/posts/talking_to_myob_with_ruby"
 categories:
-  - ruby
+  - merb
   - myob
   - odbc
+  - ruby
   - rails
-  - merb
 ---
 Okay, time for another code post. Prompted by a comment on an "earlier post about Merb and MYOB":http://freelancing-gods.com/posts/mixing_merb_and_myob, I thought I'd provide some more detail on how to talk to MYOB using Ruby, for any other people stuck in a similar position.
 
@@ -81,3 +81,89 @@ In both the situations above, I've not put usernames or passwords into the conne
 For those who are new to coding for MYOB - it does cost money to get a developer account (several hundred dollars per year), which is the only way to get write access. I think read access is a once off fee of a couple of hundred dollars, but that's specific to a MYOB file.
 
 And if anyone is wondering - while I was initially using the odbc-rails library, I've now switched to constructing the SQL myself and just using the bindings, because of the table issues.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Xavier Shay":http://rhnh.net left a comment on 23 Feb, 2008:</div>
+
+<div class="comment">
+Sweet, I can see this coming in handy
+</div>
+
+<div class="comment-author">"Mike Aldred":http://luminousmonkey.org/ left a comment on 21 Apr, 2008:</div>
+
+<div class="comment">
+I'm currently interested in getting a work Rails app integrated with MYOB for our accounts, and I've got my developer licence (just waiting on things to arrive).
+
+I do have a question though, you using an ODBC-ODBC bridge or something? Doesn't the MYOB ODBC driver only run under Windows?
+
+Cheers
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 21 Apr, 2008:</div>
+
+<div class="comment">
+Hi Mike
+
+Yes, MYOB's driver does only work on Windows. There are bridges around - but none that were free (or even trial versions) that work on 10.5, my development platform of choice.
+
+The project I did a lot of MYOB/Ruby work for involved a Windows server with the ODBC Driver and some generic ruby code that parsed XML provided from a Rails app on a *nix machine. Testing the code was not particularly fun, involving Parallels and Cygwin.
+</div>
+
+<div class="comment-author">"Mike Aldred":http://luminousmonkey.org/ left a comment on 23 Apr, 2008:</div>
+
+<div class="comment">
+Ahh, cool.
+
+I was wondering about all the sudo commands.
+I've got a Solaris server that's going to host the database and web front end, and I'll probably write up a little ruby app for the Windows end.
+
+I'll do a post of my efforts here sometime, just to help anyone else thinking of the same thing.
+
+Cheers
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 23 Apr, 2008:</div>
+
+<div class="comment">
+Mike, would be great to see a write-up on how you go about it - always good to see some different approaches.
+</div>
+
+<div class="comment-author">"Mike Aldred":http://luminousmonkey.org/ left a comment on 24 Apr, 2008:</div>
+
+<div class="comment">
+Sorry to bother you again Pat.
+
+The link to the diff seems to be broken.  I'm assuming you're just adding openrda to the dbmsNameToSym function in odbc_adapter.rb?
+
+Cheers
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 24 Apr, 2008:</div>
+
+<div class="comment">
+Hi Mike - looks like I never tested that link. The file wasn't named properly _and_ I mispelt my own domain. Sorry about that.
+
+And yeah, I wasn't doing much more than adding openrda as a recognised dbms type.
+</div>
+
+<div class="comment-author">Faber left a comment on 13 Nov, 2008:</div>
+
+<div class="comment">
+Sori for my newbie question :D
+
+After buying MYOB's license and installing it, can we customize it freely? Without having to buy another license or the like?
+
+Thanks
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 13 Nov, 2008:</div>
+
+<div class="comment">
+Hi Faber
+
+I'm afraid I'm not a MYOB expert, so I can't really help you with that. Best to ask MYOB support (or on their forums).
+</div>
+
+</div>

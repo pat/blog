@@ -2,13 +2,13 @@
 title: "Laughtrack Review"
 redirect_from: "/posts/laughtrack_review"
 categories:
-  - comedy
-  - australia
-  - melbourne
-  - laughtrack
-  - micf
   - statistics
   - twitter
+  - laughtrack
+  - comedy
+  - micf
+  - melbourne
+  - australia
 ---
 So, it's been a couple of months since "the Melbourne International Comedy Festival":http://www.comedyfestival.com.au wrapped up, and thus, a couple of months since "LaughTrack":http://laughtrack.com.au went silent. I just want to write up a last batch of statistics, as well as some broader thoughts on how the site went in general.
 
@@ -78,3 +78,27 @@ So where does that leave us? Well, I'm definitely interested in reprising LaughT
 As for other festivals, I'm going to need some financial support to dedicate any time to adapting and maintaining the site. If you're interested in sponsoring development on LaughTrack for a festival, then please do get in touch.
 
 I would love to hear feedback on whether you found the site useful during the festival, and how it could improve. From a personal level, I know I found new shows to go see purely by reading the thousands of tweets that came through.
+
+----
+
+<div class="comments">
+<div class="comment-author">Rose left a comment on 14 Jun, 2010:</div>
+
+<div class="comment">
+Hey Pat,
+
+I found Laughtrack interesting to follow throughout the MICF, though it didn't influence any of my show choices. The Leaderboard sure is chock full of excellent shows, though I don't think the Gains is a good indicator of quality. Laughtrack was definitely a good resource to follow the buzz around shows, though I agree it would have been kind of MICF to let you know what shows were selling out, for example. It will be interesting to see in future years how Laughtrack develops as more people join the Twitter bandwagon.
+
+Cheers,
+Rose
+</div>
+
+<div class="comment-author">"egor":http://egor.pp.ua left a comment on 29 Oct, 2011:</div>
+
+<div class="comment">
+hi, read somewhere that u will be in Ukraine and u are programming Ruby. Iam not programmer, but i have some begginers knowledge about it, and once i tried to understad rubyrails but i can not. I need somebody to help me sometimes to understand some things to start programming in it). And i invite you to Odessa, Ukraine. This is very city and as u like travelling it will be interesting for u to stay here and help me to start to understand rubyrails).
+I can propose u host u for sometimes at my apartment, teach russian language, or make advanture tours in Ukraine or somewhere in direction to east from Ukraine), for example Caucas region, or Central Asia, Afghanistan or Far east Russian).
+See u
+</div>
+
+</div>

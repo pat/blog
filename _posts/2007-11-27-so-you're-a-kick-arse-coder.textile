@@ -4,8 +4,8 @@ redirect_from: "/posts/so_you're_a_kick_arse_coder"
 categories:
   - society
   - politics
-  - railscamp
   - charity
+  - railscamp
 ---
 This is the written version of a talk I did at "RailsCamp":http://wiki.railscamp07.org - it is pretty close to what I actually said on the day, minus the heckling, discussions and answers to rhetorical questions.
 
@@ -92,3 +92,82 @@ h3. Get out there!
 <a href="http://xkcd.com/308/"><img src="http://imgs.xkcd.com/comics/interesting_life.png" class="breaker" alt="XKCD Interesting Times Comic" /></a>
 
 (Photo above was taken by "Rowen Atkinson":http://www.rowen.id.au/blog/ at Web Directions South 2007. Comics from "XKCD":http://xkcd.com/. Inspiration from "Mark Pesce":http://blog.futurestreetconsulting.com/?p=39, "John Allsopp":http://westciv.typepad.com/dog_or_higher/2007/09/so-we-spent-250.html, "Mike Lee":http://atomicwang.org/motherfucker/Index/B4F177CD-1A08-4DF8-AEB6-F8AA6894835D.html and "Dean Kamen":http://www.bates.edu/x163260.xml. Massive thanks to all who provided feedback.)
+
+----
+
+<div class="comments">
+<div class="comment-author">Jayne left a comment on 27 Nov, 2007:</div>
+
+<div class="comment">
+I wish I was better at doing this. I agree everyone should give back to the community and it doesn't take a massive sacrifice to do. There's really interesting academic stuff along these lines on social capital which is quite intresting. There's a book called Bowling Alone that talks about how Americans have stopped giving back to their communities and what this means. The title refers to how everyone used to go bowling together in the 50's and now they don't. 
+http://en.wikipedia.org/wiki/Bowling_Alone 
+</div>
+
+<div class="comment-author">"Maxine Sherrin":http://www.webdirections.org left a comment on 27 Nov, 2007:</div>
+
+<div class="comment">
+Nice post Pat! Sounds like it might have been even better "in real life" :)
+One thing developers who want to "be the change they want to see" could check out is the Footprints Network:
+http://www.footprints.org.au/
+a network of ecommerce busineses that uses an API to add on microdonations to online transactions. They're particularly keen to get businesses with a large number of transactions on board, so if you're involved in a project like this, think about advocating them.
+</div>
+
+<div class="comment-author">Chris Coppin left a comment on 28 Nov, 2007:</div>
+
+<div class="comment">
+Nice post mr Allan. And you managed to put my 2 favorite xkcd cartoons in as well :)
+</div>
+
+<div class="comment-author">"Lachlan Hardy":http://lachstock.com.au left a comment on 29 Nov, 2007:</div>
+
+<div class="comment">
+Your disclaimer at the start merely indicates that this is the version without beer...
+
+Regardless, it's a fantastic post, as it was a fantastic presentation. You, sir, are an inspiration!
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 30 Nov, 2007:</div>
+
+<div class="comment">
+Jayne: Bowling Alone got mentioned quite a bit in the (single) sociology subject I did at uni - I've not read it though, but I should.
+
+Maxine: That's a very cool link - will have to keep them in mind - perhaps even for the next RailsCamp!
+
+Chris: seems _everyone_ loves the Interesting Times XKCD comic :)
+
+Lachlan: My ego is getting beyond healthy thanks to your comments - that said, I'm pretty stoked that you and others enjoyed it.
+</div>
+
+<div class="comment-author">Pickles left a comment on 30 Nov, 2007:</div>
+
+<div class="comment">
+Blog Guide
+5:00pm freelancing-gods.com
+In this episode Pat takes acid and becomes Code Buddha.His Code-Love spreads through the world as the first 'UUFLV', Universal Unconditional Funkadelic Love Virus. George Clinton and the Parliament Funkadelic approve his entry to the Mothership.
+</div>
+
+<div class="comment-author">"Ben Schwarz":http://germanforblack.com left a comment on  1 Dec, 2007:</div>
+
+<div class="comment">
+Well done Pat, I think your post / presentation is fantastic. I'm sure you understand how I feel about getting back to the community, teaching people and giving _something_ back, its a fucking tough world out there.
+
+Working the **grind** really makes people forget about the kid drinking out of the dirty cup or even the student who is _only half_ interested in what they're planning to do for the rest of their lives. Getting out there and talking to people is probably worth more weight than any project you'll ever work. Mark Pesce got a lot of people thinking about **the network** at Web directions this year (myself included) and I'm glad you stoked the fire.
+
+
+</div>
+
+<div class="comment-author">"Steve":http://www.thesquigglyline.com/blog left a comment on 17 Mar, 2008:</div>
+
+<div class="comment">
+Hey Pat,
+
+Loved it :) Can I suggest any of your hombre's keen enough to put some money where their mouth is to check out the following...
+
+1) World Visions Stir Child Rescue (www.stit.org.au) (disclaimer, I work there!)
+
+2) Human Powered Cycles - I met this guy JUST tonight. Human Powered Cycles builds and rejuvinates pre-loved bikes and then provides them for free to asylum seekers in Melbourne. They have fixed up about 200 bikes in the last year, which now provide crucial transport to the people that need them most in our community. www.humanpowered.com.au
+
+3) Ripple and iRipple (the facebook ap) - http://www.ripple.org/ Built by some guys in Melbourne...what can YOU guys do?
+</div>
+
+</div>

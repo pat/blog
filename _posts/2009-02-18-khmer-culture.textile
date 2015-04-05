@@ -2,13 +2,13 @@
 title: "Khmer Culture"
 redirect_from: "/posts/khmer_culture"
 categories:
-  - cambodia
+  - culture
+  - history
+  - money
   - travel
   - khmer
+  - cambodia
   - guide
-  - history
-  - culture
-  - money
 ---
 *This is the first of "my guides to Cambodia":http://freelancing-gods.com/posts/pats_guide_to_cambodia.*
 
@@ -61,3 +61,26 @@ h3. Language
 If you're only going to the tourist-centric cities - Phnom Penh and Siem Reap - then you won't need to worry about learning Khmer. A growing number of the population can speak at least some English, and for the rest, you'll get by easily with sign language. That said, if you know a few local phrases - beyond _Socksabye_ (How are you?) and _Oarkun_ (Thank you) - you'll often get a good friendly laugh in response, as the vast majority of visitors just don't make an effort.
 
 I'll be covering "a lot more of the language in the next post":http://freelancing-gods.com/posts/speaking_khmer, so stay tuned.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Tim Lucas":http://toolmantim.com left a comment on 18 Feb, 2009:</div>
+
+<div class="comment">
+Ah brings back great memories. I loved our time in Cambodia, look forward to going back.
+</div>
+
+<div class="comment-author">Melina Chan left a comment on 19 Feb, 2009:</div>
+
+<div class="comment">
+Ah Patski, Pov mentioned yesterday that you haven't called yet and on the weekend when Cam gave Reaksmey another web lesson he said to pass on his regards.  Feel up to practicing your Khmer skills with the real deal?
+</div>
+
+<div class="comment-author">Ravy Khlat left a comment on 23 May, 2009:</div>
+
+<div class="comment">
+OMG! I'm Cambodian. I was born in the U.S. though. I've been to Cambodia about three or four times. My cousin's family is going this summer. Lucky... :(( I would really love to go again. :)) ^.^
+</div>
+
+</div>

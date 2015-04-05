@@ -2,10 +2,10 @@
 title: "On Poverty"
 redirect_from: "/posts/on_poverty"
 categories:
-  - blogactionday
-  - poverty
   - society
   - change
+  - blogactionday
+  - poverty
 ---
 As some of you aware (particularly those following me on "Twitter":http://twitter.com/pat), I'm currently in Cambodia. I've been here a month, and I'll be around for a month more - and maybe I'll be back again before the end of the year.  Given my location, and "previous blog posts"::http://freelancing-gods.com/posts/reject_conf_coders_kicking_arse, you'd think with an event like "Blog Action Day 2008":http://www.blogactionday.org, and the theme of poverty, writing a blog post on it all would be easy.
 
@@ -32,3 +32,14 @@ Looking abroad, there's plenty of government-sponsored organisations that have s
 h3. So?
 
 The suggestions above - that's the easy part. It's easy to tell you what to do. Whether you'll do it or not is another matter. Whether _I_ will do it is another matter too. The goal is solutions that are *tangible* and *sustainable*. Lasting change. Change that builds upon itself. That's the tricky stuff. I don't know those answers, and the rest of the thoughts in my head will have to wait for later blog posts.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Szybka budowa":http://www.szybka-budowa.net/ left a comment on 19 Oct, 2008:</div>
+
+<div class="comment">
+Ambitious artice! Thanks for sharing!
+</div>
+
+</div>

@@ -2,18 +2,18 @@
 title: "Rails Camps - Coming to a Country Near You"
 redirect_from: "/posts/rails_camps_coming_to_a_country_near_you"
 categories:
-  - ruby
-  - rails
-  - railscamp
-  - australia
-  - uk
   - usa
-  - maine
-  - margate
-  - melbourne
-  - community
   - unconference
   - barcamp
+  - uk
+  - railscamp
+  - maine
+  - margate
+  - ruby
+  - rails
+  - melbourne
+  - australia
+  - community
 ---
 This weekend, there's going to be a Rails Camp. In October, there's going to be a Rails Camp. Then in November, there's going to be a Rails Camp. That in itself is pretty freaking cool. What's even cooler is that they're in Maine, England and Australia respectively.
 
@@ -56,3 +56,4 @@ November 20th to 23rd are the dates for this, and going by the names of confirme
 For all of these events, you should beg, borrow or steal to get your hands on a ticket. The energy, intelligence and passion of past camps has been amazing (which is why I do my best to spread the word), and they are a breath of fresh air compared to the staid and structured setup of RailsConf and most other technical conferences.
 
 Thanks to "John Barton":http://whoisjohnbarton.com/, Max Muermann, and "Jason Crane":https://twitter.com/snapperwolf for the photos above.
+

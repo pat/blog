@@ -55,3 +55,21 @@ end</code></pre>
 This has actually made me cut back on usage of my plugin - because most of my pages don't have user-specific content.
 
 Oh, and one more thing - to cut down on user-specific content in my views, I've been mapping my users controller as both a normal resource _and_ a singleton resource. This means instead of a "Your Profile" link being @/users/34@, it's just @/user@. Makes the controller code a little tricky, and the named routes get confused, but nothing a few clever helper methods can't fix.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Tiago Bastos":http://tiago.zusee.com
+ left a comment on  7 Aug, 2008:</div>
+
+<div class="comment">
+Works on Rails 2.0.2?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  7 Aug, 2008:</div>
+
+<div class="comment">
+Hi Tiago: I'm not sure if it's friendly with 2.0.2 - it's been a while since I've really spent any time with this plugin. I'd expect it to work though... I recently shifted a site that uses it over to Rails 2.1, and there haven't been any issues.
+</div>
+
+</div>

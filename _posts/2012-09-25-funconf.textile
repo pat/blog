@@ -4,9 +4,9 @@ redirect_from: "/posts/funconf"
 categories:
   - funconf
   - ireland
-  - conference
   - adventure
   - trust
+  - conference
   - community
 ---
 This could be a story about a mystery. Or it could be an adventure. Or even a tale of learning and sharing. But ultimately, it really comes down to friendship and trust.
@@ -72,3 +72,40 @@ The evening brought with it a clever talk from "Derek Sivers":http://sivers.org,
 And just like _that_, Funconf 3 was finished. A grand success indeed, and perhaps it's for the best that there will not be another one - for I've no idea how Paul & Eamo could top that, plus it makes my experience all the more special, shared with such a superb group of fellow adventurers.
 
 Paul, Eamon: thank you ever so much. I have no regrets for putting my trust in both of you, for it was a brilliantly crafted weekend.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Paul Campbell":http://pabcas.com left a comment on 26 Sep, 2012:</div>
+
+<div class="comment">
+Thanks Pat.
+
+It was so much our pleasure to have you.
+
+—P
+</div>
+
+<div class="comment-author">"Eamo":http://eamo.net left a comment on 26 Sep, 2012:</div>
+
+<div class="comment">
+Pat, thanks for trusting us :)
+
+Eamo
+</div>
+
+<div class="comment-author">"Geoffrey Grosenbach":https://peepcode.com left a comment on 26 Sep, 2012:</div>
+
+<div class="comment">
+I'm glad to have been the one who introduced you to Paul! I met him on a 48 hour trip to Dublin thanks to Dr. Ana Nelson. Was she there too?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 26 Sep, 2012:</div>
+
+<div class="comment">
+Heya Geoff - I don't think Ana was there, though Paul would know for sure.
+
+Don't suppose we'll be catching you at Rails Camp in a couple of months?
+</div>
+
+</div>

@@ -2,12 +2,12 @@
 title: "PublicSphere: Open Government"
 redirect_from: "/posts/public_sphere_open_government"
 categories:
-  - australia
   - politics
   - government
   - transparency
   - open
   - publicsphere
+  - australia
 ---
 I'm a bit late to blogging about this (and I realise there's plenty of other blog posts I should have written over the last few months), but a couple of weeks ago, the ACT Senator "Kate Lundy":http://www.katelundy.com.au/ and her advisor Pia Waugh ran their second Public Sphere event. I didn't really hear of the first one - focused on "the national broadband network":http://www.katelundy.com.au/category/campaigns/publicsphere/high-speed-bandwidth/ - until after it happened. The second's topic was "open government (or the more buzzword-friendly Government 2.0)":http://www.katelundy.com.au/category/campaigns/publicsphere/open-gov/, a topic I'm passionate about, and so I marked it in my calendar.
 
@@ -45,3 +45,22 @@ Finally, a few notes on how I found interacting with the event from afar.
 * I also missed out on the informal discussions, in the breaks and corridors, which is where I feel a lot of the value usually is in conferences and unconferences.
 
 I'm definitely looking forward to seeing both recommendations and actions from the Taskforce, as well as future Public Sphere events.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Ross Hill":http://www.rosshill.com.au left a comment on  7 Jul, 2009:</div>
+
+<div class="comment">
+Are there more to come? Topics? Worth tuning into? #fomo
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  7 Jul, 2009:</div>
+
+<div class="comment">
+There's going to be at least one more (planned for the end of this month or sometime in August, last I heard) on local ICT industry growth and development.
+
+Worth tuning into? Depends how passionate and interested you are about the topics. Definitely worth keeping an eye on.
+</div>
+
+</div>

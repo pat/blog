@@ -63,3 +63,14 @@ No more @render :partial@ - you want something more like the following:
 partial "post", :with => @posts, :as => :post</code></pre>
 
 Again - you'll find most/all of this in the documentation, but the only potential show-stopper I found was plugins - the rest isn't that that big a difference to Rails.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Dr Nic":http://drnicwilliams.com left a comment on  9 Mar, 2008:</div>
+
+<div class="comment">
+BTW, Merb bundle for TM coming along at http://github.com/drnic/merb-tmbundle/tree/master
+</div>
+
+</div>

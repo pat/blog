@@ -2,12 +2,12 @@
 title: "Cut and Polish: A Guide to Crafting Gems"
 redirect_from: "/posts/cut_and_polish_a_guide_to_crafting_gems"
 categories:
-  - ruby
-  - gems
   - ukraine
-  - kyiv
-  - conference
   - rubyc
+  - kyiv
+  - gems
+  - ruby
+  - conference
 ---
 As I mentioned here earlier in the year, a few weeks ago I had the pleasure of visiting Ukraine and speaking at the RubyC conference in Kyiv. My talk was a run through of how to build gems, some of the tools that can help, and a few best practices.
 
@@ -22,3 +22,14 @@ One of the questions asked towards the end was about publishing private gems, wh
 Please let me know if you think I've missed any critical elements of building and publishing gems - or if you have any further questions.
 
 And many thanks to the RubyC team for putting together the conference and inviting me to speak - I had a great time!
+
+----
+
+<div class="comments">
+<div class="comment-author">"Michael Rykov":http://www.gemfury.com left a comment on 22 Nov, 2011:</div>
+
+<div class="comment">
+Thank you for helping spread the word about Gemfury.  If you have any questions or ideas, don't hesitate to get a hold of me.  Also, привет Ruby товарищам на Украине!
+</div>
+
+</div>

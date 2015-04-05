@@ -3,10 +3,10 @@ title: "Web Directions South 2007"
 redirect_from: "/posts/web_directions_south_2007"
 categories:
   - wds07
-  - rails
   - sydney
-  - conference
   - webjam
+  - rails
+  - conference
 ---
 It's a bit delayed, but I just wanted to write a little report (read: link to everyone and reminisce) on my trip to Sydney for Web Directions South 2007. So, in chronological order...
 
@@ -35,3 +35,4 @@ h3. WebJam
 And then onto the fantastic "WebJam":http://webjam.com.au/ - which involved more drinks, partying, presentations of funky web stuff, and meeting people. Once that eventually wound up, I was introduced to what is apparently a Sydney institution, "Harry's Cafe de Wheels":http://en.wikipedia.org/wiki/Harry's_Cafe_de_Wheels - their Tiger Pie tasted far better than what I was expecting.
 
 Which pretty much brings us to the end of my Sydney adventures (for this journey north, anyway). Massive thanks to all involved in the events, each was awesome.
+

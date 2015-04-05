@@ -2,13 +2,13 @@
 title: "Using Thinking Sphinx with Cucumber"
 redirect_from: "/posts/using_thinking_sphinx_with_cucumber"
 categories:
-  - ruby
-  - rails
+  - search
+  - testing
   - cucumber
   - sphinx
   - thinking sphinx
-  - search
-  - testing
+  - ruby
+  - rails
 ---
 While I highly recommend you stub out your search requests in controller unit tests/specs, I also recommend you give your full stack a work-out when running search scenarios in Cucumber.
 
@@ -77,3 +77,63 @@ end</code></pre>
 And I put the step definitions in either @features/step_definitions/common_steps.rb@ or @features/step_definitions/search_steps.rb@.
 
 So, now you have no excuse to not use Thinking Sphinx with your Cucumber suite. Get testing!
+
+----
+
+<div class="comments">
+<div class="comment-author">"thilo":http://upstre.am left a comment on 12 Mar, 2010:</div>
+
+<div class="comment">
+Hi Pat,
+nice write up. 
+
+The recent version of cucumber uses database_cleaner. So that you just need to add these steps. 
+
+Before('@no-txn') do
+  DatabaseCleaner.start
+end
+
+After('@no-txn') do
+  DatabaseCleaner.clean
+end
+ 
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 13 Mar, 2010:</div>
+
+<div class="comment">
+Thanks Thilo - couldn't find it mentioned in the cucumber source (0.4.4 or 0.6.3), but it's definitely an option if people want to install that gem. Have updated the blog post to mention it.
+</div>
+
+<div class="comment-author">Neal Clark left a comment on 31 May, 2010:</div>
+
+<div class="comment">
+hey pat!
+
+using a setup very similar to the one you described above, i get intermittent failures on search. is this something you have experienced as well?
+
+i recall from your "testing sphinx page":http://freelancing-god.github.com/ts/en/testing.html that you were sleeping a quarter of a second after re-indexing the models you were testing. that is left that out of your Given /^the (\w+) indexes are processed$/ step definition. should i still need that?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  1 Jun, 2010:</div>
+
+<div class="comment">
+Hi Neal
+
+You will still need the sleep line - not sure why I left that out of this blog post (I'll amend it with a note at some point soon). If you've got an older/slower machine, then you may need to increase the sleep length, too.
+
+When you say you get failures - do you mean the search results aren't there? (Sleeping so searchd can catch up should help that) Or do you mean errors are being raised?
+</div>
+
+<div class="comment-author">Neal Clark left a comment on  1 Jun, 2010:</div>
+
+<div class="comment">
+hey pat! thanks for getting back.
+
+when i say that i get failures, i do mean that the search results aren't there. but it only happens sometimes, say, 1 out of 10 times i run the test. i guess my machine is pretty fast ... or something? i'll sleep for 0.1 seconds and see if that works out.
+
+thanks again!
+-n
+</div>
+
+</div>

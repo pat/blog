@@ -13,3 +13,17 @@ If you're a Ruby developer in or near Australia, I highly recommend attending "R
 You don't need to be a Rails or Ruby genius to attend - just a desire to discuss, learn, teach and (_most_ importantly) have fun.
 
 "Go register now":http://rails-camp.eventwax.com/rails-camp-08/register/.
+
+----
+
+<div class="comments">
+<div class="comment-author">"ca":http://www.onlinebizbuzz.com/ left a comment on 25 Mar, 2008:</div>
+
+<div class="comment">
+Thats quite interesting event to be in, I will consider going. I will take decision tomorrow. 
+
+Thank you
+Eddie Moses
+</div>
+
+</div>

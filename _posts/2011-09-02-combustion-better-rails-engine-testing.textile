@@ -110,3 +110,77 @@ So, where do we stand?
 I'm not the first to come up with this idea - after I had finished Combustion, it was pointed out to me that "Kaminari's test suite":https://github.com/amatsuda/kaminari/blob/master/spec/fake_app.rb does a similar thing (just not extracted out into a separate library). It wouldn't surprise me if others have done the same - but in my searching, I kept coming across well-known libraries with full Rails apps in their test or spec directories.
 
 If you think Combustion could suit your engine, please give it a spin - I'd love to have others kick the tires and ensure it works in a wider set of situations. Patches and feedback are most definitely welcome.
+
+----
+
+<div class="comments">
+<div class="comment-author">"José Valim":http://blog.plataformatec.com.br left a comment on  7 Sep, 2011:</div>
+
+<div class="comment">
+Hey Pat!
+
+I am likely the main responsible for the practice of bundling Rails apps inside gems. It started with "Crafting Rails Applications" and the target was to make very clear what is happening when you boot your application and when config/application.rb and config/environment.rb are loaded (it is explained with a dummy app right in the first chapter!).
+
+That said, I think combustion provides a nice alternative to the problem for those who want completely hide away the Rails initialization process.
+
+Just one note: I disagree that bundling a Rails app is brittle, it does exactly the same as combution, except that it does it explicitly. However, I agree that bundling the whole Rails app can be considered "bloat" but you really don't need all those files. You can get away by keeping only config/{boot,application,environment}.rb (plus the database.yml if you are using AR), which is basically what combustion defines.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  7 Sep, 2011:</div>
+
+<div class="comment">
+Hi José
+
+I realise there's not a huge difference in the two approaches (and I had someone point out you'd made the full-app suggestion in your book halfway through developing Combustion – I should probably get myself a copy to read!).
+
+I didn't actually intend for Combustion to end up being a full Rails app, I just wanted full-stack testing with as little code as possible - and just added things bit by bit until it worked.
+
+And yeah, brittle isn't quite the right description - I got a little carried away.
+</div>
+
+<div class="comment-author">Dan Croak left a comment on  8 Sep, 2011:</div>
+
+<div class="comment">
+Very cool, Pat. Take a look at http://github.com/thoughtbot/diesel and http://github.com/thoughtbot/appraisal for some other ideas about testing engines and testing different versions of Rails, respectively.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  8 Sep, 2011:</div>
+
+<div class="comment">
+Very cool, thanks for sharing those Dan - I'm surprised I never found diesel in my searching. Appraisal reminds me of a gem I wrote some time ago for the same purpose - Ginger - https://github.com/freelancing-god/ginger - but that was before Bundler, and Appraisal seems a much cleaner approach now.
+</div>
+
+<div class="comment-author">"Millisami":http://nepalonrails.tumblr.com left a comment on 19 Sep, 2011:</div>
+
+<div class="comment">
+Nice setup to test the engine.
+But there is built in engine generator in Rails 3.1 with the following command.
+
+rails plugin new my_engine --mountable
+
+This command also generates a dummy rails app to test against. Its described in Ryan Bigg's Rails3InAction book. Though it generates the test setup for TestUnit, but its easy to tweak for RSpec too.
+
+Did you build Combustion just to ease the setup or find anything with the built-in plugin generator?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 19 Sep, 2011:</div>
+
+<div class="comment">
+I've not used the built-in engine/plugin generator in a long, long time (before engines existed) - Combustion was just built to make testing of engines simpler and DRYer.
+
+It's no surprise that the generator adds a dummy app, since that is the established approach for testing engines.
+</div>
+
+<div class="comment-author">Brad left a comment on 29 Jan, 2013:</div>
+
+<div class="comment">
+New link to README: https://github.com/pat/combustion
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 29 Jan, 2013:</div>
+
+<div class="comment">
+Thanks Brad, just updated the post with the newer link.
+</div>
+
+</div>

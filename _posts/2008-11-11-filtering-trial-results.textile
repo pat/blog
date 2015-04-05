@@ -62,3 +62,4 @@ h3. Raw Numbers
 | Omega | 101% | 79% | 78%  | 94% | 2.9% |
 
 Glossary of sorts: *PPI* (Passive Performance Index) is the relative speed when a filter is attached but not running. *API* (Active Performance Index) is the relative speed when the filter is running. *CPI* (Change In Performance Index) is API when using PPI as the reference point (instead of uninhibited network speeds). *BRI* (Blocking Rate Index) is the percentage of blacklisted sites stopped, and *OBI* (Overblocking Index) is the percentage of friendly sites overzealously blocked.
+

@@ -2,11 +2,11 @@
 title: "Rails Camp UK Report"
 redirect_from: "/posts/rails_camp_uk_report"
 categories:
+  - barcamp
+  - uk
+  - railscamp
   - ruby
   - rails
-  - railscamp
-  - uk
-  - barcamp
 ---
 Just over a week ago, the first "Rails Camp":http://railscamp08.org in the UK was held in Downe, outside Orpington - and I think it was a fantastic success (having been the organiser though, obviously there is some bias).
 
@@ -29,3 +29,48 @@ Massive thanks to all who came along and made it such a fantastic weekend - I'm 
 Also, if you're in Europe, you might want to check out the "German":http://railscamp.de/ and "Danish":http://railscamp08.org/#dk_october_2008 Rails Camps, which will be happening later this year. Australians, Rails Camp #4 will be happening in November (details are almost finalised). Everyone else: I highly recommend making one happen near you. There's now a group of us who have dabbled in the organisation of them, and we're more than happy to help however we can to get more of them happening around the world. It's not too hard, and it's an awesome way of strengthening your local Ruby community.
 
 <a href="http://www.flickr.com/photos/freelancing_god/2788505977/" title="Balancing by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3216/2788505977_28ac44d72a.jpg" width="375" height="500" alt="Balancing" /></a>
+
+----
+
+<div class="comments">
+<div class="comment-author">"Lachlan Hardy":http://lachstock.com.au/ left a comment on 26 Aug, 2008:</div>
+
+<div class="comment">
+Looks like it was a hell of a weekend, Pat! Congratulations on sharing the love!
+</div>
+
+<div class="comment-author">"Matt Aimonetti":http://railsontherun.com left a comment on 26 Aug, 2008:</div>
+
+<div class="comment">
+Pat, looks like you had a lot of fun, I wish I could have made it! However you forgot to mention Merb Camp coming up in San Diego Oct 11-12!  ;)
+</div>
+
+<div class="comment-author">"Ed Spencer":http://edspencer.net left a comment on 27 Aug, 2008:</div>
+
+<div class="comment">
+Hey Pat, thanks for organising a brilliant weekend.  I came back many ideas and RSS feeds richer :)
+
+I think the ExtJS guy had the best stuff going on though, not least on the Urban Terror battlefield.  Yeah, that guy was awesome.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 27 Aug, 2008:</div>
+
+<div class="comment">
+Ed: yeah, that ExtJS guy was pretty cool - 'cept for his camping in Urban Terror ;)
+</div>
+
+<div class="comment-author">Ben Askins left a comment on 27 Aug, 2008:</div>
+
+<div class="comment">
+Nice one Pat. Looks like it was an awesome weekend.
+</div>
+
+<div class="comment-author">"Bumi":http://tumble.railslove.com left a comment on 29 Aug, 2008:</div>
+
+<div class="comment">
+Hey Pat! 
+yeah, thanks for Railscamp UK! It was an `say awesome` camp!
+Hope to see you all at the camps in DK and/or DE! ;)
+</div>
+
+</div>

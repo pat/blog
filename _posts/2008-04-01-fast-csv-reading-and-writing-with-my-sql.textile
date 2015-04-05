@@ -31,3 +31,4 @@ LINES TERMINATED BY '\n'
 FROM table_name;</code></pre>
 
 More details are in the documentation - for both "importing":http://dev.mysql.com/doc/refman/5.0/en/load-data.html and "exporting":http://dev.mysql.com/doc/refman/5.0/en/select.html#id812780.
+

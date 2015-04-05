@@ -17,3 +17,34 @@ Javascript code, with prototype:
 });</code></pre>
 
 Not so useful if you rarely have default text fields, but for the app I'm working on, there's a lot of different pages, hence why I'm quite happy with the above solution.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Anthony kolber":http://www.aestheticallyloyal.com left a comment on 15 Oct, 2007:</div>
+
+<div class="comment">
+You should try out jquery meng.
+The $() function is lovely. Faster than prototype and feels much more elegant.
+</div>
+
+<div class="comment-author">"Pat":http://freelancing-gods.com left a comment on 15 Oct, 2007:</div>
+
+<div class="comment">
+Yeah, would like to really get stuck into jQuery, but at the moment I'm using the Autocompleter from scriptaculous, and a lightbox built off prototype...
+
+If I get bored, I might try rewriting those parts into jQuery, but unlikely that'll happen anytime soon.
+</div>
+
+<div class="comment-author">"Ben Schwarz":http://germanforblack.com/ left a comment on 17 Oct, 2007:</div>
+
+<div class="comment">
+You should probably apply that code to an event model like "domready" rather than onload, as that encompasses images and external scripts being available to the DOM.
+
+Having said that, I believe that pure HTML can give you more advantage rather than using  Javascript here.
+
+You may want to use another attribute (other than class) that has more "semantic meaning":http://www.w3.org/TR/html4/interact/forms.html#h-17.11
+
+</div>
+
+</div>

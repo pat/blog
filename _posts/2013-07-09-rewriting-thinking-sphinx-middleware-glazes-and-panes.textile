@@ -68,3 +68,4 @@ This means that your ActiveRecord instances take priority – so pane methods do
 If you're writing your own panes, the only requirement is that the initializer must accept three arguments: the search context, the underlying search result object, and a hash of the raw values from Sphinx. Again, "the source code":https://github.com/pat/thinking-sphinx/tree/master/lib/thinking_sphinx/panes for the panes is not overly complex - so have a read through that for inspiration.
 
 I'm always keen to hear about any middleware or panes other people write - so please, if you do make use of either of these approaches, let me know!
+

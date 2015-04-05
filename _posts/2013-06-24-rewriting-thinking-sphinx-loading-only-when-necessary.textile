@@ -64,3 +64,4 @@ The end result is thus:
 * Request times are faster.
 
 Overall, a vast improvement.
+

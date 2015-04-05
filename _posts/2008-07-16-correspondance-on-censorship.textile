@@ -2,10 +2,10 @@
 title: "Correspondance on Censorship"
 redirect_from: "/posts/correspondance_on_censorship"
 categories:
-  - politics
-  - australia
   - internet
+  - politics
   - censorship
+  - australia
 ---
 About six months ago, I "sent a letter":http://freelancing-gods.com/posts/internet_censorship_in_australia to the Australian Minister for Broadband, Communications and the Digital Economy (yes, that's a mouthful), *Stephen Conroy*, raising some concerns with the ISP filtering the Government was proposing.
 
@@ -32,3 +32,32 @@ Again, thank you for your response, and I look forward to the continuation of th
 Kind regards,
 
 Patrick Allan
+
+----
+
+<div class="comments">
+<div class="comment-author">"Lachlan Hardy":http://lachstock.com.au left a comment on 16 Jul, 2008:</div>
+
+<div class="comment">
+Righteous work, my man!
+</div>
+
+<div class="comment-author">"John Barton":http://whoisjohnbarton.com left a comment on 17 Jul, 2008:</div>
+
+<div class="comment">
+keep up the good work, anything that we the inter-tards can do to help?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 17 Jul, 2008:</div>
+
+<div class="comment">
+John: Since you're in Melbourne and I'm currently not: go speak to him in person about the issue (admittedly, that's a step I've not taken before, but should start doing it). He's a Victorian Senator. Push for human responses, don't let him get away with the political bullshit that these letters become.
+
+For an online-only task: email him - refer to these letters if you like, but make sure it's your own message at the core, even if it's something as simple as "I've seen these issues discussed, and I feel they're important. I look forward to hearing your response to the questions raised."
+
+Something like that, anyway. Or not. There's no value in spamming him with exactly the same message over and over again.
+
+And cc your local member - or forward him your original email, and write a little note explaining that he's your member of parliament and you want to make sure he's aware of your thoughts on this policy.
+</div>
+
+</div>

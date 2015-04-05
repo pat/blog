@@ -2,9 +2,9 @@
 title: "Better Gem Publishing with Gemcutter"
 redirect_from: "/posts/better_gem_publishing_with_gemcutter"
 categories:
-  - ruby
-  - gems
   - gemcutter
+  - gems
+  - ruby
 ---
 If you're working with Ruby and have been paying attention to Twitter or RSS feeds, then you've probably heard of "Gemcutter":http://gemcutter.org. If not, it's the latest flavour for publishing gems, and I'm finding the simplicity of it a delight.
 
@@ -66,3 +66,24 @@ Everything will still work fine via the "gemcutter.org":http://gemcutter.org add
 h3. Hat-tip
 
 The talented "Nick Quaranto":http://litanyagainstfear.com/ has been working hard on this for a while, and it's great to see the Ruby community embrace Gemcutter so quickly. Here's hoping it becomes the defacto gem source for all Ruby projects.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Nick Quaranto":http://litanyagainstfear.com left a comment on  7 Oct, 2009:</div>
+
+<div class="comment">
+Pat, just a correction or two:
+
+All you have to do is gem migrate [name]. You don't have to pass in a built gem, just the name will do.
+
+Also, doing gem tumble with sudo will make root own your ~/.gemrc, I'm not sure if that's good for everyone, but it certainly will work!
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  7 Oct, 2009:</div>
+
+<div class="comment">
+Thanks for the feedback Nick, have just updated those commands as suggested.
+</div>
+
+</div>

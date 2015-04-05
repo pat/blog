@@ -2,13 +2,13 @@
 title: "Insight on Gen Y voters"
 redirect_from: "/posts/insight_on_gen_y_voters"
 categories:
+  - internet
   - politics
-  - australia
+  - election
   - sbs
   - insight
-  - internet
-  - election
   - gen-y
+  - australia
 ---
 I caught the last half of SBS' "Insight":http://news.sbs.com.au/insight/ tonight, which was focused on Generation-Y voters in the marginal Queensland electorate of Moreton, currently held by the Liberal Party's Gary Hardgrave. While some of it felt pointless and bland, there were a few points from the parts I saw that grabbed my attention.
 
@@ -29,3 +29,45 @@ h3. Beyond the Show
 On Insight's web site, they have a "temporary forum":http://news.sbs.com.au/insight/chat/ for discussion about the show. I made a few comments myself, but from a technological perspective, it's really not an effective way to encourage discourse. You also get the trolls - even with the moderators vetting each post - just like everywhere else, which is a shame.
 
 Of course, it's tough to get people in a frame of mind where they're open to other ideas, instead of just ramming their own down other people's throats.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Ross Hill":http://www.rosshill.com.au left a comment on 16 Oct, 2007:</div>
+
+<div class="comment">
+Can honest, approachable politicians exist? The game is about getting your name out there as much as possible, and it just isn't possible for somebody to connect properly with hundreds of thousands of people. Or is it? 
+
+If you'd checked out the Facebook group that SBS made (well done to them) you'd find that it was much easier to navigate and there were some very constructive posts. Oh wait, you don't have an account :)
+</div>
+
+<div class="comment-author">"Pat":http://freelancing-gods.com left a comment on 16 Oct, 2007:</div>
+
+<div class="comment">
+The game shouldn't be about getting your name out there as much as possible - sure it's part of it, but it shouldn't be the focus. Ideally, the good ideas, the discussions, the debates would filter into the news because they deserve to.
+
+Sorry, I should have prefixed that with an idealism warning.
+
+And there were some constructive posts on the forum hosted on SBS's site (indeed, I wouldn't be surprised if the two are just different views for the same discussions).
+</div>
+
+<div class="comment-author">"Steve Hopkins":http://www.thesquigglyline.com left a comment on 17 Oct, 2007:</div>
+
+<div class="comment">
+I agree with your thoughts that the internet should be used to start conversations and engage further with people, rather than just be used as another PR vehicle. 
+
+I think, when done right, the net has the ability to provide politicians with a tool to portray their humility. Nobody does it right, but they are learning. Expect to see Kevin11.com be a much more conversational website :) 
+
+Check out this FastCompany article - interesting look at how guys in the US are doing it
+http://www.fastcompany.com/magazine/40/ifaqs.html
+</div>
+
+<div class="comment-author">"Pat":http://freelancing-gods.com left a comment on 17 Oct, 2007:</div>
+
+<div class="comment">
+That's a great article Steve - even if it is 7 years old. Interesting perspective on how people were pushing politics onto the web before the bubble burst.
+
+I really like the idea of the online election voting for students - I actually had someone suggesting something along those lines to me a couple of weeks ago (although not limiting the vote to students).
+</div>
+
+</div>

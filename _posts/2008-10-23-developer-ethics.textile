@@ -2,12 +2,12 @@
 title: "Developer Ethics"
 redirect_from: "/posts/developer_ethics"
 categories:
+  - php
+  - ethics
+  - programming
+  - cambodia
   - ruby
   - rails
-  - ethics
-  - cambodia
-  - php
-  - programming
 ---
 A quick question to fellow coders...
 
@@ -20,3 +20,181 @@ I have offered to help the IT guy at this organisation learn Ruby, but he won't 
 So, what would you do, given the circumstances?
 
 (And for the record, it's very likely I'll stick with Ruby - using the Radiant CMS - but I'm interested in others' opinions.)
+
+----
+
+<div class="comments">
+<div class="comment-author">Susanne left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+I am not a coder, of course, but from my naive, non-technical standpoint, I'd go with what THEY think they can support in the future to be honest. Just makes their lives easier, I suppose.
+
+/my 2 cents :)
+</div>
+
+<div class="comment-author">Tom left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+Much as it pains me, I'd grit my teeth and use PHP, or whatever other crapware the local devs are likely to be comfortable with. At least you'll be able to bring your Rails experience to the overall architecture of the project, hopefully putting together something relatively nice which can still be maintained by the locals.
+</div>
+
+<div class="comment-author">"Jonathan Conway":http://www.jaikoo.com left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+Yep, I have to agree. It looks like if you really love them then it's gonna have to be PHP all the way.:(
+
+I played around with Code Igniter a few months ago and while it wouldn't make me convert it still has it's plus points and would make developing in PHP a bit more bearable...
+
+</div>
+
+<div class="comment-author">"langalex":http://doingtext.com left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+nobody could make me use PHP ever again, so maybe using a really light weight framework like sinatra or camping plus leaving a short tutorial for the devs to come (concentrating on how to extending your app in ways that are likely to come) would be a compromise....
+</div>
+
+<div class="comment-author">evan left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+Client comes first. Good PHP is perfectly bearable.
+</div>
+
+<div class="comment-author">"Sean Cribbs":http://seancribbs.com left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+I have to admin that I'm a little biased, being a Radiant developer, but mod_rails/Passenger is now nearly as easy to set up as mod_php, so supporting deployment should be easy.  I would encourage you to teach as many local developers Ruby as you can, and then they can be the guys who start the Ruby wave in Cambodia.
+</div>
+
+<div class="comment-author">"Thilo Utke":http://upstream-berlin.com left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+I would go for ruby, although the maintainability is an argument to stick to PHP. I think the problem is more general. If you don't introduce them to ruby,  who else? And how else if not by personal initiative shall developing countries catch up with the technical development? So if the IT guy who you will pass on the project cares, he will pass on his knowledge of ruby as you intent to do, thus contributing a bit to catch up with the rest of the world by making ruby know to local developers.
+Just my thoughts on this not so easy subject.
+</div>
+
+<div class="comment-author">Chris Coppin left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+Absolutely PHP. If that's what the general IT population there use, then that's going to be their easiest/cheapest option for ongoing support.
+
+If i was buying a car, and 12 months after buying it, when the seller had moved on, I found out that it was a car where the only place to get parts was some overseas shop, i'd be pissed.
+</div>
+
+<div class="comment-author">"Xavier Shay":http://rhnh.net left a comment on 24 Oct, 2008:</div>
+
+<div class="comment">
+If it's a simple project, either RoR or PHP is going to be easy to maintain no matter what your background. The most complex bit would be deployment, which isn't with passenger.
+
+For a complex project, it will take you much longer to use PHP and will probably need more maintenance (more bugs) since it's not where your main skills lie.
+
+You can do a better job in less time using Ruby.
+
+Just because someone calls themself  a "PHP dev" doesn't mean they can't maintain other languages (ruby, java, coldfusion, asp, whatever).
+
+Also consider motivation. If you're doing a ruby app, it's going to be nicely tested, awesome, you are going to care about it, etc etc. Can you say the same about a PHP app?
+</div>
+
+<div class="comment-author">"Robert":http://www.k4media.com left a comment on 26 Oct, 2008:</div>
+
+<div class="comment">
+I suspect you are asking the question because you know the answer already. If you hand off a Ruby-built site to your client, you are doing them a disservice. Nobody will be able to maintain it, and they will just have to build the site all over again in 6 or 12 months time. As someone else said, client comes first.
+</div>
+
+<div class="comment-author">"Ross Hill":http://www.rosshill.com.au left a comment on  4 Nov, 2008:</div>
+
+<div class="comment">
+My WWPD (what would pat do?) feeling is that you would choose PHP for manageability over time - at least with PHP you know that in 12 months time they should be able to update your code instead of just throwing it out and starting from scratch again.
+</div>
+
+<div class="comment-author">Ryan Allen left a comment on  7 Nov, 2008:</div>
+
+<div class="comment">
+If you were to make it in PHP, you could bring your learnings of Rails' and software-in-generals' best practices to it. The two things that tend to plauge the PHP world are:
+
+a) not using best practices
+b) it's just a terrible looking language with a terribly designed standard library
+
+If you were to introduce the concept of modular code, encapsulation, automated testing I think you'd find it'd be quite functional and decent, and perhaps if you documented your design decisions it'd be a good learning point for the next maintainer.
+
+You could liken it to baking cookies for children versus cleaning toilets from a rave, but if it needs to be done, it needs to be done.
+
+Then again, it doesn't necessarily need to be done in PHP, can you find a lasting way to introduce Rails to the NGO? What about asking TopFunky to sponsor them with screencasts and perhaps teach the dev team Rails so to improve their effectiveness?
+
+Anyway, hope you sort it out, and good on you for volunteering :)
+</div>
+
+<div class="comment-author">"Aditya Sanghi":http://risingsuntech.net left a comment on  6 Jan, 2009:</div>
+
+<div class="comment">
+Hi Pat,
+
+Well this is where little people like us come in. We're a small Rails shop based in India with bandwidth and skill available to support, maintain, upgrade and extend applications written by great guys like yourself. Clients can buy an Annual Contract from us to do work on their apps, apps that are built by guys like you for example. We make a little money and keep your clients happy.
+
+We're actually really happy to tie up with other developers who want to basically walk away after building the app for the client and leave the maintenance and extension to us and further revenue to us.
+
+Cheers,
+Aditya
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  7 Jan, 2009:</div>
+
+<div class="comment">
+Thanks to all for your feedback - I really should have commented here a while ago.
+
+I'm sticking with the choice of Rails. I know it's not popular for a lot of the commenters here, but Xavier's points in particular have rung true. I've also had someone else suggest I offer a year of free support, which sounds sensible to me. It would take me longer - and I'd be far less motivated - if I did the project in PHP.
+
+Aditya: I appreciate your offer of support, but these NGOs can't afford to pay me Cambodian rates, let alone Indian or Australian rates (Not that I want payment). Should it get to the point where that is an option though, it's good to know you're around.
+</div>
+
+<div class="comment-author">"viirak":http://viirak.com left a comment on  9 Jan, 2009:</div>
+
+<div class="comment">
+Pat, it's pain to talk about Ruby language here in Cambodia cos no student have heard about it and some developers might have caught it up during a session at the barcampphnompenh (.org) but dono how many have kept continue, to track that we just had a group here http://groups.google.com/group/pailin . for those who keen to learn more about it.
+
+Ruby or RubyOnRails framework is kind advance tech for people in Cambodia and i've found it's expensive to maintain while we can find same value and solve the same problems with PHP and it's cheaper.
+
+So, I dont think Radiant CMS on Ruby is a good choice of that kind of NGO site. Maybe it's easy for you, but it'll be hard for others. :D
+</div>
+
+<div class="comment-author">"ChanHan Hy":http://han4u.blogspot.com left a comment on  9 Jan, 2009:</div>
+
+<div class="comment">
+In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it. 
+And they said that they like PHP :(
+</div>
+
+<div class="comment-author">"ChanHan Hy":http://han4u.blogspot.com left a comment on  9 Jan, 2009:</div>
+
+<div class="comment">
+In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it. 
+And they said that they like PHP :(
+</div>
+
+<div class="comment-author">"ChanHan Hy":http://han4u.blogspot.com left a comment on  9 Jan, 2009:</div>
+
+<div class="comment">
+In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it. 
+And they said that they like PHP :(
+</div>
+
+<div class="comment-author">Brandon left a comment on  9 Feb, 2009:</div>
+
+<div class="comment">
+Weigh the costs and benefits for them AND for you.  If you work in something that is not efficient for you, you might waste lots of time.
+
+Let me suggest Drupal.  Drupal is actually a great framework, if you can get past the PHP underneath it, and it's been maturing far longer than Radiant.  You can probably knock something out for them in Drupal in very little time, without coding, and it will be more maintainable.  Not because it uses PHP, but because you can configure most of what you need without writing anything.  There are hundreds of modules to do just about anything you (or they) might want.
+</div>
+
+<div class="comment-author">sam left a comment on 13 Apr, 2009:</div>
+
+<div class="comment">
+hi,
+
+i would like to know if you have met some good khmer developers. 
+
+i'm interrested in hiring some. 
+
+thanks.
+</div>
+
+</div>

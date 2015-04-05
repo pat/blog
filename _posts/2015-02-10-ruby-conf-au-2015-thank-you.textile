@@ -3,12 +3,12 @@ title: "RubyConf AU 2015: Thank You"
 redirect_from: "/posts/ruby_conf_au_2015_thank_you"
 categories:
   - ruby
-  - australia
-  - melbourne
   - rails
-  - community
   - conference
+  - melbourne
+  - australia
   - thank you
+  - community
 ---
 <img  class="max-width" src="https://pbs.twimg.com/media/B9COGr_IgAQWyuZ.jpg" />
 
@@ -69,3 +69,4 @@ And finally, to everyone who attended the conference, and the broader Ruby commu
 Thank you all, so very, _very_ much.
 
 <img  class="max-width" src="https://pbs.twimg.com/media/B9CDIKSIQAE66wf.jpg" />
+

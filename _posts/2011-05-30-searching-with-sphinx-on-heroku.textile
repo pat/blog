@@ -2,12 +2,12 @@
 title: "Searching with Sphinx on Heroku"
 redirect_from: "/posts/searching_with_sphinx_on_heroku"
 categories:
-  - sphinx
   - heroku
-  - rails
-  - ruby
-  - thinking sphinx
   - flying sphinx
+  - sphinx
+  - thinking sphinx
+  - ruby
+  - rails
 ---
 Just over two weeks ago, I released Flying Sphinx - which provides Sphinx search capability for Heroku apps. I'll talk more about how I built it and the challenges faced at some point, but right now I just want to introduce the service and how you may go about using it.
 
@@ -139,3 +139,44 @@ If you'd like your search data to have your latest changes, then I recommend you
 h3. Further Sources
 
 Keep in mind this is just an introduction - the documentation for "Thinking Sphinx":http://freelancing-god.github.com/ts/en/ is pretty good, and "Flying Sphinx":http://flying-sphinx.com/docs is improving regularly. There's also the Thinking Sphinx "google group":http://groups.google.com/group/thinking-sphinx/ and the Flying Sphinx "support site":http://support.flying-sphinx.com/ if you have questions about either, along with "numerous blog posts":http://freelancing-gods.com/search?text=sphinx (though the older they are, the more likely they'll be out of date). And finally - I'm always happy to answer questions about this, so don't hesitate to "get in touch":http://twitter.com/pat.
+
+----
+
+<div class="comments">
+<div class="comment-author">"iGEL":http://www.dogil.net left a comment on 30 May, 2011:</div>
+
+<div class="comment">
+Does thinking sphinx work well with utf8 encoded asian (Chinese, Korean) text?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 30 May, 2011:</div>
+
+<div class="comment">
+I know people have got Sphinx working decently with Chinese and Japanese characters - though I'm not sure of the best place to start with that. I think there is a fork of Sphinx with improved Chinese charset dictionary support... though maybe this has been made better in recent releases of Sphinx as well?
+
+If there's something in that fork that could be used in my build of Sphinx for Flying Sphinx that improves Chinese/Korean/etc support, I'd definitely be open to merging it in.
+</div>
+
+<div class="comment-author">DmitriG left a comment on  8 Jul, 2011:</div>
+
+<div class="comment">
+Size "of indexed data" is a bit confusing. Is it the size on index, or total size of a database? What if I only have a handful of fields to index while my DB contains a lot of other columns?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  8 Jul, 2011:</div>
+
+<div class="comment">
+Hi Dmitri
+
+I'm referring to the size of all Sphinx indices - so in a default setup, whatever's in @db/sphinx/RAILS_ENV@. In other words: all the data for the fields and attributes you've defined.
+
+</div>
+
+<div class="comment-author">"Luka":http://www.luigi7up.com left a comment on 29 May, 2014:</div>
+
+<div class="comment">
+Hi, great post! Thank you... One question though... If I run the re-indexing every hour and running a service such as ebay what happens to newly added things within that hour? What I want to say is there a possibility of fallback to query the DB directly? Also, would you say that re-indexing is costly in terms of performance (every 20min)?
+Again, great tool!!!
+</div>
+
+</div>

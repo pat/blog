@@ -2,8 +2,7 @@
 title: "Odds and Ends"
 redirect_from: "/posts/odds_and_ends"
 categories:
-  - ruby
-  - rails
+  - meta
   - railscamp
   - joss whedon
   - dr horrible
@@ -12,7 +11,8 @@ categories:
   - nyc
   - pixar
   - wall-e
-  - meta
+  - ruby
+  - rails
 ---
 A few random items:
 
@@ -21,3 +21,4 @@ A few random items:
 * I'm talking at "NYC Ignite":http://radar.oreilly.com/2008/07/ignite-nyc-soldering-guerilla.html - come along and listen to me talk quickly about non-Ruby stuff for five minutes, if you're near that part of the world.
 * "Joss Whedon is awesome":http://drhorrible.com.
 * So is Pixar. You must see Wall-E. Easily the best film I've seen all year.
+

@@ -2,11 +2,11 @@
 title: "Rspec'ing controllers"
 redirect_from: "/posts/rspec'ing_controllers"
 categories:
-  - ruby
-  - rails
   - rspec
   - bdd
   - testing
+  - ruby
+  - rails
 ---
 I'm always trying to find a better way to write specs for my Rails apps with "RSpec":http://rspec.rubyforge.org/ - it took a while for me to be comfortable with writing model specs, but just recently, I've developed a style of controller specs that I feel work well for me.
 
@@ -93,3 +93,14 @@ Firstly - the not so nice stuff: the use of instance variables to communicate th
 I'm using "Pete Yandell's":http://notahat.com/ "NotAMock":http://notamock.rubyforge.org/ for my stubbing - albeit with a few modifications of my own (which may make it back into the plugin itself at some point). I also use my own "ActiveMatchers":http://am.freelancing-gods.com - but that's more focused on models. It's also not really feature-complete, but if you like what it offers, feel free to use it.
 
 Oh, and the main caveat? This is my current way of spec'ing controllers - and it's vastly better than the minimal specs I was writing before this - but it may/will change. I don't even know if my style is 'best practice' - I'm putting them online to get feedback and provoke discussion. So please feel free to critique.
+
+----
+
+<div class="comments">
+<div class="comment-author">diwakar left a comment on 24 Apr, 2009:</div>
+
+<div class="comment">
+If you have mentioned the controller it would have been more helpful
+</div>
+
+</div>

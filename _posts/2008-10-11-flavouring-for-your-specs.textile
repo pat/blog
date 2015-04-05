@@ -2,13 +2,13 @@
 title: "Flavouring For Your Specs"
 redirect_from: "/posts/flavouring_for_your_specs"
 categories:
-  - ruby
-  - rails
   - rspec
-  - gems
   - versions
   - garlic
   - ginger
+  - gems
+  - ruby
+  - rails
 ---
 One of the things I've tried to do with "Thinking Sphinx":http://ts.freelancing-gods.com has been to keep it friendly for a few different versions of Rails/ActiveRecord: 1.2.6, 2.0.x and 2.1.x. It's not that easy, because I know I don't think about which methods are pre-Rails-2.0, and which are even newer. And add on top of that the large (and very welcome) number of "contributors":http://github.com/freelancing-god/thinking-sphinx/network/members, and it becomes a bit of a headache.
 
@@ -71,3 +71,30 @@ ginger test
 ginger spec:unit</code></pre>
 
 This was built to scratch my itch, obviously, but happy to accept patches or suggestions. GitHub, as always, is the best way to do this - fork to your heart's content.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Dr Nic":http://drnicwilliams.com left a comment on 13 Oct, 2008:</div>
+
+<div class="comment">
+This looks nifty. I hacked up a "test against diff AR versions + edge rails" system for Composite Keys gem, but it used rake tasks + setting up ENV variables.
+
+In CPK, each tester might test against all/some AR versions, plus a subset of database adapters. So if we used ginger, the config would still be per-tester, so I guess we'd have a config/ginger.rb.sample and a default config/ginger.rb or something.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 13 Oct, 2008:</div>
+
+<div class="comment">
+Dr Nic: yup, sounds like a good way to approach it. Although the @ginger_scenario.rb@ file needs to exist in the project's base directory, not within @config@.
+</div>
+
+<div class="comment-author">ed left a comment on 19 Oct, 2008:</div>
+
+<div class="comment">
+Great post, very well written code.
+
+Thanks
+</div>
+
+</div>

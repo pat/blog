@@ -2,13 +2,13 @@
 title: "LaughTrack: Week Two"
 redirect_from: "/posts/laugh_track_week_two"
 categories:
-  - comedy
-  - australia
-  - melbourne
-  - laughtrack
-  - micf
   - statistics
   - twitter
+  - laughtrack
+  - comedy
+  - micf
+  - melbourne
+  - australia
 ---
 Another week has passed, so time for some more "LaughTrack":http://laughtrack.com.au statistics.
 
@@ -96,3 +96,4 @@ I've also started tracking which performances are sold out - but there's no poin
 * "The Bedroom Philosopher":http://laughtrack.com.au/shows/34
 
 Nick Cody, Daniel Burt, Vigilantelope and Clodhopper: Miami all sold quite well too - but they've finished their runs.
+

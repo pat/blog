@@ -133,3 +133,87 @@ h3. Known Limitations
 Beyond that, it should work smoothly. If I'm wrong, that's what the comments form is for.
 
 Also, you can find all of my config files, as well as other details of how I've set up my machine since installing Snow Leopard, on "gist.github.com":http://gist.github.com/181369.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Andrei Bocan":http://andascarygoat.com left a comment on 27 Sep, 2009:</div>
+
+<div class="comment">
+Wouldn't it have been easier to just use passenger-install-nginx-module ?
+
+That installs pcre and nginx with the module baked in, and it prompts you for the install path.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 27 Sep, 2009:</div>
+
+<div class="comment">
+*Andrei*: I could have done that, sure. I'm comfortable enough setting configure options, though. Either I'd be setting them through the advanced settings part of that tool, or by hand. Not too much difference.
+</div>
+
+<div class="comment-author">"Patrick":http://www.givereal.com left a comment on 28 Sep, 2009:</div>
+
+<div class="comment">
+If you add @tail -f log/development.log &@ before the nginx command in script/nginx you will be able to see the log output inline.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 28 Sep, 2009:</div>
+
+<div class="comment">
+Ah, that's a neat suggestion Patrick. Only flaw I've found with it thus far is that the tail process doesn't get killed with the nginx process, so if you run it twice, then you'll see each line duplicated.
+
+Still, a step in the right direction.
+</div>
+
+<div class="comment-author">"Patrick":http://www.givereal.com left a comment on 29 Sep, 2009:</div>
+
+<div class="comment">
+If you give @tail@ the @--pid=$$@ argument it will die with the script.
+</div>
+
+<div class="comment-author">Cory left a comment on  5 Nov, 2009:</div>
+
+<div class="comment">
+Do you find advantages to this method versus installing nginx the usual way, and configuring a vhost for each of your projects?  
+
+That way, with an entry in your /etc/hosts file you can just 'touch tmp/restart.txt' and visit http://name_of_your_project.local (or some similar thing...)
+
+Additionally, you can configure separate vhosts for different rails environments, and make the /etc/hosts entry something like dev.projectname.local or prod.projectname.local - pretty handy.
+
+I find it more convenient not to have to do 'script/server' all the time, and 'tail -f log/development.log' works like normal.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  5 Nov, 2009:</div>
+
+<div class="comment">
+Hi Cory
+
+The main difference is I like being able to control the Rails app all from one place - the Rails app itself. So this setup means I can easily build a test application and fire Nginx up to test it, without needing to worry about sudo access or config files.
+
+Beyond that, either approach is pretty much the same.
+</div>
+
+<div class="comment-author">"stephencelis":http://stephencelis.com left a comment on 17 Nov, 2009:</div>
+
+<div class="comment">
+You've inspired me to create a little wrapper script:
+
+http://gist.github.com/236635
+
+By default it proxies to a Mongrel, but it's a one-line config change to Unicorn, and works with Passenger easily enough—see your config, above ;). A bit more work and it could be switchable between all of them, out of the box.
+</div>
+
+<div class="comment-author">"joel meador":http://expectedbehavior.com left a comment on 15 Jan, 2010:</div>
+
+<div class="comment">
+I really liked what you did here.  I wanted to use it with Unicorn, so I made that work.  Details linked from this tweet.
+http://twitter.com/joelmeador/status/7643490205
+</div>
+
+<div class="comment-author">"Daniel @ Status Page":http://www.hostedstatuspage.com left a comment on 20 Feb, 2015:</div>
+
+<div class="comment">
+Thanks for writing this, its just saved me a ton of time tweaking invidiual configuration settings.
+</div>
+
+</div>

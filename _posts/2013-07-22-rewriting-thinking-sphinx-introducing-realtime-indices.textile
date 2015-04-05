@@ -3,10 +3,10 @@ title: "Rewriting Thinking Sphinx: Introducing Realtime Indices"
 redirect_from: "/posts/rewriting_thinking_sphinx_introducing_realtime_indices"
 categories:
   - sphinx
-  - ruby
-  - rails
   - realtime
   - thinking sphinx
+  - ruby
+  - rails
 ---
 The one other feature in the rewrite of Thinking Sphinx that I wanted to highlight should most certainly be considered _in beta_, but it's gradually getting to the point where it can be used reliably: real-time indices.
 
@@ -86,3 +86,33 @@ h2. What's next?
 I'm keen to provide hooks to allow the callbacks to fire off background jobs instead of having that Sphinx update part of the main process - though it's certainly not as bad as the default delta approach (you're not shelling out to another process, and you're only updating a single record).
 
 I'm starting to play with this in my own apps, and am keen to see it used in production. It is a different way of using Sphinx, but it's certainly one worth considering. If you give it a spin, let me know how you go!
+
+----
+
+<div class="comments">
+<div class="comment-author">"Kirill Maximov":http://checkvist.com left a comment on  5 Aug, 2013:</div>
+
+<div class="comment">
+Hello,
+
+   This weekend I tried migrating to TS 3.0 with RT indexes - and I've faced the problem with initial data population. As far as I understand, there is no way to add "includes" and "joins" when generating initial data which gives N+1 problem and serious performance issues.
+   Could it be possible to add some syntax which would allow to specify includes for data (re)generation?
+
+  Thanks,
+</div>
+
+<div class="comment-author">JeremyLi left a comment on 20 Mar, 2014:</div>
+
+<div class="comment">
+I create two index(:title, :content) in a model Article, and if i want to search data only in the :title index, how to do that?
+</div>
+
+<div class="comment-author">Mikhail  left a comment on 19 Jun, 2014:</div>
+
+<div class="comment">
+Hi.
+
+Is there any way to set callback for deleting model from index?
+</div>
+
+</div>

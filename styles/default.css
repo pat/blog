@@ -122,3 +122,12 @@ ul.list li {
 .view-all {
   margin-top: 2em;
 }
+
+.comments {
+  font-size: 80%;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin: 1.5em;
+}

@@ -2,15 +2,15 @@
 title: "Getting around in Cambodia"
 redirect_from: "/posts/getting_around_in_cambodia"
 categories:
-  - cambodia
+  - transport
   - travel
   - khmer
-  - guide
   - tuktuk
   - moto
   - taxi
   - bus
-  - transport
+  - cambodia
+  - guide
 ---
 *This is the third of "my guides to Cambodia":http://freelancing-gods.com/posts/pats_guide_to_cambodia.*
 
@@ -107,3 +107,20 @@ If you're going in the other direction though, taking a taxi to Poipet is easy e
 That's it for my generic Cambodian posts - the last two of this series will focus on dining and activities in the town of Battambang (as that's where I spent the vast majority of my time).
 
 Thanks to <a href="http://yob.id.au">James Healy</a> for the moto photos above.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Steve Hopkins":http://www.thesquigglyline.com/blog left a comment on 29 Jul, 2009:</div>
+
+<div class="comment">
+This is bloody fantastic. 
+
+Actually, I have nothing more to say than that. 
+
+Well written dude, perfect. Best one yet. As someone who was a fair bit apprehensive about venturing to Cambodge before I got there, I can safely say that this post will allay even the largest fears. 
+
+Awesome. 
+</div>
+
+</div>

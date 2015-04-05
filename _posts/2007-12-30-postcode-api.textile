@@ -2,12 +2,12 @@
 title: "Postcode API"
 redirect_from: "/posts/postcode_api"
 categories:
-  - australia
-  - postcodes
-  - api
   - REST
+  - api
+  - postcodes
   - merb
   - ruby
+  - australia
 ---
 A couple of weeks ago I quickly coded a basic webservice - using "Merb":http://merbivore.com - for Australian Postcode data. Just got hosting for it sorted out last night, so now I can blog about it.
 
@@ -25,3 +25,57 @@ The emphasis is on simple - you can search by postcode or suburb, and get the da
 Suburb requests use partial matching, so you don't need the full suburb name. If you want the JSON returned with the MIME type of @application/json@, use the @.json@ extension.
 
 I've no plans at this point on using this, but perhaps it's useful for someone out there - if so, would love to hear about it.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Tim Lucas":http://toolmantim.com left a comment on 30 Dec, 2007:</div>
+
+<div class="comment">
+That's really cool. I'm sure someone will find it handy.
+</div>
+
+<div class="comment-author">"shoaib":http://nomad-labs.com left a comment on 30 Dec, 2007:</div>
+
+<div class="comment">
+well done Pat, this will come in handy
+</div>
+
+<div class="comment-author">"Dr Nic":http://drnicwilliams.com left a comment on 30 Dec, 2007:</div>
+
+<div class="comment">
+Ooh tastie indeed.
+
+A cmd-line wrapper for the API would be like a tastie toasted sandwich.
+
+</div>
+
+<div class="comment-author">"Marston A.":http://www.marstononline.com left a comment on 19 Jan, 2008:</div>
+
+<div class="comment">
+Hey Pat,
+
+This looks like a great tool indeed! Would you happen to know of any similar API's/Plug-in's for U.S. Postal Codes?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 20 Jan, 2008:</div>
+
+<div class="comment">
+Heya Marston
+
+It looks like the USPS has a couple of APIs that do the job - there's "documentation on their site"http://www.usps.com/webtools/technical.htm
+
+Not quite as simple as mine... but if you find a csv or similar of _all_ the US zip codes and matching cities and states, I could look at building an equivalent service for it.
+</div>
+
+<div class="comment-author">"Matthew Lock":http://perthonline.net left a comment on 20 May, 2011:</div>
+
+<div class="comment">
+Hello, could you make your webservice available via JSONP by adding a ?callback= parameter to your .js url? That way we can call your API from javascript in a web page.
+
+http://en.wikipedia.org/wiki/JSONP
+
+http://api.jquery.com/jQuery.getJSON/
+</div>
+
+</div>

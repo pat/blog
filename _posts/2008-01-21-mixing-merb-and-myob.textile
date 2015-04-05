@@ -3,10 +3,10 @@ title: "Mixing Merb and MYOB"
 redirect_from: "/posts/mixing_merb_and_myob"
 categories:
   - merb
-  - ruby
-  - rails
   - myob
   - odbc
+  - ruby
+  - rails
 ---
 For one of the contracts I'm working on at the moment, I've been using "Merb":http://merbivore.com/ to construct a web service that interacts with MYOB, and can be consumed with ActiveResource.
 
@@ -32,3 +32,22 @@ CODE
 )</code></pre>
 
 It's not particularly elegant, but at least it works.
+
+----
+
+<div class="comments">
+<div class="comment-author">Zachery left a comment on 12 Feb, 2008:</div>
+
+<div class="comment">
+thnx for the read.  im actually working on replacing myob for a small company to Merb and a local AIR application.  If you have any tips for handling MYOB / converting the data possibly id be extremely thankful.  I haven't looked into getting the 'license' required for MYOB to support odbc yet, will have to do that this week.  thnx again for the read.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 12 Feb, 2008:</div>
+
+<div class="comment">
+Hi Zachery
+
+I'll try to get a post up in the next day or two with some more details about how to talk to MYOB using Ruby. In the meantime, feel free to shoot me any questions you have via email (pat at this domain).
+</div>
+
+</div>

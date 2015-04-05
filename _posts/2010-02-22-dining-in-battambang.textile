@@ -2,12 +2,12 @@
 title: "Dining in Battambang"
 redirect_from: "/posts/dining_in_battambang"
 categories:
-  - cambodia
+  - food
   - travel
   - khmer
-  - guide
-  - food
+  - cambodia
   - battambang
+  - guide
 ---
 *This is the fourth of "my guides to Cambodia":http://freelancing-gods.com/posts/pats_guide_to_cambodia.*
 
@@ -92,3 +92,4 @@ h4. La Villa
 You don't get much classier than this in Cambodia, let alone Battambang. La Villa is a boutique hotel in (as the name suggests) an old French villa. The food here ranges from decent to very good. If you're going to go a steak, get the imported New Zealand beef, not the local stuff - it'll be more tender. The creme caramel is great.
 
 This is not where you come to get a taste of Cambodian culture - but it is a nice break from the culture shock. It's along the river, north of the main road on the map, but Tuk-tuk drivers will know where to go.
+

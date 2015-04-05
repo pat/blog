@@ -2,16 +2,16 @@
 title: "RejectConf: Coders Kicking Arse"
 redirect_from: "/posts/reject_conf_coders_kicking_arse"
 categories:
+  - society
+  - railsconf
   - rejectconf
   - berlin
-  - railsconf
   - railsconfeu
-  - ruby
-  - rails
   - geeks
   - knowledge
+  - ruby
+  - rails
   - community
-  - society
 ---
 One of the highlights from RailsConf EU last week was RejectConf - even if it was a bit smaller than last year (going by what I've heard, anyway).
 
@@ -43,3 +43,32 @@ Photos used thanks to either permission or permissive licences:
 * "Mark Pesce at WDS07":http://www.flickr.com/photos/scttw/1453196480/
 * "Network Cables":http://flickr.com/photos/jerryjohn/63351372/
 * "East Timor":http://www.flickr.com/photos/yob/1222806481/
+
+----
+
+<div class="comments">
+<div class="comment-author">"Pete Yandell":http://notahat.com/ left a comment on  7 Sep, 2008:</div>
+
+<div class="comment">
+Great talk!
+
+Love the way you gave people a bunch of different scopes in which to think about the problem.
+</div>
+
+<div class="comment-author">Nathan left a comment on  8 Sep, 2008:</div>
+
+<div class="comment">
+I think it's great the way you've adapted your concept and talk to suit your target audience.  Totally impressed.
+
+Keep up the great work!
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 11 Sep, 2008:</div>
+
+<div class="comment">
+Pete: Thanks - it's been how I've generally structured it, but this is the first time I've made it explicit.
+
+Nathan: Thanks - and yeah, each version of the talk I've done has been slightly different, depending on the audience. I think it's time to come up with a completely new talk though :)
+</div>
+
+</div>

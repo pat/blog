@@ -2,11 +2,7 @@
 title: "Speaking Khmer"
 redirect_from: "/posts/speaking_khmer"
 categories:
-  - cambodia
-  - travel
-  - khmer
-  - guide
-  - language
+  - cambodia travel khmer guide language
 ---
 *This is the second of "my guides to Cambodia":http://freelancing-gods.com/posts/pats_guide_to_cambodia.*
 
@@ -124,3 +120,91 @@ h3. Everything Else
 * Have already: Mien Howie
 
 That should give you a decent start - although I'm sure I'll think of more words tomorrow. Next up in this series (and hopefully appearing a bit more quickly than this post) is tackling travel around Cambodia.
+
+----
+
+<div class="comments">
+<div class="comment-author">Annika Leander left a comment on  7 May, 2009:</div>
+
+<div class="comment">
+Dear God. 
+
+I have a problem and I'm grasping for straws... My name is Annika from Sweden and I'm doing a course in Project Management and todays assignment is net-working. I've recieved a text in an Asian language (probably in Cambodian), and to pass on this part of the course, I have to get it translated within 24 hrs... so I'm running short of time - merely six hrs to go. Could I by any chance e-mail my pdf-file to you to glance upon, God? It's one page of text and I just need to know, roughly, what it's all about.
+
+Please God, answere my prayers and I'll be so, so very greatful. Best regards, Annika
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  7 May, 2009:</div>
+
+<div class="comment">
+Hi Annika
+
+Freelancing Gods is just the name of this site - my name's Pat, so I'm assuming your question is actually directed at me.
+
+I can't read Khmer/Cambodia, so I'm afraid I can't help you. There are people in Cambodia who can translate, but this is definitely not a free service, and I'm not sure how quickly they can get it done. It's definitely not going to happen in your timeframe (which may be over already?)
+
+I'm sorry I can't be of more help at the moment.
+</div>
+
+<div class="comment-author">Annika left a comment on 10 May, 2009:</div>
+
+<div class="comment">
+Hi again, Pat. Yes, the question was directed to you but I really enjoyed the name of your web site, therefore the "prayer-like" approach, sorry :-)
+
+By the way, the assignment got solved by helpful members of a Khmer group on Facebook, which was great! Unfortunately an hour too late, though, but that doesn't matter in the long run...
+
+Thank you for your answer and take care! Annika
+</div>
+
+<div class="comment-author">Emmanuel left a comment on 12 Jun, 2009:</div>
+
+<div class="comment">
+I was reading something about contributors on ruby community and you as mastermind  about Thinking sphinx.. and I end up on your blog reading something much more interesting to me about Khmer :) how long did you stay in Cambodia?
+
+PS: If you get a chance, you should learn to read and write. I did it prety quickly as it is not that hard to pick up. 
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 13 Jun, 2009:</div>
+
+<div class="comment">
+Hi Emmanuel - great to find someone appreciated this blog post. I wonder how many Ruby people find it a little odd ;)
+
+I was in Cambodia for four months, and I'm hoping to visit again - although probably for not quite so long - within the next 12 months or so. I might give reading and writing a shot then!
+</div>
+
+<div class="comment-author">"Vaibhav":http://twitter.com/vaibhavgumashta left a comment on 30 Jun, 2009:</div>
+
+<div class="comment">
+Super interesting :), really!
+</div>
+
+<div class="comment-author">Rc left a comment on  7 May, 2013:</div>
+
+<div class="comment">
+How much is this? => Tly pon-man?
+How much/many? => pon-man?
+How hold are you? => thar nak ah yuk pon-man hawy?
+
+Money: Loy
+Can I have the bill?: Som kit loy?
+Bill => kit loy (ket-loi)
+
+;)
+</div>
+
+<div class="comment-author">Tony left a comment on 31 Oct, 2014:</div>
+
+<div class="comment">
+"Meat" is more "seik" than satch. 
+(Beef sounds like "psycho"!)
+
+Learning to write made a huge difference to my speaking. 
+</div>
+
+<div class="comment-author">Cody left a comment on 29 Nov, 2014:</div>
+
+<div class="comment">
+Can't wait to get back to Cambodia. I spent four months there last year but had to go back to the States due to a family emergency. Too bad I didn't learn very much of the language. Now I'm in China and next August I plan to come back to Cambodia. This time I'll be staying for a few years at least if not for the rest of my life. I'm trying to learn the language now. I'll be able to read and write Khmer by the time I get back to PP in August and I'm sure my skills will sky rocket after that.
+</div>
+
+</div>

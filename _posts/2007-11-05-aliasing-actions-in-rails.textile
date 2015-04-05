@@ -19,3 +19,28 @@ And then in the appropriate controller (where @edit@ is an existing action, and 
 <pre><code>alias_action :edit, :show</pre></code>
 
 I know this is a specialised use - but perhaps someone else out there is doing something similar.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Dr Nic":http://drnicwilliams.com left a comment on  5 Nov, 2007:</div>
+
+<div class="comment">
+Hmm, I love where your heart is at. Perhaps
+
+<pre>
+def edit; show; end
+</pre>
+
+Gets the trick done too :)
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  5 Nov, 2007:</div>
+
+<div class="comment">
+Ah, not quite Nic - as the view for the existing action needs to be rendered as well - which is one extra line: @render :action => "show"@ for your example.
+
+But yeah, it's not saving many lines of code, I just find it a little more elegant.
+</div>
+
+</div>

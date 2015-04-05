@@ -2,12 +2,12 @@
 title: "Wandering Freelancer"
 redirect_from: "/posts/wandering_freelancer"
 categories:
-  - travel
-  - ruby
-  - melbourne
   - roro
   - video
   - freelancing
+  - travel
+  - ruby
+  - melbourne
 ---
 At a recent Melbourne Ruby meet, I was asked to speak about my travelling freelancer lifestyle, and "the talk was recorded":http://vimeo.com/8350739. I feel a little self-conscious about the topic, but perhaps you'll find it interesting.
 
@@ -16,3 +16,4 @@ At a recent Melbourne Ruby meet, I was asked to speak about my travelling freela
 Massive thanks to James Healy for not only recording the talks that night, but producing the neat slides-and-video output. I'm looking forward to "the Melbourne Ruby channel":http://vimeo.com/channels/melbourneruby building up a good collection of sessions.
 
 Also: I'll be posting a review of my month working on Thinking Sphinx soon.
+

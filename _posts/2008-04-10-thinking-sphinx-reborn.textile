@@ -2,11 +2,11 @@
 title: "Thinking Sphinx Reborn"
 redirect_from: "/posts/thinking_sphinx_reborn"
 categories:
-  - sphinx
+  - plugins
   - search
+  - sphinx
   - ruby
   - rails
-  - plugins
 ---
 So, over the last month or so I've been working hard on rewriting "Thinking Sphinx":http://ts.freelancing-gods.com - and it's now time to release those changes publicly. The site's now got a brief "quickstart page":http://ts.freelancing-gods.com/quickstart.html and a detailed "usage page":http://ts.freelancing-gods.com/usage.html beyond the rdoc files, and there will be more added over the coming weeks.
 
@@ -57,3 +57,389 @@ I'm so eager to share this new release that there's probably a few things that n
 _Also_ in the pipeline is Merb support - just for ActiveRecord initially, but I'd love to get it talking to DataMapper as well.
 
 *Update*: Jonathan Conway's got "a branch working":http://www.jaikoo.com/2008/4/9/thinking-sphinx-for-merb-and-rails in Merb _and_ Rails - needless to say, I'll be updating trunk with his patch as soon as possible.
+
+----
+
+<div class="comments">
+<div class="comment-author">Chris Parker left a comment on 10 Apr, 2008:</div>
+
+<div class="comment">
+I really love this plugin.  It makes indexing a breeze and is much easier to use than the alternatives.
+
+Thanks alot!
+</div>
+
+<div class="comment-author">Thuva left a comment on 10 Apr, 2008:</div>
+
+<div class="comment">
+Pat, congratulations on releasing a new version of Thinking Sphinx. I'm looking forward to using it in my current project.
+</div>
+
+<div class="comment-author">Chris Parker left a comment on 10 Apr, 2008:</div>
+
+<div class="comment">
+Could you give the option for DISTINCT in GROUP_CONCAT?
+
+For example:
+
+CAST(GROUP_CONCAT(DISTINCT `vendor_details`.`group_id` SEPARATOR ' ') AS CHAR) 
+</div>
+
+<div class="comment-author">Chris Parker left a comment on 10 Apr, 2008:</div>
+
+<div class="comment">
+oops:
+
+@  CAST(GROUP_CONCAT(DISTINCT `vendor_details`.`group_id` SEPARATOR ' ') AS CHAR)@
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 10 Apr, 2008:</div>
+
+<div class="comment">
+Thuva: Thank you :)
+
+Chris: Great that you're enjoying the plugin. Why do you need the distinct though? I think I know a pretty easy way for me to add it in, I'm just not (yet) sure why it's needed.
+</div>
+
+<div class="comment-author">"Rob Olson":http://thinkingdigitally.com left a comment on 11 Apr, 2008:</div>
+
+<div class="comment">
+Does Thinking Sphinx support eager loading of associated models?  Similar to the :include option in ActiveRecord find calls?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 11 Apr, 2008:</div>
+
+<div class="comment">
+Rob: Yes, if you specify :include in your search calls, it will be respected.
+
+The one caveat - since Sphinx returns an array of ids, each model has to be loaded in a separate call to the database, so the full speed benefits of :include aren't quite reached.
+
+ie: Think of it like @User.find(:first, :include => [:posts])@ instead of @User.find(:all, :include => [:posts])@
+</div>
+
+<div class="comment-author">Oliver Beddows left a comment on 11 Apr, 2008:</div>
+
+<div class="comment">
+I'm loving this plugin! Most excellent work!
+
+I have one "query" related to searching a selected group of indexes.
+
+It would great if you could supply a list of class names (like UltraSphinx does).
+
+For example:
+ThinkSphinx::Search.search('query', { :class_names => ['Article', 'Product', 'Customer'] })
+
+Looking at ThinkSphinx::Search it seems to be capable of handing one index or all indexes, but not a selected group of indexes.
+
+Is this a feature you have planned or thought about? Just curious... ;o)
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 12 Apr, 2008:</div>
+
+<div class="comment">
+Oliver: It's not something I'd ever thought of - but easy enough to add. I'll see if I can get it working over the next few days.
+
+Thanks for the feedback :)
+</div>
+
+<div class="comment-author">"Paul Goscicki":http://paulgoscicki.com/ left a comment on 21 Apr, 2008:</div>
+
+<div class="comment">
+I've been reading about Thinking Sphinx a little and so far it looks promising (especially as a Ferret replacement). I'd suggest you write a comprehensive tutorial on Thinking Sphinx usage in Rails. Similar to the one "Rails Envy did for Ferret":http://www.railsenvy.com/2007/2/19/acts-as-ferret-tutorial (with highlighting, field boosting, pagination, etc).
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 21 Apr, 2008:</div>
+
+<div class="comment">
+Hi Paul - writing some detailed tutorials is definitely on my list of things to do. I'm hoping to start with a solid introduction to Sphinx first (by this weekend would be nice), and then I'll move on to how to use Thinking Sphinx.
+</div>
+
+<div class="comment-author">Brian Johnson left a comment on 24 Apr, 2008:</div>
+
+<div class="comment">
+This looks very interesting. I have narrowed down my options to Thinking Sphinx and Ultrasphinx. Does Ultrasphinx still have more features with this latest release? If so, what does it have the Thinking Sphinx doesn't? In particular, faceting is very important for my application.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 24 Apr, 2008:</div>
+
+<div class="comment">
+Hi Brian
+
+At this stage, if you need faceting, go with Ultrasphinx. I know Patrick Lenz is working on a patch for faceting with Thinking Sphinx (check out "his git tree":http://github.com/scoop/thinking-sphinx/tree/master on GitHub)... I don't have the time to focus on it myself at the moment, so until he's done, it looks like Ultrasphinx is what suits your needs best.
+
+Beyond that though, I think the two plugins are pretty close in regards to features.
+</div>
+
+<div class="comment-author">Brian Johnson left a comment on 24 Apr, 2008:</div>
+
+<div class="comment">
+My needs for faceting are still a few months out, so something in the works might be ok. There must be some fundamental difference between Ultrasphinx and Thinking Sphinx, otherwise there would be no need for multiple plugins. What are the two approaches and what are the benefits/problems with each approach. I'd love to have the time to simply try both of them out and learn for myself, but unfortunately I have too many other things on my plate right now. A brief explanation would be much appreciated. Thanks.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 25 Apr, 2008:</div>
+
+<div class="comment">
+I feel there's two main differences - the first is how you define indexes. I think my syntax is clean and obvious, and also allows you to get data through associations very easily.
+
+The second is approach - I aim to have everything managed through Ruby and a bit of YAML. That is, you don't need to edit the Sphinx configuration file yourself - the plugin sets it all up for you. I also aim for a very convention-over-configuration setup - if you don't want to, you don't need to worry about file paths - it puts it all in your application's directory, and handles multiple environments fine.
+
+Caveat with all this: obvious bias, plus I haven't spent any time using Ultraphinx for a good 8 months or so.
+</div>
+
+<div class="comment-author">"Björn Andreasson":http://www.cubiqsys.com left a comment on 28 Apr, 2008:</div>
+
+<div class="comment">
+Hi. Just tried your Sphinx plugin (third plugin this last week) and stumbled upon some problems.
+1. Your plugin seems to be MySQL only? Found a "mysql" in plugins/thinking_sphinx/lib/thinking_sphinx/configuration.rb and replaced it to pgsql to make it work with my database.
+2. ... however, the SQL-string that gets generated won't work. The postgres doesn't like your "´" and when deleting those, it gives me the error tbl_archive.collect doesn't exists. Which is true. Why does it try to get a column that doesn't exist? What is "collect"?
+
+Would love to get some answers :)
+</div>
+
+<div class="comment-author">Cheri A left a comment on  1 May, 2008:</div>
+
+<div class="comment">
+Does Eager Loading work with Thinking Sphinx?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  2 May, 2008:</div>
+
+<div class="comment">
+Cheri - to some extent it is - see the comments above between myself and Rob Olsen. I do have plans to support it fully though - hopefully they'll be implemented in the next week or two.
+</div>
+
+<div class="comment-author">Cheri A left a comment on  2 May, 2008:</div>
+
+<div class="comment">
+Great plugin!  Do all the indexing features of Thinking Sphinx negate the need to add indices to my tables in sql?
+
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  3 May, 2008:</div>
+
+<div class="comment">
+Hi Cheri - no, you still need indexes in your database tables. Sphinx uses MySQL to extract the data, and indexes on your tables makes those queries faster.
+
+Also - there are still plenty of times when you'll need to use normal find calls. Sphinx doesn't replace that.
+</div>
+
+<div class="comment-author">Cheri A left a comment on  4 May, 2008:</div>
+
+<div class="comment">
+Thanks, Pat.  So if I have a simple request, such as selecting an entry based on a primary id, it's better to use find_by_sql  and not sphinx, correct?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  4 May, 2008:</div>
+
+<div class="comment">
+Cheri: yup - or even just @find(id)@, if it's that simple :)
+</div>
+
+<div class="comment-author">"Artur Jedlinski":http://www.jedlinski.pl/ left a comment on 12 Jul, 2008:</div>
+
+<div class="comment">
+If you would like to use thinking_sphinx as Windows service (which is much more comfortable than typing "rake ts:start" again and again), you may find yourself interested in:
+
+http://www.jedlinski.pl/blog/2008/07/12/thinking-sphinx-as-windows-service/
+</div>
+
+<div class="comment-author">mauro catenacci left a comment on 21 Sep, 2008:</div>
+
+<div class="comment">
+Hi, I would like to know if I can associate models that are not directly associated in the model where you specify the define_index. i:e
+in my model I have 
+belongs_to :imageasset
+belongs_to :raider
+
+now imageasset has associations of it's own and I need to get them in here somehow. Is that possible?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 22 Sep, 2008:</div>
+
+<div class="comment">
+Hi Mauro
+
+You should be able to drill through your associations' associations, like so:
+
+@indexes imageasset.creator.login@
+
+Cheers
+</div>
+
+<div class="comment-author">joren left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+hi, 
+
+i'm really loving this plugin but I stumbled on some small issues.
+Say I have a list of names, john, jon, jonn,...
+an I want to search for all names where "jo" comes in.
+
+Is this supported, or do I have to edit some setting or is there a specific way to search?
+
+thx
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 23 Oct, 2008:</div>
+
+<div class="comment">
+Hi Joren
+
+It is supported once you add "a couple of settings":http://gist.github.com/19042 to config/sphinx.yml, for each environment (like you would in config/database.yml): set enable_star to true, and min_prefix_len to 1 (or longer, if you only want prefixes of 2 characters or more?). Stop Sphinx, reindex, restart Sphinx, and then try searching for "jo*".
+</div>
+
+<div class="comment-author">joren left a comment on 24 Oct, 2008:</div>
+
+<div class="comment">
+thx,
+
+Peepcode published a pdf today about thinking sphinx. So that can be a help to.
+Got it this morning, and there is some good information in it about how it works and about more settings.
+http://peepcode.com/products/thinking-sphinx-pdf
+</div>
+
+<div class="comment-author">joren left a comment on 24 Oct, 2008:</div>
+
+<div class="comment">
+ok, didn't see till now, you're already blogged about peepcode :)
+</div>
+
+<div class="comment-author">joren left a comment on 24 Oct, 2008:</div>
+
+<div class="comment">
+shouldn't it be useful to only reindex the new values and the values that were updated since the last index?
+'cause I don't really like the extra field you need to use the delta functionality.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 24 Oct, 2008:</div>
+
+<div class="comment">
+Joren: not sure what you mean - the delta index is only used for new/updated records.
+</div>
+
+<div class="comment-author">joren left a comment on 24 Oct, 2008:</div>
+
+<div class="comment">
+we have a lot of records and don't want even more writing in our db when we work with delta.
+
+so every time we index we want to check only these records where the updated_at has changed since the previous time we indexed.
+
+if we index every 15min, only reindex every record where updated_at is 15 minutes ago.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 24 Oct, 2008:</div>
+
+<div class="comment">
+Joren: At this stage, there's nothing like that in the official Thinking Sphinx - although I'd like to have it as a feature at some point.
+
+For the moment though, have a look at "Ed Hickey's":http://blog.edhickey.com/ "fork":http://github.com/bassnode/thinking-sphinx/tree/master.
+</div>
+
+<div class="comment-author">joren left a comment on 28 Oct, 2008:</div>
+
+<div class="comment">
+thx, this is the kind of stuff I needed.
+
+great work for both of you
+</div>
+
+<div class="comment-author">scott left a comment on 16 Nov, 2008:</div>
+
+<div class="comment">
+Hi there,
+
+I am an avid ultrasphinx user and stumbled on your plugin recently.  I have yet to try it but plan on doing so soon.
+
+Question for you - does thinking sphinx generate a single sphinx index, that contains multiple models (as ultrasphinx does), or does it actually create a separate index and source for each Active Record model?
+
+IE - in ultrasphinx, you get one index (besides delta), 'main', and in main there is fields added like class and class_id, so at the end of the configuration and indexing, you have one gigantic index, that contains all your data.  
+
+To make sphinx and ultrasphinx work for our project we have had to hand modify the sphinx.conf file, and manually specify to sphinx which indexes to search.  We have 1.2 billion rows we are searching, so having things in a single index is not efficient.  
+
+So, in asking you this I am just curious your approach on generating the actual index(es), as if ThinkingSphinx keeps them all separated per model, this would make deployment and maintenance much less for us.
+
+Thank you very much for your hard work!  
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 19 Nov, 2008:</div>
+
+<div class="comment">
+Hi Scott
+
+Thinking Sphinx generates an index per model - indeed, it actually generates two - user_core and user. The latter is a distributed index, used as a way to access user_core and user_delta (if deltas are enabled) in one single query.
+
+Hopefully this separation makes life easier for you.
+
+Cheers
+</div>
+
+<div class="comment-author">Canvas left a comment on 15 Dec, 2008:</div>
+
+<div class="comment">
+Hi,
+
+I have a very complecated view  to search data from. The view joins 6 tables, incuding inner and outter joins. Triggers are used to update data to help the join when data in the 6 tables are updated. As a result, the view is very complicated.
+
+I used thining_sphix to build index and searched on the view, it worked pretty nice. But since it's a view, I can not add column "delta" into it and can not use the  delta index as a result. But I really need to use delta index as my data updates quite often.
+
+The solution I can think of now is to use a table to replace the view. And update data into the new table when any of the 6 related tables are updated. Therefore I have to extract the logic in the view and triggers and implement it somewhere. The side effect of this solution is that synchronize the data in the new table and the other six is quite messy.
+
+Any suggestion will be appreciated. Thank you very much.
+</div>
+
+<div class="comment-author">"Pat":http://freelancing-gods.com left a comment on 16 Dec, 2008:</div>
+
+<div class="comment">
+Hi Canvas
+
+It's best to post your question to the "google group":http://groups.google.com/group/thinking-sphinx so we can get more minds thinking about the best approach.
+</div>
+
+<div class="comment-author">Canvas left a comment on 17 Dec, 2008:</div>
+
+<div class="comment">
+Thank you Pat. I just posted my question to the google group.
+</div>
+
+<div class="comment-author">joren left a comment on 18 Mar, 2009:</div>
+
+<div class="comment">
+Hi,
+
+Is there any reason why I only can search for the first 3 characters of an id?
+
+I have this id 123456, when I search for '123*' I get a result, bt when I search for '1234*' or the complete id, My result is empty, whithout any error output in any logs.
+
+Is this a setting or an option I can adjust in my config?
+thanks
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 23 Mar, 2009:</div>
+
+<div class="comment">
+Joren: I'm not sure what the problem is - perhaps it's worth discussing this on "the google group":http://groups.google.com/group/thinking-sphinx?
+</div>
+
+<div class="comment-author">Alex left a comment on  6 Jun, 2009:</div>
+
+<div class="comment">
+ indexes email, location
+
+My instinct says this is gross.  Why use method_missing instead of a symbol?  Are you saving the : character or is there some reason for that?
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on  7 Jun, 2009:</div>
+
+<div class="comment">
+Alex: I'm using method missing because it makes more sense when defining fields and attributes - see the posts example in the line below what you've highlighted.
+
+I agree it's not brilliant, but it helps to keep the index definition clean.
+</div>
+
+<div class="comment-author">"wxianfeng":http://blogjava.net/fl1429 left a comment on 23 Sep, 2009:</div>
+
+<div class="comment">
+it is easier to use than ultrasphinx.........
+</div>
+
+</div>

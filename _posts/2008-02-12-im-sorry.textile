@@ -2,10 +2,10 @@
 title: "I'm Sorry"
 redirect_from: "/posts/im_sorry"
 categories:
-  - australia
   - politics
   - reconciliation
   - sorry
+  - australia
 ---
 A few notes and links on the Government finally apologising to the indigenous people of Australia, prompted by conversations with "Ross":http://www.rosshill.com.au/ via twitter and IM:
 
@@ -18,3 +18,4 @@ A few notes and links on the Government finally apologising to the indigenous pe
 * Also topical and definitely worth reading - "Martin Flanagan on Archie Roach":http://blogs.theage.com.au/flanagan/archives/2008/02/saying_sorry.html
 
 I'm looking forward to tomorrow morning.
+

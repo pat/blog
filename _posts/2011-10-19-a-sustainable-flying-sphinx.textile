@@ -2,12 +2,12 @@
 title: "A Sustainable Flying Sphinx?"
 redirect_from: "/posts/a_sustainable_flying_sphinx"
 categories:
-  - sustainability
-  - sphinx
-  - flying sphinx
-  - rails
-  - programming
   - web
+  - sustainability
+  - flying sphinx
+  - programming
+  - sphinx
+  - rails
 ---
 In which I muse about what a sustainable web service could look like - but first, the backstory:
 
@@ -56,3 +56,30 @@ I could at least use servers elsewhere - but that means bandwidth between server
 Am I getting a little too carried away? Perhaps, but this is all hypothetical anyway. I'm guessing Amazon's techs are looked after decently (though I'd love some confirmation on this), and am hoping the situation improves for their warehouse staff as well.
 
 I am still searching for answers for what truly sustainable hardware - and moreso, sustainable web services - financially, socially, environmentally, and technically. What's your take? What have I forgotten?
+
+----
+
+<div class="comments">
+<div class="comment-author">Jean-Michel GARNIER left a comment on 20 Feb, 2012:</div>
+
+<div class="comment">
+At euruko 201, I made some crude comment about your carbon footprint coming to Berlin and Australia carbon footprint. 
+
+After reading that post, I have to apologize publicly. I did not know you and made a very premature judgement.
+
+Regarding sustainability, Germany is the country to follow. Australia has so much sun that I expect solar panels to power datacenters as soon as there will be some political will and awareness.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 11 Mar, 2012:</div>
+
+<div class="comment">
+Hi Jean-Michel
+
+Thanks for your apology, although I didn't take offence. I know the carbon impact of such a trip isn't great, and it's a major disadvantage of being in Melbourne. I certainly opt for carbon offsets for the flights I take, though I know not taking the flight in the first place would be better.
+
+That said, I will be back in Europe for Euruko this year, but I'll be staying for four months, to make the most of such a long (and environmentally shocking) trip.
+
+And yes, things in Australia could certainly improve dramatically with regards to solar power if we had the political will - the big question is whether we will ever have such will from those in power. I'm sadly not expecting it any time in the next few years. Europe generally (and much closer to home, New Zealand) seems to be far smarter than us.
+</div>
+
+</div>

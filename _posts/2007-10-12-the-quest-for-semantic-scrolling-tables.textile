@@ -32,3 +32,28 @@ The resulting source isn't ideal, but it works, and it means you don't have to d
 h3. One Minor Issue
 
 Left borders on the table disappear - so if that is important, just add it to the @div.scroll-block@ element via CSS.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Kolber":http://www.aestheticallyloyal.com left a comment on 15 Oct, 2007:</div>
+
+<div class="comment">
+I did notice that the thead breaks it's alignment with the tbody on text resize. This is due to a fixed width on the tbody I assume. You could use the measurements in ems to try get around this issue.
+
+You might also want to consider <pre>this.div.style.overflow = "auto";</pre> so that scrollbars only show when and where necessary.
+</div>
+
+<div class="comment-author">"Ben Schwarz":http://germanforblack.com/ left a comment on 15 Oct, 2007:</div>
+
+<div class="comment">
+You may want to make a heading for *examples* - a little hard to scan when you're looking for 'what is this?'
+
+Anyway, the only productive comment that I have is that you could add an @overflow-x@ (CSS) or @overflowX@ (JS) property to the element and set it to hidden.
+
+Thus, no bottom scroller.
+
+
+</div>
+
+</div>

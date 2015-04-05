@@ -2,11 +2,11 @@
 title: "Sphinx-related Updates"
 redirect_from: "/posts/sphinx_related_updates"
 categories:
-  - sphinx
+  - plugins
   - search
+  - sphinx
   - ruby
   - rails
-  - plugins
 ---
 Two Sphinx-related tidbits:
 
@@ -48,3 +48,4 @@ Delta indexes track changes to model records between proper indexes (ie: from th
 end</code></pre>
 
 The one catch - at this point, delta indexes are one step off current, as they get indexed before the current transaction to the database is committed. This will get better soon, thanks to some help from Joost Hietbrink and his colleagues at "YelloYello":http://www.yelloyello.com  - once I find some free time, I'll get that working much more neatly.
+

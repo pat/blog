@@ -2,12 +2,12 @@
 title: "A Guide : Internet Filter Action"
 redirect_from: "/posts/a_guide_internet_filter_action"
 categories:
-  - politics
-  - australia
   - internet
+  - politics
   - censorship
   - action
   - nocleanfeed
+  - australia
 ---
 # Meet with your local ALP MP or Senator.
 # Have a conversation with them about the internet filter, ideally focusing on *The Message* (below).
@@ -197,3 +197,34 @@ h3. Western Australia
 h3. Credits
 
 This was inspired by "the work of Geoff McQueen and Matthew Landauer":http://spreadsheets.google.com/ccc?key=paG-OowBO9g-C8u-uOPbDHg. Originally planned as a Google Document, but that doesn't allow editing by everyone, so this blog post will have to do.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Ross Hill":http://www.rosshill.com.au left a comment on  9 Jan, 2009:</div>
+
+<div class="comment">
+Alright I'm onto it - I'll get back to you when I have something set up :)
+</div>
+
+<div class="comment-author">"Elias Bizannes":http://liako.biz left a comment on 11 Jan, 2009:</div>
+
+<div class="comment">
+Thanks for posting this Pat - it's what we need to do for a more constructive dialogue with the Government.
+
+Hopefully when I speak to one of the NSW senators, I can pick their mind on what they think we need to do to allow Labor out of this tight position and in a workable solutions for all parties.
+
+I'm going to try to meet up with Senator Faulkner - might be difficult, but that's my goal :)
+</div>
+
+<div class="comment-author">"Steve Hopkins":http://www.thesquigglyline.com/blog left a comment on 12 Jan, 2009:</div>
+
+<div class="comment">
+Hi all,
+
+I'll organise a meeting with Michael Danby, my local member, within the next couple of weeks. Let me know if you're interested in coming along. 
+
+Steve
+</div>
+
+</div>

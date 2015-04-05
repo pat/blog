@@ -39,3 +39,4 @@ We've also adopted Ruby Australia's "Code of Conduct":http://ruby.org.au/code-of
 We're by no means perfect, and I'm keen to help this community grow stronger and smarter over the coming year - but we've got some great foundations to build on. The Melbourne Ruby community - and indeed, the broader Australian Ruby community - is growing from strength to strength, and a lot of that is due to the vast array of leaders we have, whose shoulders we are standing on.
 
 Alongside the regular city meets, there are "Rails Camps":http://railscamps.com twice a year, "RailsGirls":http://railsgirls.com events becoming a regular appearance on the calendar, and the second "RubyConf Australia":http://www.rubyconf.org.au is in Sydney this coming February.  I'm looking forward to seeing what 2014 brings - thanks to all who've been part of the ride thus far!
+

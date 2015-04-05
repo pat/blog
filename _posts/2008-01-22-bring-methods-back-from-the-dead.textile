@@ -20,3 +20,4 @@ AntiString.send(:define_method, :to_s,
 AntiString.new.to_s #=> "#<AntiString:0x364ef8>"</code></pre>
 
 Now, the obvious caveat - if the method was originally defined in that class, not the superclass, then I think you're out of luck. Although I'm guessing you'll rarely be in a position where you need to resurrect a method like this anyway.
+

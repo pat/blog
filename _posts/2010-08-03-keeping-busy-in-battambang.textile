@@ -2,11 +2,11 @@
 title: "Keeping Busy in Battambang"
 redirect_from: "/posts/keeping_busy_in_battambang"
 categories:
-  - cambodia
-  - battambang
-  - tourism
   - travel
   - khmer
+  - tourism
+  - cambodia
+  - battambang
   - guide
 ---
 *This is the fifth (and last) of "my guides to Cambodia":/posts/pats_guide_to_cambodia*
@@ -74,3 +74,4 @@ You can also check out some of the local industries - rice paper, fish paste, ri
 h3. In Closing
 
 Well, these Cambodia posts have taken me a long time to write. Hopefully they're useful for others in providing some perspective on Cambodia, Khmer people and Battambang. I'd love to hear from anyone who has made it to this corner of the world and what you thought of the experience.
+

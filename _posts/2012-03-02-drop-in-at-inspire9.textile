@@ -28,3 +28,4 @@ While Inspire9 is a fantastic place to work, it's the community that makes it st
 So, if you find yourself in Melbourne, please do visit. You're welcome to pull up a chair and get some work done, or perhaps challenge someone to a game of pool. We also now host the Melbourne Ruby and Python meets every month (as well as plenty of other events), and we're a friendly bunch - don't be afraid to say hello!
 
 <a href="http://www.flickr.com/photos/inspire9/6942834401/" title="Dan playing pool"><img src="http://farm8.staticflickr.com/7070/6942834401_9e2b37868a.jpg" width="500" height="333" alt=""></a>
+

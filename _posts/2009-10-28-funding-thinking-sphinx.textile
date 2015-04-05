@@ -2,12 +2,12 @@
 title: "Funding Thinking Sphinx"
 redirect_from: "/posts/funding_thinking_sphinx"
 categories:
-  - ruby
-  - rails
-  - sphinx
-  - thinking sphinx
   - search
   - micropatronage
+  - sphinx
+  - thinking sphinx
+  - ruby
+  - rails
 ---
 *Update*: I've now hit my target. If you want to donate more, I won't turn you away, but perhaps you should send those funds to other worthy open source projects, or a local charity. A massive thank you to all who have pitched in to the pledgie, your generosity and support is amazing.
 
@@ -28,3 +28,75 @@ I want the testing suite to be rock-solid. I've been much better at writing test
 This is not a rewrite - it's polishing.
 
 I've been toying with this idea for a while, and it's time to have a stab at it. Hopefully you can "provide some assistance":http://pledgie.com/campaigns/1752 to do this.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Mark Turner":http://amerine.net left a comment on 28 Oct, 2009:</div>
+
+<div class="comment">
+Sent some much deserved cash your way. I'm sure you'll hit the goal. Enjoy the month of thinking-sphinx work ;-)
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 28 Oct, 2009:</div>
+
+<div class="comment">
+Mark: thanks! yeah, it's looking like I'll definitely hit the target. Looking forward to next month :)
+</div>
+
+<div class="comment-author">"Kyle Daigle":http://Geezeo left a comment on 28 Oct, 2009:</div>
+
+<div class="comment">
+Hey, is the pledgie link good?  It returns all kinds of funky stuff to me.  I tried going through pledgie alone and it didn't work either.
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 28 Oct, 2009:</div>
+
+<div class="comment">
+Hi Kyle, it's not working for me either... seems to have cropped up in the last hour or so. I've pinged the pledgie guys via Twitter about it, hopefully it'll get fixed soon.
+</div>
+
+<div class="comment-author">"Bill DeVaul":http://www.dinnewarematchers.com/ left a comment on 28 Oct, 2009:</div>
+
+<div class="comment">
+I am ready to pledge but the link leads to a raw text page.  I'll check back in a few hours. 
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 28 Oct, 2009:</div>
+
+<div class="comment">
+Kyle, Bill: It's back up now...
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 28 Oct, 2009:</div>
+
+<div class="comment">
+Although, as now noted at the top of the post, I've hit my target. Which is pretty amazing.
+</div>
+
+<div class="comment-author">"Alexey":http://rails-dev.ru left a comment on 18 Nov, 2009:</div>
+
+<div class="comment">
+in our project we use plug-in thinking_sphinx
+
+it builds indexes for sphinx using rules, which are described in method in model
+
+  define_index do
+    indexes name
+    indexes material
+    indexes recipe_text
+    indexes recipe_info
+.............
+
+and we have one problem. there are several projects on one server. and these projects have the same model names. and so they will have the same index names in sphinx config file
+
+how can we set unique name of index for each model?
+</div>
+
+<div class="comment-author">"Ross Hill":http://www.rosshill.com.au left a comment on 24 Dec, 2009:</div>
+
+<div class="comment">
+So it's December - how did you go for the month? 
+</div>
+
+</div>

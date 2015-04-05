@@ -2,11 +2,11 @@
 title: "West Coast Photos"
 redirect_from: "/posts/west_coast_photos"
 categories:
-  - travel
-  - san diego
-  - vancouver
-  - rockies
   - usa
+  - travel
+  - vancouver
+  - san diego
+  - rockies
   - canada
   - photos
 ---
@@ -25,3 +25,20 @@ Oh, and I don't know much about photography. I don't use a DSLR. Suggestions on 
 <a href="http://www.flickr.com/photos/freelancing_god/2647578720/" title="Out on a Limb by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3014/2647578720_783ccc7ed7.jpg" width="470" height="500" alt="Out on a Limb" /></a>
 
 More are on my "flickr feed":http://www.flickr.com/photos/freelancing_god/.
+
+----
+
+<div class="comments">
+<div class="comment-author">"Tim Lucas":http://toolmantim.com left a comment on 22 Jul, 2008:</div>
+
+<div class="comment">
+You need no tips about photography, those shots are stunning. Looks like a great trip!
+</div>
+
+<div class="comment-author">"pat":http://freelancing-gods.com left a comment on 22 Jul, 2008:</div>
+
+<div class="comment">
+Ah, but those are the best shots... they're definitely in the minority. Thanks though :)
+</div>
+
+</div>

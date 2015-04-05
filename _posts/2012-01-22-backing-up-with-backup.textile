@@ -90,3 +90,4 @@ All that said, here's the script:
 end</code></pre>
 
 I've been running the first script for several months, and the second for close to a month - both via cron - and had no problems at all. If you've not got a solid backup system in place because you're finding it complex and frustrating, you've now got one less excuse.
+
