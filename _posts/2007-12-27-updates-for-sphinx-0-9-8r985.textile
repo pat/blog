@@ -2,12 +2,11 @@
 title: "Updates for Sphinx 0.9.8r985"
 redirect_from: "/posts/updates_for_sphinx_0_9_8r985"
 categories:
-  -
-    plugins
-    search
-    sphinx
-    ruby
-    rails
+  - sphinx
+  - search
+  - ruby
+  - rails
+  - plugins
 ---
 Another quick Sphinx post - "Riddle":http://riddle.freelancing-gods.com is updated to support Sphinx's latest release (0.9.8r985), and "Thinking Sphinx":http://ts.freelancing-gods.com now has that new version of Riddle as well.
 

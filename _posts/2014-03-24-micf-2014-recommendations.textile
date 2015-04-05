@@ -2,11 +2,10 @@
 title: "MICF 2014 Recommendations"
 redirect_from: "/posts/micf_2014_recommendations"
 categories:
-  -
-    comedy
-    micf
-    2014
-    melbourne
+  - melbourne
+  - comedy
+  - micf
+  - 2014
 ---
 The Melbourne International Comedy Festival is about to kick off this year - and I can't wait! It truly is the best time to be in Melbourne.
 

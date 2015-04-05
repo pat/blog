@@ -2,14 +2,13 @@
 title: "Pangea Day"
 redirect_from: "/posts/pangea_day"
 categories:
-  -
-    inspiration
-    video
-    world
-    society
-    politics
-    TED
-    community
+  - world
+  - politics
+  - community
+  - video
+  - TED
+  - society
+  - inspiration
 ---
 Prompted by an email from TED, I watched three videos on YouTube this evening - of residents of one country singing the anthems of another country. It's an awesome idea, and the different approaches really add to it.
 

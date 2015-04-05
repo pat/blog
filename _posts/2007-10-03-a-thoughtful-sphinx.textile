@@ -2,12 +2,11 @@
 title: "A Thoughtful Sphinx"
 redirect_from: "/posts/a_thoughtful_sphinx"
 categories:
-  -
-    plugins
-    search
-    sphinx
-    ruby
-    rails
+  - ruby
+  - rails
+  - plugins
+  - search
+  - sphinx
 ---
 In one of the projects I've been working on lately, I've needed to implement a decent search - and so I looked at both "Ferret":http://ferret.davebalmain.com and "Sphinx":http://www.sphinxsearch.com. I ended up choosing the latter, although I'm not sure why - perhaps just to be different (most people I spoke to are using ferret), or perhaps because the setup seemed easier.
 

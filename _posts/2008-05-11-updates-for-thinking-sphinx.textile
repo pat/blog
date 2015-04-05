@@ -2,15 +2,14 @@
 title: "Updates for Thinking Sphinx"
 redirect_from: "/posts/updates_for_thinking_sphinx"
 categories:
-  -
-    plugins
-    search
-    utf-8
-    sydney
-    capistrano
-    sphinx
-    ruby
-    rails
+  - sphinx
+  - search
+  - ruby
+  - rails
+  - plugins
+  - sydney
+  - capistrano
+  - utf-8
 ---
 I've been working away on Thinking Sphinx when I've had the time - and we're nearing what I feel is a solid 1.0 release. I say _we_, because I've had some very generous people supply patches over the last few weeks - namely "Arthur Zapparoli":http://www.arthurgeek.net/, "James Healy":http://yob.id.au/, Chris Heald and "Jae-Jun Hwang":http://www.embian.com/. Switching to "git":http://github.com/freelancing-god/thinking-sphinx/tree/master - and GitHub in particular - has made it very easy to accept patches.
 

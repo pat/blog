@@ -2,17 +2,16 @@
 title: "RejectConf: Coders Kicking Arse"
 redirect_from: "/posts/reject_conf_coders_kicking_arse"
 categories:
-  -
-    society
-    railsconf
-    rejectconf
-    berlin
-    railsconfeu
-    geeks
-    knowledge
-    ruby
-    rails
-    community
+  - rejectconf
+  - berlin
+  - railsconf
+  - railsconfeu
+  - ruby
+  - rails
+  - geeks
+  - knowledge
+  - community
+  - society
 ---
 One of the highlights from RailsConf EU last week was RejectConf - even if it was a bit smaller than last year (going by what I've heard, anyway).
 

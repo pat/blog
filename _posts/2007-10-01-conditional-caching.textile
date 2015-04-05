@@ -2,11 +2,10 @@
 title: "Conditional Caching"
 redirect_from: "/posts/conditional_caching"
 categories:
-  -
-    ruby
-    rails
-    caching
-    plugins
+  - ruby
+  - rails
+  - caching
+  - plugins
 ---
 Whenever I've described caching in Rails to anyone who isn't familiar with it, I have made clear the limitations of each method:
 

@@ -2,11 +2,10 @@
 title: "So you're a kick-arse coder"
 redirect_from: "/posts/so_you're_a_kick_arse_coder"
 categories:
-  -
-    society
-    politics
-    charity
-    railscamp
+  - society
+  - politics
+  - railscamp
+  - charity
 ---
 This is the written version of a talk I did at "RailsCamp":http://wiki.railscamp07.org - it is pretty close to what I actually said on the day, minus the heckling, discussions and answers to rhetorical questions.
 

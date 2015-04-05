@@ -2,12 +2,11 @@
 title: "Thinking Sphinx PDF at Peepcode"
 redirect_from: "/posts/thinking_sphinx_pdf_at_peepcode"
 categories:
-  -
-    pdf
-    peepcode
-    sphinx
-    ruby
-    rails
+  - ruby
+  - rails
+  - sphinx
+  - peepcode
+  - pdf
 ---
 A quick note to let anyone using (or interested in using) "Sphinx":http://sphinxsearch.com/ and/or "Thinking Sphinx":http://ts.freelancing-gods.com/ that "my Peepcode PDF":http://peepcode.com/products/thinking-sphinx-pdf has just been published, and contains a wealth of information on how to mix Sphinx with ActiveRecord (via Rails or Merb).
 

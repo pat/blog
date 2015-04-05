@@ -2,11 +2,10 @@
 title: "I'm Sorry"
 redirect_from: "/posts/im_sorry"
 categories:
-  -
-    politics
-    reconciliation
-    sorry
-    australia
+  - australia
+  - politics
+  - reconciliation
+  - sorry
 ---
 A few notes and links on the Government finally apologising to the indigenous people of Australia, prompted by conversations with "Ross":http://www.rosshill.com.au/ via twitter and IM:
 

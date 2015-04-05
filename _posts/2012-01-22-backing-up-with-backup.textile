@@ -2,10 +2,9 @@
 title: "Backing up with Backup"
 redirect_from: "/posts/backing_up_with_backup"
 categories:
-  -
-    backup
-    ruby
-    cloud
+  - backup
+  - ruby
+  - cloud
 ---
 I've found myself singing the praises of Michael van Rooijen's "backup":https://github.com/meskyanichi/backup/ gem twice in quick succession lately - and so, I just want to run through how I'm using it, and how useful I find it.
 

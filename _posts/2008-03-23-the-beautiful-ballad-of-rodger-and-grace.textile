@@ -2,14 +2,13 @@
 title: "The (Beautiful) Ballad of Rodger and Grace"
 redirect_from: "/posts/the_beautiful_ballad_of_rodger_and_grace"
 categories:
-  -
-    music
-    uk
-    kitson
-    theatre
-    art
-    comedy
-    melbourne
+  - comedy
+  - melbourne
+  - uk
+  - theatre
+  - art
+  - music
+  - kitson
 ---
 The "Comedy Festival":http://www.comedyfestival.com.au is running again here in Melbourne - which is one of my favourite times of the year. Just saw my first show this afternoon - *Daniel Kitson* and *Gavin Osborn*'s _The Ballad of Rodger & Grace_. In short, it was amazing, funny, heartwarming and beautiful.
 

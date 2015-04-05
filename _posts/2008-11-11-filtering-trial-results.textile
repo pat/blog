@@ -2,11 +2,10 @@
 title: "Filtering Trial Results"
 redirect_from: "/posts/filtering_trial_results"
 categories:
-  -
-    politics
-    australia
-    internet
-    censorship
+  - politics
+  - australia
+  - internet
+  - censorship
 ---
 The Australian Government's contentious 'Clean Feed' internet censorship proposal has got some media attention lately - and by and large, it's been rightly critical of Senator Conroy's plans. If you're not familiar with it, I recommend you read "my letters":http://freelancing-gods.com/posts/internet_censorship_in_australia "to Conroy":http://freelancing-gods.com/posts/correspondance_on_censorship and peruse "nocleanfeed.com":http://nocleanfeed.com/.
 

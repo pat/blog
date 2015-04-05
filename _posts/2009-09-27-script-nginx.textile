@@ -2,11 +2,10 @@
 title: "script/nginx"
 redirect_from: "/posts/script_nginx"
 categories:
-  -
-    nginx
-    ruby
-    rails
-    passenger
+  - nginx
+  - ruby
+  - rails
+  - passenger
 ---
 This morning I decided to get "Nginx":http://wiki.nginx.org/Main and "Passenger":http://modrails.com/ set up in my local dev environment. I needed an easier way to test of "Thinking Sphinx":http://ts.freelancing-gods.com in such environments, but also, I find Nginx configuration syntax so much easier than Apache.
 

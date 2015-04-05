@@ -2,11 +2,10 @@
 title: "Combustion - Better Rails Engine Testing"
 redirect_from: "/posts/combustion_better_rails_engine_testing"
 categories:
-  -
-    ruby
-    rails
-    engines
-    testing
+  - ruby
+  - rails
+  - engines
+  - testing
 ---
 I spent a good part of last month writing my first Rails engine - although it's not yet released and for a client, so I won't talk about that too much here.
 

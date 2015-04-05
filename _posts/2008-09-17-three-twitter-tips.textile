@@ -2,11 +2,10 @@
 title: "Three Twitter Tips"
 redirect_from: "/posts/three_twitter_tips"
 categories:
-  -
-    social
-    web2.0
-    conversation
-    twitter
+  - twitter
+  - social
+  - conversation
+  - web2.0
 ---
 Now, I've been known to rail against people saying "This is the right way to use Twitter" - _but_ there's a couple things that I've started doing over the last few months that I think are worth sharing. I'm sure the expert Twitterers amongst you won't find this new, and it really is only a couple of tips - so please suggest others in the comments - but perhaps some will find it helpful.
 

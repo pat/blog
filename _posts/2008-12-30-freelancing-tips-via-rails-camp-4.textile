@@ -2,15 +2,14 @@
 title: "Freelancing Tips via Rails Camp 4"
 redirect_from: "/posts/freelancing_tips_via_rails_camp_4"
 categories:
-  -
-    freelancing
-    railscamp
-    twitter
-    work
-    maths
-    ruby
-    australia
-    rails
+  - ruby
+  - rails
+  - railscamp
+  - australia
+  - freelancing
+  - work
+  - maths
+  - twitter
 ---
 h3. Context
 

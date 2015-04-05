@@ -2,12 +2,11 @@
 title: "Sphinx-related Updates"
 redirect_from: "/posts/sphinx_related_updates"
 categories:
-  -
-    plugins
-    search
-    sphinx
-    ruby
-    rails
+  - sphinx
+  - search
+  - ruby
+  - rails
+  - plugins
 ---
 Two Sphinx-related tidbits:
 

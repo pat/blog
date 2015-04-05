@@ -2,16 +2,15 @@
 title: "The End of Charity"
 redirect_from: "/posts/the_end_of_charity"
 categories:
-  -
-    books
-    business
-    society
-    environment
-    social
-    charity
-    review
-    values
-    change
+  - books
+  - social
+  - charity
+  - review
+  - values
+  - environment
+  - society
+  - business
+  - change
 ---
 As I'm travelling, I'm reading more - so that means it's time for another impromptu book-review/idea-sharing post.
 

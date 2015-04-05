@@ -2,13 +2,12 @@
 title: "Wandering Freelancer"
 redirect_from: "/posts/wandering_freelancer"
 categories:
-  -
-    roro
-    video
-    freelancing
-    travel
-    ruby
-    melbourne
+  - travel
+  - ruby
+  - melbourne
+  - roro
+  - video
+  - freelancing
 ---
 At a recent Melbourne Ruby meet, I was asked to speak about my travelling freelancer lifestyle, and "the talk was recorded":http://vimeo.com/8350739. I feel a little self-conscious about the topic, but perhaps you'll find it interesting.
 

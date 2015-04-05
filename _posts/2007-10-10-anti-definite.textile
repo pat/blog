@@ -2,10 +2,9 @@
 title: "Anti-Definite"
 redirect_from: "/posts/anti_definite"
 categories:
-  -
-    mysql
-    database
-    sorting
+  - mysql
+  - database
+  - sorting
 ---
 Just a quick post to highlight a MySQL function I've created that I'm finding to be very useful (perhaps others will as well).
 

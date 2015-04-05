@@ -2,9 +2,8 @@
 title: "Bring Methods Back From The Dead"
 redirect_from: "/posts/bring_methods_back_from_the_dead"
 categories:
-  -
-    ruby
-    rails
+  - ruby
+  - rails
 ---
 Today was the first time I'd come across Ruby's @undef_method@ - it's used in a few places in Rails, particularly with ActiveRecord's associations. While I see the point of it, there were a few methods I wanted back - and I've figured out how to do it - you need to grab the method definition from the superclass. Here's an example:
 

@@ -2,8 +2,7 @@
 title: "Speaking Khmer"
 redirect_from: "/posts/speaking_khmer"
 categories:
-  -
-    cambodia travel khmer guide language
+  - cambodia travel khmer guide language
 ---
 *This is the second of "my guides to Cambodia":http://freelancing-gods.com/posts/pats_guide_to_cambodia.*
 

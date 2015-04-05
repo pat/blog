@@ -2,12 +2,11 @@
 title: "Revisiting Internet Filter Action"
 redirect_from: "/posts/revisiting_internet_filter_action"
 categories:
-  -
-    internet
-    politics
-    censorship
-    action
-    australia
+  - politics
+  - australia
+  - internet
+  - censorship
+  - action
 ---
 So, a bit over a year ago, as we edged closer and closer to voting John Howard out of office, Rudd's team make the stupid election promise of an internet filter. Exactly a year ago, in anger and frustration, "I sent off a letter":http://freelancing-gods.com/posts/internet_censorship_in_australia to Stephen Conroy, the then new Minister for Broadband, Communications and the Digital Economy.
 

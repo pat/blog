@@ -2,10 +2,9 @@
 title: "validates_uniqueness_of_set"
 redirect_from: "/posts/validates_uniqueness_of_set"
 categories:
-  -
-    ruby
-    rails
-    validation
+  - ruby
+  - rails
+  - validation
 ---
 Rails code snippet for the day: "validates_uniqueness_of_set":http://pastie.caboo.se/124537. Useful for making sure each specific combination of the specified attributes is unique. Example from the pastie:
 

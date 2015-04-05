@@ -2,12 +2,11 @@
 title: "Fast CSV reading and writing with MySQL"
 redirect_from: "/posts/fast_csv_reading_and_writing_with_my_sql"
 categories:
-  -
-    mysql
-    sql
-    csv
-    import
-    export
+  - mysql
+  - sql
+  - csv
+  - import
+  - export
 ---
 I came across a handy way to import CSVs into MySQL the other day - something that's probably useful to other people. Pure MySQL too.
 

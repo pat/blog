@@ -2,18 +2,17 @@
 title: "Odds and Ends"
 redirect_from: "/posts/odds_and_ends"
 categories:
-  -
-    meta
-    railscamp
-    joss whedon
-    dr horrible
-    new york
-    ignite
-    nyc
-    pixar
-    wall-e
-    ruby
-    rails
+  - ruby
+  - rails
+  - railscamp
+  - joss whedon
+  - dr horrible
+  - new york
+  - ignite
+  - nyc
+  - pixar
+  - wall-e
+  - meta
 ---
 A few random items:
 

@@ -2,14 +2,13 @@
 title: "LaughTrack: Week Two"
 redirect_from: "/posts/laugh_track_week_two"
 categories:
-  -
-    statistics
-    twitter
-    laughtrack
-    comedy
-    micf
-    australia
-    melbourne
+  - comedy
+  - australia
+  - melbourne
+  - laughtrack
+  - micf
+  - statistics
+  - twitter
 ---
 Another week has passed, so time for some more "LaughTrack":http://laughtrack.com.au statistics.
 

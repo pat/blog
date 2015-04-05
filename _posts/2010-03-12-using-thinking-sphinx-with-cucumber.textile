@@ -2,14 +2,13 @@
 title: "Using Thinking Sphinx with Cucumber"
 redirect_from: "/posts/using_thinking_sphinx_with_cucumber"
 categories:
-  -
-    search
-    testing
-    cucumber
-    sphinx
-    thinking sphinx
-    ruby
-    rails
+  - ruby
+  - rails
+  - cucumber
+  - sphinx
+  - thinking sphinx
+  - search
+  - testing
 ---
 While I highly recommend you stub out your search requests in controller unit tests/specs, I also recommend you give your full stack a work-out when running search scenarios in Cucumber.
 

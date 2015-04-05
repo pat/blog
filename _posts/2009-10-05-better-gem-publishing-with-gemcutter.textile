@@ -2,10 +2,9 @@
 title: "Better Gem Publishing with Gemcutter"
 redirect_from: "/posts/better_gem_publishing_with_gemcutter"
 categories:
-  -
-    gemcutter
-    gems
-    ruby
+  - ruby
+  - gems
+  - gemcutter
 ---
 If you're working with Ruby and have been paying attention to Twitter or RSS feeds, then you've probably heard of "Gemcutter":http://gemcutter.org. If not, it's the latest flavour for publishing gems, and I'm finding the simplicity of it a delight.
 

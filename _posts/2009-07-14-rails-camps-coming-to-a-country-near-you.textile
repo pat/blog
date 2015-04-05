@@ -2,19 +2,18 @@
 title: "Rails Camps - Coming to a Country Near You"
 redirect_from: "/posts/rails_camps_coming_to_a_country_near_you"
 categories:
-  -
-    usa
-    unconference
-    barcamp
-    uk
-    railscamp
-    maine
-    margate
-    ruby
-    australia
-    rails
-    community
-    melbourne
+  - ruby
+  - rails
+  - railscamp
+  - australia
+  - uk
+  - usa
+  - maine
+  - margate
+  - melbourne
+  - community
+  - unconference
+  - barcamp
 ---
 This weekend, there's going to be a Rails Camp. In October, there's going to be a Rails Camp. Then in November, there's going to be a Rails Camp. That in itself is pretty freaking cool. What's even cooler is that they're in Maine, England and Australia respectively.
 

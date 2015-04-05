@@ -2,12 +2,11 @@
 title: "The Changing State of Leadership in Australian Politics"
 redirect_from: "/posts/the_changing_state_of_leadership_in_australian_politics"
 categories:
-  -
-    politics
-    media
-    quarterly essay
-    leadership
-    australia
+  - australia
+  - politics
+  - quarterly essay
+  - media
+  - leadership
 ---
 I've just devoured the "latest Quarterly Essay":http://quarterlyessay.com/issue/trivial-pursuit-leadership-and-end-reform-era, titled _Trivial Pursuit: Leadership and the End of the Reform Era,_ by political journalist "George Megalogenis":http://en.wikipedia.org/wiki/George_Megalogenis.
 

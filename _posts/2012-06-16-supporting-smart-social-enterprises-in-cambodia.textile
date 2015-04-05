@@ -2,12 +2,11 @@
 title: "Supporting Smart Social Enterprises in Cambodia"
 redirect_from: "/posts/supporting_smart_social_enterprises_in_cambodia"
 categories:
-  -
-    cambodia
-    kinyei
-    battambang
-    cafe
-    social change
+  - cambodia
+  - kinyei
+  - battambang
+  - cafe
+  - social change
 ---
 About 18 months ago, I "posted here":http://freelancing-gods.com/posts/kickstarting_collaboration_and_co_working_over_coffee_in_cambodia about a campaign some friends of mine ran to kick-start some social enterprises in Cambodia through their not-for-profit organisation Kinyei.
 

@@ -2,12 +2,11 @@
 title: "Nullus Anxietas 2"
 redirect_from: "/posts/nullus_anxietas_2"
 categories:
-  -
-    convention
-    discworld
-    pratchett
-    australia
-    melbourne
+  - discworld
+  - pratchett
+  - convention
+  - melbourne
+  - australia
 ---
 A quick post for any Discworld fans that may peruse this blog.
 

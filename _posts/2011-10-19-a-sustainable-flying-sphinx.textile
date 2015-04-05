@@ -2,13 +2,12 @@
 title: "A Sustainable Flying Sphinx?"
 redirect_from: "/posts/a_sustainable_flying_sphinx"
 categories:
-  -
-    web
-    sustainability
-    flying sphinx
-    programming
-    sphinx
-    rails
+  - sustainability
+  - sphinx
+  - flying sphinx
+  - rails
+  - programming
+  - web
 ---
 In which I muse about what a sustainable web service could look like - but first, the backstory:
 

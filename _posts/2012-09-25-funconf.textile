@@ -2,13 +2,12 @@
 title: "Funconf"
 redirect_from: "/posts/funconf"
 categories:
-  -
-    funconf
-    ireland
-    adventure
-    trust
-    conference
-    community
+  - funconf
+  - ireland
+  - conference
+  - adventure
+  - trust
+  - community
 ---
 This could be a story about a mystery. Or it could be an adventure. Or even a tale of learning and sharing. But ultimately, it really comes down to friendship and trust.
 

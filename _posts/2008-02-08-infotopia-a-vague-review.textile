@@ -2,12 +2,11 @@
 title: "Infotopia: A Vague Review"
 redirect_from: "/posts/infotopia_a_vague_review"
 categories:
-  -
-    books
-    information
-    social
-    collaboration
-    reviews
+  - books
+  - information
+  - social
+  - collaboration
+  - reviews
 ---
 (Wasn't really happy with the first version of this post, so writing it again from scratch. If you didn't catch my initial attempt, don't stress, you're not missing much.)
 

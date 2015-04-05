@@ -2,9 +2,8 @@
 title: "A Quick Focus on Javascript"
 redirect_from: "/posts/a_quick_focus_on_javascript"
 categories:
-  -
-    javascript
-    html
+  - javascript
+  - html
 ---
 Neat little refactoring trick for the day (as I've just recounted to the <a href="irc://irc.freenode.net/roro">roro crew</a>)...
 

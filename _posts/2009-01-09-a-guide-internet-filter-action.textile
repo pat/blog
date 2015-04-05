@@ -2,13 +2,12 @@
 title: "A Guide : Internet Filter Action"
 redirect_from: "/posts/a_guide_internet_filter_action"
 categories:
-  -
-    internet
-    politics
-    censorship
-    action
-    nocleanfeed
-    australia
+  - politics
+  - australia
+  - internet
+  - censorship
+  - action
+  - nocleanfeed
 ---
 # Meet with your local ALP MP or Senator.
 # Have a conversation with them about the internet filter, ideally focusing on *The Message* (below).

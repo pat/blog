@@ -2,11 +2,10 @@
 title: "Versioning your APIs"
 redirect_from: "/posts/versioning_your_ap_is"
 categories:
-  -
-    ruby
-    rails
-    api
-    flying sphinx
+  - ruby
+  - rails
+  - api
+  - flying sphinx
 ---
 As I developed "Flying Sphinx":http://flying-sphinx.com, I found myself both writing and consuming several APIs: from Heroku to Flying Sphinx, Flying Sphinx to Heroku, the @flying-sphinx@ gem in apps to Flying Sphinx, Flying Sphinx to Sphinx servers, and Sphinx servers to Flying Sphinx.
 

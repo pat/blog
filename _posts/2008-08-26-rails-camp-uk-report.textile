@@ -2,12 +2,11 @@
 title: "Rails Camp UK Report"
 redirect_from: "/posts/rails_camp_uk_report"
 categories:
-  -
-    barcamp
-    uk
-    railscamp
-    ruby
-    rails
+  - ruby
+  - rails
+  - railscamp
+  - uk
+  - barcamp
 ---
 Just over a week ago, the first "Rails Camp":http://railscamp08.org in the UK was held in Downe, outside Orpington - and I think it was a fantastic success (having been the organiser though, obviously there is some bias).
 

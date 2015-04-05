@@ -2,11 +2,10 @@
 title: "Trampoline Thoughts"
 redirect_from: "/posts/trampoline_thoughts"
 categories:
-  -
-    trampoline
-    unconference
-    melbourne
-    barcamp
+  - trampoline
+  - unconference
+  - melbourne
+  - barcamp
 ---
 Just under two weeks ago, we ran the third "Trampoline":http://trampolineday.com - an informal unconference which brings people from a variety of disciplines together to share what they find amazing.
 

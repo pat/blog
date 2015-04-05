@@ -2,12 +2,11 @@
 title: "Rewriting Thinking Sphinx: Middleware, Glazes and Panes"
 redirect_from: "/posts/rewriting_thinking_sphinx_middleware_glazes_and_panes"
 categories:
-  -
-    sphinx
-    thinking sphinx
-    ruby
-    rails
-    middleware
+  - sphinx
+  - thinking sphinx
+  - ruby
+  - rails
+  - middleware
 ---
 Time to discuss more changes to Thinking Sphinx with the v3 releases - this time, the much improved extensibility.
 

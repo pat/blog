@@ -2,9 +2,8 @@
 title: "Aliasing Actions in Rails"
 redirect_from: "/posts/aliasing_actions_in_rails"
 categories:
-  -
-    ruby
-    rails
+  - ruby
+  - rails
 ---
 Code snippet for application.rb that makes life just a _little_ easier if multiple actions are doing exactly the same thing (both in the controller and the view):
 

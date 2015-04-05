@@ -2,14 +2,13 @@
 title: "Insight on Gen Y voters"
 redirect_from: "/posts/insight_on_gen_y_voters"
 categories:
-  -
-    internet
-    politics
-    election
-    sbs
-    insight
-    gen-y
-    australia
+  - politics
+  - australia
+  - sbs
+  - insight
+  - internet
+  - election
+  - gen-y
 ---
 I caught the last half of SBS' "Insight":http://news.sbs.com.au/insight/ tonight, which was focused on Generation-Y voters in the marginal Queensland electorate of Moreton, currently held by the Liberal Party's Gary Hardgrave. While some of it felt pointless and bland, there were a few points from the parts I saw that grabbed my attention.
 

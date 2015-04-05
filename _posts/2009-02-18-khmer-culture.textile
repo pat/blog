@@ -2,14 +2,13 @@
 title: "Khmer Culture"
 redirect_from: "/posts/khmer_culture"
 categories:
-  -
-    culture
-    history
-    money
-    travel
-    khmer
-    cambodia
-    guide
+  - cambodia
+  - travel
+  - khmer
+  - guide
+  - history
+  - culture
+  - money
 ---
 *This is the first of "my guides to Cambodia":http://freelancing-gods.com/posts/pats_guide_to_cambodia.*
 

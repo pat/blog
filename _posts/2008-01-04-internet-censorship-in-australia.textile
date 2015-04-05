@@ -2,11 +2,10 @@
 title: "Internet Censorship in Australia"
 redirect_from: "/posts/internet_censorship_in_australia"
 categories:
-  -
-    internet
-    politics
-    censorship
-    australia
+  - politics
+  - australia
+  - internet
+  - censorship
 ---
 The "news":http://www.abc.net.au/news/stories/2007/12/31/2129471.htm about the Government's plan for an opt-out internet filter has got me pretty incensed, so, for the first time in far too long, I'm sending a letter. Yeah, a proper, printed letter, in an envelope. Apparently that raises the odds that I'll get a response, but these are politicians we're dealing with, so I have my doubts.
 

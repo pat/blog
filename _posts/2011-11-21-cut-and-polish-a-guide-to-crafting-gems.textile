@@ -2,13 +2,12 @@
 title: "Cut and Polish: A Guide to Crafting Gems"
 redirect_from: "/posts/cut_and_polish_a_guide_to_crafting_gems"
 categories:
-  -
-    ukraine
-    rubyc
-    kyiv
-    gems
-    ruby
-    conference
+  - ruby
+  - gems
+  - ukraine
+  - kyiv
+  - conference
+  - rubyc
 ---
 As I mentioned here earlier in the year, a few weeks ago I had the pleasure of visiting Ukraine and speaking at the RubyC conference in Kyiv. My talk was a run through of how to build gems, some of the tools that can help, and a few best practices.
 

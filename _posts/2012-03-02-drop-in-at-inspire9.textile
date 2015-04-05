@@ -2,11 +2,10 @@
 title: "Drop in at Inspire9"
 redirect_from: "/posts/drop_in_at_inspire9"
 categories:
-  -
-    inspire9
-    melbourne
-    community
-    coworking
+  - inspire9
+  - melbourne
+  - community
+  - coworking
 ---
 I was about to write a new post about something technical, but that can wait for another day. Right now, I want to highlight to the world "Inspire9":http://inspire9.org, a coworking space here in Melbourne.
 

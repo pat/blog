@@ -2,13 +2,12 @@
 title: "Keeping Busy in Battambang"
 redirect_from: "/posts/keeping_busy_in_battambang"
 categories:
-  -
-    travel
-    khmer
-    tourism
-    cambodia
-    battambang
-    guide
+  - cambodia
+  - battambang
+  - tourism
+  - travel
+  - khmer
+  - guide
 ---
 *This is the fifth (and last) of "my guides to Cambodia":/posts/pats_guide_to_cambodia*
 

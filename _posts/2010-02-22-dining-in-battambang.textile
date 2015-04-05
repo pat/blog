@@ -2,13 +2,12 @@
 title: "Dining in Battambang"
 redirect_from: "/posts/dining_in_battambang"
 categories:
-  -
-    food
-    travel
-    khmer
-    cambodia
-    battambang
-    guide
+  - cambodia
+  - travel
+  - khmer
+  - guide
+  - food
+  - battambang
 ---
 *This is the fourth of "my guides to Cambodia":http://freelancing-gods.com/posts/pats_guide_to_cambodia.*
 

@@ -2,11 +2,10 @@
 title: "Pat's Guide to Running Events"
 redirect_from: "/posts/pats_guide_to_running_events"
 categories:
-  -
-    events
-    opinion
-    guide
-    conference
+  - conference
+  - events
+  - opinion
+  - guide
 ---
 I'm lucky enough to attend quite a few conferences (mostly IT-focused), plus I've organised a handful as well ("Trampoline":http://trampolineday.com and the occasional "Rails Camp":http://railscamps.com)... so it could be argued that I know a few things in this area. More accurately, it means I can get quite opinionated on the matter, which was quite clear this evening with a few "ranting":https://twitter.com/pat/status/346164737798701056 "tweets":https://twitter.com/pat/status/346180334129385473.
 

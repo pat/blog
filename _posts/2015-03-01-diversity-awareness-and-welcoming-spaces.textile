@@ -2,14 +2,13 @@
 title: "Diversity, Awareness, and Welcoming Spaces"
 redirect_from: "/posts/diversity_awareness_and_welcoming_spaces"
 categories:
-  -
-    diversity
-    community
-    trampoline
-    melbourne
-    awareness
-    listening
-    empathy
+  - diversity
+  - community
+  - trampoline
+  - melbourne
+  - awareness
+  - listening
+  - empathy
 ---
 <img  class="max-width" src="https://pbs.twimg.com/media/B-9kGzfUsAAVLWx.jpg" />
 

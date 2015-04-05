@@ -2,11 +2,10 @@
 title: "Sphinx Quick Fix"
 redirect_from: "/posts/sphinx_quick_fix"
 categories:
-  -
-    search
-    mac
-    leopard
-    sphinx
+  - sphinx
+  - search
+  - mac
+  - leopard
 ---
 Here's one small filesystem tweak that's been handy as I've been slowly rebuilding my development environment on Leopard over the last couple of days. It's to get "Sphinx":http://www.sphinxsearch.com working - there was no problems with compilation or installation, but when I ran searchd or indexer, it complained about not finding the mysql libraries:
 

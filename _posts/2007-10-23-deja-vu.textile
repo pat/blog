@@ -2,11 +2,10 @@
 title: "Deja Vu"
 redirect_from: "/posts/deja_vu"
 categories:
-  -
-    politics
-    election
-    cartoon
-    australia
+  - politics
+  - australia
+  - cartoon
+  - election
 ---
 From 2004:
 

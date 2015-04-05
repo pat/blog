@@ -2,12 +2,11 @@
 title: "Thinking Sphinx Reborn"
 redirect_from: "/posts/thinking_sphinx_reborn"
 categories:
-  -
-    plugins
-    search
-    sphinx
-    ruby
-    rails
+  - sphinx
+  - search
+  - ruby
+  - rails
+  - plugins
 ---
 So, over the last month or so I've been working hard on rewriting "Thinking Sphinx":http://ts.freelancing-gods.com - and it's now time to release those changes publicly. The site's now got a brief "quickstart page":http://ts.freelancing-gods.com/quickstart.html and a detailed "usage page":http://ts.freelancing-gods.com/usage.html beyond the rdoc files, and there will be more added over the coming weeks.
 

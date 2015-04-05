@@ -2,11 +2,10 @@
 title: "The Quest for Semantic Scrolling Tables"
 redirect_from: "/posts/the_quest_for_semantic_scrolling_tables"
 categories:
-  -
-    tables
-    html
-    javascript
-    scrolling
+  - tables
+  - html
+  - javascript
+  - scrolling
 ---
 At the start of this week, I was hunting around the internet for a scrolling table solution with the following requirements:
 

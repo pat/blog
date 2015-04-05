@@ -2,12 +2,11 @@
 title: "Rspec'ing controllers"
 redirect_from: "/posts/rspec'ing_controllers"
 categories:
-  -
-    rspec
-    bdd
-    testing
-    ruby
-    rails
+  - ruby
+  - rails
+  - rspec
+  - bdd
+  - testing
 ---
 I'm always trying to find a better way to write specs for my Rails apps with "RSpec":http://rspec.rubyforge.org/ - it took a while for me to be comfortable with writing model specs, but just recently, I've developed a style of controller specs that I feel work well for me.
 

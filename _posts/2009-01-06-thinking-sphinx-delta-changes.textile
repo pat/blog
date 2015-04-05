@@ -2,12 +2,11 @@
 title: "Thinking Sphinx Delta Changes"
 redirect_from: "/posts/thinking_sphinx_delta_changes"
 categories:
-  -
-    plugins
-    search
-    sphinx
-    ruby
-    rails
+  - ruby
+  - rails
+  - plugins
+  - search
+  - sphinx
 ---
 There's been a bit of changes under the hood with Thinking Sphinx lately, and some of the more recent commits are pretty useful.
 

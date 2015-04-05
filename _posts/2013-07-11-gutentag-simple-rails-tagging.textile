@@ -2,11 +2,10 @@
 title: "Gutentag: Simple Rails Tagging"
 redirect_from: "/posts/gutentag_simple_rails_tagging"
 categories:
-  -
-    ruby
-    rails
-    gems
-    examples
+  - ruby
+  - rails
+  - gems
+  - examples
 ---
 The last thing the Rails ecosystem needs is another tagging gem. But I went and built one anyway... it's called "Gutentag":http://github.com/pat/gutentag, and perhaps worth it for the name alone (something I get an inordinate amount of happiness from).
 

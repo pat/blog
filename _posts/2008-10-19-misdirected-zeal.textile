@@ -2,14 +2,13 @@
 title: "Misdirected Zeal"
 redirect_from: "/posts/misdirected_zeal"
 categories:
-  -
-    religion
-    society
-    change
-    blogactionday
-    poverty
-    faith
-    cambodia
+  - poverty
+  - religion
+  - faith
+  - cambodia
+  - blogactionday
+  - change
+  - society
 ---
 Okay, time for some more thoughts on poverty. Well, tangentially related to poverty really - it's more focused on how religion can come into play within NGOs.
 

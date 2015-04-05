@@ -2,12 +2,11 @@
 title: "A Concise Guide to Using Thinking Sphinx"
 redirect_from: "/posts/a_concise_guide_to_using_thinking_sphinx"
 categories:
-  -
-    plugins
-    search
-    sphinx
-    ruby
-    rails
+  - ruby
+  - rails
+  - plugins
+  - search
+  - sphinx
 ---
 Okay, it's well past time for the companion piece to "my Sphinx Primer":http://freelancing-gods.com/posts/sphinx_a_primer - let's go through the basic process of using Thinking Sphinx with Rails.
 

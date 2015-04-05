@@ -2,9 +2,8 @@
 title: "Why not?"
 redirect_from: "/posts/why_not"
 categories:
-  -
-    australia
-    health
+  - australia
+  - health
 ---
 I was watching the always-interesting "Enough Rope":http://abc.net.au/enoughrope tonight, I came across a surprising stat.
 

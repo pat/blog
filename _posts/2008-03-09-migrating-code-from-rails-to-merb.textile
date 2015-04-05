@@ -2,10 +2,9 @@
 title: "Migrating Code from Rails to Merb"
 redirect_from: "/posts/migrating_code_from_rails_to_merb"
 categories:
-  -
-    ruby
-    rails
-    merb
+  - ruby
+  - rails
+  - merb
 ---
 Here's a collection of notes made while I was working on migrating this blog from "Rails":http://rubyonrails.com/ to "Merb":http://merbivore.com/ (no, the Merb version isn't live yet). These are relevant to version 0.5.2 - but Merb's moving so fast these days, I wouldn't be surprised if much of this isn't relevant any more.
 

@@ -2,11 +2,10 @@
 title: "Sphinx: A Primer"
 redirect_from: "/posts/sphinx_a_primer"
 categories:
-  -
-    search
-    sphinx
-    ruby
-    rails
+  - sphinx
+  - search
+  - ruby
+  - rails
 ---
 On Thursday night I presented to the "Melbourne Ruby Group":http://rubyonrails.com.au/melbourne-meetups about "Sphinx":http://sphinxsearch.com/ - first with a non-Ruby perspective, and then using Ruby, and more specifically Rails. I'll be presenting again at the Sydney group in a couple of weeks, but I am also adapting the talk to a few blog posts - to allow a bit more detail in a few doses.
 

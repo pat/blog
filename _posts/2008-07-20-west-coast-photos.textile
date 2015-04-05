@@ -2,14 +2,13 @@
 title: "West Coast Photos"
 redirect_from: "/posts/west_coast_photos"
 categories:
-  -
-    usa
-    travel
-    vancouver
-    san diego
-    rockies
-    canada
-    photos
+  - travel
+  - san diego
+  - vancouver
+  - rockies
+  - usa
+  - canada
+  - photos
 ---
 As mentioned before on this blog, I'm currently doing some traveling around the world (so far just the west and east coasts of North America) - so here's a few of my favourite photos from the trip thus far.
 

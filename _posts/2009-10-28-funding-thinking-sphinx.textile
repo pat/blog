@@ -2,13 +2,12 @@
 title: "Funding Thinking Sphinx"
 redirect_from: "/posts/funding_thinking_sphinx"
 categories:
-  -
-    search
-    micropatronage
-    sphinx
-    thinking sphinx
-    ruby
-    rails
+  - ruby
+  - rails
+  - sphinx
+  - thinking sphinx
+  - search
+  - micropatronage
 ---
 *Update*: I've now hit my target. If you want to donate more, I won't turn you away, but perhaps you should send those funds to other worthy open source projects, or a local charity. A massive thank you to all who have pitched in to the pledgie, your generosity and support is amazing.
 

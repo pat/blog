@@ -2,14 +2,13 @@
 title: "Flavouring For Your Specs"
 redirect_from: "/posts/flavouring_for_your_specs"
 categories:
-  -
-    rspec
-    versions
-    garlic
-    ginger
-    gems
-    ruby
-    rails
+  - ruby
+  - rails
+  - rspec
+  - gems
+  - versions
+  - garlic
+  - ginger
 ---
 One of the things I've tried to do with "Thinking Sphinx":http://ts.freelancing-gods.com has been to keep it friendly for a few different versions of Rails/ActiveRecord: 1.2.6, 2.0.x and 2.1.x. It's not that easy, because I know I don't think about which methods are pre-Rails-2.0, and which are even newer. And add on top of that the large (and very welcome) number of "contributors":http://github.com/freelancing-god/thinking-sphinx/network/members, and it becomes a bit of a headache.
 

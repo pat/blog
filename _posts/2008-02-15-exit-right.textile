@@ -2,10 +2,9 @@
 title: "Exit Right"
 redirect_from: "/posts/exit_right"
 categories:
-  -
-    politics
-    australia
-    books
+  - politics
+  - australia
+  - books
 ---
 (A blog post where Pat cheats and just quotes heavily from the book.)
 

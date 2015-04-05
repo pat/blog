@@ -2,12 +2,11 @@
 title: "Talking to MYOB with Ruby"
 redirect_from: "/posts/talking_to_myob_with_ruby"
 categories:
-  -
-    merb
-    myob
-    odbc
-    ruby
-    rails
+  - ruby
+  - myob
+  - odbc
+  - rails
+  - merb
 ---
 Okay, time for another code post. Prompted by a comment on an "earlier post about Merb and MYOB":http://freelancing-gods.com/posts/mixing_merb_and_myob, I thought I'd provide some more detail on how to talk to MYOB using Ruby, for any other people stuck in a similar position.
 

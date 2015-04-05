@@ -2,12 +2,11 @@
 title: "Postie - The Gem"
 redirect_from: "/posts/postie_the_gem"
 categories:
-  -
-    australia
-    postcodes
-    api
-    gems
-    ruby
+  - australia
+  - postcodes
+  - api
+  - gems
+  - ruby
 ---
 An addition to "auspostie.com":http://auspostie.com, prompted by "Dr Nic's":http://drnicwilliams.com/ suggestion in the comments of the earlier blog post - the "postie gem":http://postie.rubyforge.org. It allows easy parsing of Postie search results, and also provides a command-line tool for searching.
 

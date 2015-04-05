@@ -2,12 +2,11 @@
 title: "The Ballad of Roger and Grace"
 redirect_from: "/posts/the_ballad_of_roger_and_grace"
 categories:
-  -
-    music
-    kitson
-    theatre
-    art
-    comedy
+  - comedy
+  - music
+  - kitson
+  - theatre
+  - art
 ---
 One of my favourite times to be in Melbourne is April, because that's when the Comedy Festival happens in this fine city. And Comedy Festivals are especially fantastic when Daniel Kitson is in town performing - which he will be this year, with a new show.
 

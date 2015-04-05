@@ -2,12 +2,11 @@
 title: "A Month in the Life of Thinking Sphinx"
 redirect_from: "/posts/a_month_in_the_life_of_thinking_sphinx"
 categories:
-  -
-    search
-    sphinx
-    thinking sphinx
-    ruby
-    rails
+  - ruby
+  - rails
+  - sphinx
+  - thinking sphinx
+  - search
 ---
 It's just over two months since "I asked for - and received":http://freelancing-gods.com/posts/funding_thinking_sphinx - support from the Ruby community to work on Thinking Sphinx for a month. A review of this would be a good idea, hey?
 

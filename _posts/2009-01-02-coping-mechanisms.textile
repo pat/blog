@@ -2,12 +2,11 @@
 title: "Coping Mechanisms"
 redirect_from: "/posts/coping_mechanisms"
 categories:
-  -
-    cambodia
-    alcohol
-    smoking
-    coping
-    familiarity
+  - cambodia
+  - alcohol
+  - smoking
+  - coping
+  - familiarity
 ---
 One of the things that's really stood out in my time here in Cambodia is that the ex-pat community consumes alcohol and cigarettes much more than back at home in Australia. Leaving alone any judgement over the right and wrong of this, I just wanted to share some of the thoughts a discussion with "Mel":http://twitter.com/melinachan about this led to.
 

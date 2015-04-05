@@ -2,11 +2,10 @@
 title: "Correspondance on Censorship"
 redirect_from: "/posts/correspondance_on_censorship"
 categories:
-  -
-    internet
-    politics
-    censorship
-    australia
+  - politics
+  - australia
+  - internet
+  - censorship
 ---
 About six months ago, I "sent a letter":http://freelancing-gods.com/posts/internet_censorship_in_australia to the Australian Minister for Broadband, Communications and the Digital Economy (yes, that's a mouthful), *Stephen Conroy*, raising some concerns with the ISP filtering the Government was proposing.
 

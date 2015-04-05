@@ -2,14 +2,13 @@
 title: "LaughTrack: Week One"
 redirect_from: "/posts/laugh_track_week_one"
 categories:
-  -
-    statistics
-    twitter
-    laughtrack
-    comedy
-    micf
-    australia
-    melbourne
+  - comedy
+  - australia
+  - melbourne
+  - laughtrack
+  - micf
+  - statistics
+  - twitter
 ---
 Last week, I launched a website I've been working on in my own time: "LaughTrack":http://laughtrack.com.au. It follows what people are saying on Twitter about the "Melbourne International Comedy Festival":http://www.comedyfestival.com.au, and provides ratings on whether the crowd thinks a show is good or not.
 

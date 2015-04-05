@@ -2,12 +2,11 @@
 title: "Sphinx 0.9.8-rc1 Updates"
 redirect_from: "/posts/sphinx_098_rc1_updates"
 categories:
-  -
-    plugins
-    search
-    sphinx
-    ruby
-    rails
+  - sphinx
+  - search
+  - ruby
+  - rails
+  - plugins
 ---
 Another small sphinx-related post.
 

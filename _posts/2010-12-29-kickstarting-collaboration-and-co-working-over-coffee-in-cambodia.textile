@@ -2,14 +2,13 @@
 title: "Kickstarting Collaboration and Co-working over Coffee in Cambodia"
 redirect_from: "/posts/kickstarting_collaboration_and_co_working_over_coffee_in_cambodia"
 categories:
-  -
-    kickstarter
-    coworking
-    cambodia
-    kinyei
-    battambang
-    cafe
-    social change
+  - cambodia
+  - kinyei
+  - kickstarter
+  - battambang
+  - coworking
+  - cafe
+  - social change
 ---
 A couple of weeks ago, some dear friends of mine started "a campaign on Kickstarter":http://www.kickstarter.com/projects/1472956791/coworking-collaboration-and-coffee-in-cambodia to raise funds for their cafe. Now, in most situations, you'd be correct to question whether such a campaign deserves to be on "Kickstarter":http://www.kickstarter.com - why should people chip in to see a cafe come into being?
 

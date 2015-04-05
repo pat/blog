@@ -2,14 +2,13 @@
 title: "Victorian Bushfire Appeal"
 redirect_from: "/posts/victorian_bushfire_appeal"
 categories:
-  -
-    victoria
-    fire
-    aid
-    appeal
-    red cross
-    australia
-    melbourne
+  - australia
+  - victoria
+  - melbourne
+  - fire
+  - aid
+  - appeal
+  - red cross
 ---
 I've been stewing on a few blog posts about Cambodia, but this is a higher priority.
 

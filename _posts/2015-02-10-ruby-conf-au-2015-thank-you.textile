@@ -2,14 +2,13 @@
 title: "RubyConf AU 2015: Thank You"
 redirect_from: "/posts/ruby_conf_au_2015_thank_you"
 categories:
-  -
-    ruby
-    australia
-    rails
-    conference
-    thank you
-    community
-    melbourne
+  - ruby
+  - australia
+  - melbourne
+  - rails
+  - community
+  - conference
+  - thank you
 ---
 <img  class="max-width" src="https://pbs.twimg.com/media/B9COGr_IgAQWyuZ.jpg" />
 

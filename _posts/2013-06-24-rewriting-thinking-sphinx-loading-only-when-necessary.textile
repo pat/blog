@@ -2,11 +2,10 @@
 title: "Rewriting Thinking Sphinx: Loading Only When Necessary"
 redirect_from: "/posts/rewriting_thinking_sphinx_loading_only_when_necessary"
 categories:
-  -
-    sphinx
-    thinking sphinx
-    ruby
-    rails
+  - sphinx
+  - thinking sphinx
+  - ruby
+  - rails
 ---
 I've obviously been neglecting this blog - even a complete rewrite of Thinking Sphinx hasn't garnered a mention yet! Time to remedy this...
 

@@ -2,12 +2,11 @@
 title: "Rewriting Thinking Sphinx: Introducing Realtime Indices"
 redirect_from: "/posts/rewriting_thinking_sphinx_introducing_realtime_indices"
 categories:
-  -
-    sphinx
-    realtime
-    thinking sphinx
-    ruby
-    rails
+  - sphinx
+  - ruby
+  - rails
+  - realtime
+  - thinking sphinx
 ---
 The one other feature in the rewrite of Thinking Sphinx that I wanted to highlight should most certainly be considered _in beta_, but it's gradually getting to the point where it can be used reliably: real-time indices.
 

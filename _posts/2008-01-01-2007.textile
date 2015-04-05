@@ -2,14 +2,13 @@
 title: "2007"
 redirect_from: "/posts/2007"
 categories:
-  -
-    meta
-    discworld
-    politics
-    railscamp
-    travel
-    ruby
-    rails
+  - meta
+  - ruby
+  - rails
+  - travel
+  - railscamp
+  - discworld
+  - politics
 ---
 <a href="http://www.sinfest.net"><img class="breaker" src="http://assets.freelancing-gods.com/images/sinfest_20080101.gif" alt="Sinfest comic for New Year's Day" /></a>
 

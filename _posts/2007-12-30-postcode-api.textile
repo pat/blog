@@ -2,13 +2,12 @@
 title: "Postcode API"
 redirect_from: "/posts/postcode_api"
 categories:
-  -
-    REST
-    api
-    postcodes
-    merb
-    ruby
-    australia
+  - australia
+  - postcodes
+  - api
+  - REST
+  - merb
+  - ruby
 ---
 A couple of weeks ago I quickly coded a basic webservice - using "Merb":http://merbivore.com - for Australian Postcode data. Just got hosting for it sorted out last night, so now I can blog about it.
 

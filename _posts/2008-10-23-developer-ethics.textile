@@ -2,13 +2,12 @@
 title: "Developer Ethics"
 redirect_from: "/posts/developer_ethics"
 categories:
-  -
-    php
-    ethics
-    programming
-    cambodia
-    ruby
-    rails
+  - ruby
+  - rails
+  - ethics
+  - cambodia
+  - php
+  - programming
 ---
 A quick question to fellow coders...
 

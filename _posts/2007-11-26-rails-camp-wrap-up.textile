@@ -2,13 +2,12 @@
 title: "RailsCamp Wrap-up"
 redirect_from: "/posts/rails_camp_wrap_up"
 categories:
-  -
-    barcamp
-    railscamp
-    ruby
-    australia
-    rails
-    melbourne
+  - ruby
+  - rails
+  - barcamp
+  - australia
+  - melbourne
+  - railscamp
 ---
 "RailsCamp 2.0":http://railscamp07.org finished earlier today - and I think it's safe to declare it a fantastic success (even given my bias).
 

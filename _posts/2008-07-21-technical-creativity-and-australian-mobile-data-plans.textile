@@ -2,14 +2,13 @@
 title: "Technical Creativity and Australian Mobile Data Plans"
 redirect_from: "/posts/technical_creativity_and_australian_mobile_data_plans"
 categories:
-  -
-    culture
-    iphone
-    creativity
-    creative class
-    greed
-    stupidity
-    australia
+  - australia
+  - iphone
+  - creativity
+  - creative class
+  - culture
+  - greed
+  - stupidity
 ---
 I'm slowly making my way through Richard Florida's "_The Rise of the Creative Class_":http://creativeclass.com/ (yes, I should have read it a couple of years ago, I know), and came across a nice quote - paraphrasing the thoughts of "Joel Mokyr":http://en.wikipedia.org/wiki/Joel_Mokyr, that I thought was rather apt when considering the stupidity and greed of the mobile phone carriers in Australia (in general, and in regard to Apple's iPhone):
 

@@ -2,10 +2,9 @@
 title: "Every Film Ever Made"
 redirect_from: "/posts/every_film_ever_made"
 categories:
-  -
-    movies
-    comedy
-    melbourne
+  - comedy
+  - melbourne
+  - movies
 ---
 Another quick Comedy Festival show review - _The Hound of the Baskervilles_' *Every Film Ever Made*. A chaotic hour of film references and banter, which is extremely entertaining, if a bit scattered.
 

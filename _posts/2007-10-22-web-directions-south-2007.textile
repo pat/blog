@@ -2,12 +2,11 @@
 title: "Web Directions South 2007"
 redirect_from: "/posts/web_directions_south_2007"
 categories:
-  -
-    wds07
-    sydney
-    webjam
-    rails
-    conference
+  - wds07
+  - rails
+  - sydney
+  - conference
+  - webjam
 ---
 It's a bit delayed, but I just wanted to write a little report (read: link to everyone and reminisce) on my trip to Sydney for Web Directions South 2007. So, in chronological order...
 

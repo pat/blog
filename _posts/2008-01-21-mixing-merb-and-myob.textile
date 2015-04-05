@@ -2,12 +2,11 @@
 title: "Mixing Merb and MYOB"
 redirect_from: "/posts/mixing_merb_and_myob"
 categories:
-  -
-    merb
-    myob
-    odbc
-    ruby
-    rails
+  - merb
+  - ruby
+  - rails
+  - myob
+  - odbc
 ---
 For one of the contracts I'm working on at the moment, I've been using "Merb":http://merbivore.com/ to construct a web service that interacts with MYOB, and can be consumed with ActiveResource.
 

@@ -2,13 +2,12 @@
 title: "Searching with Sphinx on Heroku"
 redirect_from: "/posts/searching_with_sphinx_on_heroku"
 categories:
-  -
-    heroku
-    flying sphinx
-    sphinx
-    thinking sphinx
-    ruby
-    rails
+  - sphinx
+  - heroku
+  - rails
+  - ruby
+  - thinking sphinx
+  - flying sphinx
 ---
 Just over two weeks ago, I released Flying Sphinx - which provides Sphinx search capability for Heroku apps. I'll talk more about how I built it and the challenges faced at some point, but right now I just want to introduce the service and how you may go about using it.
 

@@ -2,18 +2,17 @@
 title: "FutureRuby and Californian Conflict"
 redirect_from: "/posts/future_ruby_and_californian_conflict"
 categories:
-  -
-    philosophy
-    politics
-    toronto
-    futureruby
-    california
-    san francisco
-    jesse hirsh
-    chris anderson
-    revolution
-    evolution
-    ruby
+  - futureruby
+  - california
+  - san francisco
+  - jesse hirsh
+  - chris anderson
+  - toronto
+  - ruby
+  - politics
+  - philosophy
+  - revolution
+  - evolution
 ---
 *Update: Jesse's talk is "now online":http://www.infoq.com/presentations/hirsh-california-ideology should you want to watch it.*
 

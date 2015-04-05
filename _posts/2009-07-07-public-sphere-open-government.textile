@@ -2,13 +2,12 @@
 title: "PublicSphere: Open Government"
 redirect_from: "/posts/public_sphere_open_government"
 categories:
-  -
-    politics
-    government
-    transparency
-    open
-    publicsphere
-    australia
+  - australia
+  - politics
+  - government
+  - transparency
+  - open
+  - publicsphere
 ---
 I'm a bit late to blogging about this (and I realise there's plenty of other blog posts I should have written over the last few months), but a couple of weeks ago, the ACT Senator "Kate Lundy":http://www.katelundy.com.au/ and her advisor Pia Waugh ran their second Public Sphere event. I didn't really hear of the first one - focused on "the national broadband network":http://www.katelundy.com.au/category/campaigns/publicsphere/high-speed-bandwidth/ - until after it happened. The second's topic was "open government (or the more buzzword-friendly Government 2.0)":http://www.katelundy.com.au/category/campaigns/publicsphere/open-gov/, a topic I'm passionate about, and so I marked it in my calendar.
 

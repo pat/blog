@@ -2,11 +2,10 @@
 title: "Daniel Kitson, Comedy God"
 redirect_from: "/posts/daniel_kitson,_comedy_god"
 categories:
-  -
-    uk
-    kitson
-    theatre
-    comedy
-    melbourne
+  - comedy
+  - melbourne
+  - uk
+  - theatre
+  - kitson
 ---
 I went to see Daniel Kitson's "C-90":http://www.melbournefestival.com.au/2007_program/production?id=3148 tonight. Absolutely amazing storytelling - and a lovely counterpoint to his regularly brilliant stand-up shows. There's only one day left of the show here in Melbourne (and I'm guessing it's sold out), but if you ever get the chance to go see him, do so. He's pure genius.
