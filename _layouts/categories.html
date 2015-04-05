@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>{{ page.title }} &ndash; Pat Allan</title>
+    <link rel="stylesheet" type="text/css" href="/styles/reset.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/styles/default.css" media="all" />
+  </head>
+  <body>
+    {% include navigation.html %}
+    <section>
+      <h2>Tag: {{ page.title }}</h2>
+
+      <ul class="list">
+      {% for post in site.categories[page.category] limit: page.limit offset: page.offset %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          ({{ post.date | date: "%-d %B, %Y" }})
+        </li>
+      {% endfor %}
+      </ul>
+
+      {% if page.total_pages > 1 %}
+      <div class="pagination">
+        {% if page.previous %}
+          <a href="{{ page.previous | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+        {% else %}
+          <span>&laquo; Prev</span>
+        {% endif %}
+
+        {% for number in (1..page.total_pages) %}
+          {% if number == page.page %}
+            <em>{{ number }}</em>
+          {% else %}
+            <a href="{{ "/categories/:slug/:num.html" | prepend: site.baseurl | replace: '//', '/' | replace: ':num', number | replace: ':slug', page.slug }}">{{ number }}</a>
+          {% endif %}
+        {% endfor %}
+
+        {% if page.next %}
+          <a href="{{ page.next | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+        {% else %}
+          <span>Next &raquo;</span>
+        {% endif %}
+      </div>
+      {% endif %}
+    </section>
+
+    <div class="view-all"><a href="/categories/1.html">View all categories</a></div>
+  </body>
+</html>

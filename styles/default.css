@@ -77,3 +77,40 @@ pre code {
 pre {
   margin: 0 1.5em;
 }
+
+.pagination {
+  text-align: center;
+  margin: 0.5em 0;
+  padding: 0;
+  font-size: 90%;
+}
+
+.pagination li {
+  display: inline;
+  margin: 0 0.5em;
+  padding: 0;
+}
+
+#results li {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  line-height: 1.5;
+}
+
+#results li.loading {
+  list-style-type: none;
+  font-style: italic;
+  margin: 1.5em;
+}
+
+ul.list {
+  list-style-type: disc;
+}
+
+ul.list li {
+  margin: 0.5em 1.5em;
+}
+
+.view-all {
+  margin-top: 2em;
+}
