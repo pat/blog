@@ -12,6 +12,12 @@
       <article>
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
         <p class="date">Posted on {{ page.date | date: "%-d %B, %Y" }}</p>
+        <p class="tags">
+          Tagged with:
+            {% for tag in page.categories %}
+            <a href="/categories/{{ tag | replace: ' ', '-' }}/1.html">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          </p>
         <div class="content">
           {{ content }}
         </div>
