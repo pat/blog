@@ -1,0 +1,27 @@
+---
+layout: default
+title: Search
+---
+
+<script type="text/javascript" src="/javascripts/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/uri.js"></script>
+<script type="text/javascript" src="http://drumknottsearch.com/drumknott-0.0.1.js"></script>
+
+<form id="search" method="GET" action="/search">
+  <input type="text" id="query" value="query" />
+  <input type="submit" value="Search" />
+</form>
+
+<ul class="pagination">
+  <li class="previous"><a href="#previous">Previous Page</a></li>
+  <li class="next"><a href="#next">Next Page</a></li>
+</ul>
+
+<ul id="results"></ul>
+
+<ul class="pagination">
+  <li class="previous"><a href="#previous">Previous Page</a></li>
+  <li class="next"><a href="#next">Next Page</a></li>
+</ul>
+
+<script type="text/javascript" src="/javascripts/search.js"></script>
