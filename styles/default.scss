@@ -2,81 +2,111 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-body {
-  font-family: "Helvetica Neue", "Helvetica";
-  line-height: 1.5;
-  font-size: 120%;
-  margin: 0 auto;
-  width: 40em;
-}
+$offwhite: #fafafa;
 
+body {
+  font-family: Georgia;
+  line-height: 1.5;
+  font-size: 22px;
+  color: rgba(#000, .8);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 p {
   margin: 1.5em 0;
 }
-
+a {
+  color: #0ba6da;
+}
+h1,h2,h3 {
+  font-family: 'Museo Slab';
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
 h1 {
   font-size: 1.75em;
-  font-weight: bold;
 }
-
-h2 a, h2 a:visited {
-  color: #000;
-}
-
 h2 {
   font-size: 1.5em;
-  font-weight: bold;
   margin: 1.5em 0 1em 0;
 }
-
 h3 {
   font-size: 1.25em;
-  font-weight: bold;
   margin: 1.2em 0;
 }
-
-strong {
-  font-weight: bold;
-}
-
-em {
-  font-style: italic;
-}
-
-header, nav {
-  text-align: center;
-}
-
-nav ul, .tags ul {
-  margin: 0;
-  padding: 0 0.2em;
-}
-
-nav li, .tags li {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0 0.2em;
-}
-
-.tags ul {
-  display: inline;
-}
-
 img {
   max-width: 100%;
 }
-
-article img.max-width {
-  max-width: 100%;
+strong {
+  font-weight: bold;
 }
-
-article .content ul {
-  list-style-type: disc;
+em {
+  font-style: italic;
 }
-
-article .content li {
-  margin-left: 1.5em;
+header {
+  text-align: center;
+}
+nav {
+  border-bottom: 1px solid rgba(#000, .15);
+  font-size: 18px;
+  font-family: 'Museo Sans';
+  font-weight: 200;
+  ul {
+    max-width: 728px;
+    overflow: hidden;
+    margin: 0 auto -1.5px;
+  }
+  li {
+    float: left;
+    border-bottom: 2px solid transparent;
+    &.active {
+      border-bottom-color: rgba(#000, .8);
+      a {
+        color: rgba(#000, .8);
+        font-weight: 500;
+      }
+    }
+  }
+  a {
+    color: rgba(#000, .6);
+    text-decoration: none;
+    float: left;
+    padding: 24px 14px 20px;
+  }
+}
+section {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0 20px;
+}
+article {
+  img.max-width {
+    max-width: 100%;
+  }
+  .content {
+    ul {
+      list-style-type: disc;
+    }
+    li {
+      margin-left: 1.5em;
+    }
+  }
+  .date {
+    color: rgba(#000, .5);
+  }
+  // center tweets / video
+  iframe {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+footer {
+  background: $offwhite;
+  padding: 50px 0;
 }
 
 code,
@@ -88,6 +118,18 @@ pre code {
 
 pre {
   margin: 0 1.5em;
+}
+
+.tags ul {
+  margin: 0;
+  padding: 0 0.2em;
+}
+
+.tags li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0.2em;
 }
 
 .pagination {
@@ -133,5 +175,5 @@ ul.list li {
 
 .comment-author {
   font-weight: bold;
-  margin: 1.5em;
+  margin: 1.5em 0;
 }
