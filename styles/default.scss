@@ -7,7 +7,11 @@
 
 $offwhite: #fafafa;
 $blue: #0ba6da;
+$brand_blue: #e3f4f7;
 
+html {
+  height: 100%;
+}
 body {
   font-family: Calluna, Georgia, serif;
   line-height: 1.5;
@@ -16,6 +20,9 @@ body {
   color: rgba(#000, .8);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border-bottom: 5px solid $brand_blue;
+  box-sizing: border-box;
+  min-height: 100%;
 }
 section {
   margin: 0 auto 60px;
@@ -234,7 +241,7 @@ code {
     }
   }
   &.ruby {
-    .keyword {
+    .keyword, .const {
       color: $pink;
     }
     .boolean, .string, .number, .symbol {
@@ -295,4 +302,16 @@ footer {
 
 #results li.loading {
   font-family: 'Calluna Italic';
+}
+
+#god {
+  background: $brand_blue;
+  text-align: center;
+  padding-top: 40px;
+  img {
+    height: 99px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
 }
