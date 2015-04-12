@@ -9,7 +9,7 @@ $offwhite: #fafafa;
 $blue: #0ba6da;
 
 body {
-  font-family: Calluna, Georgia;
+  font-family: Calluna, Georgia, serif;
   line-height: 1.5;
   font-size: 22px;
   font-weight: normal;
@@ -30,7 +30,7 @@ a {
   color: $blue;
 }
 h1,h2,h3 {
-  font-family: 'Museo Slab';
+  font-family: 'Museo Slab', Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.2;
   a {
@@ -136,7 +136,7 @@ header {
 nav {
   border-bottom: 1px solid rgba(#000, .15);
   font-size: 18px;
-  font-family: 'Museo Sans';
+  font-family: 'Museo Sans', Helvetica, Arial, sans-serif;
   font-weight: normal;
   ul {
     max-width: 728px;
@@ -151,7 +151,7 @@ nav {
       border-bottom-color: rgba(#000, .8);
       a {
         color: rgba(#000, .8);
-        font-family: 'Museo Sans Bold';
+        font-family: 'Museo Sans Bold', Helvetica, Arial, sans-serif;
       }
     }
   }
@@ -262,7 +262,7 @@ footer {
 }
 .label {
   font-size: 16px;
-  font-family: 'Museo Sans';
+  font-family: 'Museo Sans', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   margin-bottom: 1em;
   color: rgba(#000, .5);
