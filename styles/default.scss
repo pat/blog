@@ -2,6 +2,9 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+@import "_reset";
+@import "_fonts";
+
 $offwhite: #fafafa;
 $blue: #0ba6da;
 
@@ -9,6 +12,7 @@ body {
   font-family: Calluna, Georgia;
   line-height: 1.5;
   font-size: 22px;
+  font-weight: normal;
   color: rgba(#000, .8);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -27,7 +31,7 @@ a {
 }
 h1,h2,h3 {
   font-family: 'Museo Slab';
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.2;
   a {
     text-decoration: none;
@@ -58,16 +62,16 @@ figure {
 }
 figcaption {
   margin: 1em 0;
-  font-style: italic;
+  font-family: 'Calluna Italic';
   color: rgba(#000, .5);
-  font-size: 18px;
+  font-size: .85em;
   a { color: inherit }
 }
 strong {
-  font-weight: bold;
+  font-family: 'Calluna Bold';
 }
 em {
-  font-style: italic;
+  font-family: 'Calluna Italic';
 }
 hr {
   border: none;
@@ -86,8 +90,9 @@ iframe {
 }
 blockquote {
   border-left: 3px solid rgba(#000, .8);
-  font-style: italic;
-  font-weight: 400;
+  font-family: 'Calluna Italic';
+  font-style: normal;
+  font-weight: normal;
   letter-spacing: 0.01rem;
   margin-left: -23px;
   padding-bottom: 3px;
@@ -100,7 +105,7 @@ blockquote {
     }
   }
   cite {
-    font-size: 18px;
+    font-size: .85em;
     color: rgba(#000, .5);
   }
 }
@@ -117,7 +122,7 @@ table {
   margin: 0 -10px;
 }
 th {
-  font-weight: 500;
+  font-family: 'Calluna Bold';
   padding: 0 10px;
 }
 td {
@@ -132,7 +137,7 @@ nav {
   border-bottom: 1px solid rgba(#000, .15);
   font-size: 18px;
   font-family: 'Museo Sans';
-  font-weight: 200;
+  font-weight: normal;
   ul {
     max-width: 728px;
     overflow: hidden;
@@ -141,11 +146,12 @@ nav {
   li {
     float: left;
     border-bottom: 2px solid transparent;
+    margin: 0 14px;
     &.active {
       border-bottom-color: rgba(#000, .8);
       a {
         color: rgba(#000, .8);
-        font-weight: 500;
+        font-family: 'Museo Sans Bold';
       }
     }
   }
@@ -153,12 +159,12 @@ nav {
     color: rgba(#000, .6);
     text-decoration: none;
     float: left;
-    padding: 24px 14px 20px;
+    padding: 24px 0 20px;
   }
 }
 .date {
   color: rgba(#000, .5);
-  font-size: 18px;
+  font-size: .85em;
 }
 .content {
   ul {
@@ -182,7 +188,7 @@ pre {
 }
 code {
   font-family: "Monaco", "Courier", monospace;
-  font-size: 0.7em;
+  font-size: .7em;
   display: inline-block;
   background: $offwhite;
   padding: 3px 5px;
@@ -244,7 +250,7 @@ pre code {
 }
 
 footer {
-  font-size: 18px;
+  font-size: .85em;
   text-align: center;
   color: rgba(#000, .6);
   border-top: 1px solid rgba(#000, .1);
@@ -257,7 +263,6 @@ footer {
 .label {
   font-size: 16px;
   font-family: 'Museo Sans';
-  font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 1em;
   color: rgba(#000, .5);
@@ -277,7 +282,7 @@ footer {
 }
 
 .comments {
-  font-size: 80%;
+  font-size: .8em;
   p {
     margin: 1em 0;
   }
@@ -289,5 +294,5 @@ footer {
 }
 
 #results li.loading {
-  font-style: italic;
+  font-family: 'Calluna Italic';
 }

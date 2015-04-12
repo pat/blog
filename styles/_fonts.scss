@@ -1,0 +1,20 @@
+
+@mixin font-face($font_family, $file_name) {
+  @font-face {
+    font-family: $font_family;
+    src: url('/fonts/' + $file_name + '-webfont.eot');
+    src: url('/fonts/' + $file_name + '-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/' + $file_name + '-webfont.woff') format('woff'),
+         url('/fonts/' + $file_name + '-webfont.ttf') format('truetype'),
+         url('/fonts/' + $file_name + '-webfont.svg#' + $font_family) format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+@include font-face('Calluna', 'calluna_100');
+@include font-face('Calluna Italic', 'calluna_italic_300');
+@include font-face('Calluna Bold', 'calluna_500');
+@include font-face('Museo Sans', 'museosans_300');
+@include font-face('Museo Sans Bold', 'museosans_500');
+@include font-face('Museo Slab', 'museoslab_700');
