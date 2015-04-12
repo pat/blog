@@ -179,13 +179,67 @@ pre {
   margin: 1.5em -22px;
   background: $offwhite;
   font-family: "Monaco", "Courier", monospace;
-  font-size: 0.7857em;
 }
 code {
+  font-family: "Monaco", "Courier", monospace;
+  font-size: 0.7em;
+  display: inline-block;
+  background: $offwhite;
+  padding: 3px 5px;
+
+  $grey: rgba(#000, .5);
+  $green: #690;
+  $pink: #dd4a68;
+  .comment {
+    color: $grey;
+  }
+  &.html, &.svg, &.haml {
+    .tag, .punctuation {
+      color: $blue;
+    }
+    .string, .attr-value, .boolean {
+      color: $green;
+    }
+  }
+  &.css {
+    color: $green;
+    .selector, .punctuation, .atrule {
+      color: #fff;
+    }
+    .property {
+      color: $pink;
+    }
+  }
+  &.js {
+    color: #fff;
+    .keyword {
+      color: $pink;
+    }
+    .string, .number, .boolean {
+      color: $green;
+    }
+  }
+  &.coffee {
+    .var, .arrow {
+      color: $pink;
+    }
+    .string {
+      color: $green;
+    }
+  }
+  &.ruby {
+    .keyword {
+      color: $pink;
+    }
+    .boolean, .string, .number, .symbol {
+      color: $green;
+    }
+  }
+}
+pre code {
   display: block;
   overflow: auto;
   padding: 22px;
-  font: inherit;
   line-height: 1.6363em;
 }
 
@@ -199,6 +253,14 @@ footer {
   a {
     color: inherit
   }
+}
+.label {
+  font-size: 16px;
+  font-family: 'Museo Sans';
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  color: rgba(#000, .5);
 }
 
 .pagination {

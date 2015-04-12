@@ -55,8 +55,6 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = true
 end</code></pre>
 
-Tabular data naturally
-
 |_. Show |_. Rating |
 | "The Pajama Men: The Last Stand to Reason":http://laughtrack.com.au/shows/265 | 93 |
 | "Nina Conti: Talk to the Hand":http://laughtrack.com.au/shows/255 | 93 |
