@@ -14,7 +14,7 @@
           {{ content }}
         </div>
         <footer>
-          <p class="date">Posted on {{ page.date | date: "%-d %B, %Y" }}</p>
+          <p>Posted on {{ page.date | date: "%-d %B, %Y" }}</p>
           <p class="tags">
             Tagged with:
             {% for tag in page.categories %}
