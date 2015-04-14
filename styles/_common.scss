@@ -1,0 +1,6 @@
+
+@mixin respond-to($media) {
+  @if $media == web {
+    @media only screen and (min-width: 760px) { @content }
+  }
+}
