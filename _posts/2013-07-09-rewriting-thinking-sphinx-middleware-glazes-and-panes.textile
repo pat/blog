@@ -14,7 +14,7 @@ There have been a huge number of contributors to Thinking Sphinx over the years,
 
 So instead, we now have middleware, glazes and panes.
 
-h2. Middleware
+h3. Middleware
 
 The middleware pattern is pretty well-established in the Ruby community, thanks to Rack - but it's started to crop up in other libraries too (such as Mike Perham's excellent "Sidekiq":http://sidekiq.org).
 
@@ -35,7 +35,7 @@ If you subclass from @ThinkingSphinx::Middlewares::Middleware@ you'll get the fi
 
 If you're looking for inspiration on how to write your own middleware, have a look through "the source":https://github.com/pat/thinking-sphinx/tree/master/lib/thinking_sphinx/middlewares - and here's "an extra example":https://gist.github.com/pat/4471233 I put together when considering approaches to multi-tenancy.
 
-h2. Glazes and Panes
+h3. Glazes and Panes
 
 Sometimes it's useful to have pieces of metadata associated with each search result - and it could be argued the cleanest way to do this is to attach methods directly to each ActiveRecord instance that's returned by the search.
 

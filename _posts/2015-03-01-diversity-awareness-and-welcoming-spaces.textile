@@ -10,9 +10,11 @@ categories:
   - listening
   - empathy
 ---
-<img  class="max-width" src="https://pbs.twimg.com/media/B-9kGzfUsAAVLWx.jpg" />
+<figure>
+  <img  class="max-width" src="https://pbs.twimg.com/media/B-9kGzfUsAAVLWx.jpg" />
 
-(Photo taken by "Emily Alexandra":https://instagram.com/p/zoJp5_Phuh/)
+  <figcaption>Photo taken by "Emily Alexandra":https://instagram.com/p/zoJp5_Phuh/</figcaption>
+</figure>
 
 Yesterday Melbourne was host to yet another "Trampoline":http://trampolineday.com unconference. This time around, I was taking a break from organising ("something else":http://rubyconf.org.au/2015 had demanded a lot of my time lately), but that gave me a bit more time to craft together a session I've been keen to run for some time: a discussion on diversity.
 

@@ -4,6 +4,8 @@ paginate: 20
 paginate_path: "/posts/:num/"
 gems:
   - jekyll-redirect-from
+sass:
+  sass_dir: styles
 defaults:
   -
     scope:

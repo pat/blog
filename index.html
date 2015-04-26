@@ -5,7 +5,10 @@ layout: default
 {% assign post = site.posts.first %}
 
 <article>
-  <h2>Latest Post: <a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2>
+    <div class="label">Latest Post</div>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h2>
   <p class="date">Posted on {{ post.date | date: "%-d %B, %Y" }}</p>
   <div class="content">
     {{ post.content }}

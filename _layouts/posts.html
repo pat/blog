@@ -3,7 +3,6 @@
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <title>{{ page.title }} &ndash; Pat Allan</title>
-    <link rel="stylesheet" type="text/css" href="/styles/reset.css" media="all" />
     <link rel="stylesheet" type="text/css" href="/styles/default.css" media="all" />
   </head>
   <body>
@@ -11,17 +10,20 @@
     <section>
       <article>
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-        <p class="date">Posted on {{ page.date | date: "%-d %B, %Y" }}</p>
-        <p class="tags">
-          Tagged with:
+        <div class="content">
+          {{ content }}
+        </div>
+        <footer>
+          <p>Posted on {{ page.date | date: "%-d %B, %Y" }}</p>
+          <p class="tags">
+            Tagged with:
             {% for tag in page.categories %}
             <a href="/categories/{{ tag | replace: ' ', '-' }}/1.html">{{ tag }}</a>{% unless forloop.last %},{% endunless %}
             {% endfor %}
           </p>
-        <div class="content">
-          {{ content }}
-        </div>
+        </footer>
       </article>
     </section>
+    <script src="/javascripts/prism.js"></script>
   </body>
 </html>

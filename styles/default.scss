@@ -1,0 +1,378 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "_common";
+@import "_reset";
+@import "_fonts";
+
+$gutter: 23px;
+$offwhite: #fafafa;
+$blue: #0ba6da;
+$brand_blue: #e3f4f7;
+
+html {
+  height: 100%;
+}
+body {
+  font-family: Calluna, Georgia, serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.4;
+  color: rgba(#000, .8);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-bottom: 5px solid $brand_blue;
+  box-sizing: border-box;
+  min-height: 100%;
+  @include respond-to(web) {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+}
+section {
+  margin: 0 auto 60px;
+  max-width: 700px;
+  padding: 0 $gutter;
+  overflow: hidden;
+}
+p {
+  margin: 1em 0;
+  @include respond-to(web) {
+    margin: 1.5em 0;
+  }
+}
+a {
+  color: $blue;
+}
+h1,h2,h3 {
+  font-family: 'Museo Slab', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+h1 {
+  font-size: 1.75em;
+}
+h2 {
+  font-size: 24px;
+  margin: 1.5em 0 1em 0;
+  @include respond-to(web) {
+    font-size: 30px;
+  }
+}
+h3 {
+  font-size: 20px;
+  margin: 1em 0;
+  @include respond-to(web) {
+    font-size: 23px;
+    margin: 1.2em 0;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  &.max-width {
+    width: 100%;
+  }
+}
+.max-width-wrap {
+  margin: 0 (-$gutter);
+  @include respond-to(web) {
+    margin: 0;
+  }
+}
+figure {
+  margin: 1em 0;
+  text-align: center;
+}
+figcaption {
+  margin: 1em 0;
+  font-family: 'Calluna Italic';
+  color: rgba(#000, .5);
+  font-size: .85em;
+  a { color: inherit }
+}
+strong {
+  font-family: 'Calluna Bold';
+}
+em {
+  font-family: 'Calluna Italic';
+}
+hr {
+  border: none;
+  display: block;
+  height: 1px;
+  background: rgba(#000, .15);
+  margin: 50px auto;
+  width: 100px;
+}
+// center tweets / video
+iframe {
+  display: block !important;
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+blockquote {
+  border-left: 3px solid rgba(#000, .8);
+  font-family: 'Calluna Italic';
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.01rem;
+  margin-left: -$gutter;
+  padding-bottom: 3px;
+  padding-left: $gutter - 3px;
+  a { color: inherit }
+  p {
+    margin: 0 0 1em;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  cite {
+    font-size: .85em;
+    color: rgba(#000, .5);
+  }
+}
+ul.list {
+  list-style-type: disc;
+  margin: 1em 0;
+  padding: 0;
+  > li {
+    margin: 0 0 .5em 20px;
+    padding-left: 0;
+  }
+}
+table {
+  margin: 1em (-$gutter);
+  font-size: 16px;
+}
+th {
+  font-family: 'Museo Sans Bold';
+  padding: 0 10px 10px;
+  white-space: nowrap;
+  &:first-child {
+    padding-left: $gutter;
+  }
+  &:last-child {
+    padding-right: $gutter;
+  }
+}
+td {
+  font-family: 'Museo Sans';
+  padding: 10px;
+  border-bottom: 1px solid rgba(#000 ,.1);
+  &:first-child {
+    padding-left: $gutter;
+  }
+  &:last-child {
+    padding-right: $gutter;
+  }
+  tr:last-child & {
+    border-bottom: none;
+  }
+}
+header {
+  text-align: center;
+}
+nav {
+  border-bottom: 1px solid rgba(#000, .15);
+  font-size: 18px;
+  font-family: 'Museo Sans', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  ul {
+    max-width: 728px;
+    overflow: hidden;
+    margin: 0 auto -1.5px;
+  }
+  li {
+    float: left;
+    border-bottom: 2px solid transparent;
+    margin: 0 14px;
+    &.active {
+      border-bottom-color: rgba(#000, .8);
+      a {
+        color: rgba(#000, .8);
+        font-family: 'Museo Sans Bold', Helvetica, Arial, sans-serif;
+      }
+    }
+  }
+  a {
+    color: rgba(#000, .6);
+    text-decoration: none;
+    float: left;
+    padding: 24px 0 20px;
+  }
+}
+.date {
+  color: rgba(#000, .5);
+  font-size: .85em;
+}
+.content {
+  ol {
+    list-style-type: decimal;
+    margin: 1.5em 0;
+    padding: 0;
+  }
+  ul {
+    list-style-type: disc;
+    margin: 1.5em 0;
+    padding: 0;
+  }
+  li {
+    margin: 0 0 .5em 20px;
+    padding-left: 0;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+pre {
+  margin: 1.5em -22px;
+  background: $offwhite;
+  font-family: "Monaco", "Courier", monospace;
+}
+code {
+  font-family: "Monaco", "Courier", monospace;
+  font-size: 14px;
+  margin-right: 0.2em;
+  display: inline-block;
+  @include respond-to(web) {
+    font-size: 16.5px;
+  }
+
+  $grey: rgba(#000, .5);
+  $green: #690;
+  $pink: #dd4a68;
+  .comment {
+    color: $grey;
+  }
+  &.html, &.svg, &.haml {
+    .tag, .punctuation {
+      color: $blue;
+    }
+    .string, .attr-value, .boolean {
+      color: $green;
+    }
+  }
+  &.css {
+    color: $green;
+    .selector, .punctuation, .atrule {
+      color: #fff;
+    }
+    .property {
+      color: $pink;
+    }
+  }
+  &.js {
+    color: #fff;
+    .keyword {
+      color: $pink;
+    }
+    .string, .number, .boolean {
+      color: $green;
+    }
+  }
+  &.coffee {
+    .var, .arrow {
+      color: $pink;
+    }
+    .string {
+      color: $green;
+    }
+  }
+  &.ruby {
+    .keyword, .const {
+      color: $pink;
+    }
+    .boolean, .string, .number, .symbol {
+      color: $green;
+    }
+  }
+}
+pre code {
+  display: block;
+  overflow: auto;
+  margin: 0;
+  padding: 22px;
+  background: $offwhite;
+  line-height: 1.6363em;
+}
+
+footer {
+  font-size: .85em;
+  text-align: center;
+  color: rgba(#000, .6);
+  border-top: 1px solid rgba(#000, .1);
+  margin: 4em 0 0;
+  padding: 2em 0;
+  a {
+    color: inherit
+  }
+}
+.label {
+  font-size: 16px;
+  font-family: 'Museo Sans', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  color: rgba(#000, .5);
+}
+
+.pagination {
+  * {
+    margin: 0 2px;
+  }
+  a {
+    text-decoration: none;
+    color: rgba(#000, .5);
+  }
+  em {
+    color: rgba(#000, .9);
+  }
+}
+
+.posts {
+  li {
+    margin-bottom: .5em;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.comments {
+  font-size: .8em;
+  p {
+    margin: 1em 0;
+  }
+  a { color: inherit }
+}
+.comment-author {
+  font-weight: bold;
+  margin: 1.5em 0;
+}
+
+#results li.loading {
+  font-family: 'Calluna Italic';
+}
+
+#god {
+  background: $brand_blue;
+  text-align: center;
+  padding-top: 40px;
+  img {
+    height: 99px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
