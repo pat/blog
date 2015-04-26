@@ -148,7 +148,7 @@ ul.list {
   }
 }
 table {
-  margin: 0 -$gutter;
+  margin: 1em (-$gutter);
   font-size: 16px;
 }
 th {
@@ -333,6 +333,19 @@ footer {
   }
   em {
     color: rgba(#000, .9);
+  }
+}
+
+.posts {
+  li {
+    margin-bottom: .5em;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
