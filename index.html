@@ -1,5 +1,6 @@
 ---
 layout: default
+section: home
 ---
 
 {% assign post = site.posts.first %}
@@ -14,3 +15,7 @@ layout: default
     {{ post.content }}
   </div>
 </article>
+
+<div class="next-posts">
+  <p>Next Post: <a href="{{ site.posts[1].url }}">{{ site.posts[1].title }}</a></p>
+</div>
