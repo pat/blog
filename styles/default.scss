@@ -159,19 +159,25 @@ nav {
     float: left;
     border-bottom: 2px solid transparent;
     margin: 0 14px;
-    &.active {
-      border-bottom-color: rgba(#000, .8);
-      a {
-        color: rgba(#000, .8);
-        font-family: 'Museo Sans Bold', Helvetica, Arial, sans-serif;
-      }
-    }
   }
   a {
     color: rgba(#000, .6);
     text-decoration: none;
     float: left;
     padding: 24px 0 20px;
+  }
+  .home .home,
+  .about .about,
+  .posts .posts,
+  .events .events,
+  .projects .projects,
+  .talks .talks,
+  .search .search {
+    border-bottom-color: rgba(#000, .8);
+    a {
+      color: rgba(#000, .8);
+      font-family: 'Museo Sans Bold', Helvetica, Arial, sans-serif;
+    }
   }
 }
 .date {
@@ -273,6 +279,17 @@ footer {
     color: inherit
   }
 }
+
+.next-posts {
+  font-size: .85em;
+  text-align: center;
+  color: rgba(#000, .6);
+  margin: 0;
+  a {
+    color: inherit
+  }
+}
+
 .label {
   font-size: 16px;
   font-family: 'Museo Sans', Helvetica, Arial, sans-serif;
@@ -313,9 +330,10 @@ footer {
 #god {
   background: $brand_blue;
   text-align: center;
-  padding-top: 40px;
   img {
-    height: 99px;
+    max-width: 690px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
     width: auto;
     display: block;
     margin: 0 auto;
