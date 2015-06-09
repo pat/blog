@@ -273,10 +273,14 @@ footer {
   text-align: center;
   color: rgba(#000, .6);
   border-top: 1px solid rgba(#000, .1);
-  margin: 4em 0 0;
+  margin: 4em auto 0;
   padding: 2em 0;
+  max-width: 700px;
   a {
     color: inherit
+  }
+  a.license {
+    display: block;
   }
 }
 
