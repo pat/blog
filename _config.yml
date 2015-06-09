@@ -13,3 +13,4 @@ defaults:
       type: "posts"
     values:
       layout: "posts"
+      section: "posts"
