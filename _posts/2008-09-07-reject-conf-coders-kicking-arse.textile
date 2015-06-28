@@ -1,6 +1,6 @@
 ---
 title: "RejectConf: Coders Kicking Arse"
-redirect_from: "/posts/reject_conf_coders_kicking_arse"
+redirect_from: "/posts/reject_conf_coders_kicking_arse/"
 categories:
   - society
   - railsconf

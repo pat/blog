@@ -1,6 +1,6 @@
 ---
 title: "Drop in at Inspire9"
-redirect_from: "/posts/drop_in_at_inspire9"
+redirect_from: "/posts/drop_in_at_inspire9/"
 categories:
   - inspire9
   - melbourne

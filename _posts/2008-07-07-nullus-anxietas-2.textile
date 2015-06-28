@@ -1,6 +1,6 @@
 ---
 title: "Nullus Anxietas 2"
-redirect_from: "/posts/nullus_anxietas_2"
+redirect_from: "/posts/nullus_anxietas_2/"
 categories:
   - convention
   - pratchett

@@ -1,6 +1,6 @@
 ---
 title: "A Month in the Life of Thinking Sphinx"
-redirect_from: "/posts/a_month_in_the_life_of_thinking_sphinx"
+redirect_from: "/posts/a_month_in_the_life_of_thinking_sphinx/"
 categories:
   - search
   - sphinx
@@ -48,13 +48,13 @@ In lieu of any real documentation, here's a quick sample - define a scope normal
 
 <pre><code>class Article < ActiveRecord::Base
   # ...
-  
+
   sphinx_scope(:by_date) {
     {:order => :created_at_}
   }
-  
+
   default_sphinx_scope :by_date
-  
+
   # ...
 end</code></pre>
 
@@ -128,7 +128,7 @@ If you want to grab the latest and greatest Thinking Sphinx, then version 1.3.14
 <div class="comment-author">Michael left a comment on  3 Jan, 2010:</div>
 
 <div class="comment">
-Thanks for the hard work mate! 
+Thanks for the hard work mate!
 </div>
 
 <div class="comment-author">James Healy left a comment on  3 Jan, 2010:</div>

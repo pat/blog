@@ -1,6 +1,6 @@
 ---
 title: "Odds and Ends"
-redirect_from: "/posts/odds_and_ends"
+redirect_from: "/posts/odds_and_ends/"
 categories:
   - meta
   - railscamp

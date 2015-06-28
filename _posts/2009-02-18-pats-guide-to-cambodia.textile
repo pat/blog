@@ -1,6 +1,6 @@
 ---
 title: "Pat's Guide to Cambodia"
-redirect_from: "/posts/pats_guide_to_cambodia"
+redirect_from: "/posts/pats_guide_to_cambodia/"
 categories:
   - cambodia
   - travel

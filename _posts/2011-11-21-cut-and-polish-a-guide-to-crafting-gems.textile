@@ -1,6 +1,6 @@
 ---
 title: "Cut and Polish: A Guide to Crafting Gems"
-redirect_from: "/posts/cut_and_polish_a_guide_to_crafting_gems"
+redirect_from: "/posts/cut_and_polish_a_guide_to_crafting_gems/"
 categories:
   - ukraine
   - rubyc

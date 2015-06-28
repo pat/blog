@@ -1,6 +1,6 @@
 ---
 title: "Updates for Sphinx 0.9.8r985"
-redirect_from: "/posts/updates_for_sphinx_0_9_8r985"
+redirect_from: "/posts/updates_for_sphinx_0_9_8r985/"
 categories:
   - plugins
   - search

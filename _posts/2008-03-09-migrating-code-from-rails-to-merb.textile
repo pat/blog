@@ -1,6 +1,6 @@
 ---
 title: "Migrating Code from Rails to Merb"
-redirect_from: "/posts/migrating_code_from_rails_to_merb"
+redirect_from: "/posts/migrating_code_from_rails_to_merb/"
 categories:
   - ruby
   - rails

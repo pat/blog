@@ -1,6 +1,6 @@
 ---
 title: "Anti-Definite"
-redirect_from: "/posts/anti_definite"
+redirect_from: "/posts/anti_definite/"
 categories:
   - mysql
   - database

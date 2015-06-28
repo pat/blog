@@ -1,6 +1,6 @@
 ---
 title: "A Visit to Vegas"
-redirect_from: "/posts/a_visit_to_vegas"
+redirect_from: "/posts/a_visit_to_vegas/"
 categories:
   - railsconf
   - las vegas

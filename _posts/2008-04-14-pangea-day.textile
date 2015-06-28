@@ -1,6 +1,6 @@
 ---
 title: "Pangea Day"
-redirect_from: "/posts/pangea_day"
+redirect_from: "/posts/pangea_day/"
 categories:
   - inspiration
   - video

@@ -1,6 +1,6 @@
 ---
 title: "Trampoline"
-redirect_from: "/posts/trampoline"
+redirect_from: "/posts/trampoline/"
 categories:
   - trampoline
   - melbourne

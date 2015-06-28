@@ -1,6 +1,6 @@
 ---
 title: "Versioning your APIs"
-redirect_from: "/posts/versioning_your_ap_is"
+redirect_from: "/posts/versioning_your_ap_is/"
 categories:
   - ruby
   - rails
@@ -191,7 +191,7 @@ Thanks for that feedback Frederic, will definitely keep it in mind for the next 
 <div class="comment-author">"Kunal":http://urtak.com/ left a comment on 27 Sep, 2011:</div>
 
 <div class="comment">
-For some more discussion on good REST practices like this, check out the credits on: 
+For some more discussion on good REST practices like this, check out the credits on:
 
 http://developer.urtak.com
 
@@ -203,11 +203,11 @@ We're releasing our API this coming week and I've done the same with the vendor 
 <div class="comment">
 "It does mean you get a new set of controllers for each version, but I’m okay with that (though would welcome suggestions for other approaches)."
 
-You could try to do something with inheritance, so v2 controllers inherit from v1, and only need to implement methods that have changed. 
+You could try to do something with inheritance, so v2 controllers inherit from v1, and only need to implement methods that have changed.
 
-I'm not sure if it would be worth or not, it probably depends. Brings it's own set of confusing issues. And you'd still need a seperate set of controllers, they could just be mostly empty. 
+I'm not sure if it would be worth or not, it probably depends. Brings it's own set of confusing issues. And you'd still need a seperate set of controllers, they could just be mostly empty.
 
-Can't think of any other great approach. 
+Can't think of any other great approach.
 
 
 </div>
@@ -215,7 +215,7 @@ Can't think of any other great approach.
 <div class="comment-author">"Jonathan Rochkind":http://bibwild.wordpress.com left a comment on 27 Sep, 2011:</div>
 
 <div class="comment">
-Woah, actually I just had an idea and played around with it to see if it would work, if you make the V2 module 'inherit' (via 'include') the V1 module, you don't even need empty classes, you get all the classes from V1 in V2, unless you over-ride em. I think. This would take more experimentation/research to make sure it does what you want. 
+Woah, actually I just had an idea and played around with it to see if it would work, if you make the V2 module 'inherit' (via 'include') the V1 module, you don't even need empty classes, you get all the classes from V1 in V2, unless you over-ride em. I think. This would take more experimentation/research to make sure it does what you want.
 
 Not sure it's worth the added complexity, it depends on how much logic you are duplicating, and how much it matters. (Theoretically V1 is never going to be touched after V2 is out, so who cares if there's copy-and-pasted code between them, V1 is frozen. Unless bug fixes come into it.)
 
@@ -255,13 +255,13 @@ And Borja - well done on putting specs in your blog post as well as the implemen
 
 <div class="comment">
 Great post!!
-Pat, I guess if you include modules - each representing a version, in the controller, then you have to use some naming convention to make sure that methods defined in the modules don't override each other. 
+Pat, I guess if you include modules - each representing a version, in the controller, then you have to use some naming convention to make sure that methods defined in the modules don't override each other.
 </div>
 
 <div class="comment-author">"Thorsten":http://mt7.de left a comment on 11 Oct, 2011:</div>
 
 <div class="comment">
-Thanks for the nice post! But I think your implementation won't work as expected. 
+Thanks for the nice post! But I think your implementation won't work as expected.
 
 Using a routing constraint like you do leads to a ActionController::RoutingError if the constraint condition (ApiVersion(i)) is not met, stopping execution of the routing at all.
 
@@ -290,7 +290,7 @@ Thanks for this article...helped me loads.  Just finished the first go at versio
 <div class="comment-author">Miguel left a comment on 20 Nov, 2012:</div>
 
 <div class="comment">
-Thanks for the article! 
+Thanks for the article!
 
 I do have one question, I implemented something like this, and I do not know how to test it. Do you have any information regarding testing routing constraints? or do you have the rspec of this particular constraint?
 </div>

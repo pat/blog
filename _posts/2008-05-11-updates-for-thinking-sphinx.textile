@@ -1,6 +1,6 @@
 ---
 title: "Updates for Thinking Sphinx"
-redirect_from: "/posts/updates_for_thinking_sphinx"
+redirect_from: "/posts/updates_for_thinking_sphinx/"
 categories:
   - plugins
   - search
@@ -27,7 +27,7 @@ And one last reminder - if you're in Sydney on Wednesday evening and interested 
 <div class="comment-author">"Arthur Henrique da Silva Zapparoli":http://www.arthurgeek.net left a comment on 11 May, 2008:</div>
 
 <div class="comment">
-Nice! 
+Nice!
 </div>
 
 </div>

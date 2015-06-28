@@ -1,6 +1,6 @@
 ---
 title: "Sphinx + Rails + PostgreSQL"
-redirect_from: "/posts/sphinx_rails_postgre_sql"
+redirect_from: "/posts/sphinx_rails_postgre_sql/"
 categories:
   - plugins
   - search

@@ -1,6 +1,6 @@
 ---
 title: "Web Directions South 2007"
-redirect_from: "/posts/web_directions_south_2007"
+redirect_from: "/posts/web_directions_south_2007/"
 categories:
   - wds07
   - sydney

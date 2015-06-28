@@ -1,6 +1,6 @@
 ---
 title: "Rewriting Thinking Sphinx: Introducing Realtime Indices"
-redirect_from: "/posts/rewriting_thinking_sphinx_introducing_realtime_indices"
+redirect_from: "/posts/rewriting_thinking_sphinx_introducing_realtime_indices/"
 categories:
   - sphinx
   - realtime

@@ -1,6 +1,6 @@
 ---
 title: "The Home Planet"
-redirect_from: "/posts/the_home_planet"
+redirect_from: "/posts/the_home_planet/"
 categories:
   - world
   - politics

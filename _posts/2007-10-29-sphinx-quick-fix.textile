@@ -1,6 +1,6 @@
 ---
 title: "Sphinx Quick Fix"
-redirect_from: "/posts/sphinx_quick_fix"
+redirect_from: "/posts/sphinx_quick_fix/"
 categories:
   - search
   - mac
@@ -25,10 +25,10 @@ Suggestions of a cleaner solution always welcome.
 <div class="comment-author">"Jon Crawford":http://joncrawford.com left a comment on  4 Jul, 2008:</div>
 
 <div class="comment">
-Hey, I just found this article while having similar issues.  I found this article at the same time. 
+Hey, I just found this article while having similar issues.  I found this article at the same time.
 http://mrpmorris.blogspot.com/2007/06/installing-rails-on-mac.html
 
-Towards the bottom it speaks about these issues and offers a different solution and an explanation for the problem.  I went with your solution for fear of screwing up my currently-functioning Rails stack.  
+Towards the bottom it speaks about these issues and offers a different solution and an explanation for the problem.  I went with your solution for fear of screwing up my currently-functioning Rails stack.
 
 I don't understand all the mechanics of everything, but if you think the other article is a better solution, please let me know.
 

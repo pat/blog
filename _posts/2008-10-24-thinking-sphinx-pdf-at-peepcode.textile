@@ -1,6 +1,6 @@
 ---
 title: "Thinking Sphinx PDF at Peepcode"
-redirect_from: "/posts/thinking_sphinx_pdf_at_peepcode"
+redirect_from: "/posts/thinking_sphinx_pdf_at_peepcode/"
 categories:
   - pdf
   - peepcode
@@ -20,7 +20,7 @@ Also, a massive thank you to all the contributors to Thinking Sphinx - it wouldn
 <div class="comment-author">"Jeff":http://semanticart.com left a comment on 28 Oct, 2008:</div>
 
 <div class="comment">
-I'm excited about thinking sphinx, but I've never been able to get past an issue where a table whose id is a varchar refuses to be indexed... it throws "WARNING: duplicate document ids found" and refuses to index properly.  I tried coding around the sql_query * 1 + 0 AS `id` bit on a hunch, but that doesn't seem to solve it.  
+I'm excited about thinking sphinx, but I've never been able to get past an issue where a table whose id is a varchar refuses to be indexed... it throws "WARNING: duplicate document ids found" and refuses to index properly.  I tried coding around the sql_query * 1 + 0 AS `id` bit on a hunch, but that doesn't seem to solve it.
 
 Any advice?  I'm otherwise ready to shell out the cash for this pdf.
 </div>
@@ -48,7 +48,7 @@ Yup, unfortunately Sphinx requires integer IDs. Sorry it's not a solution that'l
 <div class="comment-author">tashfeen  left a comment on 20 Dec, 2008:</div>
 
 <div class="comment">
-i get the following error when trying to start sphinx and the file noted there is not being generated. permission on the directory is for all. 
+i get the following error when trying to start sphinx and the file noted there is not being generated. permission on the directory is for all.
 
 (in C:/ror/rails_apps/drug)
 searchd --config C:/ror/rails_apps/drug/config/development.sphinx.conf

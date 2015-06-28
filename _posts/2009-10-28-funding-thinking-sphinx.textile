@@ -1,6 +1,6 @@
 ---
 title: "Funding Thinking Sphinx"
-redirect_from: "/posts/funding_thinking_sphinx"
+redirect_from: "/posts/funding_thinking_sphinx/"
 categories:
   - search
   - micropatronage
@@ -59,7 +59,7 @@ Hi Kyle, it's not working for me either... seems to have cropped up in the last 
 <div class="comment-author">"Bill DeVaul":http://www.dinnewarematchers.com/ left a comment on 28 Oct, 2009:</div>
 
 <div class="comment">
-I am ready to pledge but the link leads to a raw text page.  I'll check back in a few hours. 
+I am ready to pledge but the link leads to a raw text page.  I'll check back in a few hours.
 </div>
 
 <div class="comment-author">"pat":http://freelancing-gods.com left a comment on 28 Oct, 2009:</div>
@@ -96,7 +96,7 @@ how can we set unique name of index for each model?
 <div class="comment-author">"Ross Hill":http://www.rosshill.com.au left a comment on 24 Dec, 2009:</div>
 
 <div class="comment">
-So it's December - how did you go for the month? 
+So it's December - how did you go for the month?
 </div>
 
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Pre-festival Recommendations for MICF 2015"
-redirect_from: "/posts/pre_festival_recommendations_for_micf_2015"
+redirect_from: "/posts/pre_festival_recommendations_for_micf_2015/"
 categories:
   - comedy
   - micf

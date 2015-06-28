@@ -1,6 +1,6 @@
 ---
 title: "Using Thinking Sphinx with Cucumber"
-redirect_from: "/posts/using_thinking_sphinx_with_cucumber"
+redirect_from: "/posts/using_thinking_sphinx_with_cucumber/"
 categories:
   - search
   - testing
@@ -85,9 +85,9 @@ So, now you have no excuse to not use Thinking Sphinx with your Cucumber suite. 
 
 <div class="comment">
 Hi Pat,
-nice write up. 
+nice write up.
 
-The recent version of cucumber uses database_cleaner. So that you just need to add these steps. 
+The recent version of cucumber uses database_cleaner. So that you just need to add these steps.
 
 Before('@no-txn') do
   DatabaseCleaner.start
@@ -96,7 +96,7 @@ end
 After('@no-txn') do
   DatabaseCleaner.clean
 end
- 
+
 </div>
 
 <div class="comment-author">"pat":http://freelancing-gods.com left a comment on 13 Mar, 2010:</div>

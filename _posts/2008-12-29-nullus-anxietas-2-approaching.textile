@@ -1,6 +1,6 @@
 ---
 title: "Nullus Anxietas 2 Approaching"
-redirect_from: "/posts/nullus_anxietas_2_approaching"
+redirect_from: "/posts/nullus_anxietas_2_approaching/"
 categories:
   - discworld
   - pratchett

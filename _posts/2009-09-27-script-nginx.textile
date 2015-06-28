@@ -1,6 +1,6 @@
 ---
 title: "script/nginx"
-redirect_from: "/posts/script_nginx"
+redirect_from: "/posts/script_nginx/"
 categories:
   - nginx
   - ruby
@@ -85,21 +85,21 @@ events {
 
 http {
   include /etc/nginx/mime.types;
-  
+
   # Assuming path has been set to a Rails application
   access_log            log/nginx.access.log;
-  
+
   client_body_temp_path tmp/nginx.client_body_temp;
   fastcgi_temp_path     tmp/nginx.client_body_temp;
   proxy_temp_path       tmp/nginx.proxy_temp;
-  
+
   passenger_root /Library/Ruby/Gems/1.8/gems/passenger-2.2.5;
   passenger_ruby /usr/bin/ruby;
-  
+
   server {
     listen      3000;
     server_name localhost;
-    
+
     root              public;
     passenger_enabled on;
     rails_env         development;
@@ -174,7 +174,7 @@ If you give @tail@ the @--pid=$$@ argument it will die with the script.
 <div class="comment-author">Cory left a comment on  5 Nov, 2009:</div>
 
 <div class="comment">
-Do you find advantages to this method versus installing nginx the usual way, and configuring a vhost for each of your projects?  
+Do you find advantages to this method versus installing nginx the usual way, and configuring a vhost for each of your projects?
 
 That way, with an entry in your /etc/hosts file you can just 'touch tmp/restart.txt' and visit http://name_of_your_project.local (or some similar thing...)
 

@@ -1,6 +1,6 @@
 ---
 title: "RailsCamp #3"
-redirect_from: "/posts/rails_camp_3"
+redirect_from: "/posts/rails_camp_3/"
 categories:
   - ruby
   - rails
@@ -20,7 +20,7 @@ You don't need to be a Rails or Ruby genius to attend - just a desire to discuss
 <div class="comment-author">"ca":http://www.onlinebizbuzz.com/ left a comment on 25 Mar, 2008:</div>
 
 <div class="comment">
-Thats quite interesting event to be in, I will consider going. I will take decision tomorrow. 
+Thats quite interesting event to be in, I will consider going. I will take decision tomorrow.
 
 Thank you
 Eddie Moses

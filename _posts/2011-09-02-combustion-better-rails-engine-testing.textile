@@ -1,6 +1,6 @@
 ---
 title: "Combustion - Better Rails Engine Testing"
-redirect_from: "/posts/combustion_better_rails_engine_testing"
+redirect_from: "/posts/combustion_better_rails_engine_testing/"
 categories:
   - ruby
   - rails

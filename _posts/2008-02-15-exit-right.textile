@@ -1,6 +1,6 @@
 ---
 title: "Exit Right"
-redirect_from: "/posts/exit_right"
+redirect_from: "/posts/exit_right/"
 categories:
   - politics
   - australia

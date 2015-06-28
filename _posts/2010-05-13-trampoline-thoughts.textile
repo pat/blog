@@ -1,6 +1,6 @@
 ---
 title: "Trampoline Thoughts"
-redirect_from: "/posts/trampoline_thoughts"
+redirect_from: "/posts/trampoline_thoughts/"
 categories:
   - trampoline
   - unconference
@@ -31,7 +31,7 @@ I'm pretty stoked with how well received Trampoline has been thus far, and looki
 <div class="comment-author">"Ross Hill":http://www.rosshill.com.au left a comment on 13 May, 2010:</div>
 
 <div class="comment">
-Love that third photo. These events are really awesome - I hope to see many more happen! 
+Love that third photo. These events are really awesome - I hope to see many more happen!
 </div>
 
 </div>

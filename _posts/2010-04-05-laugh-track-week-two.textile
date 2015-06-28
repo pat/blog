@@ -1,6 +1,6 @@
 ---
 title: "LaughTrack: Week Two"
-redirect_from: "/posts/laugh_track_week_two"
+redirect_from: "/posts/laugh_track_week_two/"
 categories:
   - statistics
   - twitter

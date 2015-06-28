@@ -1,6 +1,6 @@
 ---
 title: "Bring Methods Back From The Dead"
-redirect_from: "/posts/bring_methods_back_from_the_dead"
+redirect_from: "/posts/bring_methods_back_from_the_dead/"
 categories:
   - ruby
   - rails

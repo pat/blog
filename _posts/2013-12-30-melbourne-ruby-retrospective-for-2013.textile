@@ -1,6 +1,6 @@
 ---
 title: "Melbourne Ruby Retrospective for 2013"
-redirect_from: "/posts/melbourne_ruby_retrospective_for_2013"
+redirect_from: "/posts/melbourne_ruby_retrospective_for_2013/"
 categories:
   - ruby
   - rails

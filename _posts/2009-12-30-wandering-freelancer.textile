@@ -1,6 +1,6 @@
 ---
 title: "Wandering Freelancer"
-redirect_from: "/posts/wandering_freelancer"
+redirect_from: "/posts/wandering_freelancer/"
 categories:
   - roro
   - video

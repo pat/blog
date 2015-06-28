@@ -1,6 +1,6 @@
 ---
 title: "Backing up with Backup"
-redirect_from: "/posts/backing_up_with_backup"
+redirect_from: "/posts/backing_up_with_backup/"
 categories:
   - backup
   - ruby

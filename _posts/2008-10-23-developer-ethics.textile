@@ -1,6 +1,6 @@
 ---
 title: "Developer Ethics"
-redirect_from: "/posts/developer_ethics"
+redirect_from: "/posts/developer_ethics/"
 categories:
   - php
   - ethics
@@ -159,21 +159,21 @@ So, I dont think Radiant CMS on Ruby is a good choice of that kind of NGO site. 
 <div class="comment-author">"ChanHan Hy":http://han4u.blogspot.com left a comment on  9 Jan, 2009:</div>
 
 <div class="comment">
-In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it. 
+In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it.
 And they said that they like PHP :(
 </div>
 
 <div class="comment-author">"ChanHan Hy":http://han4u.blogspot.com left a comment on  9 Jan, 2009:</div>
 
 <div class="comment">
-In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it. 
+In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it.
 And they said that they like PHP :(
 </div>
 
 <div class="comment-author">"ChanHan Hy":http://han4u.blogspot.com left a comment on  9 Jan, 2009:</div>
 
 <div class="comment">
-In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it. 
+In Cambodia, The most of Universities have not included ROR in their course outline yet. That's why no students are eager to use it.
 And they said that they like PHP :(
 </div>
 
@@ -190,9 +190,9 @@ Let me suggest Drupal.  Drupal is actually a great framework, if you can get pas
 <div class="comment">
 hi,
 
-i would like to know if you have met some good khmer developers. 
+i would like to know if you have met some good khmer developers.
 
-i'm interrested in hiring some. 
+i'm interrested in hiring some.
 
 thanks.
 </div>

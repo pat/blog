@@ -1,6 +1,6 @@
 ---
 title: "Dining in Battambang"
-redirect_from: "/posts/dining_in_battambang"
+redirect_from: "/posts/dining_in_battambang/"
 categories:
   - food
   - travel

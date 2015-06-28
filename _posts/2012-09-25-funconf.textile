@@ -1,6 +1,6 @@
 ---
 title: "Funconf"
-redirect_from: "/posts/funconf"
+redirect_from: "/posts/funconf/"
 categories:
   - funconf
   - ireland

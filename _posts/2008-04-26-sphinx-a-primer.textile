@@ -1,6 +1,6 @@
 ---
 title: "Sphinx: A Primer"
-redirect_from: "/posts/sphinx_a_primer"
+redirect_from: "/posts/sphinx_a_primer/"
 categories:
   - search
   - sphinx
@@ -57,7 +57,7 @@ Next is when we'll dive into some actual code - we'll go through some of the com
 <div class="comment-author">Thuva left a comment on 26 Apr, 2008:</div>
 
 <div class="comment">
-Thank you for the great overview of Sphinx. I'm looking forward to your next post in this series. 
+Thank you for the great overview of Sphinx. I'm looking forward to your next post in this series.
 
 By the way, I'm using Thinking Sphinx with great success in a project that is under development.
 </div>
@@ -91,7 +91,7 @@ I'll send you an email. Thanks.
 <div class="comment-author">"Jae-Jun Hwang":http://www.embian.com left a comment on  6 May, 2008:</div>
 
 <div class="comment">
-Thank you for writing ThinkingSphinx and Riddle.  It's been wonderful product for my development.  
+Thank you for writing ThinkingSphinx and Riddle.  It's been wonderful product for my development.
 
 BTW, I experimented TS, and made some patch to 1) handle CJK charset_tables,  2) prefix_fields, 3) delta+dirty etc.  I'll send it to you email,
 so could you please take a look?

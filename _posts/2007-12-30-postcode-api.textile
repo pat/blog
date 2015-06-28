@@ -1,6 +1,6 @@
 ---
 title: "Postcode API"
-redirect_from: "/posts/postcode_api"
+redirect_from: "/posts/postcode_api/"
 categories:
   - REST
   - api

@@ -1,6 +1,6 @@
 ---
 title: "Diversity, Awareness, and Welcoming Spaces"
-redirect_from: "/posts/diversity_awareness_and_welcoming_spaces"
+redirect_from: "/posts/diversity_awareness_and_welcoming_spaces/"
 categories:
   - melbourne
   - diversity

@@ -1,6 +1,6 @@
 ---
 title: "A Sustainable Flying Sphinx?"
-redirect_from: "/posts/a_sustainable_flying_sphinx"
+redirect_from: "/posts/a_sustainable_flying_sphinx/"
 categories:
   - web
   - sustainability
@@ -63,7 +63,7 @@ I am still searching for answers for what truly sustainable hardware - and mores
 <div class="comment-author">Jean-Michel GARNIER left a comment on 20 Feb, 2012:</div>
 
 <div class="comment">
-At euruko 201, I made some crude comment about your carbon footprint coming to Berlin and Australia carbon footprint. 
+At euruko 201, I made some crude comment about your carbon footprint coming to Berlin and Australia carbon footprint.
 
 After reading that post, I have to apologize publicly. I did not know you and made a very premature judgement.
 

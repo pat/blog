@@ -1,6 +1,6 @@
 ---
 title: "Victorian Bushfire Appeal"
-redirect_from: "/posts/victorian_bushfire_appeal"
+redirect_from: "/posts/victorian_bushfire_appeal/"
 categories:
   - victoria
   - fire

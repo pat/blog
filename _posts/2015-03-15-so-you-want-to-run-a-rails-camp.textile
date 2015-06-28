@@ -1,6 +1,6 @@
 ---
 title: "So you want to run a Rails Camp?"
-redirect_from: "/posts/so_you_want_to_run_a_rails_camp"
+redirect_from: "/posts/so_you_want_to_run_a_rails_camp/"
 categories:
   - ruby
   - rails

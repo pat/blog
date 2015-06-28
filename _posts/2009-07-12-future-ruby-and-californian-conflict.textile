@@ -1,6 +1,6 @@
 ---
 title: "FutureRuby and Californian Conflict"
-redirect_from: "/posts/future_ruby_and_californian_conflict"
+redirect_from: "/posts/future_ruby_and_californian_conflict/"
 categories:
   - philosophy
   - politics
@@ -164,17 +164,17 @@ Anyway, thanks for keeping the dialogue going. I'd actually love to hear what Je
 <div class="comment-author">Serge left a comment on 20 Jul, 2009:</div>
 
 <div class="comment">
-Was this a rehash of Barbrook on <a href="http://www.hrc.wmin.ac.uk/theory-californianideology.html">Californian Ideology</a>, then? 
+Was this a rehash of Barbrook on <a href="http://www.hrc.wmin.ac.uk/theory-californianideology.html">Californian Ideology</a>, then?
 </div>
 
 <div class="comment-author">"Steve Hopkins":http://www.thesquigglyline.com/blog left a comment on 29 Jul, 2009:</div>
 
 <div class="comment">
-I'm only going to leave this one quote, which I love at the moment. 
+I'm only going to leave this one quote, which I love at the moment.
 
 "The future is already here, it is just not evenly distributed yet" (William Gibson)
 
-Sure, there is an element of 'us vs them.' I think there always has been in all evolutions or revolutions. Why else would we be sparked to change if we couldn't see 'them' behind us? 
+Sure, there is an element of 'us vs them.' I think there always has been in all evolutions or revolutions. Why else would we be sparked to change if we couldn't see 'them' behind us?
 
 The problem becomes, as you point out Pat, one of greater magnitudes when we believe our world view as the only correct one. Yes, it's true that in terms of computer programming and generally getting computers to do things you want, you guys are kings (well, I admire you!). But, this doesn't mean there isn't already another future here, now, which is building. This doesn't mean that there are other leaders, in other fields (I'm thinking social entrepreneurs in developing economies) who are not also ushering in an existing future now which we could look at as stupid, except that it is not at all!
 
@@ -184,7 +184,7 @@ Anyways, great discussion and conversation. I'm quite sure i've missed most (all
 <div class="comment-author">Jordan Bettis left a comment on  4 Aug, 2009:</div>
 
 <div class="comment">
-So is it going to go up on BlipTV or someplace where I can download it? That "InfoQ" setup is horrid. 
+So is it going to go up on BlipTV or someplace where I can download it? That "InfoQ" setup is horrid.
 
 And pretty ironically so considering the vibe that the conference appears to be trying to put off.
 </div>

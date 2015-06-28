@@ -1,6 +1,6 @@
 ---
 title: "Rewriting Thinking Sphinx: Middleware, Glazes and Panes"
-redirect_from: "/posts/rewriting_thinking_sphinx_middleware_glazes_and_panes"
+redirect_from: "/posts/rewriting_thinking_sphinx_middleware_glazes_and_panes/"
 categories:
   - sphinx
   - thinking sphinx

@@ -1,6 +1,6 @@
 ---
 title: "The Quest for Semantic Scrolling Tables"
-redirect_from: "/posts/the_quest_for_semantic_scrolling_tables"
+redirect_from: "/posts/the_quest_for_semantic_scrolling_tables/"
 categories:
   - tables
   - html

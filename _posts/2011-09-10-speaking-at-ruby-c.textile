@@ -1,6 +1,6 @@
 ---
 title: "Speaking at RubyC"
-redirect_from: "/posts/speaking_at_ruby_c"
+redirect_from: "/posts/speaking_at_ruby_c/"
 categories:
   - ukraine
   - rubyc

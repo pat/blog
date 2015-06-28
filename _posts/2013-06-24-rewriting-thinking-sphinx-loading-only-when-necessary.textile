@@ -1,6 +1,6 @@
 ---
 title: "Rewriting Thinking Sphinx: Loading Only When Necessary"
-redirect_from: "/posts/rewriting_thinking_sphinx_loading_only_when_necessary"
+redirect_from: "/posts/rewriting_thinking_sphinx_loading_only_when_necessary/"
 categories:
   - sphinx
   - thinking sphinx

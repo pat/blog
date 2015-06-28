@@ -1,6 +1,6 @@
 ---
 title: "Sphinx 0.9.8r1065"
-redirect_from: "/posts/sphinx_098r1065"
+redirect_from: "/posts/sphinx_098r1065/"
 categories:
   - plugins
   - search

@@ -1,6 +1,6 @@
 ---
 title: "Correspondance on Censorship"
-redirect_from: "/posts/correspondance_on_censorship"
+redirect_from: "/posts/correspondance_on_censorship/"
 categories:
   - internet
   - politics

@@ -1,6 +1,6 @@
 ---
 title: "Infotopia: A Vague Review"
-redirect_from: "/posts/infotopia_a_vague_review"
+redirect_from: "/posts/infotopia_a_vague_review/"
 categories:
   - books
   - information
@@ -46,7 +46,7 @@ That said, if you manage groups of people in some shape or form, it's definitely
 <div class="comment">
 Frequently when watching politicians ion TV I find myself muttering  .. "WTF, do they actually believe in this crap". Glad you discovered a published definition for the mental disorder most of them seem to have.
 
-Getting out there, listening to other opinions, engaging with people from different industries and backgrounds is a sure fire way to broaden your perspective on all things in your life.  
+Getting out there, listening to other opinions, engaging with people from different industries and backgrounds is a sure fire way to broaden your perspective on all things in your life.
 
 The friendly co-working 'Jelly' day we run in Sydney is somewhat aligned to this idea.  Although most attendees are from the web industry.
 
@@ -57,7 +57,7 @@ The friendly co-working 'Jelly' day we run in Sydney is somewhat aligned to this
 <div class="comment">
 Hey Pat,
 
-Thanks for the recommendation, you ol' lovecat you ;) It looks a winner, i'll be sure to add to the next amazon cart. 
+Thanks for the recommendation, you ol' lovecat you ;) It looks a winner, i'll be sure to add to the next amazon cart.
 
 
 </div>

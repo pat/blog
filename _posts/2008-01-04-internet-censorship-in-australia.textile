@@ -1,6 +1,6 @@
 ---
 title: "Internet Censorship in Australia"
-redirect_from: "/posts/internet_censorship_in_australia"
+redirect_from: "/posts/internet_censorship_in_australia/"
 categories:
   - internet
   - politics

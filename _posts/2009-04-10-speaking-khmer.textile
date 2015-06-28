@@ -1,6 +1,6 @@
 ---
 title: "Speaking Khmer"
-redirect_from: "/posts/speaking_khmer"
+redirect_from: "/posts/speaking_khmer/"
 categories:
   - cambodia travel khmer guide language
 ---
@@ -127,7 +127,7 @@ That should give you a decent start - although I'm sure I'll think of more words
 <div class="comment-author">Annika Leander left a comment on  7 May, 2009:</div>
 
 <div class="comment">
-Dear God. 
+Dear God.
 
 I have a problem and I'm grasping for straws... My name is Annika from Sweden and I'm doing a course in Project Management and todays assignment is net-working. I've recieved a text in an Asian language (probably in Cambodian), and to pass on this part of the course, I have to get it translated within 24 hrs... so I'm running short of time - merely six hrs to go. Could I by any chance e-mail my pdf-file to you to glance upon, God? It's one page of text and I just need to know, roughly, what it's all about.
 
@@ -161,7 +161,7 @@ Thank you for your answer and take care! Annika
 <div class="comment">
 I was reading something about contributors on ruby community and you as mastermind  about Thinking sphinx.. and I end up on your blog reading something much more interesting to me about Khmer :) how long did you stay in Cambodia?
 
-PS: If you get a chance, you should learn to read and write. I did it prety quickly as it is not that hard to pick up. 
+PS: If you get a chance, you should learn to read and write. I did it prety quickly as it is not that hard to pick up.
 </div>
 
 <div class="comment-author">"pat":http://freelancing-gods.com left a comment on 13 Jun, 2009:</div>
@@ -195,10 +195,10 @@ Bill => kit loy (ket-loi)
 <div class="comment-author">Tony left a comment on 31 Oct, 2014:</div>
 
 <div class="comment">
-"Meat" is more "seik" than satch. 
+"Meat" is more "seik" than satch.
 (Beef sounds like "psycho"!)
 
-Learning to write made a huge difference to my speaking. 
+Learning to write made a huge difference to my speaking.
 </div>
 
 <div class="comment-author">Cody left a comment on 29 Nov, 2014:</div>

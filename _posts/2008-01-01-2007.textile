@@ -1,6 +1,6 @@
 ---
 title: "2007"
-redirect_from: "/posts/2007"
+redirect_from: "/posts/2007/"
 categories:
   - meta
   - politics
@@ -44,7 +44,7 @@ Endless thanks to my family, friends and peers for their support over the past t
 <div class="comment-author">"Jess Healy":http://evilwillowmademedoit.blogspot.com/ left a comment on 19 Feb, 2008:</div>
 
 <div class="comment">
-Yeah 2007 was an awesome year, full of personal change for a lot of people I know, and full of political change too. Something that's changed from 2007 to 2008 for me is that my skepticism about Rudd has given way to a grudging and wary respect. I'd even say I feel cautiously optimistic about the guy. Wierd. 
+Yeah 2007 was an awesome year, full of personal change for a lot of people I know, and full of political change too. Something that's changed from 2007 to 2008 for me is that my skepticism about Rudd has given way to a grudging and wary respect. I'd even say I feel cautiously optimistic about the guy. Wierd.
 </div>
 
 <div class="comment-author">"Jess":http://evilwillowmademedoit.blogspot.com/ left a comment on 19 Feb, 2008:</div>

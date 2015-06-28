@@ -1,6 +1,6 @@
 ---
 title: "Thinking Sphinx Delta Changes"
-redirect_from: "/posts/thinking_sphinx_delta_changes"
+redirect_from: "/posts/thinking_sphinx_delta_changes/"
 categories:
   - plugins
   - search
@@ -24,7 +24,7 @@ Your @define_index@ block would look something like the following:
 
 <pre><code>define_index do
   # ... field and attribute definitions
-  
+
   set_property :delta => :datetime, :threshold => 1.day
 end</code></pre>
 
@@ -42,7 +42,7 @@ Firstly, you'll need to create the @delayed_jobs@ table (see the delayed_job rea
 
 <pre><code>define_index do
   # ... field and attribute definitions
-  
+
   set_property :delta => :delayed
 end</code></pre>
 
@@ -96,7 +96,7 @@ The only one that I know I'm missing is facets - which I've been researching a b
 <div class="comment-author">"Roman Heinrich":http://simplewebapp.de left a comment on 12 Jan, 2009:</div>
 
 <div class="comment">
-Yeah, faceted search would be VERY cool! I'm using thinking sphinx and the only thing I miss from SOLR is faceted search... Very handy indeed. Is this a hard thing to implement? Maybe the first results are just a couple of hours coding. 
+Yeah, faceted search would be VERY cool! I'm using thinking sphinx and the only thing I miss from SOLR is faceted search... Very handy indeed. Is this a hard thing to implement? Maybe the first results are just a couple of hours coding.
 
 Thanks for this amazing plugin!
 </div>
@@ -182,7 +182,7 @@ Cheers
 <div class="comment">
 <p>Hi Pat,
 
-I am using thinking sphinx in one of my applications which is search based. 
+I am using thinking sphinx in one of my applications which is search based.
 It has lot of input every 15 minutes and needs to be indexed.
 
 
@@ -193,21 +193,21 @@ set_property :delta => :datetime, :delta_column => :updated_at, :threshold => 22
 I run the cron for delta 'rake thinking_sphinx:index:delta RAILS_ENV=production' every 20 minutes.
 
 
-But the new data is not getting indexed in expected time. 
-I see the new data in search results after a interval of 4-5 hours. 
+But the new data is not getting indexed in expected time.
+I see the new data in search results after a interval of 4-5 hours.
 Also, I have to explicitly reindex completely at times.
 
-Not getting where exactly the problem is, am I missing anything? 
+Not getting where exactly the problem is, am I missing anything?
 Do I need to do merge? I dont see 'merge' task in my rake list.
 
 
 Also, I found some .tmp files created in the sphinx folder.
-I suspect if these are related to the problem in some way. 
+I suspect if these are related to the problem in some way.
 Where can I find the significance of all these file types?
 
 
 
-When I do  
+When I do
 
 ls -l db/sphinx/production:
 

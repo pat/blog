@@ -1,6 +1,6 @@
 ---
 title: "Kickstarting Collaboration and Co-working over Coffee in Cambodia"
-redirect_from: "/posts/kickstarting_collaboration_and_co_working_over_coffee_in_cambodia"
+redirect_from: "/posts/kickstarting_collaboration_and_co_working_over_coffee_in_cambodia/"
 categories:
   - kickstarter
   - coworking

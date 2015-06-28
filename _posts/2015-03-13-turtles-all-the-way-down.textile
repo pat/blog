@@ -1,6 +1,6 @@
 ---
 title: "Turtles all the way down"
-redirect_from: "/posts/turtles_all_the_way_down"
+redirect_from: "/posts/turtles_all_the_way_down/"
 categories:
   - discworld
   - terry pratchett
@@ -49,7 +49,7 @@ Pat, you did an amazing job on that first DW Con, thank you so much. The first t
 <div class="comment-author">Tanuja left a comment on 14 Mar, 2015:</div>
 
 <div class="comment">
-Pat, the first DW Con was fantastic, I had so much fun (and it was my first Convention), so many fond  memories, but the Bedtime Story (Terry reading from Going Postal) was my favourite. If I didn't thank you at the time, a very belated thank you for breaking the ground for NA.  Sadly I can't go this year, but I will raise a glass over that weekend to Terry and NAIV. 
+Pat, the first DW Con was fantastic, I had so much fun (and it was my first Convention), so many fond  memories, but the Bedtime Story (Terry reading from Going Postal) was my favourite. If I didn't thank you at the time, a very belated thank you for breaking the ground for NA.  Sadly I can't go this year, but I will raise a glass over that weekend to Terry and NAIV.
 </div>
 
 </div>

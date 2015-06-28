@@ -1,6 +1,6 @@
 ---
 title: "Why not?"
-redirect_from: "/posts/why_not"
+redirect_from: "/posts/why_not/"
 categories:
   - australia
   - health
@@ -21,9 +21,9 @@ If you're not a donor and don't want to be, though, I'd be interested in hearing
 <div class="comment-author">Pickles left a comment on 13 Dec, 2007:</div>
 
 <div class="comment">
-I call dibs on your brain. 
+I call dibs on your brain.
 
-The reason I am not an organ donor is if my organs are harvested from me like so much sweetbreads, then they can't go in my specially prepared, ritual canopic jars for me to use in the afterlife. If I have to spend an eternity without a spleen, I'll be coming after yours. 
+The reason I am not an organ donor is if my organs are harvested from me like so much sweetbreads, then they can't go in my specially prepared, ritual canopic jars for me to use in the afterlife. If I have to spend an eternity without a spleen, I'll be coming after yours.
 </div>
 
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Sphinx 0.9.8-rc1 Updates"
-redirect_from: "/posts/sphinx_098_rc1_updates"
+redirect_from: "/posts/sphinx_098_rc1_updates/"
 categories:
   - plugins
   - search
@@ -40,7 +40,7 @@ Also: they both use Riddle to talk to Sphinx itself, so there's definitely a lev
 <div class="comment-author">"Casey":http://www.ravelry.com left a comment on 20 Mar, 2008:</div>
 
 <div class="comment">
-Thanks so much for keeping Riddle up-to-date with the fast-moving development of Sphinx.  Riddle is great - it's nice to have a Ruby API that looks like Ruby. 
+Thanks so much for keeping Riddle up-to-date with the fast-moving development of Sphinx.  Riddle is great - it's nice to have a Ruby API that looks like Ruby.
 
 oh - are multi-valued attributes supported w/0.9.8rc1?  I'm get some crazy behavior (weird results or errors during parsing the response) Figured I'd mention it in case someting comes to mind...
 </div>
@@ -102,11 +102,11 @@ Sorry to have it so close but not usable just yet for what you need...
 <div class="comment">
 This is great stuff, really impressive work!
 
-I've migrated from UltraSphinx to ThinkingSphinx with nearly no problems at all.  
+I've migrated from UltraSphinx to ThinkingSphinx with nearly no problems at all.
 
 Though I *am* having some problems with the geo distancing stuff.  Literally as soon as I introduce @geodist into anything, I get back zero results.
 
-I've confirmed that the indexes have the correct values as attributes in radians using the sphinx CLI search client.  But no love from Thinking Sphinx.  :(  
+I've confirmed that the indexes have the correct values as attributes in radians using the sphinx CLI search client.  But no love from Thinking Sphinx.  :(
 
 Anyone have *working* @geodist examples?
 
@@ -125,9 +125,9 @@ Err, I guess I was leaving of the directional part of the order clause.  Make su
 <div class="comment-author">Aaron left a comment on 22 May, 2008:</div>
 
 <div class="comment">
-I figured I'd post another thing here that tripped me up for a while.  
+I figured I'd post another thing here that tripped me up for a while.
 
-When filtering on @geodist, you need to use a range of *floats* in meters.  e.g. (0.0..2000.0) would show only results in 2km.  
+When filtering on @geodist, you need to use a range of *floats* in meters.  e.g. (0.0..2000.0) would show only results in 2km.
 </div>
 
 <div class="comment-author">"pat":http://freelancing-gods.com left a comment on 26 May, 2008:</div>

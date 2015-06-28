@@ -1,6 +1,6 @@
 ---
 title: "Pat's Guide to Running Events"
-redirect_from: "/posts/pats_guide_to_running_events"
+redirect_from: "/posts/pats_guide_to_running_events/"
 categories:
   - opinion
   - guide
@@ -119,7 +119,7 @@ If you disagree with any of this, there's a comment box below, let me know - or 
 <div class="comment-author">"Mark Ratjens":http://habanerohq.com left a comment on 16 Jun, 2013:</div>
 
 <div class="comment">
-Well done, Pat, on crystallising these ideas. Hopefully, conference organisers will refer to this post for some time to come. My only divergence is that I'm OK with multiple tracks, mainly because I like options when each has its own theme, assuming each track has quality and integrity in its own right. 
+Well done, Pat, on crystallising these ideas. Hopefully, conference organisers will refer to this post for some time to come. My only divergence is that I'm OK with multiple tracks, mainly because I like options when each has its own theme, assuming each track has quality and integrity in its own right.
 </div>
 
 <div class="comment-author">"Aleksandar Simic":http://twitter.com/dotemacs left a comment on 16 Jun, 2013:</div>
@@ -127,7 +127,7 @@ Well done, Pat, on crystallising these ideas. Hopefully, conference organisers w
 <div class="comment">
 Good write up. I agree with most of it.
 
-Regarding the badges, having them on a sticker that you can print on a regular printer, also works. 
+Regarding the badges, having them on a sticker that you can print on a regular printer, also works.
 </div>
 
 <div class="comment-author">"Philip Arndt":http://philiparndt.name left a comment on 16 Jun, 2013:</div>
@@ -135,7 +135,7 @@ Regarding the badges, having them on a sticker that you can print on a regular p
 <div class="comment">
 Thanks for bringing this up, Pat!
 
-I firmly agree with many of your points and one that particularly resonated with me was that I'm getting really, _really_ over loud music.. I've lost my voice too many times already. When I'm trying to meet new people and catch up with friends it really just gets in the way. 
+I firmly agree with many of your points and one that particularly resonated with me was that I'm getting really, _really_ over loud music.. I've lost my voice too many times already. When I'm trying to meet new people and catch up with friends it really just gets in the way.
 To briefly touch on the alcohol issue: when the music is loud people drink _even faster_ which, when it's flowing for free, can lead to far less worthwhile 'conversations' and if this is followed by another day of conference.. hungover attendees.
 
 I do believe that lightning talks are pretty valuable if you're new to speaking and want to give it a go or when there is something valuable to add that doesn't take 30 minutes.  This comes with the caveat that the time should absolutely not be used as a sales pitch, as you say. Maybe disallowing slideshows for lightning talks would be beneficial?
@@ -198,7 +198,7 @@ I think there's a place for stickers and t-shirts. I've had people at RubyKaigi 
 <div class="comment-author">AJ Kandy left a comment on 21 Jun, 2013:</div>
 
 <div class="comment">
-On the T-shirt note, I would add: Commission some really memorable artwork that would make people want to wear it, not condemn it to the "freebie t-shirts for housepainting" pile; and don't skimp on T-shirt quality. American Apparel 50/50 blend super soft tees are the cashmere sweater of T-shirts; try to find something of equal quality. Nothing (literally) grates attendees more than cheap, stiff, and scratchy fabric. 
+On the T-shirt note, I would add: Commission some really memorable artwork that would make people want to wear it, not condemn it to the "freebie t-shirts for housepainting" pile; and don't skimp on T-shirt quality. American Apparel 50/50 blend super soft tees are the cashmere sweater of T-shirts; try to find something of equal quality. Nothing (literally) grates attendees more than cheap, stiff, and scratchy fabric.
 </div>
 
 <div class="comment-author">"Brandt Krueger":http://brandtkrueger.com left a comment on 16 Aug, 2013:</div>

@@ -1,6 +1,6 @@
 ---
 title: "Gutentag: Simple Rails Tagging"
-redirect_from: "/posts/gutentag_simple_rails_tagging"
+redirect_from: "/posts/gutentag_simple_rails_tagging/"
 categories:
   - ruby
   - rails

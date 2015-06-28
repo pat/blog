@@ -1,6 +1,6 @@
 ---
 title: "RubyConf AU 2015: Thank You"
-redirect_from: "/posts/ruby_conf_au_2015_thank_you"
+redirect_from: "/posts/ruby_conf_au_2015_thank_you/"
 categories:
   - ruby
   - rails

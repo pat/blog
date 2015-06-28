@@ -1,6 +1,6 @@
 ---
 title: "Talking to MYOB with Ruby"
-redirect_from: "/posts/talking_to_myob_with_ruby"
+redirect_from: "/posts/talking_to_myob_with_ruby/"
 categories:
   - merb
   - myob

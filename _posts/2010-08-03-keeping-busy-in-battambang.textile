@@ -1,6 +1,6 @@
 ---
 title: "Keeping Busy in Battambang"
-redirect_from: "/posts/keeping_busy_in_battambang"
+redirect_from: "/posts/keeping_busy_in_battambang/"
 categories:
   - travel
   - khmer

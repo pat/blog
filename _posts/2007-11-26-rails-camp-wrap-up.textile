@@ -1,6 +1,6 @@
 ---
 title: "RailsCamp Wrap-up"
-redirect_from: "/posts/rails_camp_wrap_up"
+redirect_from: "/posts/rails_camp_wrap_up/"
 categories:
   - barcamp
   - railscamp

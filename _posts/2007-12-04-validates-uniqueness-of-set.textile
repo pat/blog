@@ -1,6 +1,6 @@
 ---
 title: "validates_uniqueness_of_set"
-redirect_from: "/posts/validates_uniqueness_of_set"
+redirect_from: "/posts/validates_uniqueness_of_set/"
 categories:
   - ruby
   - rails

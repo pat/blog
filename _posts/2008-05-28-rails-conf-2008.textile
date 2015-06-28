@@ -1,6 +1,6 @@
 ---
 title: "RailsConf 2008"
-redirect_from: "/posts/rails_conf_2008"
+redirect_from: "/posts/rails_conf_2008/"
 categories:
   - twitter
   - railsconf

@@ -1,6 +1,6 @@
 ---
 title: "Supporting Smart Social Enterprises in Cambodia"
-redirect_from: "/posts/supporting_smart_social_enterprises_in_cambodia"
+redirect_from: "/posts/supporting_smart_social_enterprises_in_cambodia/"
 categories:
   - cambodia
   - kinyei

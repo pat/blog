@@ -1,6 +1,6 @@
 ---
 title: "PublicSphere: Open Government"
-redirect_from: "/posts/public_sphere_open_government"
+redirect_from: "/posts/public_sphere_open_government/"
 categories:
   - politics
   - government

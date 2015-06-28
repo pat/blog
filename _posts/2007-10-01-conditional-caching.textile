@@ -1,6 +1,6 @@
 ---
 title: "Conditional Caching"
-redirect_from: "/posts/conditional_caching"
+redirect_from: "/posts/conditional_caching/"
 categories:
   - ruby
   - rails

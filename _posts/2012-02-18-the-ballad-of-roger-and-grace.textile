@@ -1,6 +1,6 @@
 ---
 title: "The Ballad of Roger and Grace"
-redirect_from: "/posts/the_ballad_of_roger_and_grace"
+redirect_from: "/posts/the_ballad_of_roger_and_grace/"
 categories:
   - comedy
   - music

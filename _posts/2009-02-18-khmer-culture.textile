@@ -1,6 +1,6 @@
 ---
 title: "Khmer Culture"
-redirect_from: "/posts/khmer_culture"
+redirect_from: "/posts/khmer_culture/"
 categories:
   - culture
   - history

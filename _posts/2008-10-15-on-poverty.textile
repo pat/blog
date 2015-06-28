@@ -1,6 +1,6 @@
 ---
 title: "On Poverty"
-redirect_from: "/posts/on_poverty"
+redirect_from: "/posts/on_poverty/"
 categories:
   - society
   - change

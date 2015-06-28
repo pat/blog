@@ -1,6 +1,6 @@
 ---
 title: "Laughtrack Review"
-redirect_from: "/posts/laughtrack_review"
+redirect_from: "/posts/laughtrack_review/"
 categories:
   - statistics
   - twitter

@@ -1,6 +1,6 @@
 ---
 title: "Insight on Gen Y voters"
-redirect_from: "/posts/insight_on_gen_y_voters"
+redirect_from: "/posts/insight_on_gen_y_voters/"
 categories:
   - internet
   - politics
@@ -36,7 +36,7 @@ Of course, it's tough to get people in a frame of mind where they're open to oth
 <div class="comment-author">"Ross Hill":http://www.rosshill.com.au left a comment on 16 Oct, 2007:</div>
 
 <div class="comment">
-Can honest, approachable politicians exist? The game is about getting your name out there as much as possible, and it just isn't possible for somebody to connect properly with hundreds of thousands of people. Or is it? 
+Can honest, approachable politicians exist? The game is about getting your name out there as much as possible, and it just isn't possible for somebody to connect properly with hundreds of thousands of people. Or is it?
 
 If you'd checked out the Facebook group that SBS made (well done to them) you'd find that it was much easier to navigate and there were some very constructive posts. Oh wait, you don't have an account :)
 </div>
@@ -54,9 +54,9 @@ And there were some constructive posts on the forum hosted on SBS's site (indeed
 <div class="comment-author">"Steve Hopkins":http://www.thesquigglyline.com left a comment on 17 Oct, 2007:</div>
 
 <div class="comment">
-I agree with your thoughts that the internet should be used to start conversations and engage further with people, rather than just be used as another PR vehicle. 
+I agree with your thoughts that the internet should be used to start conversations and engage further with people, rather than just be used as another PR vehicle.
 
-I think, when done right, the net has the ability to provide politicians with a tool to portray their humility. Nobody does it right, but they are learning. Expect to see Kevin11.com be a much more conversational website :) 
+I think, when done right, the net has the ability to provide politicians with a tool to portray their humility. Nobody does it right, but they are learning. Expect to see Kevin11.com be a much more conversational website :)
 
 Check out this FastCompany article - interesting look at how guys in the US are doing it
 http://www.fastcompany.com/magazine/40/ifaqs.html

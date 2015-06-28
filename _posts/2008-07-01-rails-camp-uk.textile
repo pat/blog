@@ -1,6 +1,6 @@
 ---
 title: "Rails Camp UK"
-redirect_from: "/posts/rails_camp_uk"
+redirect_from: "/posts/rails_camp_uk/"
 categories:
   - barcamp
   - uk

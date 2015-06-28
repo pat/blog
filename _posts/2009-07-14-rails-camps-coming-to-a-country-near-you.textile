@@ -1,6 +1,6 @@
 ---
 title: "Rails Camps - Coming to a Country Near You"
-redirect_from: "/posts/rails_camps_coming_to_a_country_near_you"
+redirect_from: "/posts/rails_camps_coming_to_a_country_near_you/"
 categories:
   - usa
   - unconference

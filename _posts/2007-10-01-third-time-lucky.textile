@@ -1,6 +1,6 @@
 ---
 title: "Third Time Lucky"
-redirect_from: "/posts/third_time_lucky"
+redirect_from: "/posts/third_time_lucky/"
 categories:
   - meta
   - blogs

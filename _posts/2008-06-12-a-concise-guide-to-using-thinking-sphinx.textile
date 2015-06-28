@@ -1,6 +1,6 @@
 ---
 title: "A Concise Guide to Using Thinking Sphinx"
-redirect_from: "/posts/a_concise_guide_to_using_thinking_sphinx"
+redirect_from: "/posts/a_concise_guide_to_using_thinking_sphinx/"
 categories:
   - plugins
   - search
@@ -64,7 +64,7 @@ Adding attributes is just as easy:
 
 <pre><code>define_index do
   # ...
-  
+
   has birthday
 end</code></pre>
 
@@ -105,7 +105,7 @@ The second step is optional, but it's needed to have your indexes always up to d
 
 <pre><code>define_index do
   # ...
-  
+
   set_property :delta => true
 end</code></pre>
 
@@ -123,7 +123,7 @@ If you remember the details about fields and attributes, you'll know that you ca
 
 <pre><code>define_index do
   indexes [first_name, last_name], :as => :name, :sortable => true
-  
+
   # ...
 end</code></pre>
 
@@ -144,7 +144,7 @@ Sometimes you'll want data in your fields (or attributes) from associations. Thi
 <pre><code>define_index do
   indexes photos.caption, :as => :captions
   indexes friends.photos.caption, :as => :friends_photos
-  
+
   # ...
 end</code></pre>
 
@@ -160,9 +160,9 @@ In case things aren't working, here's some things to keep in mind:
 
 <pre><code>define_index do
   indexes :name
-  
+
   # ...
-  
+
   has photos(:id), :as => :photo_ids
 end</code></pre>
 
@@ -182,7 +182,7 @@ Nice Introduction to Thinking Sphinx. Thanks!
 <div class="comment-author">Benny left a comment on 13 Jun, 2008:</div>
 
 <div class="comment">
-Can you make a quick rundown why Thinking Sphinx is to be preferred other other Sphinx helpers like Ultrasphinx ? 
+Can you make a quick rundown why Thinking Sphinx is to be preferred other other Sphinx helpers like Ultrasphinx ?
 
 Which one has covered most of Sphinx's features, etc.
 </div>
@@ -216,7 +216,7 @@ Currently using ferret but I think I will give this a try. Good info, Thanks.
 <div class="comment-author">"Matthew Bergman":http://matthewbergman.com left a comment on 25 Jun, 2008:</div>
 
 <div class="comment">
-Ultrasphinx might be more complex but I actually find it less useful in terms of complex searches. Took me forever to index children due to an error it has in concatenating. 
+Ultrasphinx might be more complex but I actually find it less useful in terms of complex searches. Took me forever to index children due to an error it has in concatenating.
 
 
 </div>
@@ -367,7 +367,7 @@ Otherwise, you might be best writing your own solution, and perhaps use Riddle f
 <div class="comment">
 Hi Pat,
 
-Do you have any info on the performance implications of delta indexing? I've got delta indexing turned on for some of my models, such as Product, and it seems to be slowing down edits to these objects pretty significantly. In particular it's a bit of a pain the way it updates the index even if I only change data on the model which is not actually indexed by sphinx. Failing that, some of my batch operations which operate on many Product records trigger a lot of small index updates. Do you think it would be better if I take the delta indexing off this and simple update the entire index more frequently? I think that some other sphinx plugins use delta indexing, but the delta index update is still not done within the mongrel process. Ie, every two minutes refresh the delta index. 
+Do you have any info on the performance implications of delta indexing? I've got delta indexing turned on for some of my models, such as Product, and it seems to be slowing down edits to these objects pretty significantly. In particular it's a bit of a pain the way it updates the index even if I only change data on the model which is not actually indexed by sphinx. Failing that, some of my batch operations which operate on many Product records trigger a lot of small index updates. Do you think it would be better if I take the delta indexing off this and simple update the entire index more frequently? I think that some other sphinx plugins use delta indexing, but the delta index update is still not done within the mongrel process. Ie, every two minutes refresh the delta index.
 
 got any suggestions?
 
@@ -397,7 +397,7 @@ great plug in, much better than acts_as_ferret.  One thing though, i have some p
 <div class="comment-author">justin left a comment on 12 Aug, 2008:</div>
 
 <div class="comment">
-ner mind.. 
+ner mind..
 
 
 </div>
@@ -431,13 +431,13 @@ development:
 (also tried various variations with allow_star: true)
 
 The development.sphinx.conf  file was generated successfully
-Howevr I am unable to get searches like: 
+Howevr I am unable to get searches like:
 
-User.search "pat*" 
+User.search "pat*"
 
 to work. It returns an empty array. Is this syntax incorrect?  is not the "*" what we use for a wildcard match for the sphinx query?
 
-Using Sphinx latest 0.9.8 
+Using Sphinx latest 0.9.8
 </div>
 
 <div class="comment-author">"pat":http://freelancing-gods.com left a comment on 13 Sep, 2008:</div>
@@ -469,7 +469,7 @@ franee: If you want to use just a single model, @ModelClass.search@. If you want
 <div class="comment">
 Hi
 
-does thinking sphinx work easily with has_many type relationships? For example, novels with many authors, and many publishers and many editions etc. 
+does thinking sphinx work easily with has_many type relationships? For example, novels with many authors, and many publishers and many editions etc.
 
 My app has a lot of join tables simply because of the nature of the data model. I've managed to get this working in acts_as_ferret, just curious if this degree of data model complexity is workable in TS.
 
@@ -501,9 +501,9 @@ So I have the following in the Forum model.
 define_index do
     indexes title
     indexes description
-    indexes topics.title, :as => :topic_title 
+    indexes topics.title, :as => :topic_title
     indexes topics.posts.title, :as => :post_title
-    indexes topics.posts.comment, :as => :comment 
+    indexes topics.posts.comment, :as => :comment
 end
 
 And in my controllers I use Forum.search search_string
@@ -636,7 +636,7 @@ this works well.
 Hi Pat,
 
 Thanks for the Wonderfull plugin.
-I need to filter search results on the bases of 'OR' condition.I have indexed Event model like : 
+I need to filter search results on the bases of 'OR' condition.I have indexed Event model like :
 
 Event--has many--EventUsers
 
@@ -647,9 +647,9 @@ define_index do
     has is_private, created_by
     has event_users(:id), :as => :event_ids
     has event_users.user_id, :as => :event_user_id
-    has event_users.status, :as => :event_user_status 
-end   
-</code> 
+    has event_users.status, :as => :event_user_status
+end
+</code>
 </pre>
 
 Now, I need to search somthing like
@@ -657,7 +657,7 @@ Now, I need to search somthing like
 <pre> <code> Event.search "something"</code> </pre>
 
 with following conditions
-<pre> 
+<pre>
    <code>
   :conditions => ['(events.starts_at >= ? and events.starts_at <= ?) AND ((events.is_private = 0 OR (events_users.user_id = ? AND events_users.status = ?)) or (events.created_by = ?))"]
    </code>
@@ -722,11 +722,11 @@ Hello All,
 I wanted to implement sphinx search.
 I have following models.
 
-Blog 
+Blog
 # post model has column "channel_feature_id"
 has_many :posts, :foreign_key => "channel_feature_id"
 ------
-Post 
+Post
  # Indexes for thinking sphinx
   define_index do
     indexes title
@@ -734,7 +734,7 @@ Post
     indexes body
     #indexes comments.body, :as => :comment_content
     # OPTIONAL: keeps search index uptodate
-    # First, add a boolean column to your model, named 'delta', and have it default to true. 
+    # First, add a boolean column to your model, named 'delta', and have it default to true.
     # Then uncomment following line.
     #set_property :delta => true
   end
@@ -751,7 +751,7 @@ In my search action i have
 
 blog.posts.published.search ( params[:search] )
 
-i dont know what is wrong 
+i dont know what is wrong
 i am getting following error
 
 Missing Attribute for Foreign Key channel_feature_id
@@ -809,9 +809,9 @@ It's just like what you would do with results from a call to @find@:
 
 <div class="comment">
 Hi,
-First appreciation for the great plugin. 
+First appreciation for the great plugin.
 
-Second a question. Is there any way with which I can create index specific to table name and not model names. 
+Second a question. Is there any way with which I can create index specific to table name and not model names.
 
 For some reason my model uses multiple table and based on some setting it changes the table name for that model. Now I want to index all these tables and search in the one referenced only. Is there any  way in TS that I can try to do it.
 
@@ -876,14 +876,14 @@ Otherwise, let's continue this conversation on the "Google Group":http://groups.
 <div class="comment-author">Yan left a comment on  8 Apr, 2011:</div>
 
 <div class="comment">
-Thank you. 
+Thank you.
 rake thinking_sphinx:index worked. But When I tried to start the sphinx, it gave me another error that it cannot start searchd daemon. I will post this in the google group.
 </div>
 
 <div class="comment-author">annu left a comment on 26 Aug, 2011:</div>
 
 <div class="comment">
-how to get the result of search aft entering the text in the textfield and clickin on search button i am usin sphinx and thinking sphinx 
+how to get the result of search aft entering the text in the textfield and clickin on search button i am usin sphinx and thinking sphinx
 i am done with following code
 i wann to search for the data from my articles db
  in my searchcontroller
@@ -895,7 +895,7 @@ define_index do
   indexes name, :sortable => true
     indexes description
     indexes title, :sortable => true
-  
+
     end
  def self.search(search)
   ThinkingSphinx::Search

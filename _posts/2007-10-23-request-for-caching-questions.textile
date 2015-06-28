@@ -1,6 +1,6 @@
 ---
 title: "Request for Caching Questions"
-redirect_from: "/posts/request_for_caching_questions"
+redirect_from: "/posts/request_for_caching_questions/"
 categories:
   - ruby
   - rails

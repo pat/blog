@@ -1,6 +1,6 @@
 ---
 title: "Better Gem Publishing with Gemcutter"
-redirect_from: "/posts/better_gem_publishing_with_gemcutter"
+redirect_from: "/posts/better_gem_publishing_with_gemcutter/"
 categories:
   - gemcutter
   - gems

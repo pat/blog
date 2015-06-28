@@ -1,6 +1,6 @@
 ---
 title: "Rails Camp UK Report"
-redirect_from: "/posts/rails_camp_uk_report"
+redirect_from: "/posts/rails_camp_uk_report/"
 categories:
   - barcamp
   - uk
@@ -68,7 +68,7 @@ Nice one Pat. Looks like it was an awesome weekend.
 <div class="comment-author">"Bumi":http://tumble.railslove.com left a comment on 29 Aug, 2008:</div>
 
 <div class="comment">
-Hey Pat! 
+Hey Pat!
 yeah, thanks for Railscamp UK! It was an `say awesome` camp!
 Hope to see you all at the camps in DK and/or DE! ;)
 </div>

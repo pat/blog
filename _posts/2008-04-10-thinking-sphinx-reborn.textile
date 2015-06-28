@@ -1,6 +1,6 @@
 ---
 title: "Thinking Sphinx Reborn"
-redirect_from: "/posts/thinking_sphinx_reborn"
+redirect_from: "/posts/thinking_sphinx_reborn/"
 categories:
   - plugins
   - search
@@ -82,7 +82,7 @@ Could you give the option for DISTINCT in GROUP_CONCAT?
 
 For example:
 
-CAST(GROUP_CONCAT(DISTINCT `vendor_details`.`group_id` SEPARATOR ' ') AS CHAR) 
+CAST(GROUP_CONCAT(DISTINCT `vendor_details`.`group_id` SEPARATOR ' ') AS CHAR)
 </div>
 
 <div class="comment-author">Chris Parker left a comment on 10 Apr, 2008:</div>
@@ -247,7 +247,7 @@ http://www.jedlinski.pl/blog/2008/07/12/thinking-sphinx-as-windows-service/
 
 <div class="comment">
 Hi, I would like to know if I can associate models that are not directly associated in the model where you specify the define_index. i:e
-in my model I have 
+in my model I have
 belongs_to :imageasset
 belongs_to :raider
 
@@ -269,7 +269,7 @@ Cheers
 <div class="comment-author">joren left a comment on 23 Oct, 2008:</div>
 
 <div class="comment">
-hi, 
+hi,
 
 i'm really loving this plugin but I stumbled on some small issues.
 Say I have a list of names, john, jon, jonn,...
@@ -352,13 +352,13 @@ I am an avid ultrasphinx user and stumbled on your plugin recently.  I have yet 
 
 Question for you - does thinking sphinx generate a single sphinx index, that contains multiple models (as ultrasphinx does), or does it actually create a separate index and source for each Active Record model?
 
-IE - in ultrasphinx, you get one index (besides delta), 'main', and in main there is fields added like class and class_id, so at the end of the configuration and indexing, you have one gigantic index, that contains all your data.  
+IE - in ultrasphinx, you get one index (besides delta), 'main', and in main there is fields added like class and class_id, so at the end of the configuration and indexing, you have one gigantic index, that contains all your data.
 
-To make sphinx and ultrasphinx work for our project we have had to hand modify the sphinx.conf file, and manually specify to sphinx which indexes to search.  We have 1.2 billion rows we are searching, so having things in a single index is not efficient.  
+To make sphinx and ultrasphinx work for our project we have had to hand modify the sphinx.conf file, and manually specify to sphinx which indexes to search.  We have 1.2 billion rows we are searching, so having things in a single index is not efficient.
 
 So, in asking you this I am just curious your approach on generating the actual index(es), as if ThinkingSphinx keeps them all separated per model, this would make deployment and maintenance much less for us.
 
-Thank you very much for your hard work!  
+Thank you very much for your hard work!
 </div>
 
 <div class="comment-author">"pat":http://freelancing-gods.com left a comment on 19 Nov, 2008:</div>

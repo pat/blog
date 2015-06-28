@@ -1,6 +1,6 @@
 ---
 title: "Searching with Sphinx on Heroku"
-redirect_from: "/posts/searching_with_sphinx_on_heroku"
+redirect_from: "/posts/searching_with_sphinx_on_heroku/"
 categories:
   - heroku
   - flying sphinx
@@ -33,14 +33,14 @@ I'm not going to get too caught up in the details of how to structure indices - 
 
 <pre><code>class User < ActiveRecord::Base
   # ...
-  
+
   define_index do
     indexes name, :sortable => true
     indexes location
-    
+
     has admin, created_at
   end
-  
+
   # ...
 end</code></pre>
 

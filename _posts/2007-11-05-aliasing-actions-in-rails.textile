@@ -1,6 +1,6 @@
 ---
 title: "Aliasing Actions in Rails"
-redirect_from: "/posts/aliasing_actions_in_rails"
+redirect_from: "/posts/aliasing_actions_in_rails/"
 categories:
   - ruby
   - rails

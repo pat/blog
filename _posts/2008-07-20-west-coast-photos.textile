@@ -1,6 +1,6 @@
 ---
 title: "West Coast Photos"
-redirect_from: "/posts/west_coast_photos"
+redirect_from: "/posts/west_coast_photos/"
 categories:
   - usa
   - travel

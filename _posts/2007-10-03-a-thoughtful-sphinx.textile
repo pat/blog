@@ -1,6 +1,6 @@
 ---
 title: "A Thoughtful Sphinx"
-redirect_from: "/posts/a_thoughtful_sphinx"
+redirect_from: "/posts/a_thoughtful_sphinx/"
 categories:
   - plugins
   - search

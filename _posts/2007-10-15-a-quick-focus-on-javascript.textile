@@ -1,6 +1,6 @@
 ---
 title: "A Quick Focus on Javascript"
-redirect_from: "/posts/a_quick_focus_on_javascript"
+redirect_from: "/posts/a_quick_focus_on_javascript/"
 categories:
   - javascript
   - html

@@ -1,6 +1,6 @@
 ---
 title: "Every Film Ever Made"
-redirect_from: "/posts/every_film_ever_made"
+redirect_from: "/posts/every_film_ever_made/"
 categories:
   - movies
   - comedy

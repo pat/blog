@@ -1,6 +1,6 @@
 ---
 title: "Postie - The Gem"
-redirect_from: "/posts/postie_the_gem"
+redirect_from: "/posts/postie_the_gem/"
 categories:
   - australia
   - postcodes
@@ -117,7 +117,7 @@ Thanks for the link.
 <div class="comment-author">Sandy left a comment on  1 Aug, 2008:</div>
 
 <div class="comment">
-Yeah, it took me a while to find.  Alot of people on the net are charging for similar packages.  This one has been compiled from a number of free sources, i've loaded everything into a table so i can query it.  What is the best approach to do the SQL finds on both suburb names and postcodes simultaneously, like with postie, how you can enter either postcode or enter a suburb and get back a result based on the data of two different columns?  Should you do a find by suburb and then a find by postcode and then combine unique results? 
+Yeah, it took me a while to find.  Alot of people on the net are charging for similar packages.  This one has been compiled from a number of free sources, i've loaded everything into a table so i can query it.  What is the best approach to do the SQL finds on both suburb names and postcodes simultaneously, like with postie, how you can enter either postcode or enter a suburb and get back a result based on the data of two different columns?  Should you do a find by suburb and then a find by postcode and then combine unique results?
 </div>
 
 <div class="comment-author">"pat":http://freelancing-gods.com left a comment on  2 Aug, 2008:</div>

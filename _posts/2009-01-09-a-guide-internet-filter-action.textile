@@ -1,6 +1,6 @@
 ---
 title: "A Guide : Internet Filter Action"
-redirect_from: "/posts/a_guide_internet_filter_action"
+redirect_from: "/posts/a_guide_internet_filter_action/"
 categories:
   - internet
   - politics
@@ -222,7 +222,7 @@ I'm going to try to meet up with Senator Faulkner - might be difficult, but that
 <div class="comment">
 Hi all,
 
-I'll organise a meeting with Michael Danby, my local member, within the next couple of weeks. Let me know if you're interested in coming along. 
+I'll organise a meeting with Michael Danby, my local member, within the next couple of weeks. Let me know if you're interested in coming along.
 
 Steve
 </div>

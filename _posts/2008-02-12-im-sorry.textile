@@ -1,6 +1,6 @@
 ---
 title: "I'm Sorry"
-redirect_from: "/posts/im_sorry"
+redirect_from: "/posts/im_sorry/"
 categories:
   - politics
   - reconciliation

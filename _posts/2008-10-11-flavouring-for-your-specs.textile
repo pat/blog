@@ -1,6 +1,6 @@
 ---
 title: "Flavouring For Your Specs"
-redirect_from: "/posts/flavouring_for_your_specs"
+redirect_from: "/posts/flavouring_for_your_specs/"
 categories:
   - rspec
   - versions
@@ -41,16 +41,16 @@ Next, you need to create a scenario file, outlining the different testing situat
 
 Ginger.configure do |config|
   config.aliases["active_record"] = "activerecord"
-  
+
   ar_1_2_6 = Ginger::Scenario.new
   ar_1_2_6[/^active_?record$/] = "1.15.6"
-  
+
   ar_2_0_2 = Ginger::Scenario.new
   ar_2_0_2[/^active_?record$/] = "2.0.2"
-  
+
   ar_2_1_1 = Ginger::Scenario.new
   ar_2_1_1[/^active_?record$/] = "2.1.1"
-  
+
   config.scenarios << ar_1_2_6 << ar_2_0_2 << ar_2_1_1
 end</code></pre>
 
@@ -59,7 +59,7 @@ I'm adding three different scenarios - one for each version of ActiveRecord I wa
 If you want, you can have multiple gem requirements for each scenario - @Ginger::Scenario@ is subclassed from @Hash@, so just add more key/value pairs as needed.
 
 <pre><code>sphinx_scenario = Ginger::Scenario.new
-sphinx_scenario["riddle"] = "0.9.8" 
+sphinx_scenario["riddle"] = "0.9.8"
 sphinx_scenario["thinking_sphinx"] = "0.9.8"</code></pre>
 
 And don't forget to add each scenario to @config@'s collection.

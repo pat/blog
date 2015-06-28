@@ -1,6 +1,6 @@
 ---
 title: "Filtering Trial Results"
-redirect_from: "/posts/filtering_trial_results"
+redirect_from: "/posts/filtering_trial_results/"
 categories:
   - politics
   - australia

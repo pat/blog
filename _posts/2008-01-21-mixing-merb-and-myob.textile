@@ -1,6 +1,6 @@
 ---
 title: "Mixing Merb and MYOB"
-redirect_from: "/posts/mixing_merb_and_myob"
+redirect_from: "/posts/mixing_merb_and_myob/"
 categories:
   - merb
   - myob

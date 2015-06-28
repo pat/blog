@@ -1,6 +1,6 @@
 ---
 title: "RailsCamp Reminder"
-redirect_from: "/posts/rails_camp_reminder"
+redirect_from: "/posts/rails_camp_reminder/"
 categories:
   - barcamp
   - railscamp

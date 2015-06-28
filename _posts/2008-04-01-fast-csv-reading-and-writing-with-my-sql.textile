@@ -1,6 +1,6 @@
 ---
 title: "Fast CSV reading and writing with MySQL"
-redirect_from: "/posts/fast_csv_reading_and_writing_with_my_sql"
+redirect_from: "/posts/fast_csv_reading_and_writing_with_my_sql/"
 categories:
   - mysql
   - sql
