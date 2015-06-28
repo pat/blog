@@ -24,17 +24,16 @@ class Search
     @results.empty().html('<li class="loading">Loading...</li>');
     @pagination.hide();
 
-    console.log "Searching for #{$('#query').val()} (page #{@page})"
-
-    @drumknott.search
-      query: $('#query').val(),
-      page:  @page
-    , @display
+    if $('#query').val().trim().length > 0
+      @drumknott.search
+        query: $('#query').val(),
+        page:  @page
+      , @display
+    else
+      @results.empty()
 
   display: (data) =>
     @results.empty();
-
-    console.log data
 
     for result in data.results
       $('#results').append("<li class=\"result\"><a href=\"#{result.path}\">#{result.name}</a></li>");
