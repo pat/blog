@@ -24,10 +24,10 @@
         </footer>
         <div class="next-posts">
           {% if page.previous %}
-          <p>Previous Post: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+          <p>Prior to this: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
           {% endif %}
           {% if page.next %}
-          <p>Next Post: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
+          <p>More recently: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
           {% endif %}
         </div>
       </article>
