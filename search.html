@@ -9,20 +9,12 @@ section: search
 <script type="text/javascript" src="http://drumknottsearch.com/drumknott-0.0.1.js"></script>
 
 <form id="search" method="GET" action="/search">
+  <span class="pagination"><a href="#previous" class="previous">&larr; Previous</a>&nbsp;</span>
   <input type="text" id="query" value="query" />
   <input type="submit" value="Search" />
+  <span class="pagination">&nbsp;<a href="#next" class="next">Next &rarr;</a></span>
 </form>
 
-<ul class="pagination">
-  <li class="previous"><a href="#previous">Previous Page</a></li>
-  <li class="next"><a href="#next">Next Page</a></li>
-</ul>
-
 <ul id="results" class="list"></ul>
-
-<ul class="pagination">
-  <li class="previous"><a href="#previous">Previous Page</a></li>
-  <li class="next"><a href="#next">Next Page</a></li>
-</ul>
 
 <script type="text/javascript" src="/javascripts/search.js"></script>

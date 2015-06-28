@@ -302,6 +302,40 @@ footer {
   color: rgba(#000, .5);
 }
 
+#search {
+  span, input {
+    float: left;
+  }
+
+  span {
+    min-width: 18%;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+
+  input[type="text"] {
+    width: 40%;
+    font-size: 16px;
+    font-family: 'Museo Sans', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  input[type="submit"] {
+    width: 18%;
+    margin-top: 0.3em;
+    margin-left: 2%;
+    font-size: 16px;
+    font-family: 'Museo Sans', Helvetica, Arial, sans-serif;
+  }
+
+  .next {
+    max-width: 100%;
+    min-width: 90%;
+    display: inline-block;
+    text-align: right;
+  }
+}
+
 .pagination {
   * {
     margin: 0 2px;
@@ -327,8 +361,12 @@ footer {
   margin: 1.5em 0;
 }
 
-#results li.loading {
-  font-family: 'Calluna Italic';
+#results {
+  clear: left;
+
+  li.loading {
+    font-family: 'Calluna Italic';
+  }
 }
 
 #god {
