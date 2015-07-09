@@ -20,7 +20,7 @@ A lot of the conversation centred around the plans underway for a referendum to 
 
 I'd picked up hints from following [Luke Pearson](https://twitter.com/LukeLPearson) on Twitter that not all Indigenous Australians support the change to the constitution, but I'd failed to read any further than that - so it was wonderful to have the panelists deepen my understanding of the issue.
 
-While the host Benson did not share his opinion, Meriki and Lidia both raised excellent arguments for voting No, and and Charles was very open about his hesitations around it as well. So much resonated, so here's a summary of my current opinion heavily influenced from the evening's discussions. Keep in mind, though, you're far better served [reading and listening to Indigenous Australians](http://www.voicesofthe3.net) on the matter.
+While the host Benson did not share his opinion, Meriki and Lidia both raised excellent arguments for voting No, and Charles was very open about his hesitations around it as well. So much resonated, so here's a summary of my current opinion heavily influenced from the evening's discussions. Keep in mind, though, you're far better served [reading and listening to Indigenous Australians](http://www.voicesofthe3.net) on the matter.
 
 A big part of the problem with any constitutional change comes down to the fact that Australia was invaded by the British, and thus have come to 'own' the country as a result of illegal occupation and genocide. Recognition in the constitution would further solidify the assumption that this land belongs to the British-established Australia.
 
