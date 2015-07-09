@@ -4,6 +4,7 @@ paginate: 20
 paginate_path: "/posts/:num/"
 gems:
   - jekyll-redirect-from
+  - jekyll-feed
 sass:
   sass_dir: styles
 defaults:
@@ -14,3 +15,8 @@ defaults:
     values:
       layout: "posts"
       section: "posts"
+name: Freelancing Gods
+url: http://freelancing-gods.com
+author:
+  name: Pat Allan
+  uri: http://freelancing-gods.com/about.html
