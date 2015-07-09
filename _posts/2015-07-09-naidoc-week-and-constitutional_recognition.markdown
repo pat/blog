@@ -8,6 +8,12 @@ categories:
   - politics
 ---
 
+Let me start with the same points I will finish with:
+
+* Read [Voices of the 3%](http://www.voicesofthe3.net/),
+* follow [IndigenousX](https://twitter.com/IndigenousX) and [Luke Pearson](https://twitter.com/LukeLPearson) on Twitter,
+* and support their worthy [crowdfunding campaign](http://startsomegood.com/IndigenousX).
+
 Earlier this week I attended a panel discussion at the Abbotsford Convent - the first in their new series of Convent Conversations. In line with the fact it is [NAIDOC Week](https://en.wikipedia.org/wiki/NAIDOC_Week), the discussion was titled [Indigenous Visionaries](http://abbotsfordconvent.com.au/whats-on/events-exhibitions/convent-conversations-indigenous-visionaries), with panelists Meriki Onus, Lidia Thorpe, and Charles Solomon, hosted by [Benson Saulo](https://twitter.com/bensonsaulo).
 
 A lot of the conversation centred around the plans underway for a referendum to recognise Aboriginal and Torres Strait Islander peoples in the Australian Constitution. There's a general assumption from progressive-minded people that voting Yes for this referendum is a Good Thing, but the points from the panel quickly disabused me of that.
