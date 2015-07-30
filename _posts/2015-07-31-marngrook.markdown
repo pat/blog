@@ -20,7 +20,7 @@ Even as an Australian, the perspective gained from reading this book is immensel
 
 That ignorance has been particularly present in Australian media and conversations this week, with the ongoing booing of Australian Rules footballer Adam Goodes finally being [widely decried as racist](http://www.afl.com.au/news/2015-07-27/fans-need-to-show-more-respect-for-goodes-says-jetta).
 
-While it has been affirming to see much of the AFL community to stand up and support Goodes, we still have mainstream media seeking opinion from their standard - and thus white - commentators. We still have racists being treated as victims. We still have Indigenous Australians being marked as uppity, as troublemakers, as sooks, all because they dare point out that racism exists in Australia.
+While it has been affirming to see much of the AFL community stand up and support Goodes, we still have mainstream media seeking opinion from their standard - and thus white - commentators. We still have racists being treated as victims. We still have Indigenous Australians being marked as uppity, as troublemakers, as sooks, all because they dare point out that racism exists in Australia.
 
 Waleed Aly addressed this so very well two months ago:
 
@@ -34,7 +34,7 @@ And later, about the initial limits to those due to where he grew up:
 
 > I felt that I had missed part of the experience because of my eyes, because my eyes were made in Baltimore, because my eyes were blindfolded by fear.
 
-My eyes were made in the predominantly white and middle class northern suburbs of Melbourne, and I still have to work hard to remove the blindfolds of that privilege and ignorance. Part of what I'm doing more and more to work through that is to listen to more Indigenous voices. All Australians should read [this article by Stan Grant](http://www.theguardian.com/commentisfree/2015/jul/30/i-can-tell-you-how-adam-goodes-feels-every-indigenous-person-has-felt-it) on Adam Goodes - and bring as much empathy as possible to the fore as you do so.
+My eyes were made in the predominantly white and middle class northern suburbs of Melbourne, and I still have to work hard to remove the blindfolds of that privilege and ignorance. Part of what I'm doing more and more to work through that is to listen to more Indigenous voices. *All* Australians should read [this article by Stan Grant](http://www.theguardian.com/commentisfree/2015/jul/30/i-can-tell-you-how-adam-goodes-feels-every-indigenous-person-has-felt-it) on Adam Goodes and what it's like to be an Indigenous Australian - and bring as much empathy as possible to the fore as you do so.
 
 Again, I'll spruik Luke Pearson's fantastic [IndigenousX](https;//twitter.com/IndigenousX) Twitter account as an excellent way to hear a variety of Indigenous Australian perspectives. Having a diversity of voices is essential for reducing racism, and following @IndigenousX has played a large part in stripping away some of my blindfolds. Please, if you think Australia needs more Indigenous voices, [donate to the crowdfunding campaign](http://startsomegood.com/indigenousx).
 
