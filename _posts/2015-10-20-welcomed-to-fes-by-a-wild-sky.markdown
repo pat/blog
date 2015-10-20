@@ -19,4 +19,4 @@ My driver hands my bag onto someone with a wheelbarrow outside the stunning Blue
 
 I check in to my riad and then step out onto their rooftop terrace - but night has fallen and the storm never got close to us. A shame, but that means there’s nothing stopping me stepping out into the medina again - once I’ve studied the map to get my bearings.
 
-(Cross-posted at [hi.co](https://hi.co/moments/2o4tytm5) as well)
+(Cross-posted at [hi.co](https://hi.co/moments/2o4tytm5) as well - the photo is much larger there!)
