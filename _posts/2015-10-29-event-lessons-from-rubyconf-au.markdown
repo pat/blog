@@ -49,7 +49,7 @@ We of course had a [Code of Conduct](http://rubyconf.org.au/2015/policies#code) 
 
 This was just a pre-paid SIM we purchased for this sole purpose, put into an old phone of mine that was always with a conference organiser over the course of event. Not only did we list this phone number on our website, but it was also on our badges - convenient and discreet.
 
-We also borrowed and tweaked [eurucamp's accessibility statement](http://eurucamp.org/accessibility/), making it clear that we were keen to remove as many barriers as possible for anyone considering attending. Feel free to take theirs [or ours](http://rubyconf.org.au/2015/accessibility) and do the same!
+We also borrowed and tweaked [eurucamp's accessibility statement](http://2014.eurucamp.org/accessibility/), making it clear that we were keen to remove as many barriers as possible for anyone considering attending. Feel free to take theirs [or ours](http://rubyconf.org.au/2015/accessibility) and do the same!
 
 One thing we didn't do, but I wish we did, was find some community regulars to be social hosts. For those who are new to the community, rocking up to a conference with 500 other people can be a daunting experience, and I'd love to have a few people wandering around, keeping an eye out for anyone looking lost or lonely, and say hello. Of course this happens organically, but formalising it wouldn't hurt. Having a conference buddy system could fill a similar need - something like what RailsConf in the US did this year with their [Guides](http://railsconf.com/scholarship).
 
