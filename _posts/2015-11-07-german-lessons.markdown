@@ -12,9 +12,9 @@ categories:
 <img src="/images/memory-void.jpg" alt="The Memory Void at the Jewish Museum in Berlin" />
 </figure>
 
-I first visited Berlin seven years ago in 2008. It was only for a week, but I left impressed with the city, knowing I'd visit again soon. Part of what impressed me was the frequent and public acknowledgements of Germany's darker past. I didn't hear any of the locals talk about such topics, but memorials for both the Holocaust and the Berlin Wall are both prominent, and to me it was a strong part of Berlin's vibe.
+I first visited Berlin seven years ago in 2008. It was only for a week, but I left impressed with the city, and certain I'd visit again soon. Part of what impressed me was the frequent and public acknowledgements of Germany's darker past. I didn't hear any of the locals talk about such topics, but memorials for both the Holocaust and the Berlin Wall are both prominent, and to me it was a strong part of Berlin's vibe.
 
-I still love Berlin - it remains my second-favourite city in the world after Melbourne - and I have returned several times. Right now, I'm back again with friends, both of whom have not visited this fine city before. What's that meant is that I'm getting to revisit some of those memorials, and visit others for the first time myself.
+I still love Berlin - it remains my second-favourite city in the world after Melbourne - and I have returned several times. Right now, I'm back again with friends, both of whom have not visited this fine city before. What that has meant is that I'm getting to revisit some of those memorials, and visit others for the first time myself.
 
 Today, we spent a few hours at the Jewish Museum, which is filled with haunting reminders of how badly people can treat each other. Certainly, the focus is (rightly) on the atrocities meted on the European Jewish community, but I was also struck by some parallels closer to home.
 
