@@ -11,7 +11,7 @@ In many ways, I struggle to enjoy Christmas. The way it gets everywhere is more 
 
 Of course, there are other frustrating elements - the crowds, the extra-busy calendar, the commercialism - but it's the incessant carols that I probably struggle with the most.
 
-Which is a little odd, because I love music *so* much: it can lift my spirits, it can give me energy, it can move me to tears. It is food for my soul. Or, as [Matt Wicking](https://twitter.com/mattwicking) simply said at the recent [Purpose](http://purpose.do) conference, music is magic.
+Which is a little odd, because I love music *so* much: it can lift my spirits, it can give me energy, it can move me to tears. It is food for my soul. Or, as [Matt Wicking](https://twitter.com/mattwicking) simply said at the recent [Purpose](http://purpose.do) conference: music is magic.
 
 I was very lucky to grow up with a great and varied musical education. I played a few instruments whilst at school (first piano, then percussion, then clarinet/bass clarinet/tenor saxophone), and my dad's music collection and passion provided a solid grounding in both new and old classics.
 
@@ -33,9 +33,9 @@ That context should help to explain why it was such a special surprise that inst
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I thought A Swingin’ Bella Christmas couldn’t get any better. I was wrong. <a href="https://twitter.com/paulkelly">@paulkelly</a> just sung How to Make Gravy ️ <a href="https://t.co/0tmy3KivAD">pic.twitter.com/0tmy3KivAD</a></p>&mdash; Pat Allan (@pat) <a href="https://twitter.com/pat/status/679243070315954176">December 22, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-A high bar was set in the first half of the gig, but things got even better after the intermission - all performers returned for more songs, and the added audience participation for the classic carols increased the fun. Then, to bring the evening to a close, Tripod, Eddie Perfect, and Paul Kelly combined to sing *Meet Me in the Middle of the Air* a cappella - a song originally by Paul Kelly, but also [regularly performed by Tripod and Perfect](https://www.youtube.com/watch?v=aJ2Okj9dCp0). This was the first time all five had sung the song together!
+A high bar was set in the first half of the gig, but things got even better after the intermission - all performers returned for more songs, and the added audience participation for the classic carols increased the fun. Then, to bring the evening to a close, Tripod, Eddie Perfect, and Paul Kelly combined to sing *Meet Me in the Middle of the Air* a cappella - a song originally by Paul Kelly, but also [regularly performed by Tripod and Perfect](https://www.youtube.com/watch?v=aJ2Okj9dCp0). Much like the aforementioned performance of *I Am the Antichrist to You*, the room fell silent to immerse themselves in the beauty of the moment.
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">a proper life highlight this year. Best Christmas ever. <a href="https://t.co/wJ07l6CBYW">https://t.co/wJ07l6CBYW</a></p>&mdash; Tripod Actual (@TripodActual) <a href="https://twitter.com/TripodActual/status/679432292821917697">December 22, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The best moment of the night. Paul Kelly was an arms length away but I had to close my eyes &amp; let it wash over me <a href="https://t.co/Ugz918TvYd">https://t.co/Ugz918TvYd</a></p>&mdash; Jessica Walton (@JessHealyWalton) <a href="https://twitter.com/JessHealyWalton/status/679274391834787840">December 22, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Even if I had attended this gig alone, it would have been a brilliant night. However, I was lucky enough to have several dear friends join me. None had attended A Swingin' Bella Christmas before, and all adored the evening - which made the experience all the more magnificent. A perfect final gig for the year.
 
