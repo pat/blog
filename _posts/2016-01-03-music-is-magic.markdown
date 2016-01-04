@@ -13,7 +13,9 @@ Of course, there are other frustrating elements - the crowds, the extra-busy cal
 
 Which is a little odd, because I love music *so* much: it can lift my spirits, it can give me energy, it can move me to tears. It is food for my soul. Or, as [Matt Wicking](https://twitter.com/mattwicking) simply said at the recent [Purpose](http://purpose.do) conference: music is magic.
 
-I was very lucky to grow up with a great and varied musical education. I played a few instruments whilst at school (first piano, then percussion, then clarinet/bass clarinet/tenor saxophone), and my dad's music collection and passion provided a solid grounding in both new and old classics.
+<hr />
+
+I was very lucky to grow up with a great and varied musical education. I played a few instruments whilst at school (first piano, then percussion, then clarinet/bass clarinet/tenor saxophone), and my dad's music collection and passion for sharing songs from it provided a solid grounding in both new and old classics.
 
 My youngest brother and I have ended up with very similar tastes in music - which means we regularly introduce each other to new artists and also often attend gigs together. We discovered Jupiter One when they supported Regina Spektor on her Australian tour back in 2010, and our interest followed on to lead singer K Ishibashi's next musical project where he's known as Kishi Bashi.
 
@@ -22,6 +24,8 @@ My youngest brother and I have ended up with very similar tastes in music - whic
 I've been playing Kishi Bashi's gorgeous *String Quartet Live!* album a lot over the last few months. One of the highlights is *I Am the Antichrist to You* ([iTunes](https://itun.es/au/rKja-?i=1040226592), [Spotify](http://open.spotify.com/track/0nrFYfYE0BXVWQ9gm4a7Ne)) - it's a stunning rendition in and of itself, but I especially love that once it wraps up, the crowd is silent, soaking up what they've just witnessed before applauding wildly. The specialness of the moment is recognised by Kishi Bashi: "This is incredible, you guys are really, really, really listening."
 
 While I was in the US last year, I deliberately swung by Atlanta just to see Kishi Bashi perform - and it was a superb gig, as well as being a perfect way to wrap up an amazing birthday week. However, my favourite concert of 2015 - perhaps surprisingly - is all about Christmas...
+
+<hr />
 
 [Casey Bennetto's](https://twitter.com/caseybennetto) yearly *Swingin' Bella Christmas* gigs at the [Bella Union](http://www.bellaunion.com.au) are something rather special. Casey, [Geraldine Quinn](https://twitter.com/geraldinequinn) and the Bella Union All-Stars perform a mixture of their own smart and witty Christmas songs, and they also perform some standard carols, albeit with fun and funny twists. This description doesn't come anywhere close to capturing the riotous fun of the event, but trust me, these concerts are the best thing about Christmas.
 
@@ -37,6 +41,4 @@ A high bar was set in the first half of the gig, but things got even better afte
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">The best moment of the night. Paul Kelly was an arms length away but I had to close my eyes &amp; let it wash over me <a href="https://t.co/Ugz918TvYd">https://t.co/Ugz918TvYd</a></p>&mdash; Jessica Walton (@JessHealyWalton) <a href="https://twitter.com/JessHealyWalton/status/679274391834787840">December 22, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Even if I had attended this gig alone, it would have been a brilliant night. However, I was lucky enough to have several dear friends join me. None had attended A Swingin' Bella Christmas before, and all adored the evening - which made the experience all the more magnificent. A perfect final gig for the year.
-
-Is the fact that I love a Christmas concert so much a Christmas miracle? Music, truly, is magic.
+Even if I had attended this gig alone, it would have been a brilliant night. However, I was lucky enough to have several dear friends join me. None had attended A Swingin' Bella Christmas before, and all adored the evening - which made the experience all the more magnificent. A perfect, magical final gig for the year.
