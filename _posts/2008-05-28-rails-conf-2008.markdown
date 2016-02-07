@@ -1,0 +1,31 @@
+---
+title: "RailsConf 2008"
+redirect_from: "/posts/rails_conf_2008/"
+categories:
+  - twitter
+  - railsconf
+  - portland
+  - ruby
+  - rails
+---
+I’ve just started my round-the-world conferences-and-holiday adventure,
+and the first stop is RailsConf in Portland - so if you’re in town and
+see me wandering around looking rather cluelessly, please say hi.
+
+Also, in case you’re on the Twitter bandwagon, you’ll find me with the
+creative nickname of [pat](http://twitter.com/pat).
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+<a href="http://blog.admoolabs.com">Christopher Rigor</a> left a comment
+on 29 May, 2008:</div>
+
+<div class="comment" markdown="1">
+Hey Pat, nice to have met you. Your round-the-world adventure sounds
+exciting.
+
+</div>
+</div>
+

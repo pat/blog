@@ -1,0 +1,14 @@
+---
+title: "Sphinx 0.9.8r1065"
+redirect_from: "/posts/sphinx_098r1065/"
+categories:
+  - plugins
+  - search
+  - sphinx
+  - ruby
+  - rails
+---
+Short post, as befitting the importance of the content:
+[Riddle](http://riddle.freelancing-gods.com) and [Thinking
+Sphinx](http://ts.freelancing-gods.com) have both been updated to
+support the current version of Sphinx, 0.9.8r1065.

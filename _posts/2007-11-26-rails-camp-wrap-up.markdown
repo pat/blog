@@ -1,0 +1,46 @@
+---
+title: "RailsCamp Wrap-up"
+redirect_from: "/posts/rails_camp_wrap_up/"
+categories:
+  - barcamp
+  - railscamp
+  - ruby
+  - rails
+  - melbourne
+  - australia
+---
+[RailsCamp 2.0](http://railscamp07.org) finished earlier today - and I
+think it’s safe to declare it a fantastic success (even given my bias).
+
+Massive thanks to Ben and Karen for their hard work getting everyone fed
+and co-ordinating people in the kitchen (and the RailsCamp bus from
+Melbourne to Sunnystones). Thanks too to everyone who helped at various
+points - both in the organising and over the weekend.
+
+Finally, thank you to everyone who came along - these camps are so much
+fun because of the calibre of people who attend, and their willingness
+to share ideas, code and laughs.
+
+Will be posting a version of my talk at some point soon… once I’ve
+recovered from the weekend.
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+<a href="http://lachstock.com.au">Lachlan Hardy</a> left a comment on 26
+Nov, 2007:</div>
+
+<div class="comment" markdown="1">
+It was an incredible weekend, huh?
+
+Thank you for all your efforts, Pat. Without you, it wouldn’t have
+happened. And without your presentation, we wouldn’t have finished on
+such a publically deep communal note (not discounting all the crazy deep
+conversations at 4am, of course)
+
+Thanks for making such awesomeness happen!
+
+</div>
+</div>
+

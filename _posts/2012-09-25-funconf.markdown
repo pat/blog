@@ -1,0 +1,221 @@
+---
+title: "Funconf"
+redirect_from: "/posts/funconf/"
+categories:
+  - funconf
+  - ireland
+  - adventure
+  - trust
+  - conference
+  - community
+---
+This could be a story about a mystery. Or it could be an adventure. Or
+even a tale of learning and sharing. But ultimately, it really comes
+down to friendship and trust.
+
+<img src="http://freelancing-gods.com/images/badge.jpg" alt="Gaelic Badges">
+
+Ah, but where to start? Well, if we look back several years, it starts
+with my good friend [James Healy](http://www.yob.id.au), introducing me
+to a programming language called Ruby. That led me to the Australian
+Ruby community and the very first [Rails Camp](http://railscamps.com)
+just outside Sydney, where I met [Matt Allen](). A year later, [Matt
+Allen](https://twitter.com/mattallen) introduced me to [Geoffrey
+Grosenbach](https://twitter.com/topfunky) at RailsConf in Portland,
+Oregon. A few months later, I found myself in Berlin, where through
+Geoffrey I met [Paul Campbell](https://twitter.com/paulca) of Dublin.
+
+And then I met Paul again in Las Vegas, London, Amsterdam, Margate (for
+another Rails Camp), Berlin, and then finally in his home city of Dublin
+last year. I now consider myself lucky to call Paul a good friend, and
+have also had the pleasure of occasionally working with him.
+
+Paul is a man with grand ideas, and one of those is an event he and
+fellow Dubliner [Eamon Leonard](https://twitter.com/eamonleonard)
+concocted called Funconf. Every year as Paul put it together, I would
+consider travelling around the world to attend, but it just didn’t work
+out. This year, though, Paul told me the third Funconf would also be
+last - and so I became determined to be there for it. There were other
+events in in the same corner of the world I have been keen to see as
+well, thus it became something of a tour - four months travelling around
+Europe. Let’s be clear: from the beginning, Funconf was always one of
+the main reasons for the trip.
+
+But what was I travelling over to be a part of? I knew that it was a
+conference - well, kind of: there would be some talks, close enough. And
+it’s a tech crowd that attends, so it’s work related at a stretch. But
+beyond that, Paul & Eamo weren’t talking.
+
+When tickets were finally released, the website, [gorgeous though it
+was](http://2012.funconf.com), didn’t shed any light. All it asked was
+one question: “Do you trust us?”
+
+My answer was always going to be yes.
+
+Even after handing over a not inconsiderable amount of Euros to secure
+my place, few answers were forthcoming. Food and beds would be covered,
+but there was no clues as to where those beds would be, let alone what
+food we would be eating.
+
+So I waited patiently, and began upon my travels. I attended
+conferences, I wandered through beautiful European cities, and I caught
+up with many friends along the way.
+
+And finally, I arrived in Dublin at the end of August, still clueless as
+to what was to come. I wasn’t alone though - about a hundred others had
+come from across the globe. Most had been to previous editions of
+Funconf, but they were no more enlightened than I.
+
+We met on Friday morning at a hotel in Dublin - some of us sporting a
+bit more facial hair than normal, after some tweets from Paul & Eamo -
+and found ourselves in a situation that felt very conference-like. There
+was a registration desk, hotel-catered breakfast, and a room with
+lecture-style seating and a PowerPoint presentation ready to go. This
+wasn’t what we expected! Werner Vogels, CTO of Amazon, was our morning’s
+speaker, and the talk was, well, just like any run of the mill
+conference.
+
+We were being trolled. Or, as we’d say in Australia, Paul & Eamo were
+taking the piss.
+
+Then, things started to get interesting. We grabbed our bags and were
+herded onto three big, black limousine party buses (a reference to
+Funconf 1) and with three shiny Deloreans (a reference to Funconf 2), we
+were escorted by local police to Heuston Train Station.
+
+The mode of transport stakes were quickly raised - because we were then
+asked to board a train booked just for us, with the destination being
+Galway, on the other side of Ireland.
+
+<img src="http://freelancing-gods.com/images/funconf-train.jpg" alt="Next stop: Galway" />
+
+Of course, this was just one piece of the puzzle - what was to come once
+we arrived in Galway had yet to be revealed. That didn’t bother us much:
+we all revelled in the experience of the train trip, catching up with
+old friends and making new ones.
+
+Buses - though nothing fancy this time - took us from the station to
+another hotel. Again, it was quickly clear that this wasn’t out main
+destination either as we were led into another function room. This time
+around, there were no PowerPoint slides, for we were the main
+attraction: an open mic and an invitation to talk for a few minutes on
+topics of our choosing.
+
+While most got an opportunity to share - in some cases, more than once -
+others missed out: as the ideas flowed, Paul was taking a token or so
+people out of the room at regular intervals, and they weren’t returning.
+Slowly but surely, the numbers thinned until there were fifteen of us
+left. If I had been keeping an eye on Twitter, I would have known what
+was happening - but thankfully, I didn’t catch any of the spoilers. The
+penny dropped when we grabbed our bags and were led through the back
+streets of Galway to find helicopters waiting.
+
+Helicopters!
+
+<a href="http://www.flickr.com/photos/freelancing_god/7901050640/" title="Helicopters!"><img src="http://farm9.staticflickr.com/8322/7901050640_2cea40127e.jpg" width="500" height="373" alt="Helicopters!"></a>
+
+And so, we arrived in grand style at our actual destination, Inis Mór of
+the Aran Islands (just off the west coast of Ireland).
+
+All this, and it’s just the journey to get us where Funconf was taking
+place - the support act, if you like. Of course, with Paul & Eamo
+planning, the journey is as important as every other aspect of the
+event.
+
+From there, it was a matter of collecting our amazingly crafted badges
+(thanks [Kilian](https://twitter.com/kilmc!)) and bags (thanks Kilian’s
+mum!), settling into a bed & breakfast, and then wandering across the
+island in search of food, drink and friends.
+
+Arriving on Inis Mór marked a change of pace: not only had we reached
+the event location (if an entire island counts as such), but part of the
+mystery of Funconf had been revealed. A large question mark still
+hovered, though: we had no idea what the next day would contain.
+
+But we would have to wait until the morning for that. Friday evening was
+set aside for dinner and socialising - a fine way indeed to bring to a
+close such a uniquely wonderful day.
+
+And once Saturday morning arrived, the rest of Funconf was revealed -
+well, to some extent. We had our venues: the local church, a nearby
+hall, a pub; and we had a schedule of when to be at each. The specifics
+of what would happen in each location was only divulged when required.
+
+Those specifics, for the most part, were talks, and very good ones. None
+were technical, all were interesting, and they were generally stories or
+ideas. I shan’t recount each at length, as I would not do them justice
+(and, well, you had to be there), but my two favourites were [Michael
+Lopp](http://www.randsinrepose.com) and [Tom
+Preston-Werner](http://tom.preston-werner.com) (known as
+[`rands":https://twitter.com/rands and "`mojombo](https://twitter.com/mojombo),
+respectively). Fittingly, the focus for both was the topic of trust.
+
+But beside the talks? Well, some of us visited the imposing cliff ruins
+of Dún Aonghasa, some of us got drenched riding bicycles in the rain
+(and some of us did both), but throughout there was a constant hum of
+socialising. While the talks were top notch, I can say with some
+certainty that the main reasons everyone came to Funconf were the people
+and adventure.
+
+The evening brought with it a clever talk from [Derek
+Sivers](http://sivers.org), a rocking performance by
+[Kíla](http://www.kila.ie), and much partying - but all too soon, it was
+Sunday morning and time for us to board the ferry back to the mainland.
+A subdued ferry ride was followed by buses, and then another private
+train returning us to Dublin in time for the BBQ after-party.
+
+And just like *that*, Funconf 3 was finished. A grand success indeed,
+and perhaps it’s for the best that there will not be another one - for
+I’ve no idea how Paul & Eamo could top that, plus it makes my experience
+all the more special, shared with such a superb group of fellow
+adventurers.
+
+Paul, Eamon: thank you ever so much. I have no regrets for putting my
+trust in both of you, for it was a brilliantly crafted weekend.
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+<a href="http://pabcas.com">Paul Campbell</a> left a comment on 26 Sep,
+2012:</div>
+
+<div class="comment" markdown="1">
+Thanks Pat.
+
+It was so much our pleasure to have you.
+
+—P
+
+</div>
+<div class="comment-author">
+<a href="http://eamo.net">Eamo</a> left a comment on 26 Sep, 2012:</div>
+
+<div class="comment" markdown="1">
+Pat, thanks for trusting us :)
+
+Eamo
+
+</div>
+<div class="comment-author">
+<a href="https://peepcode.com">Geoffrey Grosenbach</a> left a comment on
+26 Sep, 2012:</div>
+
+<div class="comment" markdown="1">
+I’m glad to have been the one who introduced you to Paul! I met him on a
+48 hour trip to Dublin thanks to Dr. Ana Nelson. Was she there too?
+
+</div>
+<div class="comment-author">
+<a href="http://freelancing-gods.com">pat</a> left a comment on 26 Sep,
+2012:</div>
+
+<div class="comment" markdown="1">
+Heya Geoff - I don’t think Ana was there, though Paul would know for
+sure.
+
+Don’t suppose we’ll be catching you at Rails Camp in a couple of months?
+
+</div>
+</div>
+

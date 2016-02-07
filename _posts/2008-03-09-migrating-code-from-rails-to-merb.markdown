@@ -1,0 +1,110 @@
+---
+title: "Migrating Code from Rails to Merb"
+redirect_from: "/posts/migrating_code_from_rails_to_merb/"
+categories:
+  - ruby
+  - rails
+  - merb
+---
+Here’s a collection of notes made while I was working on migrating this
+blog from [Rails](http://rubyonrails.com/) to
+[Merb](http://merbivore.com/) (no, the Merb version isn’t live yet).
+These are relevant to version 0.5.2 - but Merb’s moving so fast these
+days, I wouldn’t be surprised if much of this isn’t relevant any more.
+
+Most of this you can find if you look through the documentation, but if
+you’ve not yet played with Merb, this will hopefully give you some idea
+of some of the smaller differences.
+
+### Filters
+
+-   Use `before` and `after` instead of `before_filter` and
+    `after_filter`
+-   Instead of `:except`, use `:exclude`.
+-   To kill the chain of filters and not follow on to the action method,
+    you need to use the `throw` method:
+
+<!-- -->
+
+    def confirm_user_session
+      throw :halt, Proc.new { |controller|
+        controller.redirect url(:new_session)
+      } if current_user.nil?
+    end
+
+Oh, and in case you missed it in the above sample, `redirect_to` becomes
+`redirect`.
+
+### Routes
+
+Resource routing isn’t actually any different to Rails - but I had
+trouble finding any documentation for it, so it wasn’t obvious to start
+with. This code will work in both Merb and Rails (although in Rails `r`
+is usually referenced as `map`)
+
+    r.resources :posts do |post|
+      post.resources :comments
+    end
+
+However, using these routes is definitely different. The `url_for`,
+`route_url` and `route_path` methods aren’t around - you need to use
+Merb’s magical `url` method:
+
+    url(:post, @post@)
+    url(:new_session)
+
+### View Helpers
+
+Helpers are pretty minimal in Merb - you don’t get any of the
+inflectors, or the number formatters. And no form helpers - not in the
+core gem, anyway. You can get some of those from the `merb_helpers` gem,
+but they don’t match Rails’ syntax and method naming, so it can take a
+bit of time to get this switched over, depending on the size of your
+app.
+
+No support for Form Builders in that gem, by the way.
+
+Some of the default helpers that do exist have different names to their
+Rails counterparts. A few of the ones I came across:
+
+-   `content_tag` =&gt; `tag`
+-   `tag` =&gt; `open_tag`
+-   `content_for` =&gt; `throw_content`
+-   `javascript_include_tag` =&gt; `js_include_tag`
+-   `stylesheet_include_tag` =&gt; `css_include_tag`
+
+### All your favourite plugins
+
+Because Merb plugins are gems, anything you use as a plugin in Rails is
+pretty unlikely to be ported over.
+[will\_paginate](http://errtheblog.com/posts/56-im-paginating-again) was
+the main one for me, so I ended up pulling the files into my lib
+directory. Of course, that was only really useful when using
+ActiveRecord - DataMapper and Sequel users may have to get hacking into
+any ActiveRecord-focused plugins they want to use.
+
+### Partials
+
+No more `render :partial` - you want something more like the following:
+
+    partial "comments/show", :with => @post.comments.active
+    partial "post", :with => @posts, :as => :post
+
+Again - you’ll find most/all of this in the documentation, but the only
+potential show-stopper I found was plugins - the rest isn’t that that
+big a difference to Rails.
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+<a href="http://drnicwilliams.com">Dr Nic</a> left a comment on 9 Mar,
+2008:</div>
+
+<div class="comment" markdown="1">
+BTW, Merb bundle for TM coming along at
+http://github.com/drnic/merb-tmbundle/tree/master
+
+</div>
+</div>
+

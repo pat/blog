@@ -1,0 +1,92 @@
+---
+title: "2007"
+redirect_from: "/posts/2007/"
+categories:
+  - meta
+  - politics
+  - railscamp
+  - travel
+  - ruby
+  - rails
+  - discworld
+---
+<a href="http://www.sinfest.net"><img class="breaker" src="http://assets.freelancing-gods.com/images/sinfest_20080101.gif" alt="Sinfest comic for New Year's Day" /></a>
+
+I don’t want to bore you all with an extensive recap of 2007, so I’ll
+keep this footnote of the last year’s highlights relatively brief.
+
+### [Nullus Anxietas](http://ausdwcon.org)
+
+After a few years planning, we produced the first Australian (and
+non-UK) Discworld Convention in February - and it was a smashing
+success. A few hundred attendees, dozens of sessions, a load of fun. We
+even made a small profit (which is rare for fan conventions) - and we
+proved the doubters wrong.
+
+### Rails and Freelancing
+
+I began the year by switching jobs and finally getting paid to work with
+Ruby on Rails. Halfway through the year, I started freelancing. I’m
+really enjoying working from home, on my Mac, using tools and a
+programming language I enjoy. After far too long wrangling with ASP and
+ASP.NET, coding is fun again.
+
+### RailsCamps
+
+As part of working with Rails, I’ve become involved in the [local Ruby
+communities](http://www.rubyonrails.com.au) here in Australia. Through
+this, there’s been two awesome [RailsCamps](http://railscamp07.org) (and
+massive props to Ben Askins for leading the way with the first, and
+helping so generously with the second), and I’ve met a bunch of smart,
+friendly folk. Networking has become socialising.
+
+### Change
+
+The last of my siblings has finished their secondary schooling. My
+sister’s moving to another state. I’m posting regularly to this blog.
+Howard’s out - and not much longer to put up with Bush. Climate change
+is being taken seriously by many governments. There will be a proper
+apology to the indigenous people of Australia.
+
+### What’s next?
+
+For me, 2008 is looking to be a year of travel - to New Zealand for a
+holiday in a few weeks, and then to Portland for
+[RailsConf](http://en.oreilly.com/rails2008/public/content/home), UK and
+Cambodia to visit friends (and in the case of the former, check out the
+Edinburgh Fringe Festival), and stops to New York and Istanbul will
+likely feature in there as well.
+
+Freelancing will continue to be challenging as my first big contract
+ends and I look for new ones, and there’s already plans for more
+RailsCamps and a second Discworld Convention. I’m looking forward to all
+of it.
+
+Endless thanks to my family, friends and peers for their support over
+the past twelve months - you’re all brilliant.
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+<a href="http://evilwillowmademedoit.blogspot.com/">Jess Healy</a> left
+a comment on 19 Feb, 2008:</div>
+
+<div class="comment" markdown="1">
+Yeah 2007 was an awesome year, full of personal change for a lot of
+people I know, and full of political change too. Something that’s
+changed from 2007 to 2008 for me is that my skepticism about Rudd has
+given way to a grudging and wary respect. I’d even say I feel cautiously
+optimistic about the guy. Wierd.
+
+</div>
+<div class="comment-author">
+<a href="http://evilwillowmademedoit.blogspot.com/">Jess</a> left a
+comment on 19 Feb, 2008:</div>
+
+<div class="comment" markdown="1">
+Oh and nice comic strip. Made me smile.
+
+</div>
+</div>
+

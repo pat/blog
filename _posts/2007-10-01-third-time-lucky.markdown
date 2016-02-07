@@ -1,0 +1,67 @@
+---
+title: "Third Time Lucky"
+redirect_from: "/posts/third_time_lucky/"
+categories:
+  - meta
+  - blogs
+---
+Right, [here we go again](http://www.youtube.com/watch?v=pv5zWaTEVkI).
+Third time lucky.
+
+That is, this is my third attempt at blogging. Hopefully it’ll last
+longer and be more frequent than the last two tries. We’ll just have to
+wait and see.
+
+Massive thanks to [Aesthetically Loyal](http://aestheticallyloyal.com)
+for the design of this site - it’s made life much easier with getting
+this all online, and it’s a nice change to be actually satisfied with
+the design of a website I’ve coded. (My ego’s not as bad as the header
+image or domain name might suggest, by the way. Honest.)
+
+Anyway, stay tuned for a few more blog posts - mainly Rails-related to
+start with (I’ve got a few plugins sitting around that deserve a post or
+two), as well as an updated header image.
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+<a href="http://germanforblack.com">Ben Schwarz</a> left a comment on 2
+Oct, 2007:</div>
+
+<div class="comment" markdown="1">
+Nice one Pat. Site is looking really good.  
+Looking forward to seeing some of those plugins being released.
+
+</div>
+<div class="comment-author">
+<a href="http://www.aestheticallyloyal.com">Anthony Kolber</a> left a
+comment on 3 Oct, 2007:</div>
+
+<div class="comment" markdown="1">
+Nice one Pat, site’s looking good.  
+Well implemented.
+
+</div>
+<div class="comment-author">
+<a href="http://germanforblack.com">Ben Schwarz</a> left a comment on 3
+Oct, 2007:</div>
+
+<div class="comment" markdown="1">
+How come you didn’t use permalinks for your urls? That could really help
+SEO
+
+</div>
+<div class="comment-author">
+<a href="http://freelancing-gods.com">pat</a> left a comment on 3 Oct,
+2007:</div>
+
+<div class="comment" markdown="1">
+Thanks guys
+
+As for permalinks - it’s on my list of things to do (as is fixing the
+tab order for this form).
+
+</div>
+</div>
+

@@ -1,0 +1,119 @@
+---
+title: "Backing up with Backup"
+redirect_from: "/posts/backing_up_with_backup/"
+categories:
+  - backup
+  - ruby
+  - cloud
+---
+I’ve found myself singing the praises of Michael van Rooijen’s
+[backup](https://github.com/meskyanichi/backup/) gem twice in quick
+succession lately - and so, I just want to run through how I’m using it,
+and how useful I find it.
+
+For those not familiar with it, Backup provides a neat DSL for creating
+backup scripts with archiving files and databases through to common data
+stores (S3, Rackspace, SFTP, etc), with notifications via email,
+Campfire and others. If you want a rundown of all the options, click the
+link above - there’s quite a few. I’m using the gem to make sure all
+critical data for [Flying Sphinx](http://flying-sphinx.com) is stored in
+multiple locations - and particularly, with different providers.
+
+The documentation’s pretty solid, so I won’t keep you long, but here’s
+two examples. First up, here’s my script for copying an archive of
+essential files (including a SQLite database) off to Ninefold - with the
+private details changed:
+
+    Backup::Model.new(:database_backup, "Database Backup") do
+      archive :oedipus do |archive|
+        archive.add '/mnt/sphinx/oedipus'
+      end
+
+      compress_with Gzip do |compression|
+        compression.best = true
+      end
+
+      store_with Ninefold do |nf|
+        nf.storage_token  = 'STORAGE_TOKEN'
+        nf.storage_secret = 'STORAGE_SECRET'
+        nf.path           = "oedipus/#{`hostname`.strip}"
+        nf.keep           = 20
+      end
+
+      notify_by Mail do |mail|
+        mail.on_success = true
+        mail.on_failure = true
+
+        mail.from      = 'support-at-flying-sphinx'
+        mail.to        = 'pat-at-freelancing-gods'
+        mail.address   = 'smtp.sendgrid.com'
+        mail.user_name = 'SMTP_USER_NAME'
+        mail.password  = 'SMTP_PASSWORD'
+      end
+    end
+
+For the above, I added Ninefold support to Backup, and Michael was kind
+enough to merge my commits in.
+
+For my next script, though, I’m syncing directories to both S3 (in
+Singapore) and Rackspace (in the UK). The current releases of Backup
+don’t support syncing to Rackspace - but I ended up taking inspiration
+from fellow Melburnian Ryan Allen’s [Sir
+Sync-a-Lot](https://github.com/ryan-allen/sir-sync-a-lot) and rewrote
+the S3 support with his bulk MD5 approach. The code was simple enough -
+thanks to Wesley Beary’s excellent [Fog](https://github.com/fog/fog) -
+so I adapted the code to handle Rackspace as well.
+
+However, I’ve not written tests for this, and my code does not yet
+support mirroring - so, I’ve not yet provided a patch back to Michael.
+If you want to use my code, [feel
+free](https://github.com/freelancing-god/backup) - but I will get to
+submitting a proper patch soon.
+
+All that said, here’s the script:
+
+    Backup::Model.new(:volume_backup, "Sphinx Backup") do
+      sync_with S3 do |s3|
+        s3.access_key_id      = 'ACCESS_KEY'
+        s3.secret_access_key  = 'SECRET_KEY'
+        s3.bucket             = "fs-#{`hostname`.strip}-sync"
+        s3.region             = 'ap-southeast-1'
+        s3.path               = ''
+        s3.mirror             = false
+
+        s3.directories do |directory|
+          directory.add '/mnt/sphinx/oedipus'
+          directory.add '/mnt/sphinx/flying-sphinx'
+        end
+      end
+
+      sync_with Rackspace do |rs|
+        rs.api_key  = 'API_KEY'
+        rs.username = 'USER_NAME'
+        rs.auth_url = 'lon.auth.api.rackspacecloud.com'
+        rs.bucket   = "fs-#{`hostname`.strip}-sync"
+        rs.path     = ''
+        rs.mirror   = false
+
+        rs.directories do |directory|
+          directory.add '/mnt/sphinx/oedipus'
+          directory.add '/mnt/sphinx/flying-sphinx'
+        end
+      end
+
+      notify_by Mail do |mail|
+        mail.on_success = true
+        mail.on_failure = true
+
+        mail.from      = 'support-at-flying-sphinx'
+        mail.to        = 'pat-at-freelancing-gods'
+        mail.address   = 'smtp.sendgrid.com'
+        mail.user_name = 'SMTP_USER_NAME'
+        mail.password  = 'SMTP_PASSWORD'
+      end
+    end
+
+I’ve been running the first script for several months, and the second
+for close to a month - both via cron - and had no problems at all. If
+you’ve not got a solid backup system in place because you’re finding it
+complex and frustrating, you’ve now got one less excuse.

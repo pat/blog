@@ -1,0 +1,151 @@
+---
+title: "MICF 2014 Recommendations"
+redirect_from: "/posts/micf_2014_recommendations/"
+categories:
+  - 2014
+  - comedy
+  - micf
+  - melbourne
+---
+The Melbourne International Comedy Festival is about to kick off this
+year - and I can’t wait! It truly is the best time to be in Melbourne.
+
+Because I often see more than my fair share of comedy shows, I’m often
+asked for recommendations… and while it’s hard to be super sure what’s
+good this year before any performances have happened, I’ve scanned
+through the program to put together a list of performers I regularly
+enjoy. In alphabetical order…
+
+-   [Bane
+    Trilogy](http://www.comedyfestival.com.au/2014/season/shows/trilogy-bane) -
+    I was lucky enough to catch all three parts of this in Edinburgh a
+    couple of years ago, and they’re all excellent. Mobster-style
+    storytelling, with all roles performed by one man, Joe Bone. Start
+    with part one (on Tuesday and Friday nights), and if it takes your
+    fancy, see the other two as well.
+
+<!-- -->
+
+-   [The Boy with Tape on his
+    Face](http://www.comedyfestival.com.au/2014/season/shows/more-tape-the-boy-with-tape-on-his-face) -
+    silent comedy, but it’s a tonne of fun, even if you do get called up
+    on stage as part of the audience participation. I’ll put money on
+    him being big this year in Melbourne.
+
+<!-- -->
+
+-   [Celia
+    Pacquola](http://www.comedyfestival.com.au/2014/season/shows/let-me-know-how-it-all-works-out-celia-pacquola) -
+    Regularly hilarious, clever, and with a bit of heart too (perhaps my
+    favourite comedy recipe).
+
+<!-- -->
+
+-   [David
+    O’Doherty](http://www.comedyfestival.com.au/2014/season/shows/will-try-to-fix-everything-david-o-doherty) -
+    All his shows feel kinda the same - but that’s not a bad thing
+    at all. Music and comedy that’s both charming and funny.
+
+<!-- -->
+
+-   [Felicity
+    Ward](http://www.comedyfestival.com.au/2014/season/shows/the-iceberg-felicity-ward) -
+    her show in 2012 was nominated for the Barry Award (best show of the
+    festival), and would have been a deserving winner. Hilarious even
+    while sometimes being extremely personal.
+
+<!-- -->
+
+-   [Hannah
+    Gadsby](http://www.comedyfestival.com.au/2014/season/shows/the-exhibitionist-hannah-gadsby) -
+    last year’s show was very brave and very funny and I wish I could
+    see it again. I’ve already got tickets to see this year’s show.
+
+<!-- -->
+
+-   [Justin
+    Hamilton](http://www.comedyfestival.com.au/2014/season/shows/johnny-loves-mary-forever-1994-justin-hamilton) -
+    he’s a stalwart of the Australian comedy scene, and yet I only saw
+    his show for the first time in 2012, and it was a clever mix of
+    laughs and storytelling. Cue much regret for missing him in
+    previous years. Odds of me making that mistake again this year
+    are slim.
+
+<!-- -->
+
+-   [Michael
+    Workman](http://www.comedyfestival.com.au/2014/season/shows/war-michael-workman) -
+    his show last year, Ave Loretta, was one of the most wonderful and
+    beautiful shows I’ve ever seen. Don’t expect comedy, even though you
+    will laugh, because the storytelling is the highlight. I was wiping
+    tears of sadness from my eyes at the end of Ave Loretta, for Michael
+    Workman brings both the laughs and the feels.
+
+<!-- -->
+
+-   [Sammy J &
+    Randy](http://www.comedyfestival.com.au/2014/season/shows/difficult-first-album-tour-sammy-j-randy-s) -
+    the description on the site sums them up perfectly: catchy songs
+    with chaotic tomfoolery and outbursts of filth. Rarely clean, often
+    very, very funny.
+
+<!-- -->
+
+-   [Tegan
+    Higginbotham](http://www.comedyfestival.com.au/2014/season/shows/game-changer-tegan-higginbotham-in) -
+    Tegan’s recent solo shows been great narrative stand-up shows, and
+    she doesn’t get the attention she deserves. Given she’s not
+    performing in the duo of chaotically hilarious Watson this year,
+    I’ll be making an extra effort to see this show.
+
+<!-- -->
+
+-   [Tim
+    Key](http://www.comedyfestival.com.au/2014/season/shows/single-white-slut-tim-key) -
+    some people hate his odd, dry style, but I’ve loved his shows (at
+    least, the two I’ve had the great pleasure of catching). His last
+    show involved him having a bath on stage. Not your average comedy,
+    but all the more enjoyable if it does float your boat.
+
+<!-- -->
+
+-   [Wil
+    Anderson](http://www.comedyfestival.com.au/2014/season/shows/wiluminati-wil-anderson) -
+    I think Wil’s stand-up shows are better than anything he’s done on
+    television… last year’s Goodwil was an excellent mix of intelligence
+    and wit.
+
+<!-- -->
+
+-   And for bonus points, my good friend Ben Hopper is performing in
+    [The Law
+    Revue](http://www.comedyfestival.com.au/2014/season/shows/the-law-revue) -
+    this is Ben’s first festival performing, so there’s no past
+    performances to judge by. Ben’s a funny guy though, so I’m expecting
+    a top show!
+
+These are just a dozen shows that I feel super happy with recommending
+to all and sundry. There are a few hundred that are part of the
+festival, so you don’t lack for choices (or excuses) - make sure you
+catch a show or two before it all wraps up on April 20th.
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+Rocket left a comment on 24 Mar, 2014:</div>
+
+<div class="comment" markdown="1">
+Hey Pat! I saw two trial shows over the weekend which i can highly
+recommend to peeps too:
+
+Girls Uninterrupted (Trades Hall)  
+Nath Valvo (Melb Town Hall)
+
+Loads of LOLs, tears and great moments and both in good venues.
+
+xxx Rocket xxx
+
+</div>
+</div>
+

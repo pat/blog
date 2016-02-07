@@ -1,0 +1,15 @@
+---
+title: "Request for Caching Questions"
+redirect_from: "/posts/request_for_caching_questions/"
+categories:
+  - ruby
+  - rails
+  - caching
+---
+The monthly Melbourne Ruby meeting is happening this Thursday, and I’ll
+be presenting about Rails’ caching (of the page, action and fragment
+varieties). Just wondering if any of the few readers of this blog had
+either suggestions for content, or, especially, questions they’d like to
+see addressed in such a talk?
+
+Slides will, of course, be posted after the meeting.

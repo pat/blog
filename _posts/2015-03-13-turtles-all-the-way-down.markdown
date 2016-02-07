@@ -1,0 +1,134 @@
+---
+title: "Turtles all the way down"
+redirect_from: "/posts/turtles_all_the_way_down/"
+categories:
+  - discworld
+  - terry pratchett
+---
+I woke up this morning to five messages on my phone. I’d not had a
+chance to look at Twitter or my email, but the messages quickly filled
+me in on the news: **Sir Terry Pratchett** had passed away.
+
+Those five people spoke to the depth of the impact of Terry’s works on
+my life. Two were from my brother and my dad, who I’d introduced to the
+Discworld series. One was from a good friend Katie, who I’d met through
+an online Discworld community. And two were from high school friends,
+Rachael and Mark - people I’ve known for more than 15 years.
+
+<blockquote class="twitter-tweet" lang="en">
+<p>
+AT LAST, SIR TERRY, WE MUST WALK TOGETHER.</p>— Terry Pratchett
+(@terryandrob)
+<a href="https://twitter.com/terryandrob/status/576036599047258112">March
+12, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en">
+<p>
+Terry took Death’s arm and followed him through the doors and on to the
+black desert under the endless night.</p>— Terry Pratchett
+(@terryandrob)
+<a href="https://twitter.com/terryandrob/status/576036726046646272">March
+12, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+It was Mark who introduced me to Terry’s Discworld novels - and I was
+immediately hooked. In high school I would read whenever I had a spare
+moment - on the train to school, between classes, late into the night -
+and Terry’s humour and wisdom connected with me straight away. Any time
+I was asked whether there was a book I wanted, I’d write out a list of
+the older Discworld books I didn’t own, or the latest release. Terry
+would tour Australia every year or two to promote these books, and I was
+always in line at Minotaur (with so many other fans) to get my copies
+signed.
+
+As high school wrapped up, I came across an online community called
+Addicted to Discworld, and quickly made friends with many of the
+regulars. Our regular community chats were scheduled for Sunday evenings
+- and I would do my best to be there every week. Some of those friends -
+including [Katie](https://twitter.com/ethernz), mentioned above, and
+[Susanne](https://twitter.com/SusLikesTurtles), I still catch up with
+regularly.
+
+My first overseas trip was with another friend, Adrian, over to the UK
+for the Discworld Convention in 2002. Even while I enjoyed it, I was
+overwhelmed by the size and even the fanaticism of the event. Adrian,
+however, made sure he got Terry to wish me a happy birthday.
+
+### Nullus Anxietas
+
+And then back in Australia, someone suggested that there should be a
+local convention. I embraced the idea with something approaching
+stupidity - I’d never run an event before, let alone something this big
+- but I decided to make it real, and call it [Nullus
+Anxietas](http://ausdwcon.org). Over the course of three years, I and
+other fans worked hard to put everything in place - and we even
+convinced Terry to visit.
+
+I remember the feeling, on the first day of the conference, when after
+running around madly I took a moment to breathe - and it sunk in that
+everyone was actually showing up. Terry had arrived, along with 300 fans
+from all around Australia and the world. Holy shit. It was real!
+
+Unknown to the rest of the committee, I’d spoken to Daniel Knight and
+[Snowgum Films](http://www.snowgumfilms.com) about having a short video
+clip of someone dressed up as the character Rincewind running around the
+tourist sites of Melbourne. Daniel took that idea, ran with it (almost
+as fast as Rincewind), and created one of my most favourite moments
+ever. Terry (judging by his laughter at the end of this clip below)
+loved it too. I’m *so* proud of this, even though I have no right to be:
+Daniel and his team did all the work.
+
+<iframe src="https://player.vimeo.com/video/1331679?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen
+mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/1331679">Run Rincewind Run!</a> from
+<a href="https://vimeo.com/snowgumfilms">Snowgum Films</a> on
+<a href="https://vimeo.com">Vimeo</a>.</p>
+
+My bookshelf still has many of Terry’s books on its shelves - and
+there’d be more, but I’ve lent many out over the years and can’t
+remember who I gave them to. The humour still rings true, and the social
+commentary - especially in the later books - resonates even more.
+
+In some ways, the fact that Alzheimer’s took Terry from us too soon adds
+to the heartbreak. But we still have such a fantastic catalogue of
+stories that he’s written, and I’ve gained *so many* great friends and
+memories as well.
+
+The rest of the convention was a success, by the way - and it has been
+happening every second year since! I stepped out of the organising team
+in the lead up to the second one, but number five is [happening in
+Sydney](http://ausdwcon.org) next month, and I’ll be there to catch up
+with old friends, make new friends, run games of Werewolf, and celebrate
+Terry and his creativity and wit.
+
+Right now, though, I’m going to re-read Night Watch. Terry, **thank
+you**.
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+Chris Spiegel left a comment on 13 Mar, 2015:</div>
+
+<div class="comment" markdown="1">
+Pat, you did an amazing job on that first DW Con, thank you so much. The
+first time is always the most difficult, climbing Mt Everest, breaking
+the four minute mile, organising a Con. I’m sure it’s a treasured memory
+for lots of us who attended that first con.
+
+</div>
+<div class="comment-author">
+Tanuja left a comment on 14 Mar, 2015:</div>
+
+<div class="comment" markdown="1">
+Pat, the first DW Con was fantastic, I had so much fun (and it was my
+first Convention), so many fond memories, but the Bedtime Story (Terry
+reading from Going Postal) was my favourite. If I didn’t thank you at
+the time, a very belated thank you for breaking the ground for NA. Sadly
+I can’t go this year, but I will raise a glass over that weekend to
+Terry and NAIV.
+
+</div>
+</div>
+

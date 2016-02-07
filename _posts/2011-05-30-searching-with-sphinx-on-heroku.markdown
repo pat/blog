@@ -1,0 +1,288 @@
+---
+title: "Searching with Sphinx on Heroku"
+redirect_from: "/posts/searching_with_sphinx_on_heroku/"
+categories:
+  - heroku
+  - flying sphinx
+  - sphinx
+  - thinking sphinx
+  - ruby
+  - rails
+---
+Just over two weeks ago, I released Flying Sphinx - which provides
+Sphinx search capability for Heroku apps. I’ll talk more about how I
+built it and the challenges faced at some point, but right now I just
+want to introduce the service and how you may go about using it.
+
+### Why Sphinx?
+
+Perhaps you’re not familiar with Sphinx and how it can be useful. For
+those who are new to Sphinx, it’s a full-text search tool - think of
+your own personal Google for within your website. It comes with two main
+moving parts - the `indexer` tool for interpreting and storing your
+search data (indices), and the `searchd` tool, which runs as a daemon
+accepting search requests, and returns the most appropriate matches for
+a given search query.
+
+In most situations, Sphinx is very fast at indexing your data, and
+connects directly to MySQL and PostgreSQL databases - so it’s quite a
+good fit for a lot of Rails applications.
+
+### Using Sphinx in Rails
+
+I’ve written a gem, Thinking Sphinx, which integrates Sphinx neatly with
+ActiveRecord. It allows you to define indices in your models, and then
+use rake tasks to handle the processing of these indices, along with
+managing the `searchd` daemon.
+
+If you want to install Sphinx, have a read through of [this
+guide](http://freelancing-god.github.com/ts/en/installing_sphinx.html)
+from the Thinking Sphinx documentation - in most cases it should be
+reasonably painless.
+
+Installing Thinking Sphinx in a Rails 3 application is quite simple -
+just add the gem to your Gemfile:
+
+    gem 'thinking-sphinx', '2.0.5'
+
+For older versions of Rails, the Thinking Sphinx docs [have more
+details](http://freelancing-god.github.com/ts/en/installing_thinking_sphinx.html).
+
+I’m not going to get too caught up in the details of how to structure
+indices - this is [also
+covered](http://freelancing-god.github.com/ts/en/indexing.html) within
+the Thinking Sphinx documentation - but here’s a quick example, for user
+account:
+
+    class User < ActiveRecord::Base
+      # ...
+
+      define_index do
+        indexes name, :sortable => true
+        indexes location
+
+        has admin, created_at
+      end
+
+      # ...
+    end
+
+The `indexes` method defines fields - which are the textual data that
+people can search for. In this case, we’ve got the user names and
+locations covered. The `has` method is for attributes - which are used
+for filtering and sorting (fields can’t be used for sorting by default).
+The distinction of fields and attributes is [quite
+important](http://freelancing-god.github.com/ts/en/sphinx_basics.html) -
+make sure you understand the difference.
+
+Now that we have our index defined, we can have Sphinx grab the required
+data from our database, which is done via a rake task:
+
+    rake ts:index
+
+What Sphinx does here is grab all the required data from the database,
+inteprets it and stores it in a custom format. This allows Sphinx to be
+smarter about ranking search results and matching words within your
+fields.
+
+Once that’s done, we next start up the Sphinx daemon:
+
+    rake ts:start
+
+And now we can search! Either in script/console or in an appropriate
+action, just use the `search` method on your model:
+
+    User.search 'pat'
+
+This returns the first page of users that match your search query.
+Sphinx always paginates results - though you can set the page size to be
+[quite
+large](http://freelancing-god.github.com/ts/en/advanced_config.html#large-result-sets)
+if you wish - and Thinking Sphinx search results can be used by both
+[WillPaginate](https://github.com/mislav/will_paginate/wiki) and
+[Kaminari](https://github.com/amatsuda/kaminari) pagination view
+helpers.
+
+Instead of sorting by the most relevant matches, here’s examples where
+we sort by name and created\_at:
+
+    User.search 'pat', :order => :name
+    User.search 'pat', :order => :created_at
+
+And if we only want admin users returned in our search, we can filter on
+the `admin` attribute:
+
+    User.search 'pat', :with => {:admin => true}
+
+There’s many more options for search calls - the documentation (yet
+again) covers most of them [quite
+well](http://freelancing-god.github.com/ts/en/searching.html).
+
+One more thing to remember - if you change your index structures, or
+add/remove index defintions, then you should restart *and* reindex
+Sphinx. This can be done in a single rake task:
+
+    rake ts:rebuild
+
+If you just want the latest data to be processed into your indices,
+there’s no need to restart Sphinx - a normal `ts:index` call is fine.
+
+### Using Thinking Sphinx with Heroku
+
+Now that we’ve got a basic search setup working quite nicely, let’s get
+it sorted out on Heroku as well. Firstly, let’s add the `flying-sphinx`
+gem to our Gemfile (below our `thinking-sphinx` reference):
+
+    gem 'flying-sphinx', '0.5.0'
+
+Get that change (along with your indexed model setup) deployed to
+Heroku, then inform Heroku you’d like to use the Flying Sphinx add-on
+(the entry level plan costs $12 USD per month):
+
+    heroku addons:add flying_sphinx:wooden
+
+And finally, let’s get our data on the site indexed and the daemon
+running:
+
+    heroku rake fs:index
+    heroku rake fs:start
+
+Note the `fs` prefix instead of the `ts` prefix in those rake calls -
+the normal Thinking Sphinx tasks are only useful on your local machine
+(or on servers that aren’t Heroku).
+
+When you run those rake tasks, you will probably see the following
+output:
+
+    Sphinx cannot be found on your system. You may need to configure the
+    following settings in your config/sphinx.yml file:
+      * bin_path
+      * searchd_binary_name
+      * indexer_binary_name
+
+    For more information, read the documentation:
+    http://freelancing-god.github.com/ts/en/advanced_config.html
+
+This is because Thinking Sphinx doesn’t have access to Sphinx locally,
+and isn’t sure which version of Sphinx is available. To have these
+warnings silenced, you should add a `config/sphinx.yml` file to your
+project, with the version set for the production environment:
+
+    production:
+      version: 1.10-beta
+
+Push that change up to Heroku, and you won’t see the warnings again.
+
+For the more curious of you: the Sphinx daemon is located on a Flying
+Sphinx server, also located within the Amazon cloud (just like Heroku)
+to keep things fast and cheap. This is all managed by the
+`flying-sphinx` gem, though - you don’t need to worry about IP addresses
+or port numbers.
+
+Also: the same rules apply with Flying Sphinx for modifying index
+structures or adding/removing index definitions - make sure you restart
+Sphinx so it’s aware of the changes:
+
+    heroku rake fs:rebuild
+
+The final thing to note is that you’ll want the data in your Sphinx
+indices updated regularly - perhaps every day or every hour. This is
+best done on Heroku via their [Cron add-on](http://docs.heroku.com/cron)
+- since that’s just a rake task as well.
+
+If you don’t have a cron task already, the following (perhaps in
+`lib/tasks/cron.rake`) will do the job:
+
+    desc 'Have cron index the Sphinx search indices'
+    task :cron => 'fs:index'
+
+Otherwise, maybe something more like the following suits:
+
+    desc 'Have cron index the Sphinx search indices'
+    task :cron => 'fs:index' do
+      # Other things to do when Cron comes calling
+    end
+
+If you’d like your search data to have your latest changes, then I
+recommend you read up on delta indexing - both [for Thinking
+Sphinx](http://freelancing-god.github.com/ts/en/deltas.html) and [for
+Flying Sphinx](http://flying-sphinx.com/docs#delta-indexing).
+
+### Further Sources
+
+Keep in mind this is just an introduction - the documentation for
+[Thinking Sphinx](http://freelancing-god.github.com/ts/en/) is pretty
+good, and [Flying Sphinx](http://flying-sphinx.com/docs) is improving
+regularly. There’s also the Thinking Sphinx [google
+group](http://groups.google.com/group/thinking-sphinx/) and the Flying
+Sphinx [support site](http://support.flying-sphinx.com/) if you have
+questions about either, along with [numerous blog
+posts](http://freelancing-gods.com/search?text=sphinx) (though the older
+they are, the more likely they’ll be out of date). And finally - I’m
+always happy to answer questions about this, so don’t hesitate to [get
+in touch](http://twitter.com/pat).
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+<a href="http://www.dogil.net">iGEL</a> left a comment on 30 May,
+2011:</div>
+
+<div class="comment" markdown="1">
+Does thinking sphinx work well with utf8 encoded asian (Chinese, Korean)
+text?
+
+</div>
+<div class="comment-author">
+<a href="http://freelancing-gods.com">pat</a> left a comment on 30 May,
+2011:</div>
+
+<div class="comment" markdown="1">
+I know people have got Sphinx working decently with Chinese and Japanese
+characters - though I’m not sure of the best place to start with that. I
+think there is a fork of Sphinx with improved Chinese charset dictionary
+support… though maybe this has been made better in recent releases of
+Sphinx as well?
+
+If there’s something in that fork that could be used in my build of
+Sphinx for Flying Sphinx that improves Chinese/Korean/etc support, I’d
+definitely be open to merging it in.
+
+</div>
+<div class="comment-author">
+DmitriG left a comment on 8 Jul, 2011:</div>
+
+<div class="comment" markdown="1">
+Size “of indexed data” is a bit confusing. Is it the size on index, or
+total size of a database? What if I only have a handful of fields to
+index while my DB contains a lot of other columns?
+
+</div>
+<div class="comment-author">
+<a href="http://freelancing-gods.com">pat</a> left a comment on 8 Jul,
+2011:</div>
+
+<div class="comment" markdown="1">
+Hi Dmitri
+
+I’m referring to the size of all Sphinx indices - so in a default setup,
+whatever’s in `db/sphinx/RAILS_ENV`. In other words: all the data for
+the fields and attributes you’ve defined.
+
+</div>
+<div class="comment-author">
+<a href="http://www.luigi7up.com">Luka</a> left a comment on 29 May,
+2014:</div>
+
+<div class="comment" markdown="1">
+Hi, great post! Thank you… One question though… If I run the re-indexing
+every hour and running a service such as ebay what happens to newly
+added things within that hour? What I want to say is there a possibility
+of fallback to query the DB directly? Also, would you say that
+re-indexing is costly in terms of performance (every 20min)?  
+Again, great tool![]()!
+
+</div>
+</div>
+

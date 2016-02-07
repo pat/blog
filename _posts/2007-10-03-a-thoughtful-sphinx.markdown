@@ -1,0 +1,150 @@
+---
+title: "A Thoughtful Sphinx"
+redirect_from: "/posts/a_thoughtful_sphinx/"
+categories:
+  - plugins
+  - search
+  - sphinx
+  - ruby
+  - rails
+---
+In one of the projects I’ve been working on lately, I’ve needed to
+implement a decent search - and so I looked at both
+[Ferret](http://ferret.davebalmain.com) and
+[Sphinx](http://www.sphinxsearch.com). I ended up choosing the latter,
+although I’m not sure why - perhaps just to be different (most people I
+spoke to are using ferret), or perhaps because the setup seemed easier.
+
+The next step was to pick a Sphinx plugin to work with.
+[Ultrasphinx](http://blog.evanweaver.com/articles/2007/07/09/ultrasphinx-searching-the-world-in-231-seconds/)
+seemed to have a good set of features (particularly pagination), and
+supported fields from associations within indexes - something critical
+for what we were doing.
+
+Unfortunately, grabbing fields from associations wasn’t that easy - and
+the SQL generated for the Sphinx configuration file was overly complex.
+I could (and did) change the config file manually, but that makes half
+the usefulness of the plugin worthless.
+
+So, since I had some spare time, I wrote my own plugin. Much like Rails,
+it favours convention over configuration - perhaps a little too much so
+at this point, but I do plan to make it more flexible at some point.
+Installation is the same as any other plugin:
+
+    script/plugin install
+      http://rails-oceania.googlecode.com/svn/patallan/thinking_sphinx
+
+An example of defining indexes (within a model class):
+
+    define_index do |index|
+      index.includes.email
+      index.includes(:first_name, :last_name).as.name
+      index.includes.tags.key.as.tags
+      index.includes.articles.content.as.article_content
+    end
+
+To index the data, just use the `thinkingsphinx:index` rake task
+(aliased to `ts:in`) - which will also generate the configuration file
+on the fly. My goal is to make changing the configuration file manually
+unnecessary - making the index task build the configuration file helps
+enforce this.
+
+And to search:
+
+    # Searching particular fields
+    User.search(:conditions => {:name => "Pat"})
+    # Or searching all fields
+    User.search("Pat")
+    # Pagination is built in
+    User.search("Pat", :page => (params[:page] || 1))
+
+Paginated results can also be used by the will\_paginate helper from
+[the plugin of the same name](http://errtheblog.com/post/4791). Current
+documentation can be found [on this
+site](http://ts.freelancing-gods.com).
+
+I managed to use ActiveRecord’s join and associations code, which kept
+my plugin reasonably lean. For interactions with Sphinx’s searchd
+daemon, I did look at Dmytro Shteflyuk’s Ruby Sphinx Client API, but the
+non-ruby-like syntax irritated me, so again, I coded my own - heavily
+influenced by the original though (ie: he did all the hard work, not
+me).
+
+There’s no support for some way to update the index pseudo-incrementally
+(something that is a limitation of Sphinx). If I don’t feel like the
+incremental updating works well enough, then I may switch to Ferret -
+which might lead to a Thinking Ferret plugin, perhaps. We’ll just have
+to wait and see.
+
+**Nov 14th 2007 - Update**: I’ve just released the internal Sphinx
+client as its own library -
+[Riddle](http://riddle.freelancing-gods.com).
+
+------------------------------------------------------------------------
+
+<div class="comments">
+<div class="comment-author">
+<a href="http://treetowntoys.com">Hans</a> left a comment on 27 Aug,
+2008:</div>
+
+<div class="comment" markdown="1">
+I am in total awe of this plugin. Nice work! It made my messy
+ultrasphinx configs moot, and let me get access to weightings and other
+stuff that ultrasphinx made less easy.
+
+What is stumping me, however, is this:
+
+I have multiple rails apps running on one server, and need to tell each
+one how to search against their own indices built on their own database.
+I tried using the sphinx.yml file to specify a port, but that was epic
+failure.
+
+Each site ends up searching against the same indices, so the search
+results aren’t accurate for the sites.
+
+How do I configure each client to run against one searchd (or, to run
+against multiple searchd’s - I have the overhead to handle it on this
+server)? I am going to presume that it is somewhere in the sphinx.yml,
+but alas, I am finding myself hamstrung by this. Even RTFM’ing hasn’t
+helped a ton. :-)
+
+Thanks!
+
+</div>
+<div class="comment-author">
+<a href="http://freelancing-gods.com">pat</a> left a comment on 28 Aug,
+2008:</div>
+
+<div class="comment" markdown="1">
+Hans: do you have the settings in config/sphinx.yml set into each
+environment, like database.yml? If so, and still no luck, let’s continue
+the conversation on [the google
+group](http://groups.google.com/group/thinking-sphinx).
+
+</div>
+<div class="comment-author">
+mauro catenacci left a comment on 22 Sep, 2008:</div>
+
+<div class="comment" markdown="1">
+Hi Pat,
+
+I’m new to thinking\_sphinx. just switched from the ferret engine. Quick
+question in reference to the delta property. Do you have to add a new
+boolean field in the database called delta? Also I’ve read one of your
+posts stating that there might be issues with the delta updates on rails
+2.1. Thanks.
+
+</div>
+<div class="comment-author">
+<a href="http://freelancing-gods.com">pat</a> left a comment on 26 Sep,
+2008:</div>
+
+<div class="comment" markdown="1">
+Hi Mauro
+
+Yes, a boolean column called delta is required to use the delta indexes.
+As far as I know, it should work without problems in 2.1 now.
+
+</div>
+</div>
+
