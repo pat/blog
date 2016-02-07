@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'jekyll-redirect-from'
 gem 'jekyll-feed'
+gem 'jekyll-paginate'
+gem 'jekyll-redirect-from'
 gem 'RedCloth'

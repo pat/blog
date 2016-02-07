@@ -1,10 +1,11 @@
-highligher: pygments
+highligher: rouge
 permalink: "/:year/:month/:day/:title.html"
 paginate: 20
 paginate_path: "/posts/:num/"
 gems:
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-paginate
 sass:
   sass_dir: styles
 defaults:
