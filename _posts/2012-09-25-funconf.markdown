@@ -147,7 +147,7 @@ ideas. I shan’t recount each at length, as I would not do them justice
 (and, well, you had to be there), but my two favourites were [Michael
 Lopp](http://www.randsinrepose.com) and [Tom
 Preston-Werner](http://tom.preston-werner.com) (known as
-[`rands":https://twitter.com/rands and "`mojombo](https://twitter.com/mojombo),
+[rands](https://twitter.com/rands) and [mojombo](https://twitter.com/mojombo),
 respectively). Fittingly, the focus for both was the topic of trust.
 
 But beside the talks? Well, some of us visited the imposing cliff ruins
