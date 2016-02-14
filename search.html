@@ -6,15 +6,8 @@ section: search
 
 <script type="text/javascript" src="/javascripts/jquery.js"></script>
 <script type="text/javascript" src="/javascripts/uri.js"></script>
-<script type="text/javascript" src="http://drumknottsearch.com/drumknott-0.1.0.js"></script>
-
-<form id="search" method="GET" action="/search">
-  <span class="pagination"><a href="#previous" class="previous">&larr; Previous</a>&nbsp;</span>
-  <input type="text" id="query" value="query" />
-  <input type="submit" value="Search" />
-  <span class="pagination">&nbsp;<a href="#next" class="next">Next &rarr;</a></span>
-</form>
-
-<ul id="results" class="list"></ul>
-
-<script type="text/javascript" src="/javascripts/search.js"></script>
+<script type="text/javascript" src="https://drumknottsearch.com/drumknott-0.2.0.js"></script>
+<script type="text/javascript">
+  search = new Drumknott('pat');
+  search.embed();
+</script>
