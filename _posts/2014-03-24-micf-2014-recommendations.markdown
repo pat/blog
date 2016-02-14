@@ -2,7 +2,7 @@
 title: "MICF 2014 Recommendations"
 redirect_from: "/posts/micf_2014_recommendations/"
 categories:
-  - 2014
+  - "2014"
   - comedy
   - micf
   - melbourne
@@ -139,7 +139,7 @@ Rocket left a comment on 24 Mar, 2014:</div>
 Hey Pat! I saw two trial shows over the weekend which i can highly
 recommend to peeps too:
 
-Girls Uninterrupted (Trades Hall)  
+Girls Uninterrupted (Trades Hall)
 Nath Valvo (Melb Town Hall)
 
 Loads of LOLs, tears and great moments and both in good venues.
