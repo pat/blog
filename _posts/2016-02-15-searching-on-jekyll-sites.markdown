@@ -11,7 +11,7 @@ Last year, I shifted my blog over from an aging Rails 2.3 app to a Jekyll site p
 
 I've certainly appreciated the switch with the simple power of Jekyll, but I anguished over the lack of server-side search. Sure, I don't think it was ever that popular a feature on my old blog, but given a lot of my [open source work](https://github.com/pat/thinking-sphinx) and my Heroku Add-on side business [Flying Sphinx](http://info.flying-sphinx.com) is search-related, I didn't want to lose it...
 
-So I went and built a whole new web app to power search for my static site. Overkill? Most definitely! But perhaps others out there would like search for their Jekyll-powered sites, so I've turned it into a paid offering: [Drumknott](https://drumknottsearch.com).
+So I went and built a whole new web app to power search for my static site (yes, using Flying Sphinx). Overkill? Most definitely! But perhaps others out there would like search for their Jekyll-powered sites, so I've turned it into a paid offering: [Drumknott](https://drumknottsearch.com).
 
 The [documentation](https://drumknottsearch.com/documentation) covers how to use it pretty well, so I won't duplicate that here, but it's not too complicated: a bit of Javascript on your site and a command-line tool to update your page data. That's it!
 
