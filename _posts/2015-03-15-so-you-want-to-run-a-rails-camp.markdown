@@ -4,7 +4,7 @@ redirect_from: "/posts/so_you_want_to_run_a_rails_camp/"
 categories:
   - ruby
   - rails
-  - rails camp
+  - railscamp
   - events
   - conference
 ---
