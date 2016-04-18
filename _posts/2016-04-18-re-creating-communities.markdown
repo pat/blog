@@ -6,6 +6,8 @@ categories:
   - community
 ---
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">love to see a full house at the wonderful <a href="https://twitter.com/Fed_Square">@Fed_Square</a> <a href="https://twitter.com/hashtag/melbconvo?src=hash">#melbconvo</a> <a href="https://t.co/W2yxmGyX67">pic.twitter.com/W2yxmGyX67</a></p>&mdash; Melb Conversations (@MelbConvo) <a href="https://twitter.com/MelbConvo/status/721988237204402176">April 18, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 This evening I attended the Melbourne Conversations event [Re-creating Communities](https://www.eventbrite.com.au/e/re-creating-communities-amsterdam-tel-aviv-san-francisco-and-melbourne-tickets-24418329882), which was run in conjunction with the [Smart Cities Summit](http://connectexpo.com.au/smartcities.html) happening in Melbourne this week. Melbourne Conversations have a habit of putting on interesting panel discussions, and even though I may sound a little frustrated in what I've written below regarding tonight's event, I am _very_ grateful for their contributions to this city!
 
 There was certainly some interesting things discussed by the panelists, but it wasn't quite what I was expecting. I was hoping for a discussion on how to increase interactions between people within their communities, but instead it was more about how use technology to serve communities. The latter is not a bad thing - and indeed, even within that context, the panelists spoke earnestly about putting people first - but the routes to all solutions seemed to be driven by technology, startups, and innovation-as-a-buzzword.
