@@ -23,7 +23,7 @@ I'll cover each point in a little more detail, but the general approach was:
 11. Add a new follower at your preferred level.
 12. Turn that expensive EC2 instance off.
 
-And two caveats: a lot of these services can be expensive, so please do some research into the costs of [EC2 instances](http://aws.amazon.com/ec2/pricing/) and [Heroku PostgreSQL databases](https://www.heroku.com/pricing#databases). Also, the following commands worked for me, but that was after many hours of testing and rehearsals. I highly recommend you do a run-through on a non-critical system first. You shouldn't entrust the safety of your production databases to some instructions you found on a blog somewhere!
+And two caveats: a lot of these services can be expensive, so please do some research into the costs of [EC2 instances](http://aws.amazon.com/ec2/pricing/) and [Heroku PostgreSQL databases](https://www.heroku.com/pricing#databases). Also, the following commands worked for me, but that was after many hours of testing and rehearsals. I highly recommend you do a run-through on a non-critical system first. **You shouldn't entrust the safety of your production databases to some instructions you found on a blog somewhere!**
 
 ### 1. High-Performance Follower
 
