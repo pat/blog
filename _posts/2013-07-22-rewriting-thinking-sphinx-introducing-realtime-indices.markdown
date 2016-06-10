@@ -11,7 +11,7 @@ categories:
 The one other feature in the rewrite of Thinking Sphinx that I wanted to
 highlight should most certainly be considered *in beta*, but it’s
 gradually getting to the point where it can be used reliably: real-time
-indices.
+indices (which are now covered pretty decently in [the official TS documentation](http://freelancing-gods.com/thinking-sphinx/real_time.html)).
 
 Real-time indices are built into Sphinx, and are indices that can be
 dynamically updated on the fly - and are not backed by a database
@@ -154,7 +154,7 @@ Hello,
 This weekend I tried migrating to TS 3.0 with RT indexes - and I’ve
 faced the problem with initial data population. As far as I understand,
 there is no way to add “includes” and “joins” when generating initial
-data which gives N+1 problem and serious performance issues.  
+data which gives N+1 problem and serious performance issues.
  Could it be possible to add some syntax which would allow to specify
 includes for data (re)generation?
 
