@@ -125,6 +125,9 @@ ul.list {
     padding-left: 0;
   }
 }
+ol li {
+  list-style-type: decimal;
+}
 table {
   margin: 0 -10px;
   font-size: 16px;
