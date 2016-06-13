@@ -33,7 +33,7 @@ And then, when speaking on the horrific event in Orlando, our Prime Minister doe
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It wasn’t because he hates freedom, it was because he hates queers. And your party peddles the same hate. <a href="https://t.co/fp6SudVNTs">https://t.co/fp6SudVNTs</a></p>&mdash; Paul Kidd (@paulkidd) <a href="https://twitter.com/paulkidd/status/742127301215715328">June 12, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-We _must_ recognise that allowing homophobia, transphobia, and bigotry of all kinds to fester - by being silent, by voting for certain politicians - makes our societies unsafe for our LGTBQI family and friends. Please keep that in mind when you vote in our upcoming election on July 2nd.
+We _must_ recognise that allowing homophobia, transphobia, and bigotry of all kinds to fester - by being silent, by voting for certain politicians - makes our societies unsafe for the LGTBQI community. Please keep that in mind when you vote in our upcoming election on July 2nd.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">You may think I’m making this political, <a href="https://twitter.com/hashtag/auspol?src=hash">#auspol</a>. I am. Because the community makes every aspect of my life political. Tax. Marriage. All.</p>&mdash; OhSnapOps (@DylanLacey) <a href="https://twitter.com/DylanLacey/status/742149186334785541">June 13, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
