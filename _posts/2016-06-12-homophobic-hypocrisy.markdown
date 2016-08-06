@@ -13,7 +13,7 @@ categories:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">The rally/vigil outside The Stonewall Inn in NYC for <a href="https://twitter.com/hashtag/Orlando?src=hash">#Orlando</a>. <a href="https://t.co/YWIGgtQip4">pic.twitter.com/YWIGgtQip4</a></p>&mdash; Pat Allan (@pat) <a href="https://twitter.com/pat/status/742126872536993792">June 12, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-**The United States of America can be wonderful.** I’m in New York City at the moment, and I’ve spent a large part of today with lovely friends. I have caught brief moments of celebrations of the local Puero Rican community. I have witnessed a proud gathering at The Stonewall Inn, celebrating LGBTQI people and love, defiant in the face of hatred and violence.
+**The United States of America can be wonderful.** I’m in New York City at the moment, and I’ve spent a large part of today with lovely friends. I have caught brief moments of celebrations of the local Puerto Rican community. I have witnessed a proud gathering at The Stonewall Inn, celebrating LGBTQI people and love, defiant in the face of hatred and violence.
 
 **The United States of America can be heartbreaking.** That gathering at The Stonewall Inn was a vigil for the victims of today’s massacre at a gay nightclub massacre, where at least 50 people have been killed. A horrible attack driven by homophobia, in what was meant to be a safe space for the LGBTQI community.
 
