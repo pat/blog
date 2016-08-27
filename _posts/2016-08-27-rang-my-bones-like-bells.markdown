@@ -47,4 +47,4 @@ Thankfully, though, myself and a dozen other hopefuls put our names on the waiti
 
 I walked out after that event finished with a burning desire to be a spoken word poet.
 
-Maxine Beneba Clarke gave a brilliant and eloquent opening keynote for the Melbourne Writers Festival last night, in which she elegantly said “spoken word is where literature began.”  A simple reminder of the history and power of performed storytelling. And now that I've found it on my terms, I’m embracing poetry - whether it be via lyrics, prose, comedy or slam - that rings my bones like bells.
+Maxine Beneba Clarke gave a brilliant and eloquent opening keynote for the Melbourne Writers Festival last night - and again, the sense of community and appreciation was clear both in the audience and in her words. In defending spoken word as part of the broader literary world, Maxine elegantly said “spoken word is where literature began.” A simple reminder of the history and power of performed storytelling. And now that I've found it on my terms, I’m embracing poetry - whether it be via lyrics, prose, comedy or slam - that rings my bones like bells.
