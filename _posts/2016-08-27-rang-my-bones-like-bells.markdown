@@ -55,4 +55,4 @@ The [Melbourne Writers Festival](http://mwf.com.au) is currently running, and th
 
 In defending spoken word as part of the broader literary world, Maxine elegantly said “spoken word is where literature began.” A simple reminder of the history and power of performed storytelling - and a gentle reinforcement for my appreciation of the moments when people on a stage speak from the heart and leave marks on our souls.
 
-As many of my friends are aware from conversations over the past few months, I've found poetry on my terms, and I'm embracing it all - whether it be via lyrics, prose, comedy or slam. As Kate Tempest says, it all rings my bones like bells.
+As many of my friends are aware from conversations over the past few months, I've found poetry on my terms, and I'm embracing it all - whether it be via lyrics, prose, comedy or slam. As Kate Tempest would say, it all rings my bones like bells.
