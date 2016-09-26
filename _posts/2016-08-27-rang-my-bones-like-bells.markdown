@@ -51,7 +51,7 @@ I left that event with my heart singing, and with a burning desire to be a spoke
 
 ---
 
-The [Melbourne Writers Festival](http://mwf.com.au) is currently running, and the opening keynote was given by none other than Maxine Beneba Clarke. Her speech was both brilliant and eloquent, and received a greatly deserved standing ovation. Much like at the launch of Carrying the World, the sense of community and appreciation was clear both in the audience and in Maxine's words.
+The [Melbourne Writers Festival](http://mwf.com.au) is currently running, and the opening keynote was given by none other than Maxine Beneba Clarke. [Her speech](http://mwf.com.au/watchandlisten/maxine-beneba-clarke-opening-night-2016/) was both brilliant and eloquent, and received a greatly deserved standing ovation. Much like at the launch of Carrying the World, the sense of community and appreciation was clear both in the audience and in Maxine's words.
 
 In defending spoken word as part of the broader literary world, Maxine elegantly said “spoken word is where literature began.” A simple reminder of the history and power of performed storytelling - and a gentle reinforcement for my appreciation of the moments when people on a stage speak from the heart and leave marks on our souls.
 
