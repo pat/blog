@@ -24,7 +24,7 @@ Startups aren't my scene - so much of it seems to be disruption for disruption's
 
 But, I know that businesses - and startups - have the potential to be powerful tools for positive change. There are plenty of startups and social enterprises out there that are doing good things, and are thinking about the broader impact of their actions.
 
-After several months of conversations, I’ve decided to join forces with David Chung on the mental health social enterprise/startup **Limbr**, taking on a co-founder/CTO role. We are working towards removing the stigma of mental health issues, providing safe and useful online spaces for people to be vulnerable and support each other, and also connect them with professional mental health support.
+After several months of conversations, I’ve decided to join forces with David Chung on the mental health social enterprise/startup **[Limbr](http://limbr.org)**, taking on a co-founder/CTO role. We are working towards removing the stigma of mental health issues, providing safe and useful online spaces for people to be vulnerable and support each other, and also connect them with professional mental health support.
 
 Mental health is something our societies are slowly taking more seriously, but depression, suicide, anxiety and other such illnesses are still too often treated as taboo topics, and we are losing far too many lives. There's plenty of room to improve, and we're aiming to play a part in moving things in the right direction.
 
@@ -39,8 +39,6 @@ The fact that I have the connections and support to get me to this point is part
 
 And now a couple of hiring notes (yes, already!) ...
 
-We’re looking for a third co-founder to fill a role along the lines of **Chief Science Officer** - someone with serious professional experience in the mental health space. If that could be you, or you know someone who may fit the bill, do get in touch (via [email](mailto:pat at limbr dot com) or [Twitter](https://twitter.com/pat) is best).
+We’re looking for a third co-founder to fill a role along the lines of **Chief Science Officer** - someone with serious professional experience in the mental health space. If that could be you, or you know someone who may fit the bill, do get in touch (via [email](mailto:pat at limbr dot org) or [Twitter](https://twitter.com/pat) is best).
 
 We’ll also need a front-end developer in the coming months as well (likely in a contract role), so if that’s your thing, I’d love to hear from you - especially if you’re familiar with Cordova or ReactNative.
-
-Limbr’s web presence at this point is close to non-existent - I’ll add a link to a website when there is one! We’re certainly working on it.
