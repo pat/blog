@@ -34,4 +34,4 @@ Alongside the people, the rain has dominated my experience - after a drought, th
 
 Bit by bit, I'm gaining a better understanding of at least one corner of this country, and in turn India is pushing my comfort zone's boundaries a little further. Exhausting, intriguing, but certainly also fun.
 
-(Cross-posted at [hi.co](https://hi.co/moments/kzqividk) as well)
+(Cross-posted at [hi.co](http://hitotoki.org/moments/kzqividk) as well)

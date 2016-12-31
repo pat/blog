@@ -28,4 +28,4 @@ The way that Germany does not shy away from acknowledging its history (as shown 
 
 As I said, the acknowledgement of the past here in Berlin is part of what impressed me - but that is paired with a feeling of positive change: that even with the horrors of the Holocaust and the Wall, perhaps in spite of them, people here are striving to do great things. So I can't help but think that open and honest acknowledgement of the past - and then learning from it - is essential for building a better future.
 
-(Cross-posted at [hi.co](https://hi.co/moments/dy7igied) as well)
+(Cross-posted at [hi.co](http://hitotoki.org/moments/dy7igied) as well)
