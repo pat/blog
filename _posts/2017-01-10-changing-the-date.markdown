@@ -11,7 +11,7 @@ categories:
 
 Historically, January 26th in Australia is a day that marks invasion, genocide and dispossession. Using that date as _Australia Day_ - ostensibly an occasion to celebrate our country - is offensive and disrespectful.
 
-There is a growing movement to change the date of Australia Day, due to _many_ passionate and thoughtful Aboriginal and Torres Strait Islander voices over the years. This has in turn led to a recent [article](https://www.thesaturdaypaper.com.au/opinion/topic/2016/11/26/change-the-date/14800788004016) and [campaign](https://www.thesaturdaypaper.com.au/opinion/topic/2016/11/26/change-the-date/14800788004016) driven by The Saturday Paper. Given we cannot expect our politicians to lead us to a more respectful celebration, we need to look at other avenues for action.
+There is a growing movement to change the date of Australia Day, due to _many_ passionate and thoughtful Aboriginal and Torres Strait Islander voices over the years. This has in turn led to a recent [article](https://www.thesaturdaypaper.com.au/opinion/topic/2016/11/26/change-the-date/14800788004016) and [campaign](https://www.changedate.com.au) driven by The Saturday Paper. Given we cannot expect our politicians to lead us to a more respectful celebration, we need to look at other avenues for action.
 
 > The symbol at play, like the nationalism it supports, is juvenile and ill formed. The day on which we celebrate this country is a day of disharmony.
 >
