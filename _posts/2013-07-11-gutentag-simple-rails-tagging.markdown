@@ -26,7 +26,7 @@ so I felt this was a great starting point - and a great way to show off
 how simple it is to write and publish a gem.
 
 You can work through [the
-tutorial](http://railsconftutorials.com/2013/sessions/crafting_gems.html)
+tutorial](https://web.archive.org/web/20151213065745/http://railsconftutorials.com/2013/sessions/crafting_gems.html)
 yourself if you like - though keep in mind the focus is more on the
 process of building a gem rather than the implementation of this gem in
 particular.
