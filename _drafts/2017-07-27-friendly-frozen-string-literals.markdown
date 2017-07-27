@@ -15,7 +15,7 @@ If you were doing something like the following in a web app on every request:
 
     response.headers["Content-Type"] = "application/json"
 
-In Ruby normally, every single request would create two new strings in memory. With this feature enabled, only two strings would be created ever (well, within the context of this example), and they'd be referred to for each request.
+In Ruby normally, every single request would create two new strings in memory: `Content-Type` and `application/json`. With this feature enabled, only two strings would be created ever (well, within the context of this example) - one for each distinct value - and they'd be referred to for each request.
 
 Put all of this together, and the overall advantage of this feature is reduced memory usage, with the added benefit of avoiding potentially unexpected string modifications.
 
