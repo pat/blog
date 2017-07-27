@@ -11,6 +11,12 @@ categories:
 
 Since the 2.3.0 release of Ruby, there's been the optional feature to make all string literals frozen. This means that any string literal within your code is frozen and cannot be modified. As an added bonus, identical string literals in multiple locations are the same object (and for what it's worth, this is how symbols already behave), so the memory profile of your app is potentially reduced.
 
+If you were doing something like the following in a web app on every request:
+
+    response.headers["Content-Type"] = "application/json"
+
+In Ruby normally, every single request would create two new strings in memory. With this feature enabled, only two strings would be created ever (well, within the context of this example), and they'd be referred to for each request.
+
 Put all of this together, and the overall advantage of this feature is reduced memory usage, with the added benefit of avoiding potentially unexpected string modifications.
 
 ## Enabling it in a single file
