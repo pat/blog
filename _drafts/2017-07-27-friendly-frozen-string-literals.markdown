@@ -1,5 +1,6 @@
 ---
 title: "Friendly Frozen String Literals"
+date: 2017-07-27 10:00:00
 categories:
   - ruby
   - rails

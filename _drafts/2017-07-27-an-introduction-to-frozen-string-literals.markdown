@@ -1,5 +1,6 @@
 ---
 title: "An Introduction to Frozen String Literals"
+date: 2017-07-27 11:00:00
 categories:
   - ruby
   - rails
@@ -64,6 +65,7 @@ If you want to ensure an object cannot be changed, you can freeze it:
     lunch = "gelato"
     lunch.freeze
     lunch.frozen? #=> true
+    # gelato for lunch every day! 🍦
 
 This process cannot be reversed - once an object is frozen in Ruby, it will remain frozen.
 
@@ -77,7 +79,8 @@ In Ruby, whenever you have a statement defining a string as a literal, it's a ne
       "greetings"
     end
 
-    # This returns five different object ids, for five strings with identical contents.
+    # This returns five different object ids,
+    # for five strings with identical contents.
     5.times.collect { hello.object_id }
 
 To avoid extra objects, you could extract common strings into constants:
@@ -88,7 +91,8 @@ To avoid extra objects, you could extract common strings into constants:
       HELLO
     end
 
-    # This returns five identical object ids, all for the same string.
+    # This returns five identical object ids,
+    # all for the same string.
     5.times.collect { hello.object_id }
 
 This is great, because we only need to store one instance of the string in memory, no matter how many times it's used. The issue here, though, is that the string could be modified by one use, and that affects all future uses:
