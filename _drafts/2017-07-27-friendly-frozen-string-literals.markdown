@@ -28,7 +28,7 @@ If you want to enable this feature on a per-file basis, you can use a pragma com
       # ...
     end
 
-This will only impact that specific file, not any other files that it in turn loads.
+A pragma comment is an instruction for Ruby that when reading the file, it should treat it a certain way. They only impact that specific file, not any other files that it in turn loads.
 
 ## Enabling it for every file
 
