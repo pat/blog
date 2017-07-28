@@ -8,7 +8,7 @@ categories:
   - strings
 ---
 
-In this post I am running through the basic concepts of literals, strings, and the benefits of frozen objects in Ruby. If you feel like you understand this, jump straight on over to [part two](friendly-frozen-string-literals.html) which covers the new Frozen String Literal feature in Ruby 2.3 and beyond.
+In this post I am running through the basic concepts of literals, strings, and the benefits of frozen objects in Ruby. If you feel like you understand this, jump straight on over to [part two](/2017/07/27/friendly-frozen-string-literals.html) which covers the new Frozen String Literal feature in Ruby 2.3 and beyond.
 
 ## What are Literals?
 
@@ -132,4 +132,4 @@ Any attempts to modify that re-usable string results in an exception, which is g
     # And then, `hello` remains consistent:
     puts hello #=> "greetings"
 
-Using constants of frozen strings is useful for performance and reliable behaviour - but it can get tiresome doing this all the time. However, Ruby 2.3 introduced a new (optional) behaviour: to treat all string literals as frozen. I cover this behaviour in [my next post](friendly-frozen-string-literals.html).
+Using constants of frozen strings is useful for performance and reliable behaviour - but it can get tiresome doing this all the time. However, Ruby 2.3 introduced a new (optional) behaviour: to treat all string literals as frozen. I cover this behaviour in [my next post](/2017/07/27/friendly-frozen-string-literals.html).

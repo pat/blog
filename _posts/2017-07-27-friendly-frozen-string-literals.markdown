@@ -8,7 +8,7 @@ categories:
   - strings
 ---
 
-(If you're not entirely familiar with the terms frozen, string, or literal - especially in relation to Ruby - it's probably best starting with [the previous post](an-introduction-to-frozen-string-literals.html) which introduces these concepts.)
+(If you're not entirely familiar with the terms frozen, string, or literal - especially in relation to Ruby - it's probably best starting with [the previous post](/2017/07/27/an-introduction-to-frozen-string-literals.html) which introduces these concepts.)
 
 Since the 2.3.0 release of Ruby, there's been the optional feature to make all string literals frozen. This means that any string literal within your code is frozen and cannot be modified. As an added bonus, identical string literals in multiple locations are the same object (and for what it's worth, this is how symbols already behave), so the memory profile of your app is potentially reduced.
 
