@@ -111,17 +111,17 @@ One approach is to change the `<<` calls to `+=`:
 However, if you use `+=` you're creating a new string on every call, and thus losing the advantage of the memory benefits of a single string. It's much better to instead create a mutable copy of the initial string via the `dup` method:
 
     buffer = "".dup
-    buffer += "My name is "
-    buffer += first_name
-    buffer += " " << last_name unless last_name.nil?
+    buffer << "My name is "
+    buffer << first_name
+    buffer << " " << last_name unless last_name.nil?
     buffer
 
 `dup` copies everything about an object in Ruby except for its frozen state, so it provides exactly what we need. Another equally viable approach is to use `String.new`:
 
     buffer = String.new ""
-    buffer += "My name is "
-    buffer += first_name
-    buffer += " " << last_name unless last_name.nil?
+    buffer << "My name is "
+    buffer << first_name
+    buffer << " " << last_name unless last_name.nil?
     buffer
 
 In both of these cases, the new strings are computed values, rather than literals, and they are mutable, so it's more a matter of personal preference of what style you like more.
