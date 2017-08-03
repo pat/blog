@@ -67,6 +67,7 @@ At the time of writing, these gems all have patches that cover frozen string lit
 * redis
 * simplecov and simplecov-html
 * coderay
+* puma
 * thinking-sphinx (mine)
 
 ### Gems with Frozen-String-Literal Friendly Pull Requests
@@ -74,7 +75,6 @@ At the time of writing, these gems all have patches that cover frozen string lit
 * [builder](https://github.com/tenderlove/builder/pull/6)
 * [rack](https://github.com/rack/rack/pull/1182)
 * [thor](https://github.com/erikhuda/thor/pull/567)
-* [puma](https://github.com/puma/puma/pull/1376)
 * [addressable](https://github.com/sporkmonger/addressable/pull/260)
 * [cucumber](https://github.com/cucumber/cucumber-ruby/pull/1136)
 * [parser](https://github.com/whitequark/parser/pull/354) (used by rubocop)
