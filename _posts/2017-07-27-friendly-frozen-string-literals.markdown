@@ -52,6 +52,7 @@ Free performance improvements are always welcome - but in this case there's a ca
 * test-unit
 * gettext
 * syntax
+* simplecov and simplecov-html
 * riddle (mine)
 * sliver (mine)
 * combustion (mine)
@@ -65,7 +66,6 @@ At the time of writing, these gems all have patches that cover frozen string lit
 * rspec
 * devise
 * redis
-* simplecov and simplecov-html
 * coderay
 * puma
 * thinking-sphinx (mine)
