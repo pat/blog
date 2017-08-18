@@ -54,6 +54,7 @@ Free performance improvements are always welcome - but in this case there's a ca
 * syntax
 * simplecov and simplecov-html
 * thor
+* puma
 * riddle (mine)
 * sliver (mine)
 * combustion (mine)
@@ -68,7 +69,6 @@ At the time of writing, these gems all have patches that cover frozen string lit
 * devise
 * redis
 * coderay
-* puma
 * thinking-sphinx (mine)
 
 ### Gems with Frozen-String-Literal Friendly Pull Requests
