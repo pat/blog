@@ -10,6 +10,7 @@
     <meta name="twitter:creator" content="@pat">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.excerpt | remove: '<p>' | remove: '</p>' | truncate: 200, '…' }}" />
   </head>
   <body>
     {% include navigation.html %}
