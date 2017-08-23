@@ -7,6 +7,7 @@ categories:
   - rails
   - australia
   - community
+excerpt: "On this date ten years ago (June 15th 2007), a few dozen Rubyists and Ruby-curious folk gathered outside Sydney for the very first Rails Camp."
 ---
 On this date ten years ago (June 15th 2007), a few dozen Rubyists and Ruby-curious folk gathered outside Sydney for the very first Rails Camp.
 

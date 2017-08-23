@@ -6,6 +6,7 @@ categories:
   - rails
   - programming
   - strings
+excerpt: "An introduction to the basic concepts of literals, strings, and the benefits of frozen objects in Ruby."
 ---
 
 In this post I am running through the basic concepts of literals, strings, and the benefits of frozen objects in Ruby. If you feel like you understand this, jump straight on over to [part two](/2017/07/27/friendly-frozen-string-literals.html) which covers the new Frozen String Literal feature in Ruby 2.3 and beyond.

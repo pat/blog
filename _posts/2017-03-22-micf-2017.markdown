@@ -5,6 +5,7 @@ categories:
   - micf
   - melbourne
   - "2017"
+excerpt: "My picks for the 2017 edition of the Melbourne International Comedy Festival"
 ---
 
 Another year, and another [Comedy Festival](https://www.comedyfestival.com.au/2017) approaches!

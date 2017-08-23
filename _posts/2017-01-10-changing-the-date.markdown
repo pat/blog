@@ -7,6 +7,7 @@ categories:
   - politics
   - respect
   - limbr
+excerpt: "January 26th in Australia is a day that marks invasion, genocide and dispossession. Using that date as Australia Day is offensive and disrespectful."
 ---
 
 Historically, January 26th in Australia is a day that marks invasion, genocide and dispossession. Using that date as _Australia Day_ - ostensibly an occasion to celebrate our country - is offensive and disrespectful.

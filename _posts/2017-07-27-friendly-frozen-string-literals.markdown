@@ -6,6 +6,7 @@ categories:
   - rails
   - programming
   - strings
+excerpt: "Since the 2.3.0 release of Ruby, there's been the optional feature to make all string literals frozen."
 ---
 
 (If you're not entirely familiar with the terms frozen, string, or literal - especially in relation to Ruby - it's probably best starting with [the previous post](/2017/07/27/an-introduction-to-frozen-string-literals.html) which introduces these concepts.)
