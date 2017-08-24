@@ -1,0 +1,17 @@
+language: ruby
+rvm: 2.4.1
+sudo: false
+before_install:
+- pip install --upgrade --user awscli
+- gem update --system
+- gem install bundler
+before_script:
+- bundle exec rake tags
+script: bundle exec jekyll build
+after_script:
+- aws s3 cp _site s3://freelancing-gods/ --recursive --acl public-read
+- bundle exec drumknott refresh
+env:
+  global:
+  - secure: EG14NEUxQxNx0DcnnaWxnWZlFUx7Qb4iaeut5v9SuJnSIlPkK9GXpivdkuxbAoC+dyozSr8ZH9M+oCRFutmzs9c9qx0cQ7f5CjHk8iN78/PgLMhMXOsJhnqGRCrCYkDLJ7QPeelGKF4zP/FiDt9VdGFpR0GKVKl/nzk+M0zwBTE=
+  - secure: HdUjiuRhtI/eh3pUyLnYUK3Pu2qVV7jSOdXx1yTZpffR+M5FNarHaLulp8QY5w/ZCOueIdQiZHUjvRMPytszvYeV7rtRVdTYkTcGUMTtTKT4YZ4wnXS8loSbyXLBd3BLNp42jCfo7Sao1TXqYXVvUNFUOJKm47QGrHgI+ftGdi0=
