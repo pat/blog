@@ -21,3 +21,5 @@ url: http://freelancing-gods.com
 author:
   name: Pat Allan
   uri: http://freelancing-gods.com/about.html
+exclude:
+  - vendor
