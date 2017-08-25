@@ -17,9 +17,9 @@ defaults:
       layout: "posts"
       section: "posts"
 name: Freelancing Gods
-url: http://freelancing-gods.com
+url: https://freelancing-gods.com
 author:
   name: Pat Allan
-  uri: http://freelancing-gods.com/about.html
+  uri: https://freelancing-gods.com/about.html
 exclude:
   - vendor
