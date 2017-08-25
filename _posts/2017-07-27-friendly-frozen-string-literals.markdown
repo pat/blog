@@ -56,6 +56,7 @@ Free performance improvements are always welcome - but in this case there's a ca
 * simplecov and simplecov-html
 * thor
 * puma
+* addressable
 * riddle (mine)
 * sliver (mine)
 * combustion (mine)
@@ -76,7 +77,6 @@ At the time of writing, these gems all have patches that cover frozen string lit
 
 * [builder](https://github.com/tenderlove/builder/pull/6)
 * [rack](https://github.com/rack/rack/pull/1182)
-* [addressable](https://github.com/sporkmonger/addressable/pull/260)
 * [cucumber](https://github.com/cucumber/cucumber-ruby/pull/1136)
 * [parser](https://github.com/whitequark/parser/pull/354) (used by rubocop)
 * [racc](https://github.com/tenderlove/racc/pull/80) (used by parser)
