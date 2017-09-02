@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+rm -rf _site
+bundle exec rake tags
+bundle exec jekyll build
