@@ -22,4 +22,9 @@ author:
   name: Pat Allan
   uri: https://freelancing-gods.com/about.html
 exclude:
+  - bin
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
   - vendor
