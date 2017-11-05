@@ -10,8 +10,11 @@ before_script:
 script: bundle exec jekyll build
 after_script:
 - aws s3 cp _site s3://freelancing-gods/ --recursive --acl public-read
+- aws configure set preview.cloudfront true
+- aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_ID --paths "/*"
 - bundle exec drumknott refresh
 env:
   global:
   - secure: EG14NEUxQxNx0DcnnaWxnWZlFUx7Qb4iaeut5v9SuJnSIlPkK9GXpivdkuxbAoC+dyozSr8ZH9M+oCRFutmzs9c9qx0cQ7f5CjHk8iN78/PgLMhMXOsJhnqGRCrCYkDLJ7QPeelGKF4zP/FiDt9VdGFpR0GKVKl/nzk+M0zwBTE=
   - secure: HdUjiuRhtI/eh3pUyLnYUK3Pu2qVV7jSOdXx1yTZpffR+M5FNarHaLulp8QY5w/ZCOueIdQiZHUjvRMPytszvYeV7rtRVdTYkTcGUMTtTKT4YZ4wnXS8loSbyXLBd3BLNp42jCfo7Sao1TXqYXVvUNFUOJKm47QGrHgI+ftGdi0=
+  - secure: Axy7nt9vlarwhCRAnJ7apDkhcWoHvH8c1UaS5Aqdbmzzs0EPOyZ3uYxN3ksfx2xBHOieteTzRalct0rzNGArJYcdl3VwDefjhsKTz7f4w1Cw57gQrjQUaO/Am+Nv4dmFKSSAX85pJPVjj49wi6IAMWbLf5mXEsCCDaGoH8rwku0=
