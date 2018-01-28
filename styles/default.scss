@@ -6,7 +6,7 @@
 @import "_fonts";
 
 $offwhite: #fafafa;
-$blue: #009595;
+$blue: #008484;
 $brand_blue: #E26B25;
 
 html {
@@ -213,9 +213,9 @@ code {
   margin-right: 0.2em;
   display: inline-block;
 
-  $grey: rgba(#000, .5);
-  $green: #690;
-  $pink: #dd4a68;
+  $grey: rgba(#000, .55);
+  $green: #548000;
+  $pink: #d72f58;
   .comment {
     color: $grey;
   }
@@ -302,7 +302,7 @@ footer {
   font-family: 'Museo Sans', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   margin-bottom: 1em;
-  color: rgba(#000, .5);
+  color: rgba(#000, .55);
 }
 
 #drumknott-search {
