@@ -7,6 +7,7 @@ categories:
   - melbourne
   - family
   - traditions
+excerpt: "Taking a moment for reflection and gratitude, and saying thank you via pancakes"
 ---
 
 I've spoken to many people about this story, and I was lucky enough to have it published (within a broader context) in [Kai Brach's](https://twitter.com/kaibrach) excellent [Offscreen](http://www.offscreenmag.com), but I'm particularly inclined to write about it publicly tonight.
