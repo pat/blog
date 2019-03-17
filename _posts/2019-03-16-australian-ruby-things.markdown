@@ -62,7 +62,7 @@ And for the rest: I wanted to get us thinking beyond just code, and into how our
 
 Sandi's comments in 2018 - that we are all good enough - resonated so deeply with me. My sense of self worth often isn't as good as it could be, and to get an unexpected reminder that I _am_ good enough was a balm for my soul.
 
-But moreso: our Ruby commmunity is continually growing, and there's always - wonderfully! - a great many new people at every conference. So I am keen to emphasise that no matter who you are, how experienced you are at Ruby, or in any ways you may feel a bit different, that not only are you good enough to be present, you are _welcome_.
+But moreso: our Ruby commmunity is continually growing, and there's always - wonderfully! - a great many new people at every conference. So I am keen to emphasise that no matter who you are, how experienced you are at Ruby, or in any ways you may feel a bit different, that not only are you good enough to be present, you are _welcome_. We want you to be a part of this.
 
 And there's a further step along from that, inspired by [Rabi Danya Ruttenberg](https://twitter.com/TheRaDR), which I didn't think to address at the time but should have: our community and our industry is better _because_ you are part of it.
 
