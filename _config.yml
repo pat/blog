@@ -2,7 +2,7 @@ highligher: rouge
 permalink: "/:year/:month/:day/:title.html"
 paginate: 20
 paginate_path: "/posts/:num/"
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-paginate
