@@ -56,13 +56,13 @@ Or, if the written word is your preferred medium:
 
 ---
 
-The very beginning (the first main paragraph) was spoken off the cuff, due to no elder being present due to illness - I'd pre-written the rest. I'd like to point out I should not have said 'clearly' when talking about the fact I'm not of the Kulin nations. A person's physical appearance is not an indication of whether they are a member of the First Nations.
+The very beginning (the first main paragraph) was spoken off the cuff, with no elder being present due to illness - I'd pre-written the rest. I'd like to point out I should not have said 'clearly' when talking about the fact I'm not of the Kulin nations. A person's physical appearance is not an indication of whether they are a member of the First Nations.
 
 And for the rest: I wanted to get us thinking beyond just code, and into how our lives and work interact with the world around us.
 
 Sandi's comments in 2018 - that we are all good enough - resonated so deeply with me. My sense of self worth often isn't as good as it could be, and to get an unexpected reminder that I _am_ good enough was a balm for my soul.
 
-But moreso: our Ruby commmunity is continually growing, and there's always - wonderfully! - a great many new people at every conference. So I am keen to emphasise that no matter who you are, how experienced you are at Ruby, or in any ways you may feel a bit different, that not only are you good enough to be present, you are _welcome_.
+But moreso: our Ruby commmunity is continually growing, and there's always - wonderfully! - a great many new people at every conference. So I am keen to emphasise that no matter who you are, how experienced you are at Ruby, or in any ways you may feel a bit different, that not only are you good enough to be present, you are _welcome_. We want you to be a part of this.
 
 And there's a further step along from that, inspired by [Rabi Danya Ruttenberg](https://twitter.com/TheRaDR), which I didn't think to address at the time but should have: our community and our industry is better _because_ you are part of it.
 
@@ -76,4 +76,12 @@ One unrelated note about the Australian Ruby community that's worth noting, is t
 
 _So many_ people - as beautifully highlighted at the conference by our MCs - have played a part in shaping our community. What we've collectively crafted is something special, and it continues to grow and improve through the efforts of countless Rubyists, often without much recognition.
 
-I am very aware that I'm _already_ a prominent member of this community, and I'm keen to see others who have less of a platform get involved. So we'll be working a bit harder at making the pathways into the committee more clear, and more clearly supported - and suggestions on how to improve this further are very welcome. Also: if you're unsure about how the committee works, or how you can be part of it, feel free to get in touch (via [Twitter](https://twitter.com/pat), or [email](mailto:pat@-this-domain), or on the [Ruby AU Slack](https://ruby.org.au/slack)).
+We've been very lucky that we've ended up - without planning it! - with a habit of encouraging and supporting community members in stepping into organising roles. The conference teams have changed each year, and there are dozens of Australian Rubyists who've played a part in shaping Rails Camps over the past 12 years.
+
+Things can always improve, though. I am very aware that I'm _already_ a prominent member of this community, and I'm keen to see others who have less of a platform get involved, and to take on such roles - both in the committee, and in event organising teams. So we'll be working a bit harder at making the pathways into the committee more clear, and more clearly supported - and suggestions on how to improve this further are very welcome. We're making similar efforts for potential event organisers.
+
+Speaking of which: perhaps you're interested in being a part of the Rails Camp team for late this year? [We're currently accepting expressions of interest from potential organisers.](https://ruby.org.au/events/rails_camp_26)
+
+And tickets are available now for the 25th Australian Rails Camp, taking place in Perth this May. [You should totally come along!](https://ti.to/ruby-australia/railscamp25)
+
+If you have any thoughts about our events, our committee, and possibly how you can be a part of it all, please do get in touch - via [email](mailto:pat at freelancing-gods dot com), [Twitter](https://twitter.com/pat), or on [the Ruby AU Slack](https://ruby.org.au/slack).
