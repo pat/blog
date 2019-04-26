@@ -3,6 +3,7 @@ title: "Hunting New Opportunities"
 categories:
   - work
   - life
+excerpt: "Lately, I’ve been the CTO at Limbr, working with amazing humans on building support systems for people's mental health. It's been great, but it's time for me to move on and find something new."
 ---
 
 Lately, I’ve been the CTO at [Limbr](https://www.limbr.org), working with amazing humans on building support systems for people's mental health. I've loved being a part of the team, and working together to craft a wonderful product and culture, but it’s time for something new for me.
