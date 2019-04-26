@@ -38,8 +38,10 @@ Beyond the technical skills covered briefly above, I feel I can also be quite go
 * I want to work in companies that take a stand for a more compassionate and inclusive world, in both words and action.
 * I prefer to work in companies that support me in being a part of the tech industry and community (through such things as attending, speaking at, and organising events).
 
-If you know of something that could fit some (or even all!) of these criteria - whether it's within your own company or elsewhere - do get in touch. I realise I've outlined a bunch of preferences, but I know no one place is going to have everything - so please, if you're unsure, err on the side of contacting me. My email address is `pat@` at this domain, or [reach out via Twitter](https://twitter.com/pat).
+If you know of something that could fit some (or even all!) of these criteria - whether it's within your own company or elsewhere - do get in touch. My email address is `pat@` at this domain, or [reach out via Twitter](https://twitter.com/pat).
 
-And any help with getting the word out that I'm job hunting is also appreciated.
+I realise I've outlined a bunch of preferences, but I know no one place is going to have everything. Perhaps your approach to work and business is a little different? That's fine, I'm keen to hear about new ideas and approaches! So please, if you're unsure, err on the side of contacting me.
 
-Also: If you're interested in the reasons behind my preferences here, you are also welcome to get in touch (I'm erring towards being more concise in this post).
+The same goes for anyone interested in the reasons behind my preferences here. I've aimed for being concise in this post, but I'm very happy to talk further about it all.
+
+Lastly: any help with getting the word out that I'm job hunting is also appreciated! Thank you.
