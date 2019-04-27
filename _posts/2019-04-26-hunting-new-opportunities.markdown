@@ -10,7 +10,7 @@ Lately, I’ve been the CTO at [Limbr](https://www.limbr.org), working with amaz
 
 Previous to my time with Limbr, I’ve largely been a contractor focused on Ruby for over a decade. This has led to fantastic stints working with superb development teams across Melbourne (most recently [Culture Amp](https://www.cultureamp.com), [The Conversation](https://theconversation.com/au), [YourGrocer](https://www.yourgrocer.com.au), and [Moonshot Labs](https://moonshotlabs.io)/[Inspire9](https://inspire9.com)), along with others in Berlin (👋 [Upstream](http://upstre.am)) and Dublin (👋 [Tito](https://ti.to/home)/Hypertiny).
 
-And now? I'm taking a moment to breath, and to consider new opportunities. Here's some detail on what I'm looking for, both in terms of the work I'm keen to do, and the types of organisations I'm keen to be a part of. It may have ended up reading more like a CV than I'd aimed for… but I hope it's enough to start some good conversations (my email address is `pat@` at this domain - do get in touch).
+And now? I'm taking a breather with a few weeks off, and then I'll be actively considering new opportunities. Here's some detail on what I'm looking for, both in terms of the work I'm keen to do, and the types of organisations I'm keen to be a part of. It may have ended up reading more like a CV than I'd aimed for… but I hope it's enough to start some good conversations (my email address is `pat@` at this domain - do get in touch).
 
 First up, here's a bunch of things I'd love to do - a role that combines a few of these would be ideal:
 
