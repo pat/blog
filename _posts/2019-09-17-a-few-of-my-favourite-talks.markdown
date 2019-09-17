@@ -29,7 +29,7 @@ In June, The Wheeler Centre hosted a PEN Lecture on [Writing in Exile, featuring
 
 Unfortunately there's no video of this session, but the audio podcast is available.
 
-<iframe frameborder="0" height="300" scrolling="no" src="https://www.wheelercentre.com/embed/audio/1eece2cd-a04e-47a9-856d-63fbfc8873fb?title=Listen+to+Writing+in+Exile%3A+Samah+Sabawi" width="100%"></iframe>
+<iframe frameborder="0" height="200" scrolling="no" src="https://www.wheelercentre.com/embed/audio/1eece2cd-a04e-47a9-856d-63fbfc8873fb?title=Listen+to+Writing+in+Exile%3A+Samah+Sabawi" width="100%"></iframe>
 
 If any of these have whet your appetite and you're looking for more, then perhaps check out my favourite session of last year's [Not Racist, But…](https://www.wheelercentre.com/events/series/not-racist-but) events, on [Racism, Identity and Labels](https://www.youtube.com/watch?v=HKrFBkZiCzY). The next one in the series will be on the [Criminal Justice System](https://www.wheelercentre.com/events/racism-and-the-criminal-justice-system) in September, and I'm attending - so do let me know if you're coming along.
 
@@ -37,7 +37,7 @@ If any of these have whet your appetite and you're looking for more, then perhap
 
 Also worth a listen is Erik Jensen's PEN Lecture on the broken Australian media landscape, titled [Fragile Minds](https://www.wheelercentre.com/broadcasts/podcasts/the-wheeler-centre/pen-lecture-fragile-minds).
 
-<iframe frameborder="0" height="300" scrolling="no" src="https://www.wheelercentre.com/embed/audio/042e14cb-c2a8-4ad5-9fa9-cbcf0e06e32b?title=Listen+to+PEN+Lecture%3A+Fragile+Minds" width="100%"></iframe>
+<iframe frameborder="0" height="200" scrolling="no" src="https://www.wheelercentre.com/embed/audio/042e14cb-c2a8-4ad5-9fa9-cbcf0e06e32b?title=Listen+to+PEN+Lecture%3A+Fragile+Minds" width="100%"></iframe>
 
 If you're keen to attend such sessions, then I highly recommend keeping an eye on [the Wheeler Centre's upcoming events](https://www.wheelercentre.com/events). On a grander scale is their recently announced [Broadside](https://broadside.wheelercentre.com) ideas festival, which looks _amazing_ (but I'll unfortunately miss out as I'm overseas at the time).
 
