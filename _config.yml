@@ -6,6 +6,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-zopfli
 sass:
   sass_dir: styles
 defaults:
@@ -28,3 +29,5 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - vendor
+zopfli:
+  replace_files: true
