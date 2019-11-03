@@ -1,3 +1,4 @@
 _site
-*.tmproj
+.jekyll-cache
 .sass-cache
+*.tmproj
