@@ -3,7 +3,6 @@ rvm: 2.6.5
 sudo: false
 before_install:
 - pip install --upgrade --user awscli
-- gem update --system
 - gem install bundler
 before_script:
 - bundle exec rake tags
