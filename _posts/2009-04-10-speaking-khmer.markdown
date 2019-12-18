@@ -2,7 +2,13 @@
 title: "Speaking Khmer"
 redirect_from: "/posts/speaking_khmer/"
 categories:
-  - cambodia travel khmer guide language
+  - cambodia
+  - travel
+  - khmer
+  - guide
+  - language
+excerpt: "While I’m pretty good with programming languages, spoken languages is a completely different kettle of fish. Still, I spent a long enough time
+in Cambodia to pick up some Khmer."
 ---
 \*This is the second of [my guides to
 Cambodia](http://freelancing-gods.com/posts/pats_guide_to_cambodia.*)
@@ -259,12 +265,12 @@ Super interesting :), really!
 Rc left a comment on 7 May, 2013:</div>
 
 <div class="comment" markdown="1">
-How much is this? =&gt; Tly pon-man?  
-How much/many? =&gt; pon-man?  
+How much is this? =&gt; Tly pon-man?
+How much/many? =&gt; pon-man?
 How hold are you? =&gt; thar nak ah yuk pon-man hawy?
 
-Money: Loy  
-Can I have the bill?: Som kit loy?  
+Money: Loy
+Can I have the bill?: Som kit loy?
 Bill =&gt; kit loy (ket-loi)
 
 ;)
@@ -274,7 +280,7 @@ Bill =&gt; kit loy (ket-loi)
 Tony left a comment on 31 Oct, 2014:</div>
 
 <div class="comment" markdown="1">
-“Meat” is more “seik” than satch.  
+“Meat” is more “seik” than satch.
 (Beef sounds like “psycho”!)
 
 Learning to write made a huge difference to my speaking.
