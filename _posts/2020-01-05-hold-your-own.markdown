@@ -16,7 +16,7 @@ This new year, all too quickly, has become a struggle.
 
 … though really, is it a surprise? The concept of a year - this human-imposed, arbirtrary slice of time - and the notion that when our calendars switched over to 2020, everything would be different… is this idea actually helpful?
 
-… and, looking past that marker: the bushfires have been raging for over a month now. Countless injustices stretch well beyond the past year, remaining unresolved as we step into this new decade. Climate change denialism and scepticism still runs rampant. Australia’s collective - and deliberate - 250-year project of brutal colonisation continues without much of a pause.
+… and, looking past that marker: the bushfires in Australia have been raging for over a month now, and could continue beyond the end of summer. Countless injustices stretch well beyond the past year, remaining unresolved as we step into this new decade. Climate change denialism and scepticism still runs rampant. Australia’s collective - and deliberate - 250-year project of brutal colonisation continues without too much of a pause.
 
 In the face of all of this, it's hard to feel enthused about normal day-to-day joys. It's also hard to balance one's own mental health challenges in the face of such devastation as well, as [Anna Spargo-Ryan](https://twitter.com/annaspargoryan) has [written about so compassionately](https://medium.com/@annaspargoryan/how-to-be-mental-in-the-apocalypse-ac18ab501867).
 
