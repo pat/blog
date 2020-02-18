@@ -5,6 +5,7 @@ categories:
   - australia
   - melbourne
   - performance
+excerpt: "A few months ago, I found myself at Readings bookshop - often to browse and buy. This time, though, was different and new: I was visiting for the launch of Maxine Beneba Clarke’s latest poetry collection."
 ---
 
 A few months ago, I found myself at [Readings](http://www.readings.com.au)’ bookshop - an institution of Lygon Street in Carlton. It’s a shop I’ve ventured inside countless times. Often I wander in without any intention of buying anything - but more often than not, I leave with at least one book under my arm. This time, though, I was visiting for a specific reason: the launch of [Maxine Beneba Clarke](https://twitter.com/slamup)’s latest poetry collection [Carrying the World](http://www.readings.com.au/products/21717079/carrying-the-world).
