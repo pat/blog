@@ -1,0 +1,1059 @@
+{
+  "title": "Writing Ruby Gems",
+  "date": "2020-03-25",
+  "location": "Melbourne Ruby",
+  "location_url": "https://www.meetup.com/en-AU/Ruby-On-Rails-Oceania-Melbourne/events/xvmkjrybcfbhc/",
+  "video": null,
+  "slides": [
+    {
+      "notes": "<p>Good evening everyone,</p>\n\n      <p>It’s great to have you all here… something different to the usual Melbourne Ruby events, but I’m sure it’ll all work out nonetheless.</p>\n\n      <p>For those who I’ve not yet had the pleasure of meeting yet, my name is Pat Allan, I’ve been working with Ruby for quite some time.</p>\n\n      <p>I am in Melbourne, and so I’d like to note that I live and work on the un-ceded land of the Wurundjeri and Boonwurung peoples, part of the Eastern Kulin nations. I want to pay my respects to their elders past, present, and emerging, and all elders of communities that are on this call. We’re here to discuss both community and technology, and it is important to understand that this area - what many know as Melbourne, but also known as Naarm for much longer - has been home to community and technologists for tens of thousands of years, even though much of that history has been destroyed, and there’s still so much to learn from the First Nations people and culture.</p>\n\n      <p>Womenjika, in the Woiwurrung language of this land, means welcome, but also to come with purpose. I presume most of you have come along tonight with the purpose of learning - but even if your purpose is just to have some distraction from the chaos we’re all grappling with right now, it’s lovely to have you here anyway.</p>",
+      "image": "images.001.jpg",
+      "images": {
+        "sm": "images.001-sm.jpg",
+        "hg": "images.001-hg.jpg",
+        "lg": "images.001-lg.jpg",
+        "md": "images.001-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>This evening, I’m going to talk through how to write Ruby gems… and given the medium for this discussion, I’ve a couple of requests:</p>\n\n      <p>If you could please keep your microphones muted to avoid any background noises, that’d be great - it just makes it easier for me to focus, and for everyone else to listen. I will pause at several places in my presentation for questions - so it’s best to use the raised hand button - you can find it by clicking on the ‘Participants’ icon in the base of the window here, and then there’s the hand icon at the end of that list.</p>\n\n      <p>When I pause, I’ll ask each of the people with raised hands, one by one, to unmute and ask their questions (and don’t forget to mute again after that - not that I don’t love a proper discussion, we’ve just got plenty to get through tonight).</p>",
+      "image": "images.002.jpg",
+      "images": {
+        "sm": "images.002-sm.jpg",
+        "hg": "images.002-hg.jpg",
+        "lg": "images.002-lg.jpg",
+        "md": "images.002-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Okay, that’s the logistical challenges out of the way… so let’s get stuck into gems.</p>\n\n      <p>Of course, you may well be asking: what actually is a gem? Which is a very fair question… but also raises the issue of terminology, because there’s a couple of overloaded terms that I’ll be discussing. Let’s start with the word ‘gem’ itself…</p>",
+      "image": "images.003.jpg",
+      "images": {
+        "sm": "images.003-sm.jpg",
+        "hg": "images.003-hg.jpg",
+        "lg": "images.003-lg.jpg",
+        "md": "images.003-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>This is probably the most common concept, especially for those less familiar with programming - a gem being a precious stone.</p>",
+      "image": "images.004.jpg",
+      "images": {
+        "sm": "images.004-sm.jpg",
+        "hg": "images.004-hg.jpg",
+        "lg": "images.004-lg.jpg",
+        "md": "images.004-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>… but for anyone who codes with Ruby, you’ve probably at least heard of the concept of a gem in other ways. The main way is where a gem is a collection of code, written in Ruby, with a given purpose of some sort. There are gems that deal with statistics, gems that deal with authentication, gems that deal with searching, gems that deal with generating PDFs, gems that interact with APIs, and so on.</p>",
+      "image": "images.005.jpg",
+      "images": {
+        "sm": "images.005-sm.jpg",
+        "hg": "images.005-hg.jpg",
+        "lg": "images.005-lg.jpg",
+        "md": "images.005-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>… but, just to add a touch of confusion, there is also the command-line tool for use in your terminal, which you use by invoking the command ‘gem’. It is part of the RubyGems package manager…</p>\n\n      <p>Which leads us to the second confusing term:</p>",
+      "image": "images.006.jpg",
+      "images": {
+        "sm": "images.006-sm.jpg",
+        "hg": "images.006-hg.jpg",
+        "lg": "images.006-lg.jpg",
+        "md": "images.006-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>RubyGems is indeed a package manager - a way of installing packages of code, these aforementioned gems - onto your machine. It also handles publishing of gem versions, and removing them, and other such things…</p>",
+      "image": "images.007.jpg",
+      "images": {
+        "sm": "images.007-sm.jpg",
+        "hg": "images.007-hg.jpg",
+        "lg": "images.007-lg.jpg",
+        "md": "images.007-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>But RubyGems is also the name of the website that stores all published versions of gems. Similar, but slightly different.</p>\n\n      <p>I’m hoping it’s clear through this talk by the context of what I’m saying, which gem and rubygems I’m referring to. But, if you’re not sure, please do ask me to clarify! I’ve been writing gems and using Ruby for quite some time, so I can get lost in the lingo.</p>\n\n      <p>This is a good first place to pause for questions - remember, via the raised hand button. Anyone?</p>",
+      "image": "images.008.jpg",
+      "images": {
+        "sm": "images.008-sm.jpg",
+        "hg": "images.008-hg.jpg",
+        "lg": "images.008-lg.jpg",
+        "md": "images.008-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Right, so that’s what a gem is, and some of the other terminology - but why would you create a gem?</p>",
+      "image": "images.009.jpg",
+      "images": {
+        "sm": "images.009-sm.jpg",
+        "hg": "images.009-hg.jpg",
+        "lg": "images.009-lg.jpg",
+        "md": "images.009-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Firstly: if you’ve got some code that does one thing quite well, and you want to use it in other projects, then it could be the perfect candidate for a gem!</p>",
+      "image": "images.010.jpg",
+      "images": {
+        "sm": "images.010-sm.jpg",
+        "hg": "images.010-hg.jpg",
+        "lg": "images.010-lg.jpg",
+        "md": "images.010-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And gems are - mostly - quite easy to install, so that makes it even easier to use across projects.</p>",
+      "image": "images.011.jpg",
+      "images": {
+        "sm": "images.011-sm.jpg",
+        "hg": "images.011-hg.jpg",
+        "lg": "images.011-lg.jpg",
+        "md": "images.011-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And also, gems can be installed and used by others - so it’s a great way of adding to the extensive Ruby ecosystem.</p>",
+      "image": "images.012.jpg",
+      "images": {
+        "sm": "images.012-sm.jpg",
+        "hg": "images.012-hg.jpg",
+        "lg": "images.012-lg.jpg",
+        "md": "images.012-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>So, hopefully you’ve got at least the beginnings of an idea about what gems are - don’t worry if it’s not all clear yet! And perhaps there’s some understanding about why they’re useful, and why you may want to write one…</p>\n\n      <p>So, let’s get stuck into the actual focus of this talk: *how* to write a gem.</p>",
+      "image": "images.013.jpg",
+      "images": {
+        "sm": "images.013-sm.jpg",
+        "hg": "images.013-hg.jpg",
+        "lg": "images.013-lg.jpg",
+        "md": "images.013-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>If a gem is just a collection of code, that’s fine, but it’s also overwhelming. Where do you start? What ties it all together?</p>\n\n      <p>The answer is the file called the gemspec. It provides the specification for a gem - hence the name. It details what files are in the gem, what version it is, who built it, and what it depends on.</p>",
+      "image": "images.014.jpg",
+      "images": {
+        "sm": "images.014-sm.jpg",
+        "hg": "images.014-hg.jpg",
+        "lg": "images.014-lg.jpg",
+        "md": "images.014-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And the file extension is literally dot-gemspec. If, say, we were building a gem called ‘melb_ruby’, then you would name the file melb_ruby.gemspec.</p>",
+      "image": "images.015.jpg",
+      "images": {
+        "sm": "images.015-sm.jpg",
+        "hg": "images.015-hg.jpg",
+        "lg": "images.015-lg.jpg",
+        "md": "images.015-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>So, here's what would go in a gemspec - well, some of the core settings.</p>\n\n      <p>Let’s step through them one by one…</p>",
+      "image": "images.016.jpg",
+      "images": {
+        "sm": "images.016-sm.jpg",
+        "hg": "images.016-hg.jpg",
+        "lg": "images.016-lg.jpg",
+        "md": "images.016-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>You need to specify the name of the gem…</p>",
+      "image": "images.017.jpg",
+      "images": {
+        "sm": "images.017-sm.jpg",
+        "hg": "images.017-hg.jpg",
+        "lg": "images.017-lg.jpg",
+        "md": "images.017-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>… the current version …</p>",
+      "image": "images.018.jpg",
+      "images": {
+        "sm": "images.018-sm.jpg",
+        "hg": "images.018-hg.jpg",
+        "lg": "images.018-lg.jpg",
+        "md": "images.018-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>who the authors are and their email addresses</p>",
+      "image": "images.019.jpg",
+      "images": {
+        "sm": "images.019-sm.jpg",
+        "hg": "images.019-hg.jpg",
+        "lg": "images.019-lg.jpg",
+        "md": "images.019-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>… and then a summary of what the gem does - keep it brief but to the point …</p>",
+      "image": "images.020.jpg",
+      "images": {
+        "sm": "images.020-sm.jpg",
+        "hg": "images.020-hg.jpg",
+        "lg": "images.020-lg.jpg",
+        "md": "images.020-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>… alongside a homepage - the GitHub page for your repo is a good starting point for that.</p>",
+      "image": "images.021.jpg",
+      "images": {
+        "sm": "images.021-sm.jpg",
+        "hg": "images.021-hg.jpg",
+        "lg": "images.021-lg.jpg",
+        "md": "images.021-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Plus, a license - I think MIT is a fine default, but I recognise that there are a lot of opinions out there, and probably a licence to fit each one. I’m not going to deal with all of that in this talk though! And besides the licence, how are people feeling about these settings thus far… any questions?</p>",
+      "image": "images.022.jpg",
+      "images": {
+        "sm": "images.022-sm.jpg",
+        "hg": "images.022-hg.jpg",
+        "lg": "images.022-lg.jpg",
+        "md": "images.022-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Further along in the gemspec, there are settings around where to find different files… but let's take a slight step backwards.</p>\n\n      <p>If you've used Rails before, you may understand that having expected locations for different types of files is super useful - the conventions help create a shared understanding of how things work together. Models, controllers, views, assets, and so on.</p>\n\n      <p>Gems don't have such enforced conventions for files, but some have emerged through some defaults and common community approaches.</p>",
+      "image": "images.023.jpg",
+      "images": {
+        "sm": "images.023-sm.jpg",
+        "hg": "images.023-hg.jpg",
+        "lg": "images.023-lg.jpg",
+        "md": "images.023-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>So, we’re going to put everything in a directory that’s the same name as your gem. This isn’t essential, but probably wise.</p>",
+      "image": "images.024.jpg",
+      "images": {
+        "sm": "images.024-sm.jpg",
+        "hg": "images.024-hg.jpg",
+        "lg": "images.024-lg.jpg",
+        "md": "images.024-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>The core logic of your code should go in a directory named lib… this will likely be most of the code involved in your gem. This is the default location - you could change it if you wish, but I haven't come across a good reason why that would be wise.</p>",
+      "image": "images.025.jpg",
+      "images": {
+        "sm": "images.025-sm.jpg",
+        "hg": "images.025-hg.jpg",
+        "lg": "images.025-lg.jpg",
+        "md": "images.025-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>If your gem has command-line executables included in it - like both Rails and RSpec have - then you probably want to put them in a directory called exe.</p>",
+      "image": "images.026.jpg",
+      "images": {
+        "sm": "images.026-sm.jpg",
+        "hg": "images.026-hg.jpg",
+        "lg": "images.026-lg.jpg",
+        "md": "images.026-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>If you have any local development commands to run - binstubs and the like - you can put them in bin. If that doesn't make much sense to you right now, don't sweat it - many gems don't have either of these directories.</p>",
+      "image": "images.027.jpg",
+      "images": {
+        "sm": "images.027-sm.jpg",
+        "hg": "images.027-hg.jpg",
+        "lg": "images.027-lg.jpg",
+        "md": "images.027-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And then, your tests go in a folder expected by whichever testing gem you wish to use.</p>",
+      "image": "images.028.jpg",
+      "images": {
+        "sm": "images.028-sm.jpg",
+        "hg": "images.028-hg.jpg",
+        "lg": "images.028-lg.jpg",
+        "md": "images.028-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Beyond that, it's very highly recommended to document your gem with a README, so others (including your future self) know how to use it. Having a CHANGELOG helps others see what's changed over time and when - again, not essential, but recommended.</p>",
+      "image": "images.029.jpg",
+      "images": {
+        "sm": "images.029-sm.jpg",
+        "hg": "images.029-hg.jpg",
+        "lg": "images.029-lg.jpg",
+        "md": "images.029-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>In a gemspec, you would provide information about all of these various files using these settings… again, I’ll step through it.</p>",
+      "image": "images.030.jpg",
+      "images": {
+        "sm": "images.030-sm.jpg",
+        "hg": "images.030-hg.jpg",
+        "lg": "images.030-lg.jpg",
+        "md": "images.030-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>First, you'll need to list all the files to include in your gem. I've hard-coded it in this example, but a better approach is to automate it - let me provide another example shortly.</p>",
+      "image": "images.031.jpg",
+      "images": {
+        "sm": "images.031-sm.jpg",
+        "hg": "images.031-hg.jpg",
+        "lg": "images.031-lg.jpg",
+        "md": "images.031-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>The `require_paths` setting isn't actually required, because `lib` is the default path already, but it's there in case you need to change things. (Please don't).</p>",
+      "image": "images.032.jpg",
+      "images": {
+        "sm": "images.032-sm.jpg",
+        "hg": "images.032-hg.jpg",
+        "lg": "images.032-lg.jpg",
+        "md": "images.032-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And then, for executables, you'll want to set the directory where they live, and then list each of them - not the paths, just the file names. Again, you could avoid hard-coding things here… let's look into that…</p>",
+      "image": "images.033.jpg",
+      "images": {
+        "sm": "images.033-sm.jpg",
+        "hg": "images.033-hg.jpg",
+        "lg": "images.033-lg.jpg",
+        "md": "images.033-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>First up, here's an example of setting up the list of all files. There's a LOT going on here, so don't worry if it's overwhelming. At least, I certainly find it overwhelming…</p>\n\n      <p>What it's doing is finding every single file that's checked into the git repo for your gem, and then excluding any test files. Anything else that is in the folder locally but not in the repo won't be included - because you probably don't want any non-git-committed files shared beyond your machine!</p>\n\n      <p>This may be hard to read, but it's also much better than every time you add or remove a file to your gem, having to then edit your gemspec as well.</p>",
+      "image": "images.034.jpg",
+      "images": {
+        "sm": "images.034-sm.jpg",
+        "hg": "images.034-hg.jpg",
+        "lg": "images.034-lg.jpg",
+        "md": "images.034-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And then, similarly, here's a dynamic approach to listing the executables. It makes use of the already-compiled list of files from the previous slide, rather than having to construct the list via git-committed files again.</p>",
+      "image": "images.035.jpg",
+      "images": {
+        "sm": "images.035-sm.jpg",
+        "hg": "images.035-hg.jpg",
+        "lg": "images.035-lg.jpg",
+        "md": "images.035-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>One of the eternally difficult parts of writing code is especially true when writing gems. Firstly: what do you call your gem? And what if that name is already taken? And then how do you name your files?</p>\n\n      <p>Okay, maybe I stress about this more than most, but still…</p>\n\n      <p>I can't tell you what to name your gem, unfortunately, but there still are some useful conventions to note:</p>",
+      "image": "images.036.jpg",
+      "images": {
+        "sm": "images.036-sm.jpg",
+        "hg": "images.036-hg.jpg",
+        "lg": "images.036-lg.jpg",
+        "md": "images.036-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>This guideline hasn't been applied all that well historically, but still, it's nice to aim for: use underscores between each word for a single concept.</p>",
+      "image": "images.037.jpg",
+      "images": {
+        "sm": "images.037-sm.jpg",
+        "hg": "images.037-hg.jpg",
+        "lg": "images.037-lg.jpg",
+        "md": "images.037-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Let's take our example gem - MelbRuby is one thing. It's the event we're here for right now. One concept, two words, so as a Ruby class we'd name it like so. And that class name, translated to a gem name…</p>",
+      "image": "images.038.jpg",
+      "images": {
+        "sm": "images.038-sm.jpg",
+        "hg": "images.038-hg.jpg",
+        "lg": "images.038-lg.jpg",
+        "md": "images.038-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>… becomes all lowercase, with an underscore between the words.</p>",
+      "image": "images.039.jpg",
+      "images": {
+        "sm": "images.039-sm.jpg",
+        "hg": "images.039-hg.jpg",
+        "lg": "images.039-lg.jpg",
+        "md": "images.039-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>However, if you're dealing with two separate concepts in your gem name - essentially, you're namespacing, then dashes or hyphens are the way to go. Again, an example helps:</p>",
+      "image": "images.040.jpg",
+      "images": {
+        "sm": "images.040-sm.jpg",
+        "hg": "images.040-hg.jpg",
+        "lg": "images.040-lg.jpg",
+        "md": "images.040-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>There's a gem named Rspec-rails - and it's tied to the existing concept of RSpec. So, as a Ruby class, it's written like so: RSpec-double-colon-Rails. But as a gem name…</p>",
+      "image": "images.041.jpg",
+      "images": {
+        "sm": "images.041-sm.jpg",
+        "hg": "images.041-hg.jpg",
+        "lg": "images.041-lg.jpg",
+        "md": "images.041-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>… it becomes, again, all lowercase, but with a hyphen between the two words.</p>",
+      "image": "images.042.jpg",
+      "images": {
+        "sm": "images.042-sm.jpg",
+        "hg": "images.042-hg.jpg",
+        "lg": "images.042-lg.jpg",
+        "md": "images.042-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>This doesn't always work out super cleanly from a naming perspective… let's say we had a new gem for a different concept within the MelbRuby namespace: Burgers - ie. the social RubyBurgers meets that had been happening regularly before this lockdown, and I'm sure they'll return once everything's a bit more normal. As Ruby modules or classes, this is relatively simple.</p>",
+      "image": "images.043.jpg",
+      "images": {
+        "sm": "images.043-sm.jpg",
+        "hg": "images.043-hg.jpg",
+        "lg": "images.043-lg.jpg",
+        "md": "images.043-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>As a gem name, it makes me flinch a bit. Eh, so it goes…</p>",
+      "image": "images.044.jpg",
+      "images": {
+        "sm": "images.044-sm.jpg",
+        "hg": "images.044-hg.jpg",
+        "lg": "images.044-lg.jpg",
+        "md": "images.044-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>My third recommendation for naming is to ensure the file structure matches the gem name.</p>",
+      "image": "images.045.jpg",
+      "images": {
+        "sm": "images.045-sm.jpg",
+        "hg": "images.045-hg.jpg",
+        "lg": "images.045-lg.jpg",
+        "md": "images.045-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>So, some examples of file names and their Ruby class or module equivalents.</p>",
+      "image": "images.046.jpg",
+      "images": {
+        "sm": "images.046-sm.jpg",
+        "hg": "images.046-hg.jpg",
+        "lg": "images.046-lg.jpg",
+        "md": "images.046-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>The core file of the gem goes directly inside the lib folder, and matches the gem's name.</p>",
+      "image": "images.047.jpg",
+      "images": {
+        "sm": "images.047-sm.jpg",
+        "hg": "images.047-hg.jpg",
+        "lg": "images.047-lg.jpg",
+        "md": "images.047-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>A namespaced gem would have a folder for the namespace in lib.</p>",
+      "image": "images.048.jpg",
+      "images": {
+        "sm": "images.048-sm.jpg",
+        "hg": "images.048-hg.jpg",
+        "lg": "images.048-lg.jpg",
+        "md": "images.048-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And you can follow this pattern for other namespaced constants as well.</p>",
+      "image": "images.049.jpg",
+      "images": {
+        "sm": "images.049-sm.jpg",
+        "hg": "images.049-hg.jpg",
+        "lg": "images.049-lg.jpg",
+        "md": "images.049-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>It's important to have your namespaced constants within the appropriate directory structure. You don't want to use a name that other gems - or Ruby itself - have used at the base level, because then Ruby will get confused.</p>\n\n      <p>So, if you're using a gem called Burgers, it will have lib/burgers.rb in its own files - but if you add the same in your lib folder, then Ruby won't be sure which to load.</p>",
+      "image": "images.050.jpg",
+      "images": {
+        "sm": "images.050-sm.jpg",
+        "hg": "images.050-hg.jpg",
+        "lg": "images.050-lg.jpg",
+        "md": "images.050-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And if you're building an executable file, you would structure it something like this: include the shebang line at the start, then require what you need in Ruby, and use it. This file goes in your exe directory.</p>\n\n      <p>You don't want to keep any logic here - let it use code in the lib directory instead.</p>",
+      "image": "images.051.jpg",
+      "images": {
+        "sm": "images.051-sm.jpg",
+        "hg": "images.051-hg.jpg",
+        "lg": "images.051-lg.jpg",
+        "md": "images.051-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Oh, and for those who aren't familiar with such things - this line here is known as the shebang - which is because of the first two characters - the hash, and the exclamation mark, or bang. It's purpose is to tell your operating system how to interpret the file. In this case, we're telling it to use Ruby. Other languages would have different shebang lines at the top of their files.</p>",
+      "image": "images.052.jpg",
+      "images": {
+        "sm": "images.052-sm.jpg",
+        "hg": "images.052-hg.jpg",
+        "lg": "images.052-lg.jpg",
+        "md": "images.052-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>This is what you might name that executable file. Note that there's no file extension! It's like when you run a rake command in your terminal - you're not typing rake.rb, just rake. This is the same here.</p>",
+      "image": "images.053.jpg",
+      "images": {
+        "sm": "images.053-sm.jpg",
+        "hg": "images.053-hg.jpg",
+        "lg": "images.053-lg.jpg",
+        "md": "images.053-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And you'll need to make sure that your operating system knows that this file can be executed - that it's a program, essentially - rather than just a file to read.</p>\n\n      <p>This chmod command is for Mac and Linux systems - I'm not sure what the Windows equivalent is, I'm afraid. The +x is saying \"add a note to this file saying it's executable\"</p>\n\n      <p>I'll pause for a moment now - does anyone have any questions?</p>",
+      "image": "images.054.jpg",
+      "images": {
+        "sm": "images.054-sm.jpg",
+        "hg": "images.054-hg.jpg",
+        "lg": "images.054-lg.jpg",
+        "md": "images.054-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Okay, there's one other essential part of a gemspec we need to cover: dependencies.</p>\n\n      <p>This is where you're saying: my gem needs these *other* gems to work. And there are two different types of dependencies…</p>",
+      "image": "images.055.jpg",
+      "images": {
+        "sm": "images.055-sm.jpg",
+        "hg": "images.055-hg.jpg",
+        "lg": "images.055-lg.jpg",
+        "md": "images.055-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>The main type is runtime dependencies - these are other gems you need for this gem to do its thing. They are essential.</p>",
+      "image": "images.056.jpg",
+      "images": {
+        "sm": "images.056-sm.jpg",
+        "hg": "images.056-hg.jpg",
+        "lg": "images.056-lg.jpg",
+        "md": "images.056-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Then there are development dependencies - which are only needed if you're working on the gem. Usually these are things like testing libraries like RSpec.</p>",
+      "image": "images.057.jpg",
+      "images": {
+        "sm": "images.057-sm.jpg",
+        "hg": "images.057-hg.jpg",
+        "lg": "images.057-lg.jpg",
+        "md": "images.057-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And in a gemspec, they'll look something like this: specifying each dependency, and the versions allowed.</p>\n\n      <p>Being clear about versions can be challenging - it depends on the gem itself, and how often you think it may change. There's a balance between being too specific - because if a dependency releases a new version, you probably don't want to have to issue your own new version with updated constraints every single time … or too broad, and then a significant upgrade to a dependency may not work at all with your gem.</p>\n\n      <p>There's nuance there to work through, but I'm not going to go into detail on that right now - but happy to talk about it after the presentation, especially if anyone has specific examples in mind.</p>",
+      "image": "images.058.jpg",
+      "images": {
+        "sm": "images.058-sm.jpg",
+        "hg": "images.058-hg.jpg",
+        "lg": "images.058-lg.jpg",
+        "md": "images.058-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Okay, so, let's say you've written your gemspec, and all of your files, and you've even got some tests too. Wonderful! But what's next?</p>\n\n      <p>Well, first, you need to package it all up into a single file…</p>",
+      "image": "images.059.jpg",
+      "images": {
+        "sm": "images.059-sm.jpg",
+        "hg": "images.059-hg.jpg",
+        "lg": "images.059-lg.jpg",
+        "md": "images.059-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>That file has the .gem prefix, and will have the gem name and the version. It's a glorified TAR file, but we really don't need to care about the internals, we just need to build it.</p>",
+      "image": "images.060.jpg",
+      "images": {
+        "sm": "images.060-sm.jpg",
+        "hg": "images.060-hg.jpg",
+        "lg": "images.060-lg.jpg",
+        "md": "images.060-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>The `gem` command-line tool can do this for us - and it'll make sure the gemspec is valid before doing so, which is very helpful of it.</p>",
+      "image": "images.061.jpg",
+      "images": {
+        "sm": "images.061-sm.jpg",
+        "hg": "images.061-hg.jpg",
+        "lg": "images.061-lg.jpg",
+        "md": "images.061-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And then this gem file can be used to install the gem alongside all the other gems on your machine</p>",
+      "image": "images.062.jpg",
+      "images": {
+        "sm": "images.062-sm.jpg",
+        "hg": "images.062-hg.jpg",
+        "lg": "images.062-lg.jpg",
+        "md": "images.062-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>But installing on your machine is only the first step… how can others install your gems? Well, you need to publish it on rubygems.org.</p>",
+      "image": "images.063.jpg",
+      "images": {
+        "sm": "images.063-sm.jpg",
+        "hg": "images.063-hg.jpg",
+        "lg": "images.063-lg.jpg",
+        "md": "images.063-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>So, if you haven't already, you'll need an account there. It shouldn't take long, and it doesn't cost anything.</p>",
+      "image": "images.064.jpg",
+      "images": {
+        "sm": "images.064-sm.jpg",
+        "hg": "images.064-hg.jpg",
+        "lg": "images.064-lg.jpg",
+        "md": "images.064-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And then, you can run this command in your terminal to send that file up to their server. The first time you run this, you'll be asked for your credentials, but after that it remembers.</p>",
+      "image": "images.065.jpg",
+      "images": {
+        "sm": "images.065-sm.jpg",
+        "hg": "images.065-hg.jpg",
+        "lg": "images.065-lg.jpg",
+        "md": "images.065-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And once you've published that gem version, it's locked in. To ensure a consistent experience, they cannot be changed - if you've accidentally got a bug to fix, you'll need to publish that in a new version. The same goes for any new features.</p>\n\n      <p>This is to ensure that no matter when someone installs a specific version of a specific gem, they will always get the same code.</p>",
+      "image": "images.066.jpg",
+      "images": {
+        "sm": "images.066-sm.jpg",
+        "hg": "images.066-hg.jpg",
+        "lg": "images.066-lg.jpg",
+        "md": "images.066-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>It is, however, possible to remove a published version of a gem - this is known as 'yanking'.</p>\n\n      <p>This is not recommended… the only cases where you should is when there is a bug that's going to cause significant damage - like, removing all files on a machine, or logging passwords from other services, etc. Nefarious things, that have actually cropped up when people's credentials to Rubygems have been hacked, with new dodgy versions of gems being published.</p>\n\n      <p>But I believe in you all, and you're going to write decent code - even if there are bugs, because we all do that - so don't use yank.</p>\n\n      <p>Also, Rubygems has Multi-factor authentication - tokens are required for every time you publish a gem version - and I highly recommend setting that up.</p>",
+      "image": "images.067.jpg",
+      "images": {
+        "sm": "images.067-sm.jpg",
+        "hg": "images.067-hg.jpg",
+        "lg": "images.067-lg.jpg",
+        "md": "images.067-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Right. So, if you're new to this, you may be feeling a little overwhelmed. Completely fair.</p>\n\n      <p>… and I'm sure there are questions, but before we get to that, I want to make things a little bit easier…</p>",
+      "image": "images.068.jpg",
+      "images": {
+        "sm": "images.068-sm.jpg",
+        "hg": "images.068-hg.jpg",
+        "lg": "images.068-lg.jpg",
+        "md": "images.068-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Bundler - a gem we almost certainly all use - has the ability to generate a gem for you. This is like generating a new Rails app - all that boilerplate code, done automatically. It sets up the directory structure and the gemspec.</p>",
+      "image": "images.069.jpg",
+      "images": {
+        "sm": "images.069-sm.jpg",
+        "hg": "images.069-hg.jpg",
+        "lg": "images.069-lg.jpg",
+        "md": "images.069-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>This is the command - bundle, gem, and the name of your gem. You run that, you get all the default files - it's wonderful.</p>",
+      "image": "images.070.jpg",
+      "images": {
+        "sm": "images.070-sm.jpg",
+        "hg": "images.070-hg.jpg",
+        "lg": "images.070-lg.jpg",
+        "md": "images.070-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Bundler also provides a set of rake tasks that take care of the generating and publishing all in one task, along with creating git tags for each release. It's pretty handy. One command, instead of three or four.</p>\n\n      <p>I highly recommend using Bundler in this way, and especially if you're starting out on the journey of writing gems for the first time.</p>",
+      "image": "images.071.jpg",
+      "images": {
+        "sm": "images.071-sm.jpg",
+        "hg": "images.071-hg.jpg",
+        "lg": "images.071-lg.jpg",
+        "md": "images.071-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Oh, and Bundler will generate a Gemfile for you.</p>\n\n      <p>Gemfiles are used for specifying dependencies, but we already have that with our gemspec, right? So, bundler gives us the 'gemspec' command to load in dependencies from there. Neat.</p>\n\n      <p>Of course, there are times where you may have contextual dependencies - things to load only for some Ruby versions, or some Ruby runtimes. gemspecs aren't that nuanced, so those dependencies can go in your Gemfile instead. Of course, any runtime dependencies should really live in your gemspec.</p>\n\n      <p>How are feeling about all of this so far? Any more questions?</p>",
+      "image": "images.072.jpg",
+      "images": {
+        "sm": "images.072-sm.jpg",
+        "hg": "images.072-hg.jpg",
+        "lg": "images.072-lg.jpg",
+        "md": "images.072-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>One thing I believe you should have with any open-source project is a Code of Conduct. Much like any event or other professional environment, it's important to set out how you expect people to behave, and how you'll treat breaches of this behaviour. Open Source isn't just the code, but also the community - contributions from others, offering support, fixing bugs, and so forth. Having a Code of Conduct is a strong step towards being clear about the industry and community we want and will work towards.</p>\n\n      <p>When you first generate a gem, Bundler will ask if you want to add a Code of Conduct. So, a large part of the hard work is done for you.</p>",
+      "image": "images.073.jpg",
+      "images": {
+        "sm": "images.073-sm.jpg",
+        "hg": "images.073-hg.jpg",
+        "lg": "images.073-lg.jpg",
+        "md": "images.073-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And speaking of support - if other people start using your gem, they'll likely be asking for help. Of course, there's no obligation for you to respond, but again - none of us work in a vacuum, and our industry is built on open-source software. So, if you can help others, that'd be wonderful.</p>",
+      "image": "images.074.jpg",
+      "images": {
+        "sm": "images.074-sm.jpg",
+        "hg": "images.074-hg.jpg",
+        "lg": "images.074-lg.jpg",
+        "md": "images.074-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>GitHub Issues are a good place to direct people to submit bug reports and ask questions.</p>",
+      "image": "images.075.jpg",
+      "images": {
+        "sm": "images.075-sm.jpg",
+        "hg": "images.075-hg.jpg",
+        "lg": "images.075-lg.jpg",
+        "md": "images.075-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>You may also want to suggest people ask questions on Stack Overflow, which may get a bigger audience for potential assistance.</p>",
+      "image": "images.076.jpg",
+      "images": {
+        "sm": "images.076-sm.jpg",
+        "hg": "images.076-hg.jpg",
+        "lg": "images.076-lg.jpg",
+        "md": "images.076-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And of course, providing documentation via your README or something more detailed is a really good starting point.</p>\n\n      <p>Don't feel too stressed about this - as much as we may hope otherwise, most gems don't get many users - I've written plenty where I'm pretty sure no one else has ever installed them. So, the need for support and exhaustive documentation is not high. Still, try and keep the README up to date :)</p>",
+      "image": "images.077.jpg",
+      "images": {
+        "sm": "images.077-sm.jpg",
+        "hg": "images.077-hg.jpg",
+        "lg": "images.077-lg.jpg",
+        "md": "images.077-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Another part of that gemspec is the version number…</p>",
+      "image": "images.078.jpg",
+      "images": {
+        "sm": "images.078-sm.jpg",
+        "hg": "images.078-hg.jpg",
+        "lg": "images.078-lg.jpg",
+        "md": "images.078-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>… and most gems use an approach known as semantic versioning.</p>",
+      "image": "images.079.jpg",
+      "images": {
+        "sm": "images.079-sm.jpg",
+        "hg": "images.079-hg.jpg",
+        "lg": "images.079-lg.jpg",
+        "md": "images.079-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Let's take this version number as an example: 6.0.1.</p>",
+      "image": "images.080.jpg",
+      "images": {
+        "sm": "images.080-sm.jpg",
+        "hg": "images.080-hg.jpg",
+        "lg": "images.080-lg.jpg",
+        "md": "images.080-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>6 is the Major version number</p>",
+      "image": "images.081.jpg",
+      "images": {
+        "sm": "images.081-sm.jpg",
+        "hg": "images.081-hg.jpg",
+        "lg": "images.081-lg.jpg",
+        "md": "images.081-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>0 the minor…</p>",
+      "image": "images.082.jpg",
+      "images": {
+        "sm": "images.082-sm.jpg",
+        "hg": "images.082-hg.jpg",
+        "lg": "images.082-lg.jpg",
+        "md": "images.082-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>and 1 the patch. You would update each section in different circumstances.</p>",
+      "image": "images.083.jpg",
+      "images": {
+        "sm": "images.083-sm.jpg",
+        "hg": "images.083-hg.jpg",
+        "lg": "images.083-lg.jpg",
+        "md": "images.083-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Updating the patch version should be an indication that no functionality has changed, only bugs have been fixed. Other developers should feel comfortable updating between patch versions - say, 6.0.0 to 6.0.1 - and expect no behaviour to change.</p>",
+      "image": "images.084.jpg",
+      "images": {
+        "sm": "images.084-sm.jpg",
+        "hg": "images.084-hg.jpg",
+        "lg": "images.084-lg.jpg",
+        "md": "images.084-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Minor version updates are a bit of a bigger deal - this is where new features can be added, but still, nothing should break. No behaviour changes, no removal of existing features.</p>",
+      "image": "images.085.jpg",
+      "images": {
+        "sm": "images.085-sm.jpg",
+        "hg": "images.085-hg.jpg",
+        "lg": "images.085-lg.jpg",
+        "md": "images.085-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And then Major Versions - well, in this case you can change things more dramatically. If I was upgrading a major version of a gem I was using, I'd be checking up on the Changelog and other documentation to understand whether I'd need to make any changes to my own code and how I'm using that gem.</p>\n\n      <p>This perhaps sounds all rather easy, but in practice I find it does require some thought, and potentially some planning ahead if your gem is somewhat popular, just to ensure other users are prepared.</p>\n\n      <p>And also: don't stress too much about this, especially when your gem isn't used by many people - no one gets it perfectly right. Even though that is, of course, the goal.</p>",
+      "image": "images.086.jpg",
+      "images": {
+        "sm": "images.086-sm.jpg",
+        "hg": "images.086-hg.jpg",
+        "lg": "images.086-lg.jpg",
+        "md": "images.086-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>It's all very well for me to talk about this, but what if you want some real-world examples?</p>",
+      "image": "images.087.jpg",
+      "images": {
+        "sm": "images.087-sm.jpg",
+        "hg": "images.087-hg.jpg",
+        "lg": "images.087-lg.jpg",
+        "md": "images.087-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Well, almost every gem is on GitHub, so that's a good place to start…</p>",
+      "image": "images.088.jpg",
+      "images": {
+        "sm": "images.088-sm.jpg",
+        "hg": "images.088-hg.jpg",
+        "lg": "images.088-lg.jpg",
+        "md": "images.088-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>But even better: when you have a gem in your Gemfile, then you can use the 'bundle open' command, which will open up the source code of that gem on your machine. So, if you're curious about the internals of a gem you're using, this is a great first step.</p>",
+      "image": "images.089.jpg",
+      "images": {
+        "sm": "images.089-sm.jpg",
+        "hg": "images.089-hg.jpg",
+        "lg": "images.089-lg.jpg",
+        "md": "images.089-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>So, I feel that's the core how-to-build-a-gem stuff pretty decently covered. But I do want to address some things particularly related to writing gems that interact and build upon Rails… though first, another pause for questions. Anyone?</p>\n\n      <p>Thanks all. I realise it's been a long talk, but the end is in sight. Let's push through these last couple of sections… the second-last part is about writing gems that use Rails.</p>",
+      "image": "images.090.jpg",
+      "images": {
+        "sm": "images.090-sm.jpg",
+        "hg": "images.090-hg.jpg",
+        "lg": "images.090-lg.jpg",
+        "md": "images.090-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Some of you may have heard of Rails Engines. An engine is a gem that has its own Rails parts.</p>",
+      "image": "images.091.jpg",
+      "images": {
+        "sm": "images.091-sm.jpg",
+        "hg": "images.091-hg.jpg",
+        "lg": "images.091-lg.jpg",
+        "md": "images.091-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>So, as well as any normal logic you may store in your lib directory, you can also add models, migrations, controllers, assets, and so forth, and you can do this within the same folders as you would in a Rails app.</p>",
+      "image": "images.092.jpg",
+      "images": {
+        "sm": "images.092-sm.jpg",
+        "hg": "images.092-hg.jpg",
+        "lg": "images.092-lg.jpg",
+        "md": "images.092-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>You'll need to ensure you have a subclass of Rails::Engine in your gem - here's a pretty standard example.</p>",
+      "image": "images.093.jpg",
+      "images": {
+        "sm": "images.093-sm.jpg",
+        "hg": "images.093-hg.jpg",
+        "lg": "images.093-lg.jpg",
+        "md": "images.093-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Don't forget to load that engine when the gem itself is loaded - this ensures all the Rails goodness in your gem - in those standard Rails folders - is present and picked up as your Rails app boots.</p>",
+      "image": "images.094.jpg",
+      "images": {
+        "sm": "images.094-sm.jpg",
+        "hg": "images.094-hg.jpg",
+        "lg": "images.094-lg.jpg",
+        "md": "images.094-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>If you're not adding Rails things to other apps - i.e. no models or controllers - but you are integrating with Rails - say, if your gem works with ActiveRecord or something like that - then you may want to define a Railtie in your gem instead of an engine.</p>",
+      "image": "images.095.jpg",
+      "images": {
+        "sm": "images.095-sm.jpg",
+        "hg": "images.095-hg.jpg",
+        "lg": "images.095-lg.jpg",
+        "md": "images.095-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Again, you're creating a subclass, but this time of Rails::Railtie. This gives you the ability to hook into Rails' loading process, or ensure rake tasks are available within the context of your app. These situations are pretty rare, but super useful if you need them.</p>",
+      "image": "images.096.jpg",
+      "images": {
+        "sm": "images.096-sm.jpg",
+        "hg": "images.096-hg.jpg",
+        "lg": "images.096-lg.jpg",
+        "md": "images.096-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And yes, don't forget to load that file when the gem itself is loaded.</p>\n\n      <p>Oh, and for those who are particularly curious about the internals here: a Rails Engine is also a Railtie - engines are subclasses of railties.</p>",
+      "image": "images.097.jpg",
+      "images": {
+        "sm": "images.097-sm.jpg",
+        "hg": "images.097-hg.jpg",
+        "lg": "images.097-lg.jpg",
+        "md": "images.097-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Okay, I'm almost done. Let's just go through a bunch of various general recommendations for writing gems - well, recommendations in some cases, others are just my very-strongly-held personal opinions.</p>",
+      "image": "images.098.jpg",
+      "images": {
+        "sm": "images.098-sm.jpg",
+        "hg": "images.098-hg.jpg",
+        "lg": "images.098-lg.jpg",
+        "md": "images.098-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>The first one I'm not expecting much in the way of argument with: don't monkey patch Ruby. That is: don't change the behaviour of standard classes or methods. It may seem useful, it may seem cool, but it's not worth the maintenance effort for you, nor the unexpected surprises for anyone else using your gem.</p>",
+      "image": "images.099.jpg",
+      "images": {
+        "sm": "images.099-sm.jpg",
+        "hg": "images.099-hg.jpg",
+        "lg": "images.099-lg.jpg",
+        "md": "images.099-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Similarly, don't monkey patch Rails either. This one's maybe a little less-strongly held, but there's a good chance you really don't need to do this.</p>\n\n      <p>I've certainly hit support requests in my own gems because other gems they are using have changed Rails' behaviour, and that's broken the integration between all of the things. Also, when Rails internals change, it becomes an extra support headache for yourself. I know that one from experience - ActiveRecord is especially painful to override consistently.</p>",
+      "image": "images.100.jpg",
+      "images": {
+        "sm": "images.100-sm.jpg",
+        "hg": "images.100-hg.jpg",
+        "lg": "images.100-lg.jpg",
+        "md": "images.100-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>In a similar vein - use fewer modules.</p>\n\n      <p>Well, more to the point: I often see modules being used to include behaviour into already large classes - in particular, Rails models and controllers. They've got enough going on already, so if you can keep your logic in separate classes, I highly recommend doing so.</p>\n\n      <p>And sometimes it may feel like including modules is the normal Ruby way of doing things… I urge you to find creative ways around that. I'm happy to show some examples from my own code one-on-one - or, have a look at my gem Gutentag as a starting point - it's a library for adding tag associations for ActiveRecord models.</p>",
+      "image": "images.101.jpg",
+      "images": {
+        "sm": "images.101-sm.jpg",
+        "hg": "images.101-hg.jpg",
+        "lg": "images.101-lg.jpg",
+        "md": "images.101-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>If you're writing a gem that depends on quite a wide set of versions - the prime example is Rails - and you want to ensure your test suite runs against multiple versions of that dependency: i.e. against Rails 5.0, 5.1, 5.2, 6.0… there's a gem called Appraisal that is useful for that purpose. Essentially, it generates multiple Gemfiles, and then you can instruct your test suite to run against each of them in turn.</p>\n\n      <p>I use Appraisal in a bunch of my projects, and it's definitely helped me stay on top of changes in my dependencies.</p>\n\n      <p>David spoke about this in great detail back at the January meetup, so he's also a great person to ask for help if you're venturing down this path.</p>",
+      "image": "images.102.jpg",
+      "images": {
+        "sm": "images.102-sm.jpg",
+        "hg": "images.102-hg.jpg",
+        "lg": "images.102-lg.jpg",
+        "md": "images.102-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>If you're publishing the source code of your gem anywhere, and you're writing tests for it - which of course I recommend - then you should link it up with a CI service to run your tests automatically. Travis CI, Circle CI, and I think the new GitHub actions - as well as other services I'm sure - have free options for open source projects. Buildkite as well, if you've already got the infrastructure on hand to run your builds.</p>\n\n      <p>Again, it may be a bit of a hassle to set up, but once it's going, it's great - especially to run your tests against multiple versions/runtimes of Ruby.</p>",
+      "image": "images.103.jpg",
+      "images": {
+        "sm": "images.103-sm.jpg",
+        "hg": "images.103-hg.jpg",
+        "lg": "images.103-lg.jpg",
+        "md": "images.103-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>Oh, and one bit of self-promotion - if you are writing a Rails engine, I've written a gem called Combustion to make testing engines a bit simpler. So, that could be worth trying out, if you are so inclined.</p>",
+      "image": "images.104.jpg",
+      "images": {
+        "sm": "images.104-sm.jpg",
+        "hg": "images.104-hg.jpg",
+        "lg": "images.104-lg.jpg",
+        "md": "images.104-md.jpg"
+      }
+    },
+    {
+      "notes": "<p>And I think that's all I've got to say on this topic for now. Hopefully it's been informative, and certainly, I'm happy to answer any last questions now, if anyone has them?</p>\n\n      <p>Also, if you get stuck at another point with gem questions, you're welcome to ask me on Slack or Twitter or elsewhere. I'll put these slides online and tweet/Slack the link.</p>\n\n      <p>Thank you all for sticking with me through to the end - you're probably sick of my voice. And thank you to Celia, Vanessa, and Ryan for making sure this meeting has still happened, with all the lockdown and social-distancing challenges we're now facing. They could have just said that the meets weren't happening until we could all gather again in-person, but they've taken that extra step to ensure the community's still connecting and learning - an amazing effort.</p>",
+      "image": "images.105.jpg",
+      "images": {
+        "sm": "images.105-sm.jpg",
+        "hg": "images.105-hg.jpg",
+        "lg": "images.105-lg.jpg",
+        "md": "images.105-md.jpg"
+      }
+    }
+  ]
+}

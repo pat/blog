@@ -352,3 +352,22 @@ footer {
     margin: 0 auto;
   }
 }
+
+.slide {
+  clear: left;
+
+  .slide-image {
+    max-width: 400px;
+    float: left;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .slide {
+    .slide-image {
+      max-width: none;
+      padding-right: 0;
+    }
+  }
+}

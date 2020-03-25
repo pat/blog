@@ -1,0 +1,27 @@
+---
+layout: default
+section: home
+title: Writing Ruby Gems
+deck: "gems"
+---
+
+{% assign deck = site.data.slides[page.deck] %}
+
+<article>
+  <div class="slides">
+    {% for slide in deck.slides %}
+      <div class="slide">
+        <div class="slide-image">
+          <img src="/images/slides/{{ page.deck }}/{{ slide.image }}" srcset="/images/slides/{{ page.deck }}/{{ slide.images.hg }} 1200w, /images/slides/{{ page.deck }}/{{ slide.images.lg }} 984w, /images/slides/{{ page.deck }}/{{ slide.images.md}} 728w, /images/slides/{{ page.deck }}/{{ slide.images.sm }} 375w" sizes="100vw" alt="{{ slide.alt }}" />
+        </div>
+        <div class="slide-notes">
+          {{ slide.notes }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <footer>
+    <p>Presented on {{ deck.date | date: "%-d %B, %Y" }}, at <a href="{{ deck.location_url }}">{{ deck.location }}</a></p>
+  </footer>
+</article>
