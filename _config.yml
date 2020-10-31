@@ -27,7 +27,9 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - netlify.toml
   - Rakefile
+  - plugins
   - vendor
 zopfli:
   replace_files: true
