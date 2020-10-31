@@ -39,7 +39,7 @@ Battambang has a few key streets - running north to south are roads One,
 Two and Three. One is along the river, and Three is the largest of the
 three.
 
-<img src="http://img.skitch.com/20100222-rr5pjtkkdgs5422ca5f9qrqpg8.jpg" alt="Battambang, Cambodia" />
+<img src="https://img.skitch.com/20100222-rr5pjtkkdgs5422ca5f9qrqpg8.jpg" alt="Battambang, Cambodia" />
 
 As you can see from the map, there’s also streets between these - they
 are usually referred to by expats as One-and-a-half, and Two-and-a-half,
@@ -114,7 +114,7 @@ still some options out east. You’ll mainly find these along one road,
 where the temple is by the river, leading to the big statue roundabout
 on Highway 5.
 
-<img src="http://img.skitch.com/20100222-e1w88mi3bechi5ktcrkt97ju9c.jpg" alt="Cambodia - Google Maps"/>
+<img src="https://img.skitch.com/20100222-e1w88mi3bechi5ktcrkt97ju9c.jpg" alt="Cambodia - Google Maps"/>
 
 #### Bamboo Train Cafe
 

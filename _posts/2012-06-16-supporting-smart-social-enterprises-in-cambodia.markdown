@@ -28,7 +28,7 @@ through - and Kinyei haven’t quite got to that target yet. So, if you
 can chip in, [please
 do](http://startsomegood.com/Venture/kinyei/Campaigns/Show/coffee_cycling_and_community)!
 
-<a href="http://www.flickr.com/photos/freelancing_god/6524216723/" title="Kinyei and Friends by freelancing god, on Flickr"><img src="http://farm8.staticflickr.com/7174/6524216723_99650888c4.jpg" width="500" height="374" alt="Kinyei and Friends"></a>
+<a href="http://www.flickr.com/photos/freelancing_god/6524216723/" title="Kinyei and Friends by freelancing god, on Flickr"><img src="https://farm8.staticflickr.com/7174/6524216723_99650888c4.jpg" width="500" height="374" alt="Kinyei and Friends"></a>
 
 I’ve been lucky enough to visit Battambang in Cambodia in the last year,
 and was able to see the projects in full flight - and it’s quite clear
@@ -43,4 +43,4 @@ cause and make a clear difference. Just head on over to [their campaign
 page](http://startsomegood.com/Venture/kinyei/Campaigns/Show/coffee_cycling_and_community)
 to donate.
 
-<a href="http://www.flickr.com/photos/freelancing_god/6524230379/" title="Seyla, Me and Chouert at Kinyei by freelancing god, on Flickr"><img src="http://farm8.staticflickr.com/7004/6524230379_0576ec867d.jpg" width="500" height="374" alt="Seyla, Me and Chouert at Kinyei"></a>
+<a href="http://www.flickr.com/photos/freelancing_god/6524230379/" title="Seyla, Me and Chouert at Kinyei by freelancing god, on Flickr"><img src="https://farm8.staticflickr.com/7004/6524230379_0576ec867d.jpg" width="500" height="374" alt="Seyla, Me and Chouert at Kinyei"></a>

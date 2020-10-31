@@ -27,7 +27,7 @@ larger. Halfway through last year, we moved into our new residence at 41
 Stewart St, Richmond (right beside Richmond Station), with 370 square
 metres to work and play in (and that’ll eventually double to 720).
 
-<a href="http://www.flickr.com/photos/inspire9/6187437932/" title="Coworking at Inspire9"><img src="http://farm7.staticflickr.com/6160/6187437932_7e2d6c61a7.jpg" width="500" height="375" alt="IMG_2927"></a>
+<a href="http://www.flickr.com/photos/inspire9/6187437932/" title="Coworking at Inspire9"><img src="https://farm7.staticflickr.com/6160/6187437932_7e2d6c61a7.jpg" width="500" height="375" alt="IMG_2927"></a>
 
 Our office is now a bustling hive of activity - there’s usually
 somewhere between 20 and 30 people in each day at any one point. Many of
@@ -36,7 +36,7 @@ not everyone who works from Inspire9 are residents - anyone is welcome
 to [drop by](http://dropin.inspire9.com.au) and use a desk, and it’s
 free.
 
-<a href="http://www.flickr.com/photos/inspire9/6861238263/" title="Coworking at Inspire9"><img src="http://farm8.staticflickr.com/7048/6861238263_15cf1fc3cf.jpg" width="500" height="333" alt="IMG_5187.jpg"></a>
+<a href="http://www.flickr.com/photos/inspire9/6861238263/" title="Coworking at Inspire9"><img src="https://farm8.staticflickr.com/7048/6861238263_15cf1fc3cf.jpg" width="500" height="333" alt="IMG_5187.jpg"></a>
 
 It’s occurred to me to write about Inspire9 now because of what’s
 happened in the last 24 hours. Last night, someone stole Kealey’s iPhone
@@ -63,4 +63,4 @@ to a game of pool. We also now host the Melbourne Ruby and Python meets
 every month (as well as plenty of other events), and we’re a friendly
 bunch - don’t be afraid to say hello!
 
-<a href="http://www.flickr.com/photos/inspire9/6942834401/" title="Dan playing pool"><img src="http://farm8.staticflickr.com/7070/6942834401_9e2b37868a.jpg" width="500" height="333" alt=""></a>
+<a href="http://www.flickr.com/photos/inspire9/6942834401/" title="Dan playing pool"><img src="https://farm8.staticflickr.com/7070/6942834401_9e2b37868a.jpg" width="500" height="333" alt=""></a>

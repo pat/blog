@@ -10,7 +10,7 @@ categories:
   - rails
   - discworld
 ---
-<a href="http://www.sinfest.net"><img class="breaker" src="http://assets.freelancing-gods.com/images/sinfest_20080101.gif" alt="Sinfest comic for New Year's Day" /></a>
+<a href="http://www.sinfest.net"><img class="breaker" src="https://assets.freelancing-gods.com/images/sinfest_20080101.gif" alt="Sinfest comic for New Year's Day" /></a>
 
 I don’t want to bore you all with an extensive recap of 2007, so I’ll
 keep this footnote of the last year’s highlights relatively brief.

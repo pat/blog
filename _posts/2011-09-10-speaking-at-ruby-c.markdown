@@ -13,7 +13,7 @@ over to Kiev for [RubyC](http://rubyc.eu) in November. I’m going to be
 speaking there about how to build gems and the best practices when doing
 so.
 
-<img src="http://freelancing-gods.com/images/rubyc.jpg" alt="RubyC" />
+<img src="https://freelancing-gods.com/images/rubyc.jpg" alt="RubyC" />
 
 So, if that interests you (or you’d just like to catch up or hear some
 of the [other speakers](http://rubyc.eu/program) talk about interesting
@@ -27,7 +27,7 @@ Ruby-related topics), then hopefully I’ll see you there!
 comment on 5 Oct, 2011:</div>
 
 <div class="comment" markdown="1">
-It’s going to be an interesting conference.  
+It’s going to be an interesting conference.
 See you there!
 
 </div>

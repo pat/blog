@@ -19,7 +19,7 @@ comedy, entrepreneurship and more. In true unconference style, none of
 this is planned beforehand - no speaker is given preference, there’s no
 keynotes.
 
-<a href="http://www.flickr.com/photos/44709316@N03/4110891473/" title="IMG_6053 by Trampoline Melbourne, on Flickr"><img src="http://farm3.static.flickr.com/2537/4110891473_e2ef10d9ca.jpg" width="500" height="334" alt="IMG_6053" /></a>
+<a href="http://www.flickr.com/photos/44709316@N03/4110891473/" title="IMG_6053 by Trampoline Melbourne, on Flickr"><img src="https://farm3.static.flickr.com/2537/4110891473_e2ef10d9ca.jpg" width="500" height="334" alt="IMG_6053" /></a>
 
 All three thus far have been in Melbourne. We’re definitely interested
 in sharing the love to other cities (but nothing’s locked in yet). That
@@ -33,7 +33,7 @@ interesting, passionate people they wouldn’t normally meet. It’s just
 one of many things happening in Melbourne that solidifies my belief that
 it is truly - if you’ll excuse the hubris - a **global cultural hub**.
 
-<a href="http://www.flickr.com/photos/88868103@N00/4041893812/" title="Untitled by jonathannen, on Flickr"><img src="http://farm3.static.flickr.com/2788/4041893812_0e642b55b3.jpg" width="500" height="333" alt="Adding to the Grid" /></a>
+<a href="http://www.flickr.com/photos/88868103@N00/4041893812/" title="Untitled by jonathannen, on Flickr"><img src="https://farm3.static.flickr.com/2788/4041893812_0e642b55b3.jpg" width="500" height="333" alt="Adding to the Grid" /></a>
 
 If you’re interested in keeping an eye on future events, add yourself to
 [the email list](http://trampolineday.com/subscribers/new), and maybe
@@ -43,7 +43,7 @@ There’s also a set of videos - the bulk being from the latest Trampoline
 [growing set of
 photos](http://www.flickr.com/groups/trampolineday/pool/) on Flickr.
 
-<a href="http://www.flickr.com/photos/28939463@N07/4576136417/" title="Trampoline 3 0449 by dlimiter, on Flickr"><img src="http://farm5.static.flickr.com/4034/4576136417_c162e7c616.jpg" width="500" height="375" alt="Trampoline 3 0449" /></a>
+<a href="http://www.flickr.com/photos/28939463@N07/4576136417/" title="Trampoline 3 0449 by dlimiter, on Flickr"><img src="https://farm5.static.flickr.com/4034/4576136417_c162e7c616.jpg" width="500" height="375" alt="Trampoline 3 0449" /></a>
 
 I’m pretty stoked with how well received Trampoline has been thus far,
 and looking forward to making the next one even better. Would love to

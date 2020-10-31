@@ -17,7 +17,7 @@ We had quite an international flavour to the weekend. Of the 30 or so
 who attended, several were from around Europe, alongside the local
 British, and a few of us Australians to round it out.
 
-<a href="http://www.flickr.com/photos/freelancing_god/2788479123/" title="The Beer Disappears by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3284/2788479123_228f905573.jpg" width="500" height="375" alt="The Beer Disappears" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/2788479123/" title="The Beer Disappears by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3284/2788479123_228f905573.jpg" width="500" height="375" alt="The Beer Disappears" /></a>
 
 In true Rails Camp style, around the beer, pizza and games, much hacking
 and discussion was had - assisted by the [\*jour
@@ -28,7 +28,7 @@ projects were displayed and created - topics ranging from RSpec to EXTJS
 to in-memory models to plugins to CouchDB to approaches for better
 browser-server polling (with a neat browser game as an example).
 
-<a href="http://www.flickr.com/photos/ijonas/2777002162/" title="Railscamp UK 2008 (8 of 12) by ijonas, on Flickr"><img src="http://farm4.static.flickr.com/3230/2777002162_73f489a1fc.jpg" width="500" height="375" alt="Railscamp UK 2008 (8 of 12)" /></a>
+<a href="http://www.flickr.com/photos/ijonas/2777002162/" title="Railscamp UK 2008 (8 of 12) by ijonas, on Flickr"><img src="https://farm4.static.flickr.com/3230/2777002162_73f489a1fc.jpg" width="500" height="375" alt="Railscamp UK 2008 (8 of 12)" /></a>
 
 One of the cool creations of this Rails Camp has gone live. The
 collective talent of the [RailsLove](http://railslove.com/) guys and
@@ -38,13 +38,13 @@ Wurst](http://dontforgetthewurst.com/) - and [features William
 Shatner](http://twitter.com/toolmantim/statuses/895307896), which just
 adds several levels of awesomeness to an already neat idea.
 
-<a href="http://www.flickr.com/photos/kerrybuckley/2771566537/" title="Werewolf by Kerry Buckley, on Flickr"><img src="http://farm4.static.flickr.com/3265/2771566537_1cd06ac8a5.jpg" width="333" height="500" alt="Werewolf" /></a>
+<a href="http://www.flickr.com/photos/kerrybuckley/2771566537/" title="Werewolf by Kerry Buckley, on Flickr"><img src="https://farm4.static.flickr.com/3265/2771566537_1cd06ac8a5.jpg" width="333" height="500" alt="Werewolf" /></a>
 
 Massive thanks to all who came along and made it such a fantastic
 weekend - I’m looking forward to hearing about another Rails Camp in
 this part of the world (even if I won’t be able to attend it).
 
-<a href="http://www.flickr.com/photos/freelancing_god/2789354120/" title="Matt and Simon by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3286/2789354120_99e3838e76.jpg" width="500" height="375" alt="Matt and Simon" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/2789354120/" title="Matt and Simon by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3286/2789354120_99e3838e76.jpg" width="500" height="375" alt="Matt and Simon" /></a>
 
 Also, if you’re in Europe, you might want to check out the
 [German](http://railscamp.de/) and
@@ -57,7 +57,7 @@ to help however we can to get more of them happening around the world.
 It’s not too hard, and it’s an awesome way of strengthening your local
 Ruby community.
 
-<a href="http://www.flickr.com/photos/freelancing_god/2788505977/" title="Balancing by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3216/2788505977_28ac44d72a.jpg" width="375" height="500" alt="Balancing" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/2788505977/" title="Balancing by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3216/2788505977_28ac44d72a.jpg" width="375" height="500" alt="Balancing" /></a>
 
 ------------------------------------------------------------------------
 

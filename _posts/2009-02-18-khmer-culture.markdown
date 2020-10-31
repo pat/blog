@@ -29,7 +29,7 @@ the adults will do the same. If they speak any English, you’ll be asked
 what your name is, how old you are, and often whether you’re married or
 not.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3270686531/" title="Fun Times by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3352/3270686531_2d0b90a45d.jpg" width="500" height="322" alt="Fun Times" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3270686531/" title="Fun Times by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3352/3270686531_2d0b90a45d.jpg" width="500" height="322" alt="Fun Times" /></a>
 
 ### Status
 
@@ -54,7 +54,7 @@ If you want to be a bit more informal, handshakes are recommended - and
 some Khmer men will press for one anyway, especially if you’re
 white-skinned and male, seeking to get chummy with you.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3271397254/" title="Apsara Dancers by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3455/3271397254_b0502ba228.jpg" width="375" height="500" alt="Apsara Dancers" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3271397254/" title="Apsara Dancers by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3455/3271397254_b0502ba228.jpg" width="375" height="500" alt="Apsara Dancers" /></a>
 
 ### History
 

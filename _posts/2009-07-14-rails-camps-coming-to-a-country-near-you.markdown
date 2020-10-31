@@ -28,18 +28,18 @@ weekend from Friday to Monday. The venues are usually scout halls or
 similar, so the name is slightly inaccurate - most people don’t bring
 tents, but sleep in dorm rooms instead.
 
-<a href="http://www.flickr.com/photos/johotravels/2603650680/" title="Getting Down to Business by johotravels, on Flickr"><img src="http://farm4.static.flickr.com/3267/2603650680_c611d3211b.jpg" width="500" height="375" alt="Getting Down to Business" /></a>
+<a href="http://www.flickr.com/photos/johotravels/2603650680/" title="Getting Down to Business by johotravels, on Flickr"><img src="https://farm4.static.flickr.com/3267/2603650680_c611d3211b.jpg" width="500" height="375" alt="Getting Down to Business" /></a>
 
 Also, they are events for Rubyists of all level of experience - and not
 just focused on Rails either. Anything related to Ruby and development
 in general is a welcome topic for discussion.
 
-<a href="http://www.flickr.com/photos/freelancing_god/2789346484/" title="Communal Hacking by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3264/2789346484_a5fa64bf5e.jpg" width="500" height="375" alt="Communal Hacking" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/2789346484/" title="Communal Hacking by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3264/2789346484_a5fa64bf5e.jpg" width="500" height="375" alt="Communal Hacking" /></a>
 
 The weekends are made up of plenty of hacking, socialising, talks, and
 partying. Alcohol and guitar hero usually feature. A ton of fun ensues.
 
-<a href="http://www.flickr.com/photos/muermann/583126424/" title="Making Pizzas by muermann, on Flickr"><img src="http://farm2.static.flickr.com/1229/583126424_f5ddaa479e.jpg" width="333" height="500" alt="Making Pizzas" /></a>
+<a href="http://www.flickr.com/photos/muermann/583126424/" title="Making Pizzas by muermann, on Flickr"><img src="https://farm2.static.flickr.com/1229/583126424_f5ddaa479e.jpg" width="333" height="500" alt="Making Pizzas" /></a>
 
 ### Rails Camp New England
 
@@ -61,7 +61,7 @@ Building on the success of last year’s first UK Rails Camp, [a second
 one](http://railscamps.com/#uk_october_2009) has been put together by
 [Tom Crinson](http://twitter.com/mrjaba) out in Margate, Kent.
 
-<a href="http://www.flickr.com/photos/freelancing_god/2788505977/" title="Balancing by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3216/2788505977_28ac44d72a.jpg" width="375" height="500" alt="Balancing" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/2788505977/" title="Balancing by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3216/2788505977_28ac44d72a.jpg" width="375" height="500" alt="Balancing" /></a>
 
 If you’re anywhere in the UK, or even Europe, you really should be
 keeping the weekend of the 16th to 19th of October free. In fact, [go
@@ -76,7 +76,7 @@ We’re returning to Melbourne (the host of the second camp, in November
 2007), but [this time](http://railscamps.com/#au_november_2009) we’re
 down by the beach in Somers.
 
-<a href="http://www.flickr.com/photos/snapperwolf/571808039/" title="John showing us how it's done by snapperwolf*, on Flickr"><img src="http://farm2.static.flickr.com/1078/571808039_93caaeb95e.jpg" width="375" height="500" alt="John showing us how it's done" /></a>
+<a href="http://www.flickr.com/photos/snapperwolf/571808039/" title="John showing us how it's done by snapperwolf*, on Flickr"><img src="https://farm2.static.flickr.com/1078/571808039_93caaeb95e.jpg" width="375" height="500" alt="John showing us how it's done" /></a>
 
 November 20th to 23rd are the dates for this, and going by the names of
 confirmed attendees, alongside what looks to be an fantastic venue, it’s

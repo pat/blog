@@ -15,9 +15,9 @@ evening - of residents of one country singing the anthems of another
 country. It’s an awesome idea, and the different approaches really add
 to it.
 
--   [France for the USA](http://www.youtube.com/watch?v=3T60NaNPiMg)
--   [Kenya for India](http://www.youtube.com/watch?v=uAWarHi0OgE)
--   [Japan for Turkey](http://www.youtube.com/watch?v=BBStEQvgcyM)
+-   [France for the USA](https://www.youtube.com/watch?v=3T60NaNPiMg)
+-   [Kenya for India](https://www.youtube.com/watch?v=uAWarHi0OgE)
+-   [Japan for Turkey](https://www.youtube.com/watch?v=BBStEQvgcyM)
 
 These short clips are inspired from an event that’s happening on the
 10th of May, [Pangea Day](http://www.pangeaday.org). I’d read mentions
@@ -43,4 +43,4 @@ found so far…
 (Your regular ruby-focused programming will return later in the week.)
 
 **Update**: Just found a fourth video - [Australia for
-Lebanon](http://www.youtube.com/watch?v=-NRCt9NQqEE)!
+Lebanon](https://www.youtube.com/watch?v=-NRCt9NQqEE)!

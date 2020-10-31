@@ -40,7 +40,7 @@ through a few comparisons.
 
 ### Speed vs Blocking
 
-<img src="http://img.skitch.com/20081111-e7c5rs2tsjmbqetr8t3dpd4igd.jpg" alt="Speed vs Blocking" />
+<img src="https://img.skitch.com/20081111-e7c5rs2tsjmbqetr8t3dpd4igd.jpg" alt="Speed vs Blocking" />
 
 The speed results here are really mixed. One (Delta) doesn’t drop much
 at all, but two (Alpha and Gamma) are horrific. All filters manage to
@@ -49,7 +49,7 @@ with 98% (losing a third of the speed in the process though).
 
 ### Speed vs False Positives
 
-<img src="http://img.skitch.com/20081111-kt84w9j9uj7r9j4bfsc9xmu7p1.jpg" alt="Speed vs False Positives" />
+<img src="https://img.skitch.com/20081111-kt84w9j9uj7r9j4bfsc9xmu7p1.jpg" alt="Speed vs False Positives" />
 
 Note that the scale on the Y Axis drops a bit, but we still get another
 set of mixed results. None of them are perfect on the false-positives
@@ -59,7 +59,7 @@ Even 1% covers a fair chunk of the net.
 
 ### Blocking vs False Positives
 
-<img src="http://img.skitch.com/20081111-xf8gey3a7j2xdb8d5hbrt84935.jpg" alt="Blocking vs False Positives" />
+<img src="https://img.skitch.com/20081111-xf8gey3a7j2xdb8d5hbrt84935.jpg" alt="Blocking vs False Positives" />
 
 Here there’s something of a trend, although you have to be looking for
 it: better blocking effectiveness means a higher number of false

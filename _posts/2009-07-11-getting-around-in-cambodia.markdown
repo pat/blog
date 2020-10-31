@@ -80,7 +80,7 @@ drivers will graciously accommodate and turn the radio down or off).
 Either way, the roads aren’t fancy - and sometimes not even sealed - so
 don’t hope for a super-smooth ride.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3271063080/" title="Transporter by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3396/3271063080_c4c3c6d3c6.jpg" width="500" height="375" alt="Transporter" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3271063080/" title="Transporter by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3396/3271063080_c4c3c6d3c6.jpg" width="500" height="375" alt="Transporter" /></a>
 
 #### The Boat
 
@@ -89,7 +89,7 @@ Battambang and Siem Reap, and even then, only during the wet season: the
 boat. There’s two different boats (I’m not sure if they’re run by
 separate companies), and one is apparently comfortable.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3270279881/" title="The Boat to Siem Reap by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3339/3270279881_c3652d82b4.jpg" width="500" height="375" alt="The Boat to Siem Reap" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3270279881/" title="The Boat to Siem Reap by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3339/3270279881_c3652d82b4.jpg" width="500" height="375" alt="The Boat to Siem Reap" /></a>
 
 I say apparently, because I went on the other boat, which is a glorified
 gondola, holding about 20 people sitting on benches facing each other,
@@ -97,7 +97,7 @@ with their backs to the water. The sides of this boat are low enough
 that you will get water flowing over the edge every now and then -
 nothing dangerous, but your bags may get a little wet.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3270282371/" title="The Boat to Siem Reap by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3504/3270282371_3ee0377328.jpg" width="500" height="375" alt="The Boat to Siem Reap" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3270282371/" title="The Boat to Siem Reap by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3504/3270282371_3ee0377328.jpg" width="500" height="375" alt="The Boat to Siem Reap" /></a>
 
 Given my description thus far, it sounds like a horrible trip - and
 while it wasn’t super comfortable, and did take seven hours, you do get
@@ -119,7 +119,7 @@ comfortably.
 
 #### Motos
 
-<a href="http://www.flickr.com/photos/yob/3361432116/" title="IMG_0732 by yob, on Flickr"><img src="http://farm4.static.flickr.com/3623/3361432116_b1c5bb0ffc.jpg" width="375" height="500" alt="IMG_0732" /></a>
+<a href="http://www.flickr.com/photos/yob/3361432116/" title="IMG_0732 by yob, on Flickr"><img src="https://farm4.static.flickr.com/3623/3361432116_b1c5bb0ffc.jpg" width="375" height="500" alt="IMG_0732" /></a>
 
 If you need to get somewhere by yourself, I’d recommend jumping on the
 back of a moto - there’s usually plenty of moto-dops (moto-taxis) around
@@ -136,7 +136,7 @@ request a price, sometimes you just offer what you think it is worth -
 and bargaining is fine, although you may not get far due to the language
 barrier.
 
-<a href="http://www.flickr.com/photos/yob/3360708551/" title="Pat and Melina on a Moto"><img src="http://farm4.static.flickr.com/3664/3360708551_91ddaa277a.jpg" width="500" height="375" alt="IMG_0777" /></a>
+<a href="http://www.flickr.com/photos/yob/3360708551/" title="Pat and Melina on a Moto"><img src="https://farm4.static.flickr.com/3664/3360708551_91ddaa277a.jpg" width="500" height="375" alt="IMG_0777" /></a>
 
 Much like the ride itself, estimating what to pay for a trip becomes
 comfortable over time.

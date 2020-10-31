@@ -49,7 +49,7 @@ Additionally, I can vouch for the following:
     well as many laughs. The video below also includes the Swedish Chef,
     because he’s also excellent (and relevant to Adam’s skit).
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/nWbWGJNQ5oI?rel=0&start=170&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nWbWGJNQ5oI?rel=0&start=170&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
 
 -   [Daniel
     Kitson](http://www.comedyfestival.com.au/2015/season/shows/polyphony-daniel-kitson) -
@@ -67,7 +67,7 @@ Additionally, I can vouch for the following:
     show](http://www.comedyfestival.com.au/2015/season/shows/and-his-singing-tiger-again-dr-brown-brown-brown-brown-brown)
     (from adults!). This video should give you some idea of his style:
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/XfONJQ7DudQ?rel=0&start=10&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XfONJQ7DudQ?rel=0&start=10&end=&autoplay=0" frameborder="0" allowfullscreen></iframe>
 
 -   [Mark
     Watson](http://www.comedyfestival.com.au/2015/season/shows/flaws-mark-watson) -

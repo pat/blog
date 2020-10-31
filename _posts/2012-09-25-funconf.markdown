@@ -13,7 +13,7 @@ This could be a story about a mystery. Or it could be an adventure. Or
 even a tale of learning and sharing. But ultimately, it really comes
 down to friendship and trust.
 
-<img src="http://freelancing-gods.com/images/badge.jpg" alt="Gaelic Badges">
+<img src="https://freelancing-gods.com/images/badge.jpg" alt="Gaelic Badges">
 
 Ah, but where to start? Well, if we look back several years, it starts
 with my good friend [James Healy](http://www.yob.id.au), introducing me
@@ -87,7 +87,7 @@ The mode of transport stakes were quickly raised - because we were then
 asked to board a train booked just for us, with the destination being
 Galway, on the other side of Ireland.
 
-<img src="http://freelancing-gods.com/images/funconf-train.jpg" alt="Next stop: Galway" />
+<img src="https://freelancing-gods.com/images/funconf-train.jpg" alt="Next stop: Galway" />
 
 Of course, this was just one piece of the puzzle - what was to come once
 we arrived in Galway had yet to be revealed. That didn’t bother us much:
@@ -112,7 +112,7 @@ streets of Galway to find helicopters waiting.
 
 Helicopters!
 
-<a href="http://www.flickr.com/photos/freelancing_god/7901050640/" title="Helicopters!"><img src="http://farm9.staticflickr.com/8322/7901050640_2cea40127e.jpg" width="500" height="373" alt="Helicopters!"></a>
+<a href="http://www.flickr.com/photos/freelancing_god/7901050640/" title="Helicopters!"><img src="https://farm9.staticflickr.com/8322/7901050640_2cea40127e.jpg" width="500" height="373" alt="Helicopters!"></a>
 
 And so, we arrived in grand style at our actual destination, Inis Mór of
 the Aran Islands (just off the west coast of Ireland).

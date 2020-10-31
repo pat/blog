@@ -29,7 +29,7 @@ latest Boston Big Picture
 post](http://www.boston.com/bigpicture/2009/02/bushfires_in_victoria_australi.html),
 which features photos of the fires and destruction.
 
-<a href="http://www.flickr.com/photos/jety/3265643429/" title="Smoke clouds (7) by jety, on Flickr"><img src="http://farm4.static.flickr.com/3422/3265643429_6d897e11c1.jpg" width="500" height="334" alt="Smoke clouds (7)" /></a>
+<a href="http://www.flickr.com/photos/jety/3265643429/" title="Smoke clouds (7) by jety, on Flickr"><img src="https://farm4.static.flickr.com/3422/3265643429_6d897e11c1.jpg" width="500" height="334" alt="Smoke clouds (7)" /></a>
 
 Photo taken by [Warren](http://www.flickr.com/people/jety/), on
 [Flickr](http://www.flickr.com/photos/jety/3265643429/), with a

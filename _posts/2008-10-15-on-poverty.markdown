@@ -17,7 +17,7 @@ you’d think with an event like [Blog Action Day
 2008](http://www.blogactionday.org), and the theme of poverty, writing a
 blog post on it all would be easy.
 
-<a href="http://blogactionday.org"><img border="0" src="http://blogactionday.org/img/47287915fbd1b16909a77ccd16a44efce62c5f05.jpg" /></a>
+<a href="https://blogactionday.org"><img border="0" src="https://blogactionday.org/img/47287915fbd1b16909a77ccd16a44efce62c5f05.jpg" /></a>
 
 Not quite.
 

@@ -7,7 +7,7 @@ categories:
   - khmer
   - guide
 ---
-<a href="http://www.flickr.com/photos/freelancing_god/3270598371/" title="Bayon Temple by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3345/3270598371_f25b5b73dc.jpg" width="500" height="374" alt="Bayon Temple" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3270598371/" title="Bayon Temple by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3345/3270598371_f25b5b73dc.jpg" width="500" height="374" alt="Bayon Temple" /></a>
 
 I’ve recently returned to Melbourne after spending four months based in
 Cambodia. I’ve learnt a stack about the country and culture, and I

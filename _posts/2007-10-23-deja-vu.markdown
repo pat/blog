@@ -9,8 +9,8 @@ categories:
 ---
 From 2004:
 
-<img src="http://assets.freelancing-gods.com/images/2004.jpg" alt="Election 2004 Comic" class="max-width" />
+<img src="https://freelancing-gods.com/images/2004.jpg" alt="Election 2004 Comic" class="max-width" />
 
 From 2007:
 
-![Election 2007 Comic](http://assets.freelancing-gods.com/images/2007.jpg "Election 2007 Comic")
+![Election 2007 Comic](https://freelancing-gods.com/images/2007.jpg "Election 2007 Comic")

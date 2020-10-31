@@ -11,7 +11,7 @@ categories:
   - social change
 ---
 A couple of weeks ago, some dear friends of mine started [a campaign on
-Kickstarter](http://www.kickstarter.com/projects/1472956791/coworking-collaboration-and-coffee-in-cambodia)
+Kickstarter](https://www.kickstarter.com/projects/1472956791/coworking-collaboration-and-coffee-in-cambodia)
 to raise funds for their cafe. Now, in most situations, you’d be correct
 to question whether such a campaign deserves to be on
 [Kickstarter](http://www.kickstarter.com) - why should people chip in to
@@ -27,7 +27,7 @@ building businesses, running social awareness campaigns, hosting
 concerts, and conducting workshops. The introductory video does an
 excellent job at providing some context:
 
-<iframe frameborder="0" height="410px" src="http://www.kickstarter.com/projects/1472956791/coworking-collaboration-and-coffee-in-cambodia/widget/video.html" width="480px">
+<iframe frameborder="0" height="410px" src="https://www.kickstarter.com/projects/1472956791/coworking-collaboration-and-coffee-in-cambodia/widget/video.html" width="480px">
 </iframe>
 Kinyei have already been doing amazing things in Battambang - but this
 cafe will help them grow, and assist them in enabling local Khmer to
@@ -37,7 +37,7 @@ people are given opportunities to take command of their lives.
 
 So, if you’ve got some spare cash lying around after Christmas, perhaps
 you’d like to [send it Kinyei’s
-way](http://www.kickstarter.com/projects/1472956791/coworking-collaboration-and-coffee-in-cambodia)
+way](https://www.kickstarter.com/projects/1472956791/coworking-collaboration-and-coffee-in-cambodia)
 - it will definitely be put to good use.
 
 ------------------------------------------------------------------------

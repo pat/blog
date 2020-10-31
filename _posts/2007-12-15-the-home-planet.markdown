@@ -7,7 +7,7 @@ categories:
   - earth
   - space
 ---
-<a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_102.html"><img class="breaker" alt="Earth-rise" src="http://assets.freelancing-gods.com/images/earthrise.jpg" /></a>
+<a href="http://www.nasa.gov/multimedia/imagegallery/image_feature_102.html"><img class="breaker" alt="Earth-rise" src="https://freelancing-gods.com/images/earthrise.jpg" /></a>
 
 > “From space I saw Earth - indescribably beautiful with the scars of
 > national boundaries gone.”

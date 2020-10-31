@@ -14,7 +14,7 @@ rhetorical questions.
 
 ### So, you’re a kick-arse coder…
 
-<a href="http://xkcd.com/208/"><img src="http://imgs.xkcd.com/comics/regular_expressions.png" class="breaker" alt="XKCD Regular Expressions Comic" /></a>
+<a href="http://xkcd.com/208/"><img src="https://imgs.xkcd.com/comics/regular_expressions.png" class="breaker" alt="XKCD Regular Expressions Comic" /></a>
 
 Over this weekend, you’ve created awesome Rails apps - or perhaps you’re
 such a code ninja that you’re using [merb](http://merbivore.com/),
@@ -33,7 +33,7 @@ But it’s only code, right?
 
 ### Alright wise guy. What’s next?
 
-<a href="http://xkcd.com/274/"><img src="http://imgs.xkcd.com/comics/with_apologies_to_the_who.png" class="breaker" alt="XKCD My (Geek) Generation Comic" /></a>
+<a href="http://xkcd.com/274/"><img src="https://imgs.xkcd.com/comics/with_apologies_to_the_who.png" class="breaker" alt="XKCD My (Geek) Generation Comic" /></a>
 
 So where to from here, then? What’s next? What’s better than code?
 
@@ -87,7 +87,7 @@ just tech. Even semantic HTML is important, sure, but it’s not
 
 ### So let’s think a little bigger
 
-<a href="http://www.flickr.com/photos/scttw/1453196480/"><img src="http://farm2.static.flickr.com/1049/1453196480_eb6f1a37a5.jpg" class="breaker" alt="Mark Pesce at WDS07 with slide saying 'People are the network'" /></a>
+<a href="http://www.flickr.com/photos/scttw/1453196480/"><img src="https://farm2.static.flickr.com/1049/1453196480_eb6f1a37a5.jpg" class="breaker" alt="Mark Pesce at WDS07 with slide saying 'People are the network'" /></a>
 
 The world can always use some help. But it’s so big, and you’re so
 small, yeah?
@@ -147,7 +147,7 @@ smarter, or code to be DRYer.
 
 ### Get out there!
 
-<a href="http://xkcd.com/308/"><img src="http://imgs.xkcd.com/comics/interesting_life.png" class="breaker" alt="XKCD Interesting Times Comic" /></a>
+<a href="http://xkcd.com/308/"><img src="https://imgs.xkcd.com/comics/interesting_life.png" class="breaker" alt="XKCD Interesting Times Comic" /></a>
 
 (Photo above was taken by [Rowen Atkinson](http://www.rowen.id.au/blog/)
 at Web Directions South 2007. Comics from [XKCD](http://xkcd.com/).

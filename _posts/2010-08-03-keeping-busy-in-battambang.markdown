@@ -24,7 +24,7 @@ Pot has cooking classes - quite possibly the first of its kind in
 Cambodia. Usually operating in the morning, they provide a great
 introduction to a Khmer cooking. Make sure you book a day or two ahead!
 
-<a href="http://www.flickr.com/photos/freelancing_god/3270336333/" title="Fish Amok by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3498/3270336333_90ebfcd5dc.jpg" width="500" height="375" alt="Fish Amok" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3270336333/" title="Fish Amok by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3498/3270336333_90ebfcd5dc.jpg" width="500" height="375" alt="Fish Amok" /></a>
 
 Vannak (who runs Smoking Pot) will take you down to the market and
 purchase all the ingredients for the meals you’ll be preparing - and the
@@ -46,7 +46,7 @@ can also be taken by tourists. It’s not the most comfortable ride in the
 world, but you get along at a decent clip, and you get glimpses of the
 Cambodian countryside.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3270688459/" title="Moto Train by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3423/3270688459_beccd38cb3.jpg" width="500" height="428" alt="Moto Train" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3270688459/" title="Moto Train by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3423/3270688459_beccd38cb3.jpg" width="500" height="428" alt="Moto Train" /></a>
 
 Also: as you can see in the photo above, it’s a single track - so if
 there’s another bamboo platform coming in the other direction, whoever
@@ -68,7 +68,7 @@ Selpak](http://phareps.org/index.php?option=com_content&view=category&layout=blo
 These kids are extremely talented - I wouldn’t be surprised if plenty of
 them find themselves in Cirque du Soleil shows.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3271182728/" title="Stretch by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3334/3271182728_9a8447c601.jpg" width="500" height="375" alt="Stretch" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3271182728/" title="Stretch by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3334/3271182728_9a8447c601.jpg" width="500" height="375" alt="Stretch" /></a>
 
 The performances they put together are a lot of fun - even though it’s
 all in Khmer, you’ll easily pick up on what’s happening. There’s
@@ -83,7 +83,7 @@ die. It’s not a happy place, but it does help with understanding what
 the people of Cambodia have been through - and are still recovering
 from.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3270247797/" title="Duck Mountain by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3469/3270247797_b7cde5cb69.jpg" width="500" height="375" alt="Duck Mountain" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3270247797/" title="Duck Mountain by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3469/3270247797_b7cde5cb69.jpg" width="500" height="375" alt="Duck Mountain" /></a>
 
 On a lighter note, you get some great views from up on the top of the
 hill. Also, if you stick around until late afternoon, you’ll get to see
@@ -91,7 +91,7 @@ millions of small bats streaming out from the many caves to find food
 for the night. I’ve only managed to see this once, but it’s really quite
 something to watch.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3270709507/" title="Bat Trail by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3351/3270709507_8affff9ec7.jpg" width="500" height="375" alt="Bat Trail" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3270709507/" title="Bat Trail by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3351/3270709507_8affff9ec7.jpg" width="500" height="375" alt="Bat Trail" /></a>
 
 Phnom Sampeau is probably too far for a tuk-tuk journey - the roads
 aren’t sealed for most of the way, so taking a moto is a far better
@@ -120,7 +120,7 @@ known. Quite old, it’s like a small version of some of the temples you
 can find in the Angkor complex. The one catch is it’s on top of a hill,
 and the stairs are a killer.
 
-<a href="http://www.flickr.com/photos/freelancing_god/3271096080/" title="Wat Banan by freelancing god, on Flickr"><img src="http://farm4.static.flickr.com/3420/3271096080_d88530c157.jpg" width="500" height="375" alt="Wat Banan" /></a>
+<a href="http://www.flickr.com/photos/freelancing_god/3271096080/" title="Wat Banan by freelancing god, on Flickr"><img src="https://farm4.static.flickr.com/3420/3271096080_d88530c157.jpg" width="500" height="375" alt="Wat Banan" /></a>
 
 You can also check out some of the local industries - rice paper, fish
 paste, rice wine and more - as part of your tours, whether that be by

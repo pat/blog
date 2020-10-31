@@ -17,7 +17,7 @@ that can help, and a few best practices.
 The [video](http://vimeo.com/31903681) of my session is now online, if
 you’re interested:
 
-<iframe src="http://player.vimeo.com/video/31903681?title=0&byline=0&portrait=0" width="521" height="293" frameborder="0" webkitAllowFullScreen
+<iframe src="https://player.vimeo.com/video/31903681?title=0&byline=0&portrait=0" width="521" height="293" frameborder="0" webkitAllowFullScreen
 mozallowfullscreen allowFullScreen></iframe>
 
 There’s also the

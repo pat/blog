@@ -5,7 +5,7 @@ categories:
   - meta
   - blogs
 ---
-Right, [here we go again](http://www.youtube.com/watch?v=pv5zWaTEVkI).
+Right, [here we go again](https://www.youtube.com/watch?v=pv5zWaTEVkI).
 Third time lucky.
 
 That is, this is my third attempt at blogging. Hopefully it’ll last
