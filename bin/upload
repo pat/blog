@@ -1,32 +1,3 @@
-#!/usr/bin/env ruby
+#!/usr/bin/env bash
 
-COMPRESSED_EXTENSIONS = %w[ .html .css .js .txt .ttf .atom .stl .xml .svg .eot ]
-ALL_EXTENSIONS        = Dir["_site/**/*"].
-  select { |path| File.file?(path) }.
-  collect { |path| File.extname(path) }.
-  uniq
-
-# Upload compressed files:
-command = "aws s3 cp _site s3://freelancing-gods/ --recursive" \
-  " --acl public-read --content-encoding \"gzip\" --exclude \"*\""
-
-(COMPRESSED_EXTENSIONS & ALL_EXTENSIONS).each do |extension|
-  command += " --include \"*#{extension}\""
-end
-
-system command
-
-# Upload uncompressed files:
-command = "aws s3 cp _site s3://freelancing-gods/ --recursive" \
-  " --acl public-read --include \"*\""
-
-(COMPRESSED_EXTENSIONS & ALL_EXTENSIONS).each do |extension|
-  command += " --exclude \"*#{extension}\""
-end
-
-system command
-
-# Clear Cloudfront cache:
-system "aws configure set preview.cloudfront true"
-system "aws cloudfront create-invalidation " \
-  "--distribution-id $AWS_CLOUDFRONT_ID --paths \"/*\""
+netlify deploy --prod --auth $NETLIFY_AUTH_TOKEN --site $NETLIFY_SITE_ID --dir _site
