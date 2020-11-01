@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+set -e
+
+mkdir -p vendor
+
+curl --location \
+  --output vendor/thinking-sphinx.zip \
+  https://github.com/pat/thinking-sphinx/archive/gh-pages.zip
+unzip vendor/thinking-sphinx.zip -d vendor
+
+cd vendor/thinking-sphinx-gh-pages
+if [ -d "/opt/build/cache/bundle" ]; then
+  bundle install --path /opt/build/cache/bundle
+else
+  bundle install
+fi
+
+bundle exec jekyll build
+cp -r _site ../../_site/thinking-sphinx
