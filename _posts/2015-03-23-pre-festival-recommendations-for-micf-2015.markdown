@@ -31,7 +31,7 @@ and [Wil
 Anderson](http://www.comedyfestival.com.au/2015/season/shows/free-wil-wil-anderson).
 
 My favourites from last year include Celia Pacquola (nominated for the
-Barry - aka the best show) and Michael Workman (who should have been
+Barry - aka the best show) and Cassie Workman (who should have been
 nominated!).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c_MusuNR72k" frameborder="0" allowfullscreen>

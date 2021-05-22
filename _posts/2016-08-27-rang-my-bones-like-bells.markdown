@@ -18,7 +18,7 @@ And yet, here I was, at the launch of a collection of poetry!
 
 Music [has always held the keys to my soul](/2016/01/03/music-is-magic.html). Some of that is the sound: soaring strings or sharp horns or a beat from the drums that you can’t help but tap along to. Of course, lyrics often draw me in as well - whether it be the imagery of Elbow’s [Great Expectations](https://www.youtube.com/watch?v=uM95IKmEh6I), the wry and delightful turns of phrase of The Lucksmiths’ [Sunlight in a Jar](https://www.youtube.com/watch?v=bAkx37MglaU), or the simple and effecting storytelling of Darren Hanlon’s [House](https://www.youtube.com/watch?v=ghXs7LYF06c).
 
-Comedy is another great passion of mine. Living in Melbourne, the home of one of the world’s largest comedy festivals, has helped fuel this obsession. I’ve gradually been able to spot the theme in many of my favourite performances: clever turns of phrase, thoughtful storytelling, and a strong dose of heart - especially from comedians like Daniel Kitson and Michael Workman.
+Comedy is another great passion of mine. Living in Melbourne, the home of one of the world’s largest comedy festivals, has helped fuel this obsession. I’ve gradually been able to spot the theme in many of my favourite performances: clever turns of phrase, thoughtful storytelling, and a strong dose of heart - especially from comedians like Daniel Kitson and Cassie Workman.
 
 Particularly with the storytelling focus, it’s a short step to me listening reverently to authors reading their works. One highlight from many years ago was being in the audience to hear Neil Gaiman read excerpts from his novel Anansi Boys. Every time I re-read the book, it’s his voice in my head narrating the story.
 
