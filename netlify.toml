@@ -1,2 +1,7 @@
 [[plugins]]
 package = "/plugins/freelancing-blog"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"
