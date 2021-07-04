@@ -183,6 +183,33 @@ nav {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  nav {
+    ul {
+      white-space: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      -webkit-overflow-scrolling: touch;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    li {
+      float: none;
+      display: inline-block;
+    }
+
+    a {
+      float: none;
+      display: inline-block;
+    }
+  }
+}
+
 .date {
   color: rgba(#000, .5);
   font-size: .85em;
@@ -350,6 +377,18 @@ footer {
     width: auto;
     display: block;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 689px) {
+  #god img {
+    display: none;
+  }
+
+  .pagination {
+    a, em {
+      padding: 0 0.4em;
+    }
   }
 }
 
