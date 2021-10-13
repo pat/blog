@@ -13,6 +13,7 @@ categories:
   - revolution
   - evolution
   - ruby
+excerpt: "I just wanted to post a few thoughts on the final session of the amazing FutureRuby conference in Toronto. Jesse Hirsh delivered an impassioned argument against what he labels the Imperial Californian Idealogy."
 ---
 **Update: Jesse’s talk is [now
 online](http://www.infoq.com/presentations/hirsh-california-ideology)
