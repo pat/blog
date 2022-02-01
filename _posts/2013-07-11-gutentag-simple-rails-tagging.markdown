@@ -6,6 +6,7 @@ categories:
   - rails
   - gems
   - examples
+excerpt: "The last thing the Rails ecosystem needs is another tagging gem. But I went and built one anyway… it’s called Gutentag, and perhaps worth it for the name alone (something I get an inordinate amount of happiness from)."
 ---
 The last thing the Rails ecosystem needs is another tagging gem. But I
 went and built one anyway… it’s called
