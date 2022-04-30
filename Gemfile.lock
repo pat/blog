@@ -16,7 +16,7 @@ GEM
     faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
-    ffi (1.13.1)
+    ffi (1.15.5)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (1.8.5)
