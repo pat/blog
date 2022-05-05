@@ -13,7 +13,7 @@ categories:
   - startups
   - values
   - challenges
-excerpt: "Building software-as-a-service with a conscience is something that I've been mindful of while creating Calm Calendar. I wanted to share where things currently stand."
+excerpt: "Some thoughts on how I consider privacy, hosting, and rebalancing power while building tools with a conscience (namely, Calm Calendar)."
 ---
 Building software-as-a-service with a conscience is something that I've been mindful of while creating [Calm Calendar](https://calmcalendar.com). I know I've still got a long way to go in this journey, but I wanted to share a bit of my thinking as things currently stand covering three areas in particular: Privacy & Security, Hosting & Infrastructure, and Rebalancing Power.
 
