@@ -21,7 +21,7 @@ Firstly, the one non-negotiable: **I will only accept roles that are four days a
 In terms of what I enjoy:
 
 * **I love writing Ruby code** - Rails and RSpec are my tools of choice, but I'm also increasingly familiar with Hanami 2.
-* **I’d like to eventually step up into some level of leadership** - particularly with a technical focus, but also with an impact on shaping/strengthening company culture.
+* **I’m interested in eventually stepping into a leadership role** - particularly with a technical focus, but also with an impact on shaping/strengthening company culture.
 * **I love supporting junior developers**, through pairing and mentoring, and get a kick out of seeing them grow and find their confidence.
 * **I greatly enjoy building tools for developers** - whether that be through commercial projects such as [Flying Sphinx](https://info.flying-sphinx.com)), or by [developing and supporting open-source libraries](https://github.com/pat).
 
