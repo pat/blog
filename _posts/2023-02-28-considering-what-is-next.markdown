@@ -6,6 +6,8 @@ categories:
 excerpt: "I've been pondering what I want work to look like for me in the coming few years, and have decided it's time for a change. After primarily being a contractor for the past 15 years, I'm leaning towards being an employee again."
 ---
 
+**Update - 8th May 2023**: Thank you to everyone who's been in touch and helped get the word out - I've just begun a role as Staff Engineer with [Covidence](https://covidence.org). 🎉
+
 I've been pondering what I want work to look like for me in the coming few years, and have decided it's time for a change.
 
 For the bulk of my working career I've been a contractor - and [as discussed previously](/2019/04/26/hunting-new-opportunities.html), that's allowed me to work with many amazing teams. Now, though, I'm definitely leaning towards being an employee again. I realise that it's a bit of an uncertain time for many, with redundancies happening often in many large tech companies - I'm aware my timing here is not ideal! - but I want to see what opportunities exist nonetheless.
