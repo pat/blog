@@ -25,7 +25,7 @@ So, with this Day of Action in mind - what action can we take?
 
 * Acknowledge that you can support Palestine and Palestinians without supporting Hamas, just like we can (and do!) support Jewish folks without supporting the Israeli government. [Criticising Israel is not anti-semitic](https://www.nplusonemag.com/online-only/online-only/a-dangerous-conflation/). (And spare a thought for Jewish folks who must be absolutely devastated seeing this continued violence carried out in their name).
 * Do not reduce the situation down to a religious war. There are many, many Jewish folks speaking out against the actions of Israel, and standing in support of Palestine.
-* Do not retreat into a "both sides are at fault" dismissmal of the situation. One side is committing genocide. One side is imposing apartheid. One side is building illegal settlements and dispossessing others from their homes.
+* Do not retreat into a "both sides are at fault" dismissal of the situation. One side is committing genocide. One side is imposing apartheid. One side is building illegal settlements and dispossessing others from their homes.
 * Don't use the label 'conflict' - this sidesteps the historical context, the long-standing abuses of international law, the genocide. The horrific attack on Oct 7th did not come out of nowhere.
 * [Ask your politicians](https://apan.org.au/israel_stop/) (again!) to speak strongly in support of a ceasefire - both in the media, and at the UN.
 * If you're able to, go to the rallies (the physical showing of support matters - and yes, [Jewish folks are there too](https://www.instagram.com/p/C0YjSr6xEj5/)!)
