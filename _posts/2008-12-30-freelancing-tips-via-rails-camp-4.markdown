@@ -10,6 +10,7 @@ categories:
   - ruby
   - rails
   - australia
+excerpt: "I spoke at Rails Camp 4 about freelancing, and everyone then chimed in with their own fantastic points."
 ---
 ### Context
 
@@ -220,7 +221,7 @@ indication of my ego. Honest.
 One of my advice would be: never ever take projects with hour rate less
 then you normally want to have.
 
-Pat:  
+Pat:
 How do you count hours needed for the project? I had some projects, when
 real work hours number was much greater than what I’ve expected… It’s
 hardest part of project for me. If you say too much client will go
@@ -270,7 +271,7 @@ Jan, 2009:</div>
 
 <div class="comment" markdown="1">
 Excellent advice. I would add getting published (outside your blog) as
-another solid way of getting recognition and leading to referrals.  
+another solid way of getting recognition and leading to referrals.
 Writing a book is definitely not for everyone but there are more
 accessible avenues including Peepcode mini-books or (shameless plug) the
 excellent upcoming Rails Magazine.
@@ -281,7 +282,7 @@ excellent upcoming Rails Magazine.
 2 Jan, 2009:</div>
 
 <div class="comment" markdown="1">
-@Piotr Sarnacki  
+@Piotr Sarnacki
 I pretty much just assume that however long I think a project will take,
 it will actually take 25% longer.
 
@@ -293,7 +294,7 @@ Good write up!
 on 3 Jan, 2009:</div>
 
 <div class="comment" markdown="1">
-@John Yerhot  
+@John Yerhot
 Someone used a rule of “double the estimate, add 10%, and double the
 estimate again”. While quite, er, extreme, it’s remarkably true of quite
 a few projects, especially large ones, especially when an external team
