@@ -21,8 +21,11 @@ AI is just following that trend - it's almost like it's using history as its tra
 
 But we build things on ChatGPT anyway - hell, we've been building things on top of Amazon for over a decade now, even with their longstanding anti-competitive behaviour and inhumane treatment of their own workers. I'm not sure why I should be surprised at the current state of things.
 
+<span id="lonestartallboi.bsky.social-3kiib4qnjt324"></span>
+<script src="https://assets.bluesky.lol/js/b1.js" data-handle="lonestartallboi.bsky.social" data-skeet="3kiib4qnjt324"></script>
+
 Yet, I must ask: is there a line in the sand for what we will not accept, while we build shiny new tech that _might_ be useful? Do we bear any responsibility if we enable others to integrate with these services and companies?
 
 Do the sunk costs outweigh our consciences?
 
-If they don't, then: what are you going to do about it?
+If they don't, then: **what are you going to do about it?**
