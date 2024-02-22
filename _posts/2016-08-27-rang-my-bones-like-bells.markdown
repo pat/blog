@@ -38,13 +38,13 @@ Once I realised that it was a poetry collection I did pause, but only for a mome
 
 On that evening, I stood up the back. Most of the other people there seemed to know each other and were chatting away, but as an outsider who struggles to open conversations with strangers, I sipped my water and waited quietly for the event to start. During the proceedings, though, Maxine turned what would have otherwise been an event focused on herself and her book into a celebration of the local poetry community. She asked her friends and peers to perform their own works, and shared her own stories of how she came to be a part of the scene with fondness. The joy and deep appreciation shared amongst everyone there was clear and infectious.
 
-The following day, I came across British spoken word poet (and writer and rapper) Kate Tempest performing Progress on Q&A, full of fire and rage:
+The following day, I came across British spoken word poet (and writer and rapper) Kae Tempest performing Progress on Q&A, full of fire and rage:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCSoFd7O75E" frameborder="0" allowfullscreen></iframe>
 
-When I recovered from the power of the poem, I found out that Kate had an event scheduled in Melbourne as part of her visit to Australia - at The Wheeler Centre (of course), and hosted by Maxine Beneba Clarke (of course). The one catch? It was completely booked out...
+When I recovered from the power of the poem, I found out that Kae had an event scheduled in Melbourne as part of their visit to Australia - at The Wheeler Centre (of course), and hosted by Maxine Beneba Clarke (of course). The one catch? It was completely booked out...
 
-Thankfully I managed to get in on the waiting list anyway, and what followed was an intoxicating hour of thoughtful questions and answers, with Kate ruminating on hip-hop: “I felt like I found something that rang my bones like bells”, poetry: “if you don’t find it on your own terms, you’ll never find it”, and art in general: “if you feel it, if it’s found you, it’s for you.” She also read from her novel [The Bricks that Built the Houses](http://www.readings.com.au/products/20654780/the-bricks-that-built-the-houses) - which I promptly bought and greatly enjoyed.
+Thankfully I managed to get in on the waiting list anyway, and what followed was an intoxicating hour of thoughtful questions and answers, with Kae ruminating on hip-hop: “I felt like I found something that rang my bones like bells”, poetry: “if you don’t find it on your own terms, you’ll never find it”, and art in general: “if you feel it, if it’s found you, it’s for you.” They also read from their novel [The Bricks that Built the Houses](http://www.readings.com.au/products/20654780/the-bricks-that-built-the-houses) - which I promptly bought and greatly enjoyed.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FY11fh6sKMw" frameborder="0" allowfullscreen></iframe>
 
@@ -56,4 +56,4 @@ The [Melbourne Writers Festival](http://mwf.com.au) is currently running, and th
 
 In defending spoken word as part of the broader literary world, Maxine elegantly said “spoken word is where literature began.” A simple reminder of the history and power of performed storytelling - and a gentle reinforcement for my appreciation of the moments when people on a stage speak from the heart and leave marks on our souls.
 
-As many of my friends are aware from conversations over the past few months, I've found poetry on my terms, and I'm embracing it all - whether it be via lyrics, prose, comedy or slam. As Kate Tempest would say, it all rings my bones like bells.
+As many of my friends are aware from conversations over the past few months, I've found poetry on my terms, and I'm embracing it all - whether it be via lyrics, prose, comedy or slam. As Kae Tempest would say, it all rings my bones like bells.
