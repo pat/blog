@@ -1,6 +1,5 @@
 require 'jekyll'
 require 'json'
-require 'faraday'
 
 task :tags do
   site = Jekyll::Site.new Jekyll.configuration
