@@ -18,12 +18,12 @@
   <body>
     {% include navigation.html %}
     <section>
-      <article>
+      <article data-pagefind-body>
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
         <div class="content">
           {{ content }}
         </div>
-        <footer>
+        <footer data-pagefind-ignore>
           <p>Posted on {{ page.date | date: "%-d %B, %Y" }}</p>
           <p class="tags">
             Tagged with:
@@ -32,7 +32,7 @@
             {% endfor %}
           </p>
         </footer>
-        <div class="next-posts">
+        <div class="next-posts" data-pagefind-ignore>
           {% if page.previous %}
           <p>Prior to this: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
           {% endif %}
