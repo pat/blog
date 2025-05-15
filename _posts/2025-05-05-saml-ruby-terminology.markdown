@@ -14,9 +14,9 @@ When working on SSO, there's a lot of terminology that crops up, and it can get 
 
 ### SSO
 
-SSO stands for "Single Sign-On", which is the process of delegating authentication to a third-party service.
+SSO stands for "Single Sign-On", which is the process of delegating authentication to a third party service.
 
-You've likely come across it at some point - you're viewing a website, you need to sign in, and it gives you the option of authenticating via a _different site_ such as Google or Facebook or (once upon a time) Twitter. You click the link, you're taken to that third-party site to sign in, and then you're sent back to the original site and you've been logged in there too.
+You've likely come across it at some point - you're viewing a website, you need to sign in, and it gives you the option of authenticating via a _different site_ such as Google or Facebook or (once upon a time) Twitter. You click the link, you're taken to that third party site to sign in, and then you're sent back to the original site and you've been logged in there too.
 
 That process? That's SSO.
 

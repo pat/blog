@@ -10,9 +10,9 @@ excerpt: "Building SAML service provider logic in a Rails app isn't actually as 
 
 *This post is part of the broader series around [SAML and Ruby](/2025/05/11/saml-ruby-collection.html).*
 
-If you're building a Rails site that needs to act as a SAML service provider, you've got two key options: you can use a third-party service to manage the integration with identity providers, or you can build out the logic yourself.
+If you're building a Rails site that needs to act as a SAML service provider, you've got two key options: you can use a third party service to manage the integration with identity providers, or you can build out the logic yourself.
 
-There are a great many third-party services to consider, including Auth0, Shibboleth, Firebase, Kinde, KeyCloak, and FusionAuth. Some of these are closed-source paid services, others are open source - often with a paid option for managed hosting. There's value in these options, so you may want to investigate further.
+There are a great many third party services to consider, including Auth0, Shibboleth, Firebase, Kinde, KeyCloak, and FusionAuth. Some of these are closed-source paid services, others are open source - often with a paid option for managed hosting. There's value in these options, so you may want to investigate further.
 
 However, building support directly in your Ruby or Rails app isn't actually as daunting as I first feared - and as a bonus, it lets you retain control of the customer/user data, rather than being beholden to the limitations and terms of a separate service.
 
@@ -23,13 +23,13 @@ The two key things that greatly helped us with building out service provider sup
 * The [ruby-saml gem](https://github.com/SAML-Toolkits/ruby-saml), which has existed for many years, and so has been extensively tested against a wide variety of identity providers;
 * And [a blog post by Osso](https://dev.to/sammybauch/add-saml-sso-to-a-rails-6-app-20ld) on how to use that gem in a Rails application.
 
-Osso was once a third-party option, and while they don't exist as a business any more, I'm very glad for their generous spirit in sharing a solid starting point for Ruby developers diving into SAML. You'll be well-served by reading their post, but in case a shorter summary is useful, here's our take.
+Osso was once a third party option, and while they don't exist as a business any more, I'm very glad for their generous spirit in sharing a solid starting point for Ruby developers diving into SAML. You'll be well-served by reading their post, but in case a shorter summary is useful, here's our take.
 
 ### The way out
 
 There are two key endpoints required to behave as a SAML service provider: one that redirects your visitors out to the identity provider, and one that accepts the resulting response when they're sent back to your site with a verified identity.
 
-For me, these work well as `new` and `create` actions in a single controller. Let's take them one at a time.
+For me, these work well as <code>new<code> and <code>create</code> actions in a single controller. Let's take them one at a time.
 
 ```ruby
 class SAMLController < ApplicationController
@@ -90,9 +90,9 @@ def saml_settings
 end
 ```
 
-This method is generating an object that contains all the relevant details for interacting with a given identity provider. The examples in the code are referring to Google, but you'll want to it up for the IdP you're actually talking to.
+This method is generating an object that contains all the relevant details for interacting with a given identity provider. The examples in the code are referring to Google, but you'll want to update it for the IdP you're actually talking to.
 
-* `assertion_consumer_service_url` is a URL is where visitors will be redirected back to on a successful authentication. This should point to the `create` action in this controller we're working on.
+* `assertion_consumer_service_url` is a URL is where visitors will be redirected back to on a successful authentication. This should point to the <code>create</code> action in this controller we're working on.
 * `sp_entity_id` is an identifier for your service, and should be unique from the perspective of the identity provider.
 * `idp_entity_id` is an identifier for the identity provider, supplied by them, and should also be considered unique.
 * `idp_sso_service_url` is supplied by the identity provider, and is a live URL where we redirect visitors to.
@@ -113,7 +113,7 @@ It is _very strongly_ recommended that these settings are cached regularly, rath
 
 ### The way back in
 
-The above `new` action sends visitors off to the IdP - but then you'll want an endpoint for their return. It could look something like the following:
+The above <code>new</code> action sends visitors off to the IdP - but then you'll want an endpoint for their return. It could look something like the following:
 
 ```ruby
 class SAMLController < Application Controller

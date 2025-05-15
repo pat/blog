@@ -14,7 +14,7 @@ When we started building out SAML support at [Covidence](https://www.covidence.o
 
 So instead, we turned to request specs, and found that worked quite well! Our testing framework of choice is RSpec, but I'm sure these tests could be adapted to other tools.
 
-Taking in the approach outlined in [this post](/2025/05/06/saml-ruby-service-provider.html) for the controller actions, we can test the endpoint which initiates a SAML request (the `new` action), where we confirm that the resulting redirect:
+Taking in the approach outlined in [this post](/2025/05/06/saml-ruby-service-provider.html) for the controller actions, we can test the endpoint which initiates a SAML request (the <code>new</code> action), where we confirm that the resulting redirect:
 
 * Has a `SAMLRequest` parameter
 * Has a `RelayState` parameter
@@ -40,7 +40,7 @@ redirect_uri_without_query = redirect_uri.dup.tap {
 expect(redirect_uri_without_query).to eq(idp_sso_service_url)
 ```
 
-Testing the receiving of a SAML response (the `create` action) is a bit trickier.
+Testing the receiving of a SAML response (the <code>create</code> action) is a bit trickier.
 
 A reasonable approach is to stub out the response object - you don't really care how the SAML response parameter is constructed, you're just checking what happens when a valid response is passed in.
 

@@ -27,7 +27,7 @@ Then, a moment of realisation: let's build something we _can_ control - and this
 
 Using our staging site means we don't have to deploy a whole other app elsewhere - though we of course make sure this functionality is _not_ available in production.
 
-From a Rails perspective, we've done this in a new controller, with a pair of actions (again `new` and `create`, just like in [our main SAML controller](/2025/05/06/saml-ruby-service-provider.html)).
+From a Rails perspective, we've done this in a new controller, with a pair of actions (again <code>new</code> and <code>create</code>, just like in [our main SAML controller](/2025/05/06/saml-ruby-service-provider.html)).
 
 ```ruby
 def new
@@ -68,7 +68,7 @@ def save_identity_cache
 end
 ```
 
-This `new` action is the endpoint on our staging site that accepts the original SAML request, and initiates a _new_ SAML request to the 'true' identity provider.
+This <code>new</code> action is the endpoint on our staging site that accepts the original SAML request, and initiates a _new_ SAML request to the 'true' identity provider.
 
 As part of this, it saves the essential details from the original request in the Rails cache and uses the RelayState in the _new_ request to keep that identifier. Using a cache here rather than a session is important, as session cookies are not passed along when you're redirecting between sites.
 
