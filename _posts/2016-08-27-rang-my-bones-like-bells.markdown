@@ -42,9 +42,9 @@ The following day, I came across British spoken word poet (and writer and rapper
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCSoFd7O75E" frameborder="0" allowfullscreen></iframe>
 
-When I recovered from the power of the poem, I found out that Kae had an event scheduled in Melbourne as part of their visit to Australia - at The Wheeler Centre (of course), and hosted by Maxine Beneba Clarke (of course). The one catch? It was completely booked out...
+When I recovered from the power of the poem, I found out that Kae had an event scheduled in Melbourne as part of his visit to Australia - at The Wheeler Centre (of course), and hosted by Maxine Beneba Clarke (of course). The one catch? It was completely booked out...
 
-Thankfully I managed to get in on the waiting list anyway, and what followed was an intoxicating hour of thoughtful questions and answers, with Kae ruminating on hip-hop: “I felt like I found something that rang my bones like bells”, poetry: “if you don’t find it on your own terms, you’ll never find it”, and art in general: “if you feel it, if it’s found you, it’s for you.” They also read from their novel [The Bricks that Built the Houses](http://www.readings.com.au/products/20654780/the-bricks-that-built-the-houses) - which I promptly bought and greatly enjoyed.
+Thankfully I managed to get in on the waiting list anyway, and what followed was an intoxicating hour of thoughtful questions and answers, with Kae ruminating on hip-hop: “I felt like I found something that rang my bones like bells”, poetry: “if you don’t find it on your own terms, you’ll never find it”, and art in general: “if you feel it, if it’s found you, it’s for you.” He also read from his novel [The Bricks that Built the Houses](http://www.readings.com.au/products/20654780/the-bricks-that-built-the-houses) - which I promptly bought and greatly enjoyed.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FY11fh6sKMw" frameborder="0" allowfullscreen></iframe>
 

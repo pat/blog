@@ -69,7 +69,7 @@ This is just an excerpt - you really should [read the whole thing](https://www.t
 
 ---
 
-I began this post with some lines that perhaps match the mood of many of us right now, taken from [People's Faces](https://www.youtube.com/watch?v=CmHgQT9zP_c) by [Kate Tempest](https://twitter.com/katetempest). But, if you listen to the full song (and, again, you should!), you'll find that the lyrics continue on with a dose of heart:
+I began this post with some lines that perhaps match the mood of many of us right now, taken from [People's Faces](https://www.youtube.com/watch?v=CmHgQT9zP_c) by [Kae Tempest](https://twitter.com/katetempest). But, if you listen to the full song (and, again, you should!), you'll find that the lyrics continue on with a dose of heart:
 
 > I stare out at my city on another difficult day<br />
 > And I scream inwardly, "When will this change?"<br />
@@ -77,7 +77,7 @@ I began this post with some lines that perhaps match the mood of many of us righ
 > But my sanity's saved 'cause I can see your faces<br />
 > My sanity's saved 'cause I can see your faces
 
-Kate's beautiful album **The Book of Traps and Lessons** captures up the mood of these times so deftly. It acknowledges the challenges we are currently facing, the world that we’re watching fragment and - too often - fail.
+Kae's beautiful album **The Book of Traps and Lessons** captures up the mood of these times so deftly. It acknowledges the challenges we are currently facing, the world that we’re watching fragment and - too often - fail.
 
 I’d held off from listening to it properly - the poetry takes centre stage, it's not something for the background. I knew it would require my full attention, and I wanted to feel ready to offer that. But today, even if I wasn't ready, I nonetheless sat down and listened to it all the way through… and I feel _so_ much better for doing so.
 
@@ -85,7 +85,7 @@ I’d held off from listening to it properly - the poetry takes centre stage, it
 
 I hope you're all got the support you need, whether it be from friends, colleagues, family, psychologists, or a much-loved pet. And I hope the words from these superb writers - [Evelyn](https://twitter.com/evelynaraluen), [Omar](https://twitter.com/OmarjSakr), [Maxine](https://twitter.com/slamup), [Anna](https://twitter.com/annaspargoryan), and [Kate](https://twitter.com/katetempest) - give you as much wisdom, courage, hope and heart as they do me.
 
-One more quote to wrap this up: a touch more Kate Tempest, from [Hold Your Own](https://www.youtube.com/watch?v=IDuLEWQGmwc).
+One more quote to wrap this up: a touch more Kae Tempest, from [Hold Your Own](https://www.youtube.com/watch?v=IDuLEWQGmwc).
 
 > So, hold your own<br />
 > Breathe deep on a freezing beach<br />
