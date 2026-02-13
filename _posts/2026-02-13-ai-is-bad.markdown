@@ -34,3 +34,5 @@ See also:
 * [Tech continues to be political - Miriam Eric Suzanne](https://www.miriamsuzanne.com/2025/02/12/tech-ai-wtf/)
 * [I Am An AI Hater - Anthony Moser](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html)
 * [Selfish AI - Larry Garfield](https://www.garfieldtech.com/blog/selfish-ai)
+* [The AI Con by Emily M. Bender and Alex Hanna](https://thecon.ai)
+* [Empire of AI by Karen Hao](https://karendhao.com)
