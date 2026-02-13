@@ -1,0 +1,36 @@
+---
+title: "AI is Bad"
+categories:
+  - ai
+  - technology
+  - politics
+  - world
+excerpt: "A vastly incomplete list of the many significant issues with artificial intelligence."
+---
+
+A _vastly_ incomplete list of many significant issues with artificial intelligence (AI) - particularly generative AI and/or large language models (LLMs), mostly so I have a single link to share when people enquire why I find AI so unethical.
+
+This is inspired by a blog post I once saw (which was much longer and better, but I didn't keep the link and have been unable to find it again). If you think you know the post I'm talking about, please send it my way.
+
+* The considerable amounts of energy required. [[1]](https://www.abc.net.au/news/2025-10-28/google-microsoft-restarting-nuclear-plants-for-ai-power/105941378) [[2]](https://www.independent.org/article/2025/05/08/ai-power-plants-gas-coal/) [[3]](https://www.levernews.com/biden-boosts-ai-despite-energy-dept-warning/) [[4]](https://arstechnica.com/tech-policy/2024/09/openai-asked-us-to-approve-energy-guzzling-5gw-data-centers-report-says/) [[5]](https://www.teenvogue.com/story/chatgpt-is-everywhere-environmental-costs-oped)
+* The considerable amounts of water required. [[1]](https://san.com/cc/ai-tools-consume-up-to-4-times-more-water-than-estimated/) [[2]](https://www.bbc.com/news/articles/cy8gy7lv448o)
+* The poor working conditions and trauma imposed on Global South workers. [[1]](https://pivot-to-ai.com/2024/11/30/meet-the-underpaid-workers-in-nairobi-kenya-who-power-openai/) [[2]](https://www.wired.com/story/millions-of-workers-are-training-ai-models-for-pennies/) [[3]](https://futurism.com/artificial-intelligence/ai-industry-traumatizing-contractors)
+* The exploitation of workers generally. [[1]](https://cwa-union.org/ghost-workers-ai-machine) [[2]](https://www.noemamag.com/the-exploited-labor-behind-artificial-intelligence/)
+* The issues with consent and abuse. [[1]](https://www.404media.co/deepfake-harassment-ohio-undress-clothoff-nudify-apps/) [[2]](https://www.reuters.com/world/us/fbi-says-artificial-intelligence-being-used-sextortion-harassment-2023-06-07/)
+* The mass layoffs because the work can supposedly be done by AI instead. [[1]](https://www.theverge.com/news/688679/amazon-ceo-andy-jassy-ai-efficiency)
+* The use of AI to increase the extraction of fossil fuels. [[1]](https://globalwitness.org/en/campaigns/fossil-fuels/the-digital-drill-how-big-oil-is-using-ai-to-speed-up-fossil-fuel-extraction/) [[2]](https://www.bloodinthemachine.com/p/ai-is-revitalizing-the-fossil-fuels)
+* The use of AI by genocidal governments/militaries. [[1]](https://www.middleeasteye.net/opinion/israel-use-ai-gaza-terrifying-model-coming-country-near-you)
+* The theft of copyrighted material for training. [[1]](https://jskfellows.stanford.edu/theft-is-not-fair-use-474e11f0d063)
+* The overloading of public-good infrastructure. [[1]](https://adactio.com/journal/21831) [[2]](https://michiel.buddingh.eu/enclosure-feedback-loop)
+* The supercharging of surveillance. [[1]](https://www.aclu.org/news/privacy-technology/machine-surveillance-is-being-super-charged-by-large-ai-models)
+* The impact on education systems. [[1]](https://www.currentaffairs.org/news/ai-is-destroying-the-university-and-learning-itself)
+* The reinforcing of fascism, racism, transphobia. [[1]](https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content) [[2]](https://newsocialist.org.uk/transmissions/ai-the-new-aesthetics-of-fascism/)
+* The enabling of disinformation and propaganda. [[1]](https://www.technologyreview.com/2023/10/04/1080801/generative-ai-boosting-disinformation-and-propaganda-freedom-house/)
+* The impact of hallucinations, especially in medical contexts. [[1]](https://apnews.com/article/ai-artificial-intelligence-health-business-90020cdf5fa16c79ca2e5b6c4c9bbb14) [[2]](https://mastodon.social/@Thayer/116002682012736788)
+* The cognitive harms. [[1]](https://www.bloomberg.com/news/articles/2025-08-12/ai-eroded-doctors-ability-to-spot-cancer-within-months-in-study?embedded-checkout=true)
+
+See also:
+
+* [Tech continues to be political - Miriam Eric Suzanne](https://www.miriamsuzanne.com/2025/02/12/tech-ai-wtf/)
+* [I Am An AI Hater - Anthony Moser](https://anthonymoser.github.io/writing/ai/haterdom/2025/08/26/i-am-an-ai-hater.html)
+* [Selfish AI - Larry Garfield](https://www.garfieldtech.com/blog/selfish-ai)
