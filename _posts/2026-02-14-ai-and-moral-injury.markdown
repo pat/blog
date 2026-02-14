@@ -71,3 +71,5 @@ Part of me wants to be more understanding about those who choose to use LLMs. We
 For me - writing this out, connecting some dots, understanding my feelings a little more - it's provided a good reminder that that AI/LLMs aren't the root cause here. Instead, we're facing two long-standing, entangled systems - capitalism and colonialism - that reliably offer a carrot (convenience) and stick (exploitation) approach to many of us in the Global North, with the promise that ignorance is bliss.
 
 If you're still here and looking for ideas, here's what I plan to do (if it resonates with you too, that's just a nice bonus): express gratitude more often, appreciate art and support artists, show up for my friends and family, connect meaningfully with my colleagues, contribute mutual aid for those in need, and stand in solidarity across intersections.
+
+More directly on that last point: Love and support for trans folks. [Blak](https://bwtribal.com/blogs/news/why-blak-the-history-behind-the-spelling) & Black lives matter. Free Palestine. Fuck fascists.
