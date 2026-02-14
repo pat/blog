@@ -14,7 +14,7 @@ As generative AI and LLMs seem to take over the world, and as someone who has [s
 
 Yup. 100%.
 
-Because of course, these emotions that I'm grappling with aren't just about AI - so much of our world is struggling at the moment, from climate change to fascism to genocide, and it all feels intertwined. AI is just one of the more prominent components occupying my brain at the moment (which is, almost certainly, a very privileged position to be in).
+Because of course, these emotions that I'm grappling with aren't just about AI - so much of our world is struggling right now, including from climate change, fascism, and genocide - and it all feels intertwined. AI is just one of the more prominent components occupying my brain at the moment (which is, almost certainly, a very privileged position to be in).
 
 Also, as Csapó discusses in their post: when looking at the world, grief is a totally rational response. I think some of what I'm grappling with is grief for both the world that was, but also at a smaller level, at what my industry, my working life was. Part of that is because AI is everywhere right now, and especially within the tech industry. It's an invasive weed, a virus in a largely-unvaccinated world. Even in the moments where I ponder changing careers - where would I go that isn't already overrun by this virus?
 
