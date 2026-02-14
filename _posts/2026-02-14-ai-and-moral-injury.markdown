@@ -8,7 +8,7 @@ categories:
 excerpt: "As generative AI and LLMs seem to take over the world, and as someone who has significant ethical concerns about these technologies, I've been feeling quite despondent lately."
 ---
 
-As generative AI and LLMs seem to take over the world, and as someone who has [significant ethical concerns about these technologies](/2026/02/13/ai-is-bad), I've been feeling quite despondent lately. A colleague with similar values accurately described it as "existential depression" - and then earlier this week I read [this excellent article by Krisztina Csapo](https://jembendell.com/2026/01/24/dont-forget-the-dread-deeper-healing-in-the-metacrisis/), which provided the concept of moral injury:
+As generative AI and LLMs seem to take over the world, and as someone who has [significant ethical concerns about these technologies](/2026/02/13/ai-is-bad), I've been feeling quite despondent lately. A colleague with similar values accurately described it as "existential depression" - and then earlier this week I read [this excellent article by Krisztina Csapó](https://jembendell.com/2026/01/24/dont-forget-the-dread-deeper-healing-in-the-metacrisis/), which provided the concept of moral injury:
 
 > the deep existential wound that arises from witnessing, participating in, or feeling complicit within systems that cause profound harm while betraying core values.
 
@@ -16,7 +16,7 @@ Yup. 100%.
 
 Because of course, these emotions that I'm grappling with aren't just about AI - so much of our world is struggling at the moment, from climate change to fascism to genocide, and it all feels intertwined. AI is just one of the more prominent components occupying my brain at the moment (which is, almost certainly, a very privileged position to be in).
 
-Also, as Csapo discusses in their post: when looking at the world, grief is a totally rational response. I think some of what I'm grappling with is grief for both the world that was, but also at a smaller level, at what my industry, my working life was. Part of that is because AI is everywhere right now, and especially within the tech industry. It's an invasive weed, a virus in a largely-unvaccinated world. Even in the moments where I ponder changing careers - where would I go that isn't already overrun by this virus?
+Also, as Csapó discusses in their post: when looking at the world, grief is a totally rational response. I think some of what I'm grappling with is grief for both the world that was, but also at a smaller level, at what my industry, my working life was. Part of that is because AI is everywhere right now, and especially within the tech industry. It's an invasive weed, a virus in a largely-unvaccinated world. Even in the moments where I ponder changing careers - where would I go that isn't already overrun by this virus?
 
 ---
 
