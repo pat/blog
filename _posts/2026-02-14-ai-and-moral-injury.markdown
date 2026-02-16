@@ -68,7 +68,7 @@ Where do we go from here? Look, I'm not sure why you were expecting a random blo
 
 Part of me wants to be more understanding about those who choose to use LLMs. We've all got to pick and choose the battles we can take on, and if this isn't one you can grapple with right now, that's life, and I get it. Another part of me wants to maintain the rage, particularly at anyone who's happily cheering for a future dominated by AI and LLMs. If you talk to me about such matters, I can't promise that I'll be patient enough to take the 'high' road.
 
-For me - writing this out, connecting some dots, understanding my feelings a little more - it's provided a good reminder that that AI/LLMs aren't the root cause here. Instead, we're facing two long-standing, entangled systems - capitalism and colonialism - that reliably offer a carrot (convenience) and stick (exploitation) approach to many of us in the Global North, with the promise that ignorance is bliss.
+For me - writing this out, connecting some dots, understanding my feelings a little more - it's provided a good reminder that AI/LLMs aren't the root cause here. Instead, we're facing two long-standing, entangled systems - capitalism and colonialism - that reliably offer a carrot (convenience) and stick (exploitation) approach to many of us in the Global North, with the promise that ignorance is bliss.
 
 If you're still here and looking for ideas, here's what I plan to do that pushes back against those systems (and if this resonates with you too, that's just a nice bonus): express gratitude more often, appreciate art and support artists, show up for my friends and family, connect meaningfully with my colleagues, contribute mutual aid for those in need, and stand in solidarity across intersections.
 
